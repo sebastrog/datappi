@@ -3,6 +3,7 @@
       "hair": [
         "hair-style-01", 
         "hair-style-02",
+        "hair-style-03",
         "hair-style-04",
         "hair-style-05",
         "hair-style-06",
