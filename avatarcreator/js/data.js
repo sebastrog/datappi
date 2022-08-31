@@ -27,7 +27,18 @@
       ],
       "accessories": [
         "accessories-style-01", 
-        "accessories-style-02"
+        "accessories-style-02",
+        "accessories-style-02",
+        "accessories-style-03",
+        "accessories-style-04",
+        "accessories-style-05",
+        "accessories-style-06",
+        "accessories-style-07",
+        "accessories-style-08",
+        "accessories-style-09",
+        "accessories-style-10",
+        "accessories-style-11",
+        "accessories-style-12"
       ],
       "bg": [
         "bg-style-01", 
