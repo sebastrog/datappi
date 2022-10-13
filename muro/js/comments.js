@@ -1,0 +1,27 @@
+export const comments = {
+    "IsSuccess": true,
+    "Message": "Se consulto correctamente.",
+    "ListMessage": [],
+    "Result": [
+        {
+            "Id": "64ca4b21-1c59-4a46-add6-31e59ff7da9e",
+            "PublicationId": "0532e8b3-57d2-4ae9-84c3-1ff3cc0ef27c",
+            "Description": "Comentario2. Esta publicacion es los mejor que e visto en la vida. bb",
+            "CreateDate": "2022-10-11T08:47:43.347",
+            "UserId": "d9dbed72-a447-43b4-b8e3-26c9b65e389b",
+            "ProfileImage": "https://sites.developercolombia.com/Alpina/Activa2/UI/Content/Files/User//32f9ae99-82f0-4e13-8901-4671df4c1825.jpg",
+            "UserName": "Juan Miguel montiel",
+            "Active": true
+        },
+        {
+            "Id": "d26ecd72-c8e6-4666-a356-9bfc44e28e1b",
+            "PublicationId": "0532e8b3-57d2-4ae9-84c3-1ff3cc0ef27c",
+            "Description": "Comentario1. Esta publicacion es los mejor que e visto en la vida. bb",
+            "CreateDate": "2022-10-11T08:47:24.153",
+            "UserId": "d721b946-b877-4c05-9c98-2f164e9fcb0f",
+            "ProfileImage": "https://sites.developercolombia.com/Alpina/Activa2/UI/Content/Files/User//Default.png",
+            "UserName": "jean paul xxx",
+            "Active": true
+        }
+    ]
+}
