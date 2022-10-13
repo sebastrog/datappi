@@ -6,6 +6,20 @@
    ],
    "Result":[
       {
+         "Id":"6ef4696f-57cb-4d80-be92-723098be17a8234222",
+         "Description":"sofi 13",
+         "CreateDate":"2022-10-12T10:00:25.353",
+         "UserId":"a06d9c25-beec-456d-bda5-10fedf4b8dd8",
+         "UpdateDate":"2022-10-11T10:10:35.427",
+         "Active":true,
+         "NumberOfLikes":1,
+         "like":false,
+         "ProfileImage":"https://sites.developercolombia.com/Alpina/Activa2/UI/Content/Files/User//32f9ae99-82f0-4e13-8901-4671df4c1825.jpg",
+         "NumberOfPages":2,
+         "PublicationsMedia":[],
+         "PublicationComment":null
+      },
+      {
          "Id":"0532e8b3-57d2-4ae9-84c3-1ff3cc0ef27c",
          "Description":"Publicacion de prueba  Estiben",
          "CreateDate":"2022-10-11T10:13:08.493",
