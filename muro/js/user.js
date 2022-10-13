@@ -1,4 +1,4 @@
-export const myData = {
+[{
     "IsSuccess": true,
     "Message": "OK",
     "ListMessage": [],
@@ -58,4 +58,4 @@ export const myData = {
         "Terms": null,
         "Active": true
     }
-}
+}]

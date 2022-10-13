@@ -1,4 +1,4 @@
-export const comments = {
+[{
     "IsSuccess": true,
     "Message": "Se consulto correctamente.",
     "ListMessage": [],
@@ -24,4 +24,4 @@ export const comments = {
             "Active": true
         }
     ]
-}
+}]

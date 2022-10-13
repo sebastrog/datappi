@@ -1,4 +1,4 @@
-export const publications = {
+[{
     "IsSuccess": true,
     "Message": "Se consulto correctamente.",
     "ListMessage": [],
@@ -210,4 +210,4 @@ export const publications = {
             "PublicationComment": null
         }
     ]
-}
+}]
