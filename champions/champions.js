@@ -1319,5 +1319,5 @@
         "champion_r_video_webm": "https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0022/ability_0022_R1.webm"
     },
     "related_champions": []
-  },
+  }
 ]
