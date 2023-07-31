@@ -1,4 +1,4 @@
-export default champions = [
+[
   {
     "publish_details": {
       "locale": "en-us"
