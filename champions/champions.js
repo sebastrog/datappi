@@ -1319,5 +1319,407 @@
         "champion_r_video_webm": "https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0022/ability_0022_R1.webm"
     },
     "related_champions": []
-  }
+  },
+  {
+    "publish_details": {
+        "locale": "en-us"
+    },
+    "uid": "blt78dcc651d55801e4",
+    "url": "/champions/aurelion-sol/",
+    "data_dragon_id": "AurelionSol",
+    "data_dragon_json": "{\"id\":\"AurelionSol\",\"key\":\"136\",\"name\":\"Aurelion Sol\",\"title\":\"The Star Forger\",\"image\":{\"full\":\"AurelionSol.png\",\"sprite\":\"champion0.png\",\"group\":\"champion\",\"x\":0,\"y\":48,\"w\":48,\"h\":48},\"skins\":[{\"id\":\"136000\",\"num\":0,\"name\":\"default\",\"chromas\":false},{\"id\":\"136001\",\"num\":1,\"name\":\"Ashen Lord Aurelion Sol\",\"chromas\":false},{\"id\":\"136002\",\"num\":2,\"name\":\"Mecha Aurelion Sol\",\"chromas\":true},{\"id\":\"136011\",\"num\":11,\"name\":\"Storm Dragon Aurelion Sol\",\"chromas\":false},{\"id\":\"136021\",\"num\":21,\"name\":\"Inkshadow Aurelion Sol\",\"chromas\":false}],\"lore\":\"Aurelion Sol once graced the vast emptiness of the cosmos with celestial wonders of his own devising. Now, he is forced to wield his awesome power at the behest of a space-faring empire that tricked him into servitude. Desiring a return to his star-forging ways, Aurelion Sol will drag the very stars from the sky, if he must, in order to regain his freedom.\",\"blurb\":\"Aurelion Sol once graced the vast emptiness of the cosmos with celestial wonders of his own devising. Now, he is forced to wield his awesome power at the behest of a space-faring empire that tricked him into servitude. Desiring a return to his...\",\"allytips\":[],\"enemytips\":[],\"tags\":[\"Mage\"],\"partype\":\"Mana\",\"info\":{\"attack\":2,\"defense\":3,\"magic\":8,\"difficulty\":7},\"stats\":{\"hp\":620,\"hpperlevel\":90,\"mp\":530,\"mpperlevel\":40,\"movespeed\":335,\"armor\":22,\"armorperlevel\":4,\"spellblock\":30,\"spellblockperlevel\":1.3,\"attackrange\":550,\"hpregen\":5.5,\"hpregenperlevel\":0.55,\"mpregen\":8,\"mpregenperlevel\":0.75,\"crit\":0,\"critperlevel\":0,\"attackdamage\":55,\"attackdamageperlevel\":3.2,\"attackspeedperlevel\":1.5,\"attackspeed\":0.625},\"spells\":[{\"id\":\"AurelionSolQ\",\"name\":\"Breath of Light\",\"description\":\"Aurelion Sol channels his dragon breath for a few seconds, damaging the first enemy hit and splashing reduced damage onto nearby enemies. Each second the breath is channeled directly at an enemy will deal bonus damage, which is improved by the amount of Stardust that's been collected. This ability collects Stardust if the target is a champion.\",\"tooltip\":\"Aurelion Sol breathes starfire for up to {{ maxchannelduration }} seconds, dealing <magicDamage>{{ damagepersecond }} magic damage</magicDamage> per second to the first enemy hit and {{ aoemodifier*100 }}% of the damage to surrounding enemies.<br /><br />Each full second of breath on the same enemy deals a burst of <magicDamage>{{ burstdamage }} magic damage</magicDamage> plus <magicDamage>{{ burstbonustruedamagetochamps }} max Health magic damage</magicDamage> and absorbs <span class=\\\"color3458eb\\\">{{ qmassstolen }} Stardust</span> if they are a champion.{{ spellmodifierdescriptionappend }}\",\"leveltip\":{\"label\":[\"@AbilityResourceName@ Cost\",\"Damage Per Second\",\"Burst Damage\",\"Maximum Channel Duration\"],\"effect\":[\"{{ cost }} -> {{ costNL }}\",\"{{ rankdamagepersecond }} -> {{ rankdamagepersecondNL }}\",\"{{ rankburstdamage }} -> {{ rankburstdamageNL }}\",\"{{ maxchannelduration }} -> {{ maxchanneldurationNL }}\"]},\"maxrank\":5,\"cooldown\":[3,3,3,3,3],\"cooldownBurn\":\"3\",\"cost\":[45,50,55,60,65],\"costBurn\":\"45/50/55/60/65\",\"datavalues\":{},\"effect\":[null,[0,0,0,0,0],[0,0,0,0,0],[0,0,0,0,0],[0,0,0,0,0],[0,0,0,0,0],[0,0,0,0,0],[0,0,0,0,0],[0,0,0,0,0],[0,0,0,0,0],[0,0,0,0,0]],\"effectBurn\":[null,\"0\",\"0\",\"0\",\"0\",\"0\",\"0\",\"0\",\"0\",\"0\",\"0\"],\"vars\":[],\"costType\":\" Mana per second\",\"maxammo\":\"-1\",\"range\":[750,750,750,750,750],\"rangeBurn\":\"750\",\"image\":{\"full\":\"AurelionSolQ.png\",\"sprite\":\"spell1.png\",\"group\":\"spell\",\"x\":384,\"y\":48,\"w\":48,\"h\":48},\"resource\":\"{{ manacostpersecond }} Mana per second\"},{\"id\":\"AurelionSolW\",\"name\":\"Astral Flight\",\"description\":\"Aurelion Sol flies over terrain in a targeted direction. While in this state, he can cast other abilities. Breath of Light no longer has a cooldown or maximum channel duration and deals increased damage while flying.\\\\n\\\\nAstral Flight's remaining cooldown is reduced whenever an enemy champion dies after being recently damaged by Aurelion Sol.\\\\n\\\\nStardust increases Astral Flight's maximum range.\",\"tooltip\":\"Aurelion Sol flies in a direction. While flying, <spellName>Breath of Light</spellName> has no Cooldown, no max channel duration, and its flat damage is increased by {{ truedamagebonus*100 }}%.<br /><br />Takedowns on champions within {{ resetwindow }} seconds of damaging them refunds {{ tooltiptakedowncooldownmultiplier }}% of this Ability's Cooldown.<br /><br /><recast>Recast:</recast> End flight early.{{ spellmodifierdescriptionappend }}\",\"leveltip\":{\"label\":[\"Percent Bonus Magic Damage\",\"@AbilityResourceName@ Cost\",\"Cooldown\"],\"effect\":[\"{{ truedamagebonus*100.000000 }} -> {{ truedamagebonusnl*100.000000 }}\",\"{{ cost }} -> {{ costNL }}\",\"{{ cd }} -> {{ cdNL }}\"]},\"maxrank\":5,\"cooldown\":[0,0,0,0,0],\"cooldownBurn\":\"0\",\"cost\":[80,85,90,95,100],\"costBurn\":\"80/85/90/95/100\",\"datavalues\":{},\"effect\":[null,[0,0,0,0,0],[0,0,0,0,0],[0,0,0,0,0],[0,0,0,0,0],[0,0,0,0,0],[0,0,0,0,0],[0,0,0,0,0],[0,0,0,0,0],[0,0,0,0,0],[0,0,0,0,0]],\"effectBurn\":[null,\"0\",\"0\",\"0\",\"0\",\"0\",\"0\",\"0\",\"0\",\"0\",\"0\"],\"vars\":[],\"costType\":\" {{ abilityresourcename }}\",\"maxammo\":\"-1\",\"range\":[1200,1200,1200,1200,1200],\"rangeBurn\":\"1200\",\"image\":{\"full\":\"AurelionSolW.png\",\"sprite\":\"spell1.png\",\"group\":\"spell\",\"x\":432,\"y\":48,\"w\":48,\"h\":48},\"resource\":\"{{ cost }} {{ abilityresourcename }}\"},{\"id\":\"AurelionSolE\",\"name\":\"Singularity\",\"description\":\"Aurelion Sol summons a black hole, damaging enemies and slowly pulling them toward its center. This ability grants Stardust each time an enemy dies within the black hole and for each second an enemy champion is caught inside it. The center of the black hole executes enemies who are below a certain percentage of their maximum health. Stardust increases Singularity's area as well as the execution threshold.\",\"tooltip\":\"Aurelion Sol summons a black hole, dealing <magicDamage>{{ damagepersecond }} magic damage</magicDamage> per second and <status>Dragging</status> enemies towards the center for {{ duration }} seconds. Enemies in the center below <scaleHealth>{{ currentexecutionthreshold }}% max Health</scaleHealth> die instantly.<br /><br />The black hole absorbs <span class=\\\"color3458eb\\\">Stardust</span> when enemies die within it and each second an enemy champion is inside.{{ spellmodifierdescriptionappend }}\",\"leveltip\":{\"label\":[\"Damage Per Second\",\"@AbilityResourceName@ Cost\"],\"effect\":[\"{{ basedamagepersecond }} -> {{ basedamagepersecondNL }}\",\"{{ cost }} -> {{ costNL }}\"]},\"maxrank\":5,\"cooldown\":[12,12,12,12,12],\"cooldownBurn\":\"12\",\"cost\":[80,85,90,95,100],\"costBurn\":\"80/85/90/95/100\",\"datavalues\":{},\"effect\":[null,[0,0,0,0,0],[0,0,0,0,0],[0,0,0,0,0],[0,0,0,0,0],[0,0,0,0,0],[0,0,0,0,0],[0,0,0,0,0],[0,0,0,0,0],[0,0,0,0,0],[0,0,0,0,0]],\"effectBurn\":[null,\"0\",\"0\",\"0\",\"0\",\"0\",\"0\",\"0\",\"0\",\"0\",\"0\"],\"vars\":[],\"costType\":\" {{ abilityresourcename }}\",\"maxammo\":\"-1\",\"range\":[750,750,750,750,750],\"rangeBurn\":\"750\",\"image\":{\"full\":\"AurelionSolE.png\",\"sprite\":\"spell1.png\",\"group\":\"spell\",\"x\":0,\"y\":96,\"w\":48,\"h\":48},\"resource\":\"{{ cost }} {{ abilityresourcename }}\"},{\"id\":\"AurelionSolR\",\"name\":\"Falling Star / The Skies Descend\",\"description\":\"Falling Star: Aurelion Sol crashes a star into the earth. This impact deals magic damage and stuns enemies while also granting Stardust for each enemy champion it hits. Gathering enough Stardust transforms Aurelion Sol's next Falling Star into The Skies Descend. The Skies Descend: Aurelion Sol drags a giant star down from the heavens with an increased impact zone and increased damage, knocking up enemies rather than stunning them. A shockwave then spreads from the edge of the impact zone, which damages and slows the enemies it hits. Stardust increases the impact area of both Falling Star and The Skies Descend.\",\"tooltip\":\"Aurelion Sol plucks a star from the heavens and crashes it into the earth, dealing <magicDamage>{{ maxdamagetooltip }} magic damage</magicDamage>, <status>Stunning</status> enemies {{ stunduration }} second, and absorbing <span class=\\\"color3458eb\\\">{{ massstolen }} Stardust</span> for each champion hit.<br /><br />Gathering <span class=\\\"color3458eb\\\">{{ calamitystacks }} Stardust</span> transforms the next <spellName>Falling Star</spellName> into <spellName>The Skies Descend</spellName>.<br /><br /><spellName>The Skies Descend</spellName>: Aurelion Sol drags a constellation's worth of fury down from the cosmos, dealing <magicDamage>{{ r2damage }} magic damage</magicDamage> in a larger area, <status>Knocking Up</status> enemies hit for {{ stunduration }} second, and unleashing a massive shockwave that deals <magicDamage>{{ shockwavedamage }} magic damage</magicDamage> to champions and Epic Monsters and <status>Slows</status> all enemies hit by {{ shockwaveslow*100 }}% for 1 second.{{ spellmodifierdescriptionappend }}\",\"leveltip\":{\"label\":[\"Cooldown\",\"Damage\",\"Empowered Damage\",\"Shockwave Damage\"],\"effect\":[\"{{ cooldown }} -> {{ cooldownNL }}\",\"{{ basedamage }} -> {{ basedamageNL }}\",\"{{ basedamage*1.250000 }} -> {{ basedamagenl*1.250000 }}\",\"{{ basedamage }} -> {{ basedamageNL }}\"]},\"maxrank\":3,\"cooldown\":[120,110,100],\"cooldownBurn\":\"120/110/100\",\"cost\":[100,100,100],\"costBurn\":\"100\",\"datavalues\":{},\"effect\":[null,[0,0,0],[0,0,0],[0,0,0],[0,0,0],[0,0,0],[0,0,0],[0,0,0],[0,0,0],[0,0,0],[0,0,0]],\"effectBurn\":[null,\"0\",\"0\",\"0\",\"0\",\"0\",\"0\",\"0\",\"0\",\"0\",\"0\"],\"vars\":[],\"costType\":\" {{ abilityresourcename }}\",\"maxammo\":\"-1\",\"range\":[1250,1250,1250],\"rangeBurn\":\"1250\",\"image\":{\"full\":\"AurelionSolR.png\",\"sprite\":\"spell1.png\",\"group\":\"spell\",\"x\":48,\"y\":96,\"w\":48,\"h\":48},\"resource\":\"{{ cost }} {{ abilityresourcename }}\"}],\"passive\":{\"name\":\"Cosmic Creator\",\"description\":\"Aurelion Sol's damaging Abilities break down enemies into stacks of <font color='#3458eb'>Stardust</font>, which permanently improves each of his abilities. \",\"image\":{\"full\":\"AurelionSolP.ASolGU.png\",\"sprite\":\"passive0.png\",\"group\":\"passive\",\"x\":0,\"y\":48,\"w\":48,\"h\":48}},\"recommended\":[]}",
+    "champion_blurb": "Aurelion Sol once graced the vast emptiness of the cosmos with celestial wonders of his own devising. Now, he is forced to wield his awesome power at the behest of a space-faring empire that tricked him into servitude. Desiring a return to his...",
+    "lore": "Aurelion Sol once graced the vast emptiness of the cosmos with celestial wonders of his own devising. Now, he is forced to wield his awesome power at the behest of a space-faring empire that tricked him into servitude. Desiring a return to his star-forging ways, Aurelion Sol will drag the very stars from the sky, if he must, in order to regain his freedom.",
+    "champion_icon": "https://ddragon.leagueoflegends.com/cdn/13.14.1/img/champion/AurelionSol.png",
+    "champion_name": "Aurelion Sol",
+    "champion_splash": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/AurelionSol_0.jpg",
+    "champion_title": "The Star Forger",
+    "recommended_lanes": [],
+    "recommended_roles": [
+        "Mage"
+    ],
+    "links": [
+        {
+            "href": "https://na.op.gg/champion/aurelionsol/statistics/",
+            "title": "OP.GG"
+        },
+        {
+            "href": "https://u.gg/lol/champions/aurelionsol/build",
+            "title": "U.GG"
+        },
+        {
+            "href": "https://www.probuilds.net/champions/details/aurelionsol",
+            "title": "probuilds.net"
+        }
+    ],
+    "champion": {
+        "modular_blocks": []
+    },
+    "skins": [
+        {
+            "name": "default",
+            "imageUrl": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/AurelionSol_0.jpg"
+        },
+        {
+            "name": "Ashen Lord Aurelion Sol",
+            "imageUrl": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/AurelionSol_1.jpg"
+        },
+        {
+            "name": "Mecha Aurelion Sol",
+            "imageUrl": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/AurelionSol_2.jpg"
+        },
+        {
+            "name": "Storm Dragon Aurelion Sol",
+            "imageUrl": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/AurelionSol_11.jpg"
+        },
+        {
+            "name": "Inkshadow Aurelion Sol",
+            "imageUrl": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/AurelionSol_21.jpg"
+        }
+    ],
+    "champion_passive": {
+        "champion_passive_description": "Aurelion Sol's damaging Abilities break down enemies into stacks of Stardust, which permanently improves each of his abilities. ",
+        "champion_passive_icon": "https://ddragon.leagueoflegends.com/cdn/13.14.1/img/passive/AurelionSolP.ASolGU.png",
+        "champion_passive_name": "Cosmic Creator",
+        "champion_passive_video_mp4": "https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0136/ability_0136_P1.mp4",
+        "champion_passive_video_poster": "https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0136/ability_0136_P1.jpg",
+        "champion_passive_video_webm": "https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0136/ability_0136_P1.webm"
+    },
+    "champion_q": {
+        "champion_q_description": "Aurelion Sol channels his dragon breath for a few seconds, damaging the first enemy hit and splashing reduced damage onto nearby enemies. Each second the breath is channeled directly at an enemy will deal bonus damage, which is improved by the amount of Stardust that's been collected. This ability collects Stardust if the target is a champion.",
+        "champion_q_icon": "https://ddragon.leagueoflegends.com/cdn/13.14.1/img/spell/AurelionSolQ.png",
+        "champion_q_name": "Breath of Light",
+        "champion_q_video_mp4": "https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0136/ability_0136_Q1.mp4",
+        "champion_q_video_poster": "https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0136/ability_0136_Q1.jpg",
+        "champion_q_video_webm": "https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0136/ability_0136_Q1.webm"
+    },
+    "champion_w": {
+        "champion_w_description": "Aurelion Sol flies over terrain in a targeted direction. While in this state, he can cast other abilities. Breath of Light no longer has a cooldown or maximum channel duration and deals increased damage while flying.\\n\\nAstral Flight's remaining cooldown is reduced whenever an enemy champion dies after being recently damaged by Aurelion Sol.\\n\\nStardust increases Astral Flight's maximum range.",
+        "champion_w_icon": "https://ddragon.leagueoflegends.com/cdn/13.14.1/img/spell/AurelionSolW.png",
+        "champion_w_name": "Astral Flight",
+        "champion_w_video_mp4": "https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0136/ability_0136_W1.mp4",
+        "champion_w_video_poster": "https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0136/ability_0136_W1.jpg",
+        "champion_w_video_webm": "https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0136/ability_0136_W1.webm"
+    },
+    "champion_e": {
+        "champion_e_description": "Aurelion Sol summons a black hole, damaging enemies and slowly pulling them toward its center. This ability grants Stardust each time an enemy dies within the black hole and for each second an enemy champion is caught inside it. The center of the black hole executes enemies who are below a certain percentage of their maximum health. Stardust increases Singularity's area as well as the execution threshold.",
+        "champion_e_icon": "https://ddragon.leagueoflegends.com/cdn/13.14.1/img/spell/AurelionSolE.png",
+        "champion_e_name": "Singularity",
+        "champion_e_video_mp4": "https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0136/ability_0136_E1.mp4",
+        "champion_e_video_poster": "https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0136/ability_0136_E1.jpg",
+        "champion_e_video_webm": "https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0136/ability_0136_E1.webm"
+    },
+    "champion_r": {
+        "champion_r_description": "Falling Star: Aurelion Sol crashes a star into the earth. This impact deals magic damage and stuns enemies while also granting Stardust for each enemy champion it hits. Gathering enough Stardust transforms Aurelion Sol's next Falling Star into The Skies Descend. The Skies Descend: Aurelion Sol drags a giant star down from the heavens with an increased impact zone and increased damage, knocking up enemies rather than stunning them. A shockwave then spreads from the edge of the impact zone, which damages and slows the enemies it hits. Stardust increases the impact area of both Falling Star and The Skies Descend.",
+        "champion_r_icon": "https://ddragon.leagueoflegends.com/cdn/13.14.1/img/spell/AurelionSolR.png",
+        "champion_r_name": "Falling Star / The Skies Descend",
+        "champion_r_video_mp4": "https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0136/ability_0136_R1.mp4",
+        "champion_r_video_poster": "https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0136/ability_0136_R1.jpg",
+        "champion_r_video_webm": "https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0136/ability_0136_R1.webm"
+    },
+    "related_champions": []
+  },
+  {
+    "publish_details": {
+        "locale": "en-us"
+    },
+    "uid": "blt48be9ecd8f1b761a",
+    "url": "/champions/azir/",
+    "data_dragon_id": "Azir",
+    "data_dragon_json": "{\"id\":\"Azir\",\"key\":\"268\",\"name\":\"Azir\",\"title\":\"the Emperor of the Sands\",\"image\":{\"full\":\"Azir.png\",\"sprite\":\"champion0.png\",\"group\":\"champion\",\"x\":48,\"y\":48,\"w\":48,\"h\":48},\"skins\":[{\"id\":\"268000\",\"num\":0,\"name\":\"default\",\"chromas\":false},{\"id\":\"268001\",\"num\":1,\"name\":\"Galactic Azir\",\"chromas\":false},{\"id\":\"268002\",\"num\":2,\"name\":\"Gravelord Azir\",\"chromas\":false},{\"id\":\"268003\",\"num\":3,\"name\":\"SKT T1 Azir\",\"chromas\":false},{\"id\":\"268004\",\"num\":4,\"name\":\"Warring Kingdoms Azir\",\"chromas\":false},{\"id\":\"268005\",\"num\":5,\"name\":\"Elderwood Azir\",\"chromas\":true},{\"id\":\"268014\",\"num\":14,\"name\":\"Worlds 2022 Azir\",\"chromas\":true}],\"lore\":\"Azir was a mortal emperor of Shurima in a far distant age, a proud man who stood at the cusp of immortality. His hubris saw him betrayed and murdered at the moment of his greatest triumph, but now, millennia later, he has been reborn as an Ascended being of immense power. With his buried city risen from the sand, Azir seeks to restore Shurima to its former glory.\",\"blurb\":\"Azir was a mortal emperor of Shurima in a far distant age, a proud man who stood at the cusp of immortality. His hubris saw him betrayed and murdered at the moment of his greatest triumph, but now, millennia later, he has been reborn as an Ascended...\",\"allytips\":[\"Be careful about putting down both of the soldiers stored by Arise! Unless you're going all-in, always have a soldier in your back pocket if you need to escape over a wall or if you misposition your other soldier and need damage now.\",\"In the lane, try to position your soldiers between the enemy's minions and the enemy champion. This way you can use them both to last hit and to project threat onto your lane opponent.\",\"Think of Emperor's Divide as a defensive ability first and foremost. Use it when the enemy engages on you or your allies. Remember that your team can walk through the soldiers summoned by Emperor's Divide and use this to your advantage when enemy melee champions engage on you.\",\"Be a bird!\"],\"enemytips\":[\"Azir relies on his soldiers to deal damage and can only move them so often. Try to capitalize on windows of time when his soldiers are stationary.\",\"Azir has immense damage over a prolonged amount of time but lacks the upfront burst of other mages. Try to burst him out before he can turn a confrontation around.\",\"Try to think of Sand Soldiers as fire. Don't stand in the fire.\"],\"tags\":[\"Mage\",\"Marksman\"],\"partype\":\"Mana\",\"info\":{\"attack\":6,\"defense\":3,\"magic\":8,\"difficulty\":9},\"stats\":{\"hp\":550,\"hpperlevel\":119,\"mp\":320,\"mpperlevel\":40,\"movespeed\":335,\"armor\":22,\"armorperlevel\":5,\"spellblock\":30,\"spellblockperlevel\":1.3,\"attackrange\":525,\"hpregen\":7,\"hpregenperlevel\":0.75,\"mpregen\":8,\"mpregenperlevel\":0.8,\"crit\":0,\"critperlevel\":0,\"attackdamage\":52,\"attackdamageperlevel\":3.5,\"attackspeedperlevel\":6,\"attackspeed\":0.625},\"spells\":[{\"id\":\"AzirQWrapper\",\"name\":\"Conquering Sands\",\"description\":\"Azir sends all Sand Soldiers towards a location. Sand Soldiers deal magic damage to enemies they pass through and apply a slow for 1 second.\",\"tooltip\":\"Azir orders all <keywordMajor>Sand Soldiers</keywordMajor> to an area, dealing <magicDamage>{{ totaldamage }} magic damage</magicDamage> to enemies they pass through and <status>Slowing</status> them by {{ e2 }}% for 1 second.{{ spellmodifierdescriptionappend }}\",\"leveltip\":{\"label\":[\"Damage\",\"Cooldown\",\"@AbilityResourceName@ Cost\"],\"effect\":[\"{{ e1 }} -> {{ e1NL }}\",\"{{ cooldown }} -> {{ cooldownNL }}\",\"{{ cost }} -> {{ costNL }}\"]},\"maxrank\":5,\"cooldown\":[12,10.5,9,7.5,6],\"cooldownBurn\":\"12/10.5/9/7.5/6\",\"cost\":[70,80,90,100,110],\"costBurn\":\"70/80/90/100/110\",\"datavalues\":{},\"effect\":[null,[60,80,100,120,140],[25,25,25,25,25],[0,0,0,0,0],[70,70,70,70,70],[1600,1600,1600,1600,1600],[200,200,200,200,200],[325,325,325,325,325],[0,0,0,0,0],[0,0,0,0,0],[0,0,0,0,0]],\"effectBurn\":[null,\"60/80/100/120/140\",\"25\",\"0\",\"70\",\"1600\",\"200\",\"325\",\"0\",\"0\",\"0\"],\"vars\":[],\"costType\":\" {{ abilityresourcename }}\",\"maxammo\":\"-1\",\"range\":[740,740,740,740,740],\"rangeBurn\":\"740\",\"image\":{\"full\":\"AzirQWrapper.png\",\"sprite\":\"spell1.png\",\"group\":\"spell\",\"x\":96,\"y\":96,\"w\":48,\"h\":48},\"resource\":\"{{ cost }} {{ abilityresourcename }}\"},{\"id\":\"AzirW\",\"name\":\"Arise!\",\"description\":\"Azir summons a Sand Soldier to attack nearby targets for him, replacing his basic attack against targets within the soldier's range. Their attacks deal magic damage to enemies in a line. Arise! also passively grants attack speed to Azir and his Sand Soldiers.\",\"tooltip\":\"Azir summons a <keywordMajor>Sand Soldier</keywordMajor> for {{ e1 }} seconds. When Azir Attacks an enemy near a <keywordMajor>Sand Soldier</keywordMajor>, he instead orders the soldiers to stab, dealing <magicDamage>{{ totaldamage }} magic damage</magicDamage> in their direction.<br /><br />This Ability has {{ maxammo }} charges.{{ spellmodifierdescriptionappend }}\",\"leveltip\":{\"label\":[\"Solder Attack Damage\",\"Recharge Time\",\"@AbilityResourceName@ Cost\"],\"effect\":[\"{{ basedamage }} -> {{ basedamageNL }}\",\"{{ ammorechargetime }} -> {{ ammorechargetimeNL }}\",\"{{ cost }} -> {{ costNL }}\"]},\"maxrank\":5,\"cooldown\":[1.5,1.5,1.5,1.5,1.5],\"cooldownBurn\":\"1.5\",\"cost\":[40,35,30,25,20],\"costBurn\":\"40/35/30/25/20\",\"datavalues\":{},\"effect\":[null,[10,10,10,10,10],[0,0,0,0,0],[0,0,0,0,0],[0,0,0,0,0],[0,0,0,0,0],[3,3,3,3,3],[0,0,0,0,0],[5,5,5,5,5],[25,25,25,25,25],[0.5,0.5,0.5,0.5,0.5]],\"effectBurn\":[null,\"10\",\"0\",\"0\",\"0\",\"0\",\"3\",\"0\",\"5\",\"25\",\"0.5\"],\"vars\":[],\"costType\":\" {{ abilityresourcename }}\",\"maxammo\":\"2\",\"range\":[525,525,525,525,525],\"rangeBurn\":\"525\",\"image\":{\"full\":\"AzirW.png\",\"sprite\":\"spell1.png\",\"group\":\"spell\",\"x\":144,\"y\":96,\"w\":48,\"h\":48},\"resource\":\"{{ cost }} {{ abilityresourcename }}\"},{\"id\":\"AzirEWrapper\",\"name\":\"Shifting Sands\",\"description\":\"Azir shields himself briefly and dashes to one of his Sand Soldiers, damaging enemies. If he hits an enemy champion, he instantly readies a new Sand Soldier for deployment and halts his dash.\",\"tooltip\":\"Azir grants himself <shield>{{ totalshield }} Shield</shield> for {{ e6 }} seconds and dashes to one of his <keywordMajor>Sand Soldiers</keywordMajor>, dealing <magicDamage>{{ totaldamage }} magic damage</magicDamage> to enemies he passes through.<br /><br />If Azir hits an enemy champion, he stops and gains a <keywordMajor>Sand Soldier</keywordMajor> charge.{{ spellmodifierdescriptionappend }}\",\"leveltip\":{\"label\":[\"Shield Amount\",\"Damage\",\"Cooldown\"],\"effect\":[\"{{ e4 }} -> {{ e4NL }}\",\"{{ e3 }} -> {{ e3NL }}\",\"{{ cooldown }} -> {{ cooldownNL }}\"]},\"maxrank\":5,\"cooldown\":[22,20.5,19,17.5,16],\"cooldownBurn\":\"22/20.5/19/17.5/16\",\"cost\":[60,60,60,60,60],\"costBurn\":\"60\",\"datavalues\":{},\"effect\":[null,[1700,1700,1700,1700,1700],[0,0,0,0,0],[60,100,140,180,220],[70,110,150,190,230],[0.3,0.5,0.7,0.9,1.1],[1.5,1.5,1.5,1.5,1.5],[1100,1100,1100,1100,1100],[0,0,0,0,0],[5,5,5,5,5],[25,25,25,25,25]],\"effectBurn\":[null,\"1700\",\"0\",\"60/100/140/180/220\",\"70/110/150/190/230\",\"0.3/0.5/0.7/0.9/1.1\",\"1.5\",\"1100\",\"0\",\"5\",\"25\"],\"vars\":[],\"costType\":\" {{ abilityresourcename }}\",\"maxammo\":\"-1\",\"range\":[1100,1100,1100,1100,1100],\"rangeBurn\":\"1100\",\"image\":{\"full\":\"AzirEWrapper.png\",\"sprite\":\"spell1.png\",\"group\":\"spell\",\"x\":192,\"y\":96,\"w\":48,\"h\":48},\"resource\":\"{{ cost }} {{ abilityresourcename }}\"},{\"id\":\"AzirR\",\"name\":\"Emperor's Divide\",\"description\":\"Azir summons a wall of soldiers which charge forward, knocking back and damaging enemies.\",\"tooltip\":\"Azir summons a wall of armored soldiers that charges forward, <status>Knocking Back</status> enemies and dealing <magicDamage>{{ totaldamage }} magic damage</magicDamage>. The soldiers remain, blocking enemy paths for {{ e4 }} seconds.{{ spellmodifierdescriptionappend }}\",\"leveltip\":{\"label\":[\"Damage\",\"Number of Soldiers\",\"Cooldown\"],\"effect\":[\"{{ e1 }} -> {{ e1NL }}\",\"{{ e3 }} -> {{ e3NL }}\",\"{{ cooldown }} -> {{ cooldownNL }}\"]},\"maxrank\":3,\"cooldown\":[120,105,90],\"cooldownBurn\":\"120/105/90\",\"cost\":[100,100,100],\"costBurn\":\"100\",\"datavalues\":{},\"effect\":[null,[200,400,600],[0,0,0],[6,7,8],[5,5,5],[0,0,0],[0,0,0],[0,0,0],[0,0,0],[0,0,0],[0,0,0]],\"effectBurn\":[null,\"200/400/600\",\"0\",\"6/7/8\",\"5\",\"0\",\"0\",\"0\",\"0\",\"0\",\"0\"],\"vars\":[],\"costType\":\" {{ abilityresourcename }}\",\"maxammo\":\"-1\",\"range\":[250,250,250],\"rangeBurn\":\"250\",\"image\":{\"full\":\"AzirR.png\",\"sprite\":\"spell1.png\",\"group\":\"spell\",\"x\":240,\"y\":96,\"w\":48,\"h\":48},\"resource\":\"{{ cost }} {{ abilityresourcename }}\"}],\"passive\":{\"name\":\"Shurima's Legacy\",\"description\":\"Azir can summon the Disc of the Sun from the ruins of allied or enemy turrets.\",\"image\":{\"full\":\"Azir_Passive.png\",\"sprite\":\"passive0.png\",\"group\":\"passive\",\"x\":48,\"y\":48,\"w\":48,\"h\":48}},\"recommended\":[]}",
+    "champion_blurb": "Azir was a mortal emperor of Shurima in a far distant age, a proud man who stood at the cusp of immortality. His hubris saw him betrayed and murdered at the moment of his greatest triumph, but now, millennia later, he has been reborn as an Ascended...",
+    "lore": "Azir was a mortal emperor of Shurima in a far distant age, a proud man who stood at the cusp of immortality. His hubris saw him betrayed and murdered at the moment of his greatest triumph, but now, millennia later, he has been reborn as an Ascended being of immense power. With his buried city risen from the sand, Azir seeks to restore Shurima to its former glory.",
+    "champion_icon": "https://ddragon.leagueoflegends.com/cdn/13.14.1/img/champion/Azir.png",
+    "champion_name": "Azir",
+    "champion_splash": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Azir_0.jpg",
+    "champion_title": "the Emperor of the Sands",
+    "recommended_lanes": [],
+    "recommended_roles": [
+        "Mage",
+        "Marksman"
+    ],
+    "links": [
+        {
+            "href": "https://na.op.gg/champion/azir/statistics/",
+            "title": "OP.GG"
+        },
+        {
+            "href": "https://u.gg/lol/champions/azir/build",
+            "title": "U.GG"
+        },
+        {
+            "href": "https://www.probuilds.net/champions/details/azir",
+            "title": "probuilds.net"
+        }
+    ],
+    "champion": {
+        "modular_blocks": []
+    },
+    "skins": [
+        {
+            "name": "default",
+            "imageUrl": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Azir_0.jpg"
+        },
+        {
+            "name": "Galactic Azir",
+            "imageUrl": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Azir_1.jpg"
+        },
+        {
+            "name": "Gravelord Azir",
+            "imageUrl": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Azir_2.jpg"
+        },
+        {
+            "name": "SKT T1 Azir",
+            "imageUrl": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Azir_3.jpg"
+        },
+        {
+            "name": "Warring Kingdoms Azir",
+            "imageUrl": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Azir_4.jpg"
+        },
+        {
+            "name": "Elderwood Azir",
+            "imageUrl": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Azir_5.jpg"
+        },
+        {
+            "name": "Worlds 2022 Azir",
+            "imageUrl": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Azir_14.jpg"
+        }
+    ],
+    "champion_passive": {
+        "champion_passive_description": "Azir can summon the Disc of the Sun from the ruins of allied or enemy turrets.",
+        "champion_passive_icon": "https://ddragon.leagueoflegends.com/cdn/13.14.1/img/passive/Azir_Passive.png",
+        "champion_passive_name": "Shurima's Legacy",
+        "champion_passive_video_mp4": "https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0268/ability_0268_P1.mp4",
+        "champion_passive_video_poster": "https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0268/ability_0268_P1.jpg",
+        "champion_passive_video_webm": "https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0268/ability_0268_P1.webm"
+    },
+    "champion_q": {
+        "champion_q_description": "Azir sends all Sand Soldiers towards a location. Sand Soldiers deal magic damage to enemies they pass through and apply a slow for 1 second.",
+        "champion_q_icon": "https://ddragon.leagueoflegends.com/cdn/13.14.1/img/spell/AzirQWrapper.png",
+        "champion_q_name": "Conquering Sands",
+        "champion_q_video_mp4": "https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0268/ability_0268_Q1.mp4",
+        "champion_q_video_poster": "https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0268/ability_0268_Q1.jpg",
+        "champion_q_video_webm": "https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0268/ability_0268_Q1.webm"
+    },
+    "champion_w": {
+        "champion_w_description": "Azir summons a Sand Soldier to attack nearby targets for him, replacing his basic attack against targets within the soldier's range. Their attacks deal magic damage to enemies in a line. Arise! also passively grants attack speed to Azir and his Sand Soldiers.",
+        "champion_w_icon": "https://ddragon.leagueoflegends.com/cdn/13.14.1/img/spell/AzirW.png",
+        "champion_w_name": "Arise!",
+        "champion_w_video_mp4": "https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0268/ability_0268_W1.mp4",
+        "champion_w_video_poster": "https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0268/ability_0268_W1.jpg",
+        "champion_w_video_webm": "https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0268/ability_0268_W1.webm"
+    },
+    "champion_e": {
+        "champion_e_description": "Azir shields himself briefly and dashes to one of his Sand Soldiers, damaging enemies. If he hits an enemy champion, he instantly readies a new Sand Soldier for deployment and halts his dash.",
+        "champion_e_icon": "https://ddragon.leagueoflegends.com/cdn/13.14.1/img/spell/AzirEWrapper.png",
+        "champion_e_name": "Shifting Sands",
+        "champion_e_video_mp4": "https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0268/ability_0268_E1.mp4",
+        "champion_e_video_poster": "https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0268/ability_0268_E1.jpg",
+        "champion_e_video_webm": "https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0268/ability_0268_E1.webm"
+    },
+    "champion_r": {
+        "champion_r_description": "Azir summons a wall of soldiers which charge forward, knocking back and damaging enemies.",
+        "champion_r_icon": "https://ddragon.leagueoflegends.com/cdn/13.14.1/img/spell/AzirR.png",
+        "champion_r_name": "Emperor's Divide",
+        "champion_r_video_mp4": "https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0268/ability_0268_R1.mp4",
+        "champion_r_video_poster": "https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0268/ability_0268_R1.jpg",
+        "champion_r_video_webm": "https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0268/ability_0268_R1.webm"
+    },
+    "related_champions": []
+  },
+  {
+    "publish_details": {
+        "locale": "en-us"
+    },
+    "uid": "bltf7bf978b17d518df",
+    "url": "/champions/bard/",
+    "data_dragon_id": "Bard",
+    "data_dragon_json": "{\"id\":\"Bard\",\"key\":\"432\",\"name\":\"Bard\",\"title\":\"the Wandering Caretaker\",\"image\":{\"full\":\"Bard.png\",\"sprite\":\"champion0.png\",\"group\":\"champion\",\"x\":96,\"y\":48,\"w\":48,\"h\":48},\"skins\":[{\"id\":\"432000\",\"num\":0,\"name\":\"default\",\"chromas\":true},{\"id\":\"432001\",\"num\":1,\"name\":\"Elderwood Bard\",\"chromas\":false},{\"id\":\"432005\",\"num\":5,\"name\":\"Snow Day Bard\",\"chromas\":true},{\"id\":\"432006\",\"num\":6,\"name\":\"Bard Bard\",\"chromas\":false},{\"id\":\"432008\",\"num\":8,\"name\":\"Astronaut Bard\",\"chromas\":true},{\"id\":\"432017\",\"num\":17,\"name\":\"Cafe Cuties Bard\",\"chromas\":true},{\"id\":\"432026\",\"num\":26,\"name\":\"Shan Hai Scrolls Bard\",\"chromas\":true}],\"lore\":\"A traveler from beyond the stars, Bard is an agent of serendipity who fights to maintain a balance where life can endure the indifference of chaos. Many Runeterrans sing songs that ponder his extraordinary nature, yet they all agree that the cosmic vagabond is drawn to artifacts of great magical power. Surrounded by a jubilant choir of helpful spirit meeps, it is impossible to mistake his actions as malevolent, as Bard always serves the greater good... in his own odd way.\",\"blurb\":\"A traveler from beyond the stars, Bard is an agent of serendipity who fights to maintain a balance where life can endure the indifference of chaos. Many Runeterrans sing songs that ponder his extraordinary nature, yet they all agree that the cosmic...\",\"allytips\":[\"It's important to collect chimes to improve your meep's attacks, but don't neglect your lane partner! Try to make a big entrance by bringing an ally into the lane with you with Magical Journey.\",\"Let your Caretaker's Shrines charge up - they heal for a lot more when at full power.\",\"Don't forget that enemies can also use your Magical Journey doorways, and that your ultimate can also hit your allies!\"],\"enemytips\":[\"Bard's opponents can also travel through his Magical Journey doorways. You can follow him, if you think it's safe.\",\"You can crush Bard's healing shrines just by walking over them. Don't let his allies take them without a fight.\",\"Bard's ultimate, Tempered Fate, affects allies, enemies, monsters, and turrets alike. Sometimes it can be to your advantage to jump into it!\"],\"tags\":[\"Support\",\"Mage\"],\"partype\":\"Mana\",\"info\":{\"attack\":4,\"defense\":4,\"magic\":5,\"difficulty\":9},\"stats\":{\"hp\":630,\"hpperlevel\":103,\"mp\":350,\"mpperlevel\":50,\"movespeed\":330,\"armor\":34,\"armorperlevel\":5.2,\"spellblock\":30,\"spellblockperlevel\":1.3,\"attackrange\":500,\"hpregen\":5.5,\"hpregenperlevel\":0.55,\"mpregen\":6,\"mpregenperlevel\":0.45,\"crit\":0,\"critperlevel\":0,\"attackdamage\":52,\"attackdamageperlevel\":3,\"attackspeedperlevel\":2,\"attackspeed\":0.625},\"spells\":[{\"id\":\"BardQ\",\"name\":\"Cosmic Binding\",\"description\":\"Bard fires a missile which will slow the first enemy struck, and continue onward. If it strikes a wall, it will stun the initial target; if it strikes another enemy, it will stun them both.\",\"tooltip\":\"Bard fires an energy bolt, dealing <magicDamage>{{ totaldamage }} magic damage</magicDamage> to the first two enemies hit. The first target hit is <status>Slowed</status> by {{ e3 }}% for {{ e4 }} second(s).<br /><br />If the bolt hits a second enemy or a wall, any enemies hit are <status>Stunned</status> for {{ e2 }} second(s).<br />{{ spellmodifierdescriptionappend }}\",\"leveltip\":{\"label\":[\"Damage\",\"Slow Duration\",\"Stun Duration\",\"Cooldown\"],\"effect\":[\"{{ e1 }} -> {{ e1NL }}\",\"{{ e2 }} -> {{ e2NL }}\",\"{{ e2 }} -> {{ e2NL }}\",\"{{ cooldown }} -> {{ cooldownNL }}\"]},\"maxrank\":5,\"cooldown\":[11,10,9,8,7],\"cooldownBurn\":\"11/10/9/8/7\",\"cost\":[60,60,60,60,60],\"costBurn\":\"60\",\"datavalues\":{},\"effect\":[null,[80,125,170,215,260],[1,1.2,1.4,1.6,1.8],[60,60,60,60,60],[1,1.2,1.4,1.6,1.8],[0,0,0,0,0],[0,0,0,0,0],[0,0,0,0,0],[0,0,0,0,0],[0,0,0,0,0],[0,0,0,0,0]],\"effectBurn\":[null,\"80/125/170/215/260\",\"1/1.2/1.4/1.6/1.8\",\"60\",\"1/1.2/1.4/1.6/1.8\",\"0\",\"0\",\"0\",\"0\",\"0\",\"0\"],\"vars\":[],\"costType\":\" {{ abilityresourcename }}\",\"maxammo\":\"-1\",\"range\":[25000,25000,25000,25000,25000],\"rangeBurn\":\"25000\",\"image\":{\"full\":\"BardQ.png\",\"sprite\":\"spell1.png\",\"group\":\"spell\",\"x\":288,\"y\":96,\"w\":48,\"h\":48},\"resource\":\"{{ cost }} {{ abilityresourcename }}\"},{\"id\":\"BardW\",\"name\":\"Caretaker's Shrine\",\"description\":\"Reveals a healing shrine which powers up over a short time, disappearing after healing and speeding up the first ally that touches it.\",\"tooltip\":\"Bard creates a health shrine that grants <speed>{{ e1 }}% Move Speed</speed> decaying over {{ e2 }} seconds and restores at least <healing>{{ initialheal }} Health</healing> to the first ally to enter. The shrine grows to restore <healing>{{ maxheal }} Health</healing> after existing for {{ e8 }} seconds.<br /><br />Bard can have up to {{ e3 }} shrines at once. If an enemy champion enters a shrine, it is destroyed.<br /><br />Current Active Shrines: {{ f1 }} / {{ f2 }}{{ spellmodifierdescriptionappend }}\",\"leveltip\":{\"label\":[\"Base Heal\",\"Max Heal\"],\"effect\":[\"{{ e5 }} -> {{ e5NL }}\",\"{{ e6 }} -> {{ e6NL }}\"]},\"maxrank\":5,\"cooldown\":[14,14,14,14,14],\"cooldownBurn\":\"14\",\"cost\":[70,70,70,70,70],\"costBurn\":\"70\",\"datavalues\":{},\"effect\":[null,[30,30,30,30,30],[1.5,1.5,1.5,1.5,1.5],[3,3,3,3,3],[0,0,0,0,0],[25,50,75,100,125],[50,87.5,125,162.5,200],[0,0,0,0,0],[10,10,10,10,10],[0,0,0,0,0],[0,0,0,0,0]],\"effectBurn\":[null,\"30\",\"1.5\",\"3\",\"0\",\"25/50/75/100/125\",\"50/87.5/125/162.5/200\",\"0\",\"10\",\"0\",\"0\"],\"vars\":[],\"costType\":\" {{ abilityresourcename }}\",\"maxammo\":\"-1\",\"range\":[800,800,800,800,800],\"rangeBurn\":\"800\",\"image\":{\"full\":\"BardW.png\",\"sprite\":\"spell1.png\",\"group\":\"spell\",\"x\":336,\"y\":96,\"w\":48,\"h\":48},\"resource\":\"{{ cost }} {{ abilityresourcename }}\"},{\"id\":\"BardE\",\"name\":\"Magical Journey\",\"description\":\"Bard opens a portal in nearby terrain. Allies and enemies alike can take a one-way trip through that terrain by moving into the portal.\",\"tooltip\":\"Bard opens a one-way portal through Terrain for {{ e1 }} seconds. Any champion can enter the portal by moving onto it while near the entrance.{{ spellmodifierdescriptionappend }}\",\"leveltip\":{\"label\":[\"Cooldown\"],\"effect\":[\"{{ cooldown }} -> {{ cooldownNL }}\"]},\"maxrank\":5,\"cooldown\":[22,20.5,19,17.5,16],\"cooldownBurn\":\"22/20.5/19/17.5/16\",\"cost\":[30,30,30,30,30],\"costBurn\":\"30\",\"datavalues\":{},\"effect\":[null,[10,10,10,10,10],[33,33,33,33,33],[900,900,900,900,900],[0,0,0,0,0],[0,0,0,0,0],[0,0,0,0,0],[0,0,0,0,0],[0,0,0,0,0],[0,0,0,0,0],[0,0,0,0,0]],\"effectBurn\":[null,\"10\",\"33\",\"900\",\"0\",\"0\",\"0\",\"0\",\"0\",\"0\",\"0\"],\"vars\":[],\"costType\":\" {{ abilityresourcename }}\",\"maxammo\":\"-1\",\"range\":[900,900,900,900,900],\"rangeBurn\":\"900\",\"image\":{\"full\":\"BardE.png\",\"sprite\":\"spell1.png\",\"group\":\"spell\",\"x\":384,\"y\":96,\"w\":48,\"h\":48},\"resource\":\"{{ cost }} {{ abilityresourcename }}\"},{\"id\":\"BardR\",\"name\":\"Tempered Fate\",\"description\":\"Bard sends spirit energy arcing to a location, putting all champions, minions, monsters, and turrets hit into stasis for a brief time.\",\"tooltip\":\"Bard hurls magical protective energy to an area, placing all units and structures hit into Stasis for {{ rstasisduration }} seconds.{{ spellmodifierdescriptionappend }}\",\"leveltip\":{\"label\":[\"Cooldown\"],\"effect\":[\"{{ cooldown }} -> {{ cooldownNL }}\"]},\"maxrank\":3,\"cooldown\":[110,95,80],\"cooldownBurn\":\"110/95/80\",\"cost\":[100,100,100],\"costBurn\":\"100\",\"datavalues\":{},\"effect\":[null,[0,0,0],[0,0,0],[0,0,0],[0,0,0],[0,0,0],[0,0,0],[0,0,0],[0,0,0],[0,0,0],[0,0,0]],\"effectBurn\":[null,\"0\",\"0\",\"0\",\"0\",\"0\",\"0\",\"0\",\"0\",\"0\",\"0\"],\"vars\":[],\"costType\":\" {{ abilityresourcename }}\",\"maxammo\":\"-1\",\"range\":[3400,3400,3400],\"rangeBurn\":\"3400\",\"image\":{\"full\":\"BardR.png\",\"sprite\":\"spell1.png\",\"group\":\"spell\",\"x\":432,\"y\":96,\"w\":48,\"h\":48},\"resource\":\"{{ cost }} {{ abilityresourcename }}\"}],\"passive\":{\"name\":\"Traveler's Call\",\"description\":\"<font color='#FF9900'>Meeps:</font> Bard attracts lesser spirits that assist with his basic attacks to deal extra magic damage. When Bard has collected enough  <font color='#cccc00'>Chimes</font>, his meeps will also deal damage in an area and slow enemies hit.<br><br><font color='#FF9900'>Chimes:</font> Ancient <font color='#cccc00'>chimes</font> randomly appear for Bard to collect. These grant experience, restore mana, and provide out of combat Move Speed.\",\"image\":{\"full\":\"Bard_Passive.png\",\"sprite\":\"passive0.png\",\"group\":\"passive\",\"x\":96,\"y\":48,\"w\":48,\"h\":48}},\"recommended\":[]}",
+    "champion_blurb": "A traveler from beyond the stars, Bard is an agent of serendipity who fights to maintain a balance where life can endure the indifference of chaos. Many Runeterrans sing songs that ponder his extraordinary nature, yet they all agree that the cosmic...",
+    "lore": "A traveler from beyond the stars, Bard is an agent of serendipity who fights to maintain a balance where life can endure the indifference of chaos. Many Runeterrans sing songs that ponder his extraordinary nature, yet they all agree that the cosmic vagabond is drawn to artifacts of great magical power. Surrounded by a jubilant choir of helpful spirit meeps, it is impossible to mistake his actions as malevolent, as Bard always serves the greater good... in his own odd way.",
+    "champion_icon": "https://ddragon.leagueoflegends.com/cdn/13.14.1/img/champion/Bard.png",
+    "champion_name": "Bard",
+    "champion_splash": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Bard_0.jpg",
+    "champion_title": "the Wandering Caretaker",
+    "recommended_lanes": [],
+    "recommended_roles": [
+        "Support",
+        "Mage"
+    ],
+    "links": [
+        {
+            "href": "https://na.op.gg/champion/bard/statistics/",
+            "title": "OP.GG"
+        },
+        {
+            "href": "https://u.gg/lol/champions/bard/build",
+            "title": "U.GG"
+        },
+        {
+            "href": "https://www.probuilds.net/champions/details/bard",
+            "title": "probuilds.net"
+        }
+    ],
+    "champion": {
+        "modular_blocks": []
+    },
+    "skins": [
+        {
+            "name": "default",
+            "imageUrl": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Bard_0.jpg"
+        },
+        {
+            "name": "Elderwood Bard",
+            "imageUrl": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Bard_1.jpg"
+        },
+        {
+            "name": "Snow Day Bard",
+            "imageUrl": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Bard_5.jpg"
+        },
+        {
+            "name": "Bard Bard",
+            "imageUrl": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Bard_6.jpg"
+        },
+        {
+            "name": "Astronaut Bard",
+            "imageUrl": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Bard_8.jpg"
+        },
+        {
+            "name": "Cafe Cuties Bard",
+            "imageUrl": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Bard_17.jpg"
+        },
+        {
+            "name": "Shan Hai Scrolls Bard",
+            "imageUrl": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Bard_26.jpg"
+        }
+    ],
+    "champion_passive": {
+        "champion_passive_description": "Meeps: Bard attracts lesser spirits that assist with his basic attacks to deal extra magic damage. When Bard has collected enough  Chimes, his meeps will also deal damage in an area and slow enemies hit.\n\nChimes: Ancient chimes randomly appear for Bard to collect. These grant experience, restore mana, and provide out of combat Move Speed.",
+        "champion_passive_icon": "https://ddragon.leagueoflegends.com/cdn/13.14.1/img/passive/Bard_Passive.png",
+        "champion_passive_name": "Traveler's Call",
+        "champion_passive_video_mp4": "https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0432/ability_0432_P1.mp4",
+        "champion_passive_video_poster": "https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0432/ability_0432_P1.jpg",
+        "champion_passive_video_webm": "https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0432/ability_0432_P1.webm"
+    },
+    "champion_q": {
+        "champion_q_description": "Bard fires a missile which will slow the first enemy struck, and continue onward. If it strikes a wall, it will stun the initial target; if it strikes another enemy, it will stun them both.",
+        "champion_q_icon": "https://ddragon.leagueoflegends.com/cdn/13.14.1/img/spell/BardQ.png",
+        "champion_q_name": "Cosmic Binding",
+        "champion_q_video_mp4": "https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0432/ability_0432_Q1.mp4",
+        "champion_q_video_poster": "https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0432/ability_0432_Q1.jpg",
+        "champion_q_video_webm": "https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0432/ability_0432_Q1.webm"
+    },
+    "champion_w": {
+        "champion_w_description": "Reveals a healing shrine which powers up over a short time, disappearing after healing and speeding up the first ally that touches it.",
+        "champion_w_icon": "https://ddragon.leagueoflegends.com/cdn/13.14.1/img/spell/BardW.png",
+        "champion_w_name": "Caretaker's Shrine",
+        "champion_w_video_mp4": "https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0432/ability_0432_W1.mp4",
+        "champion_w_video_poster": "https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0432/ability_0432_W1.jpg",
+        "champion_w_video_webm": "https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0432/ability_0432_W1.webm"
+    },
+    "champion_e": {
+        "champion_e_description": "Bard opens a portal in nearby terrain. Allies and enemies alike can take a one-way trip through that terrain by moving into the portal.",
+        "champion_e_icon": "https://ddragon.leagueoflegends.com/cdn/13.14.1/img/spell/BardE.png",
+        "champion_e_name": "Magical Journey",
+        "champion_e_video_mp4": "https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0432/ability_0432_E1.mp4",
+        "champion_e_video_poster": "https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0432/ability_0432_E1.jpg",
+        "champion_e_video_webm": "https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0432/ability_0432_E1.webm"
+    },
+    "champion_r": {
+        "champion_r_description": "Bard sends spirit energy arcing to a location, putting all champions, minions, monsters, and turrets hit into stasis for a brief time.",
+        "champion_r_icon": "https://ddragon.leagueoflegends.com/cdn/13.14.1/img/spell/BardR.png",
+        "champion_r_name": "Tempered Fate",
+        "champion_r_video_mp4": "https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0432/ability_0432_R1.mp4",
+        "champion_r_video_poster": "https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0432/ability_0432_R1.jpg",
+        "champion_r_video_webm": "https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0432/ability_0432_R1.webm"
+    },
+    "related_champions": []
+  },
+  {
+    "publish_details": {
+        "locale": "en-us"
+    },
+    "uid": "blt1bc96c4fc8cc2052",
+    "url": "/champions/bel-veth/",
+    "data_dragon_id": "Belveth",
+    "data_dragon_json": "{\"id\":\"Belveth\",\"key\":\"200\",\"name\":\"Bel'Veth\",\"title\":\"the Empress of the Void\",\"image\":{\"full\":\"Belveth.png\",\"sprite\":\"champion0.png\",\"group\":\"champion\",\"x\":144,\"y\":48,\"w\":48,\"h\":48},\"skins\":[{\"id\":\"200000\",\"num\":0,\"name\":\"default\",\"chromas\":false},{\"id\":\"200001\",\"num\":1,\"name\":\"Battle Boss Bel'Veth\",\"chromas\":true}],\"lore\":\"A nightmarish empress created from the raw material of an entire devoured city, Bel'Veth is the end of Runeterra itself... and the beginning of a monstrous reality of her own design. Driven by epochs of repurposed history, knowledge, and memories from the world above, she voraciously feeds an ever-expanding need for new experiences and emotions, consuming all that crosses her path. Yet her wants could never be sated by only one world as she turns her hungry eyes toward the Void's old masters...\",\"blurb\":\"A nightmarish empress created from the raw material of an entire devoured city, Bel'Veth is the end of Runeterra itself... and the beginning of a monstrous reality of her own design. Driven by epochs of repurposed history, knowledge, and memories from...\",\"allytips\":[],\"enemytips\":[],\"tags\":[\"Fighter\"],\"partype\":\"\",\"info\":{\"attack\":4,\"defense\":2,\"magic\":7,\"difficulty\":10},\"stats\":{\"hp\":610,\"hpperlevel\":99,\"mp\":60,\"mpperlevel\":0,\"movespeed\":340,\"armor\":32,\"armorperlevel\":4.7,\"spellblock\":32,\"spellblockperlevel\":2.05,\"attackrange\":175,\"hpregen\":6,\"hpregenperlevel\":0.6,\"mpregen\":0,\"mpregenperlevel\":0,\"crit\":0,\"critperlevel\":0,\"attackdamage\":60,\"attackdamageperlevel\":1.5,\"attackspeedperlevel\":0,\"attackspeed\":0.85},\"spells\":[{\"id\":\"BelvethQ\",\"name\":\"Void Surge\",\"description\":\"Bel'Veth dashes in a chosen direction and damages all enemies she passes through.\",\"tooltip\":\"Bel'Veth dashes, dealing <physicalDamage>{{ basedamage }} physical damage</physicalDamage> to enemies she passes through.<br /><br />Each direction has an unique Cooldown of {{ f1 }} seconds that scales down based on her <attackSpeed>Attack Speed</attackSpeed>.<br />{{ spellmodifierdescriptionappend }}\",\"leveltip\":{\"label\":[\"Damage\",\"Cooldown Per Direction\",\"Minion Damage\"],\"effect\":[\"{{ damage }} -> {{ damageNL }}\",\"{{ persidecooldown }} -> {{ persidecooldownNL }}\",\"{{ minonmod*100.000000 }}% -> {{ minonmodnl*100.000000 }}%\"]},\"maxrank\":5,\"cooldown\":[1,1,1,1,1],\"cooldownBurn\":\"1\",\"cost\":[0,0,0,0,0],\"costBurn\":\"0\",\"datavalues\":{},\"effect\":[null,[0,0,0,0,0],[0,0,0,0,0],[0,0,0,0,0],[0,0,0,0,0],[0,0,0,0,0],[0,0,0,0,0],[0,0,0,0,0],[0,0,0,0,0],[0,0,0,0,0],[0,0,0,0,0]],\"effectBurn\":[null,\"0\",\"0\",\"0\",\"0\",\"0\",\"0\",\"0\",\"0\",\"0\",\"0\"],\"vars\":[],\"costType\":\"No Cost\",\"maxammo\":\"-1\",\"range\":[450,450,450,450,450],\"rangeBurn\":\"450\",\"image\":{\"full\":\"BelvethQ.png\",\"sprite\":\"spell1.png\",\"group\":\"spell\",\"x\":0,\"y\":144,\"w\":48,\"h\":48},\"resource\":\"No Cost\"},{\"id\":\"BelvethW\",\"name\":\"Above and Below\",\"description\":\"Bel'Veth slams her tail to the ground, damaging, knocking up, and slowing her enemies.\",\"tooltip\":\"Bel'Veth slams her tail, dealing <magicDamage>{{ damage }} magic damage</magicDamage>, <status>Knocking Up</status> foes for {{ duration }} seconds, and <status>Slowing</status> them by {{ slowpercent*100 }}% for {{ slowduration }} seconds. If a champion is hit, this refreshes the Cooldown of <spellName>Void Surge</spellName> in that direction.{{ spellmodifierdescriptionappend }}\",\"leveltip\":{\"label\":[\"Damage\",\"Slow Duration\",\"Cooldown\"],\"effect\":[\"{{ basedamage }} -> {{ basedamageNL }}\",\"{{ slowduration }} -> {{ slowdurationNL }}\",\"{{ cooldown }} -> {{ cooldownNL }}\"]},\"maxrank\":5,\"cooldown\":[12,11,10,9,8],\"cooldownBurn\":\"12/11/10/9/8\",\"cost\":[0,0,0,0,0],\"costBurn\":\"0\",\"datavalues\":{},\"effect\":[null,[0,0,0,0,0],[0,0,0,0,0],[0,0,0,0,0],[0,0,0,0,0],[0,0,0,0,0],[0,0,0,0,0],[0,0,0,0,0],[0,0,0,0,0],[0,0,0,0,0],[0,0,0,0,0]],\"effectBurn\":[null,\"0\",\"0\",\"0\",\"0\",\"0\",\"0\",\"0\",\"0\",\"0\",\"0\"],\"vars\":[],\"costType\":\"No Cost\",\"maxammo\":\"-1\",\"range\":[715,715,715,715,715],\"rangeBurn\":\"715\",\"image\":{\"full\":\"BelvethW.png\",\"sprite\":\"spell1.png\",\"group\":\"spell\",\"x\":48,\"y\":144,\"w\":48,\"h\":48},\"resource\":\"No Cost\"},{\"id\":\"BelvethE\",\"name\":\"Royal Maelstrom\",\"description\":\"Bel'Veth roots herself in place, channeling a storm of slashes around her that targets the lowest-health enemy and grants her lifesteal and damage reduction.\",\"tooltip\":\"Bel'Veth channels and slashes around herself, gaining {{ drpercent*100 }}% Damage Reduction, {{ totallifesteal }} Life Steal, and Attacking {{ f2.0 }} times over {{ totalduration }} seconds with the number of Attacks increasing based on her <attackSpeed>Attack Speed</attackSpeed>. Each Attack strikes the lowest-health enemy, dealing <physicalDamage>{{ damageperstrike }}</physicalDamage> to <physicalDamage>{{ maxdamageperstriketooltip }} physical damage</physicalDamage> based on the target's missing Health.<br /><br />Using another Ability or <recast>Recasting</recast> ends this Ability early.<br />{{ spellmodifierdescriptionappend }}\",\"leveltip\":{\"label\":[\"Damage\",\"Cooldown\"],\"effect\":[\"{{ damageperhit }} -> {{ damageperhitNL }}\",\"{{ cooldown }} -> {{ cooldownNL }}\"]},\"maxrank\":5,\"cooldown\":[24,22.5,21,19.5,18],\"cooldownBurn\":\"24/22.5/21/19.5/18\",\"cost\":[0,0,0,0,0],\"costBurn\":\"0\",\"datavalues\":{},\"effect\":[null,[0,0,0,0,0],[0,0,0,0,0],[0,0,0,0,0],[0,0,0,0,0],[0,0,0,0,0],[0,0,0,0,0],[0,0,0,0,0],[0,0,0,0,0],[0,0,0,0,0],[0,0,0,0,0]],\"effectBurn\":[null,\"0\",\"0\",\"0\",\"0\",\"0\",\"0\",\"0\",\"0\",\"0\",\"0\"],\"vars\":[],\"costType\":\"No Cost\",\"maxammo\":\"-1\",\"range\":[500,500,500,500,500],\"rangeBurn\":\"500\",\"image\":{\"full\":\"BelvethE.png\",\"sprite\":\"spell1.png\",\"group\":\"spell\",\"x\":96,\"y\":144,\"w\":48,\"h\":48},\"resource\":\"No Cost\"},{\"id\":\"BelvethR\",\"name\":\"Endless Banquet\",\"description\":\"Bel'Veth consumes Void coral remnants, transforming into her true form and increasing her max health, attack range, attack speed, and out-of-combat move speed. Consuming the Void coral remnants of a Void epic monster will grant her a longer ultimate duration, as well as the power to summon Void remora.\",\"tooltip\":\"<spellPassive>Passive:</spellPassive> Every second Attack against the same target deals an additional <trueDamage>{{ finalonhitdamage }} true damage</trueDamage>, stacking infinitely. Takedowns against champions and epic monsters leave behind a piece of Void Coral.<br /><br /><spellActive>Active:</spellActive> Consuming Void Coral grants <keywordMajor>{{ passivestacksondevour }} Lavender</keywordMajor> stack and activates Bel'Veth's true form for {{ steroidduration }} seconds. Void Coral from Void epic monsters increases the duration to {{ voidduration }} seconds and causes minions that die nearby to become Void Remora. While casting, Bel'Veth <status>Slows</status> nearby enemies before exploding, dealing <trueDamage>{{ totalexplosiondamage }} + {{ missinghealthdamage*100 }}% missing-Health true damage</trueDamage>.<br /><br />In her true form, Bel'Veth gains <healing>{{ maxhealthondevour }} max Health</healing>, <speed>{{ oocms }} Move Speed</speed> out of combat, {{ bonusaarange }} Attack range, <attackSpeed>{{ totalasmod*100 }}% Total Attack Speed</attackSpeed>, and <spellName>Void Surge</spellName> can pass through walls.<br /><br /><br />{{ spellmodifierdescriptionappend }}\",\"leveltip\":{\"label\":[\"On-Hit Damage\",\"Explosion Damage\",\"Bonus Health\",\"Move Speed\",\"Attack Speed\",\"Void Remora Health\"],\"effect\":[\"{{ onhitdamage }} -> {{ onhitdamageNL }}\",\"{{ basedamage }} -> {{ basedamageNL }}\",\"{{ basemaxhealth }} -> {{ basemaxhealthNL }}\",\"{{ oocms }} -> {{ oocmsNL }}\",\"{{ totalasmod*100.000000 }}% -> {{ totalasmodnl*100.000000 }}%\",\"{{ voidlinghpscale*100.000000 }}% -> {{ voidlinghpscalenl*100.000000 }}%\"]},\"maxrank\":3,\"cooldown\":[1,1,1],\"cooldownBurn\":\"1\",\"cost\":[0,0,0],\"costBurn\":\"0\",\"datavalues\":{},\"effect\":[null,[0,0,0],[0,0,0],[0,0,0],[0,0,0],[0,0,0],[0,0,0],[0,0,0],[0,0,0],[0,0,0],[0,0,0]],\"effectBurn\":[null,\"0\",\"0\",\"0\",\"0\",\"0\",\"0\",\"0\",\"0\",\"0\",\"0\"],\"vars\":[],\"costType\":\"No Cost\",\"maxammo\":\"-1\",\"range\":[275,275,275],\"rangeBurn\":\"275\",\"image\":{\"full\":\"BelvethR.png\",\"sprite\":\"spell1.png\",\"group\":\"spell\",\"x\":144,\"y\":144,\"w\":48,\"h\":48},\"resource\":\"No Cost\"}],\"passive\":{\"name\":\"Death in Lavender \",\"description\":\"Bel'Veth gains permanent attack speed stacks after taking down large minions and monsters and champions. She also gains temporary bonus attack speed after using an ability.\",\"image\":{\"full\":\"Belveth_Passive.Belveth.png\",\"sprite\":\"passive0.png\",\"group\":\"passive\",\"x\":144,\"y\":48,\"w\":48,\"h\":48}},\"recommended\":[]}",
+    "champion_blurb": "A nightmarish empress created from the raw material of an entire devoured city, Bel'Veth is the end of Runeterra itself... and the beginning of a monstrous reality of her own design. Driven by epochs of repurposed history, knowledge, and memories from...",
+    "lore": "A nightmarish empress created from the raw material of an entire devoured city, Bel'Veth is the end of Runeterra itself... and the beginning of a monstrous reality of her own design. Driven by epochs of repurposed history, knowledge, and memories from the world above, she voraciously feeds an ever-expanding need for new experiences and emotions, consuming all that crosses her path. Yet her wants could never be sated by only one world as she turns her hungry eyes toward the Void's old masters...",
+    "champion_icon": "https://ddragon.leagueoflegends.com/cdn/13.14.1/img/champion/Belveth.png",
+    "champion_name": "Bel'Veth",
+    "champion_splash": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Belveth_0.jpg",
+    "champion_title": "the Empress of the Void",
+    "recommended_lanes": [],
+    "recommended_roles": [
+        "Fighter"
+    ],
+    "links": [
+        {
+            "href": "https://na.op.gg/champions/belveth/jungle/build",
+            "title": "OP.GG"
+        },
+        {
+            "href": "https://u.gg/lol/champions/belveth/build",
+            "title": "U.GG"
+        },
+        {
+            "href": "https://probuildstats.com/champion/belveth",
+            "title": "Probuild Stats"
+        }
+    ],
+    "champion": {
+        "modular_blocks": []
+    },
+    "skins": [
+        {
+            "name": "default",
+            "imageUrl": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Belveth_0.jpg"
+        },
+        {
+            "name": "Battle Boss Bel'Veth",
+            "imageUrl": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Belveth_1.jpg"
+        }
+    ],
+    "champion_passive": {
+        "champion_passive_description": "Bel'Veth gains permanent attack speed stacks after taking down large minions and monsters and champions. She also gains temporary bonus attack speed after using an ability.",
+        "champion_passive_icon": "https://ddragon.leagueoflegends.com/cdn/13.14.1/img/passive/Belveth_Passive.Belveth.png",
+        "champion_passive_name": "Death in Lavender ",
+        "champion_passive_video_mp4": "https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0200/ability_0200_P1.mp4",
+        "champion_passive_video_poster": "https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0200/ability_0200_P1.jpg",
+        "champion_passive_video_webm": "https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0200/ability_0200_P1.webm"
+    },
+    "champion_q": {
+        "champion_q_description": "Bel'Veth dashes in a chosen direction and damages all enemies she passes through.",
+        "champion_q_icon": "https://ddragon.leagueoflegends.com/cdn/13.14.1/img/spell/BelvethQ.png",
+        "champion_q_name": "Void Surge",
+        "champion_q_video_mp4": "https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0200/ability_0200_Q1.mp4",
+        "champion_q_video_poster": "https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0200/ability_0200_Q1.jpg",
+        "champion_q_video_webm": "https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0200/ability_0200_Q1.webm"
+    },
+    "champion_w": {
+        "champion_w_description": "Bel'Veth slams her tail to the ground, damaging, knocking up, and slowing her enemies.",
+        "champion_w_icon": "https://ddragon.leagueoflegends.com/cdn/13.14.1/img/spell/BelvethW.png",
+        "champion_w_name": "Above and Below",
+        "champion_w_video_mp4": "https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0200/ability_0200_W1.mp4",
+        "champion_w_video_poster": "https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0200/ability_0200_W1.jpg",
+        "champion_w_video_webm": "https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0200/ability_0200_W1.webm"
+    },
+    "champion_e": {
+        "champion_e_description": "Bel'Veth roots herself in place, channeling a storm of slashes around her that targets the lowest-health enemy and grants her lifesteal and damage reduction.",
+        "champion_e_icon": "https://ddragon.leagueoflegends.com/cdn/13.14.1/img/spell/BelvethE.png",
+        "champion_e_name": "Royal Maelstrom",
+        "champion_e_video_mp4": "https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0200/ability_0200_E1.mp4",
+        "champion_e_video_poster": "https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0200/ability_0200_E1.jpg",
+        "champion_e_video_webm": "https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0200/ability_0200_E1.webm"
+    },
+    "champion_r": {
+        "champion_r_description": "Bel'Veth consumes Void coral remnants, transforming into her true form and increasing her max health, attack range, attack speed, and out-of-combat move speed. Consuming the Void coral remnants of a Void epic monster will grant her a longer ultimate duration, as well as the power to summon Void remora.",
+        "champion_r_icon": "https://ddragon.leagueoflegends.com/cdn/13.14.1/img/spell/BelvethR.png",
+        "champion_r_name": "Endless Banquet",
+        "champion_r_video_mp4": "https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0200/ability_0200_R1.mp4",
+        "champion_r_video_poster": "https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0200/ability_0200_R1.jpg",
+        "champion_r_video_webm": "https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0200/ability_0200_R1.webm"
+    },
+    "related_champions": []
+  },
 ]
