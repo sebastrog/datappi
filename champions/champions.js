@@ -3134,5 +3134,652 @@
         "champion_r_video_webm": "https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0036/ability_0036_R1.webm"
     },
     "related_champions": []
+  },
+  {
+    "publish_details": {
+        "locale": "en-us"
+    },
+    "uid": "blt48716e72346dabdf",
+    "url": "/champions/draven/",
+    "data_dragon_id": "Draven",
+    "data_dragon_json": "{\"id\":\"Draven\",\"key\":\"119\",\"name\":\"Draven\",\"title\":\"the Glorious Executioner\",\"image\":{\"full\":\"Draven.png\",\"sprite\":\"champion0.png\",\"group\":\"champion\",\"x\":192,\"y\":96,\"w\":48,\"h\":48},\"skins\":[{\"id\":\"119000\",\"num\":0,\"name\":\"default\",\"chromas\":false},{\"id\":\"119001\",\"num\":1,\"name\":\"Soul Reaver Draven\",\"chromas\":false},{\"id\":\"119002\",\"num\":2,\"name\":\"Gladiator Draven\",\"chromas\":false},{\"id\":\"119003\",\"num\":3,\"name\":\"Primetime Draven\",\"chromas\":true},{\"id\":\"119004\",\"num\":4,\"name\":\"Pool Party Draven\",\"chromas\":false},{\"id\":\"119005\",\"num\":5,\"name\":\"Beast Hunter Draven\",\"chromas\":false},{\"id\":\"119006\",\"num\":6,\"name\":\"Draven Draven\",\"chromas\":false},{\"id\":\"119012\",\"num\":12,\"name\":\"Santa Draven\",\"chromas\":false},{\"id\":\"119013\",\"num\":13,\"name\":\"Mecha Kingdoms Draven\",\"chromas\":true},{\"id\":\"119020\",\"num\":20,\"name\":\"Ruined Draven\",\"chromas\":true},{\"id\":\"119029\",\"num\":29,\"name\":\"Debonair Draven\",\"chromas\":true},{\"id\":\"119039\",\"num\":39,\"name\":\"Fright Night Draven\",\"chromas\":true}],\"lore\":\"In Noxus, warriors known as Reckoners face one another in arenas where blood is spilled and strength tested—but none has ever been as celebrated as Draven. A former soldier, he found that the crowds uniquely appreciated his flair for the dramatic, and his unparalleled skill with his spinning axes. Addicted to the spectacle of his own brash perfection, Draven has sworn to defeat whomever he must to ensure that his name is chanted throughout the empire forever more.\",\"blurb\":\"In Noxus, warriors known as Reckoners face one another in arenas where blood is spilled and strength tested—but none has ever been as celebrated as Draven. A former soldier, he found that the crowds uniquely appreciated his flair for the dramatic, and...\",\"allytips\":[\"If Draven doesn't move, Spinning Axe will fall near his present location. It will fall directly on him, or just to the right or left.\",\"If Draven does move after attacking, Spinning Axe will lead him in the direction of his movement. Use this to control where the Spinning Axe will go.\"],\"enemytips\":[\"Launch skillshots toward the landing position of Draven's Spinning Axes.\",\"Disrupt Draven with the goal of making him drop his axes. If you do, his power drops dramatically.\"],\"tags\":[\"Marksman\"],\"partype\":\"Mana\",\"info\":{\"attack\":9,\"defense\":3,\"magic\":1,\"difficulty\":8},\"stats\":{\"hp\":675,\"hpperlevel\":104,\"mp\":361,\"mpperlevel\":39,\"movespeed\":330,\"armor\":29,\"armorperlevel\":4.5,\"spellblock\":30,\"spellblockperlevel\":1.3,\"attackrange\":550,\"hpregen\":3.75,\"hpregenperlevel\":0.7,\"mpregen\":8.05,\"mpregenperlevel\":0.65,\"crit\":0,\"critperlevel\":0,\"attackdamage\":62,\"attackdamageperlevel\":3.6,\"attackspeedperlevel\":2.7,\"attackspeed\":0.679},\"spells\":[{\"id\":\"DravenSpinning\",\"name\":\"Spinning Axe\",\"description\":\"Draven's next attack will deal bonus physical damage. This axe will ricochet off the target high up into the air. If Draven catches it, he automatically readies another Spinning Axe. Draven can have two Spinning Axes at once.\",\"tooltip\":\"Draven readies a <keywordMajor>Spinning Axe</keywordMajor>, causing his next Attack to deal an additional <physicalDamage>{{ totaldamage }} physical damage</physicalDamage> and ricochet into the air. If Draven catches it, he readies another <keywordMajor>Spinning Axe</keywordMajor>.<br /><br />Draven can hold two <keywordMajor>Spinning Axes</keywordMajor> at once.{{ spellmodifierdescriptionappend }}\",\"leveltip\":{\"label\":[\"Damage\",\"Bonus AD Percentage\",\"Cooldown\"],\"effect\":[\"{{ e5 }} -> {{ e5NL }}\",\"{{ e2 }}% -> {{ e2NL }}%\",\"{{ cooldown }} -> {{ cooldownNL }}\"]},\"maxrank\":5,\"cooldown\":[12,11,10,9,8],\"cooldownBurn\":\"12/11/10/9/8\",\"cost\":[45,45,45,45,45],\"costBurn\":\"45\",\"datavalues\":{},\"effect\":[null,[100,100,100,100,100],[75,85,95,105,115],[30,35,40,45,50],[5.75,5.75,5.75,5.75,5.75],[40,45,50,55,60],[0,0,0,0,0],[0,0,0,0,0],[0,0,0,0,0],[0,0,0,0,0],[0,0,0,0,0]],\"effectBurn\":[null,\"100\",\"75/85/95/105/115\",\"30/35/40/45/50\",\"5.75\",\"40/45/50/55/60\",\"0\",\"0\",\"0\",\"0\",\"0\"],\"vars\":[],\"costType\":\" {{ abilityresourcename }}\",\"maxammo\":\"-1\",\"range\":[300,300,300,300,300],\"rangeBurn\":\"300\",\"image\":{\"full\":\"DravenSpinning.png\",\"sprite\":\"spell2.png\",\"group\":\"spell\",\"x\":192,\"y\":144,\"w\":48,\"h\":48},\"resource\":\"{{ cost }} {{ abilityresourcename }}\"},{\"id\":\"DravenFury\",\"name\":\"Blood Rush\",\"description\":\"Draven gains increased Move Speed and Attack Speed. The Move Speed bonus decreases rapidly over its duration. Catching a Spinning Axe will refresh the cooldown of Blood Rush.\",\"tooltip\":\"Draven becomes Ghosted, gains <speed>{{ e2 }}% Move Speed</speed> decaying over {{ e3 }} seconds and <attackSpeed>{{ e4 }}% Attack Speed</attackSpeed> for {{ e5 }} seconds.<br /><br />When Draven catches a <keywordMajor>Spinning Axe</keywordMajor>, this Ability's Cooldown is refreshed.{{ spellmodifierdescriptionappend }}\",\"leveltip\":{\"label\":[\"Attack Speed\",\"@AbilityResourceName@ Cost\",\"Move Speed\"],\"effect\":[\"{{ e4 }}% -> {{ e4NL }}%\",\"{{ cost }} -> {{ costNL }}\",\"{{ e2 }}% -> {{ e2NL }}%\"]},\"maxrank\":5,\"cooldown\":[12,12,12,12,12],\"cooldownBurn\":\"12\",\"cost\":[40,35,30,25,20],\"costBurn\":\"40/35/30/25/20\",\"datavalues\":{},\"effect\":[null,[4,5,6,7,8],[50,55,60,65,70],[1.5,1.5,1.5,1.5,1.5],[20,25,30,35,40],[3,3,3,3,3],[-0.062,-0.069,-0.075,-0.081,-0.087],[0,0,0,0,0],[0,0,0,0,0],[0,0,0,0,0],[0,0,0,0,0]],\"effectBurn\":[null,\"4/5/6/7/8\",\"50/55/60/65/70\",\"1.5\",\"20/25/30/35/40\",\"3\",\"-0.062/-0.069/-0.075/-0.081/-0.087\",\"0\",\"0\",\"0\",\"0\"],\"vars\":[],\"costType\":\" {{ abilityresourcename }}\",\"maxammo\":\"-1\",\"range\":[1000,1000,1000,1000,1000],\"rangeBurn\":\"1000\",\"image\":{\"full\":\"DravenFury.png\",\"sprite\":\"spell2.png\",\"group\":\"spell\",\"x\":240,\"y\":144,\"w\":48,\"h\":48},\"resource\":\"{{ cost }} {{ abilityresourcename }}\"},{\"id\":\"DravenDoubleShot\",\"name\":\"Stand Aside\",\"description\":\"Draven throws his axes, dealing physical damage to targets hit and knocking them aside. Targets hit are slowed.\",\"tooltip\":\"Draven chucks a sideways axe that deals <physicalDamage>{{ totaldamage }} physical damage</physicalDamage>, <status>Knocks Back</status>, and <status>Slows</status> by {{ e2 }}% for {{ e3 }} seconds.{{ spellmodifierdescriptionappend }}\",\"leveltip\":{\"label\":[\"Damage\",\"Slow\",\"Cooldown\"],\"effect\":[\"{{ e1 }} -> {{ e1NL }}\",\"{{ e2 }}% -> {{ e2NL }}%\",\"{{ cooldown }} -> {{ cooldownNL }}\"]},\"maxrank\":5,\"cooldown\":[18,17,16,15,14],\"cooldownBurn\":\"18/17/16/15/14\",\"cost\":[70,70,70,70,70],\"costBurn\":\"70\",\"datavalues\":{},\"effect\":[null,[75,110,145,180,215],[20,25,30,35,40],[2,2,2,2,2],[0.5,0.5,0.5,0.5,0.5],[0,0,0,0,0],[0,0,0,0,0],[0,0,0,0,0],[0,0,0,0,0],[0,0,0,0,0],[0,0,0,0,0]],\"effectBurn\":[null,\"75/110/145/180/215\",\"20/25/30/35/40\",\"2\",\"0.5\",\"0\",\"0\",\"0\",\"0\",\"0\",\"0\"],\"vars\":[],\"costType\":\" {{ abilityresourcename }}\",\"maxammo\":\"-1\",\"range\":[1050,1050,1050,1050,1050],\"rangeBurn\":\"1050\",\"image\":{\"full\":\"DravenDoubleShot.png\",\"sprite\":\"spell2.png\",\"group\":\"spell\",\"x\":288,\"y\":144,\"w\":48,\"h\":48},\"resource\":\"{{ cost }} {{ abilityresourcename }}\"},{\"id\":\"DravenRCast\",\"name\":\"Whirling Death\",\"description\":\"Draven hurls two massive axes to deal physical damage to each unit struck. Whirling Death slowly reverses direction and returns to Draven after striking an enemy champion. Draven may also activate this ability while the axes are in flight to cause it to return early. Deals less damage for each unit hit and resets when the axes reverse direction. Executes enemies who have less health than Draven's number of Adoration stacks.\",\"tooltip\":\"Draven hurls two massive axes that deal <physicalDamage>{{ rcalculateddamage }} physical damage</physicalDamage>. Upon hitting a champion or <recast>Recasting</recast>, they reverse direction and return to Draven. The axes deal {{ rdamagereductionperhit*100 }}% less damage for each enemy hit, down to a minimum of {{ rmindamagepercent }}%.<br /><br />If <keywordMajor>Whirling Death</keywordMajor> would leave an enemy champion with less health than {{ rpassivestackscoefficient*100 }}% of Draven's current <keywordMajor>League of Draven</keywordMajor> stacks ({{ rpassivetruedamage }}), he will execute them.{{ spellmodifierdescriptionappend }}\",\"leveltip\":{\"label\":[\"Damage\",\"Cooldown\",\"Bonus AD Ratio\"],\"effect\":[\"{{ rbasedamage }} -> {{ rbasedamageNL }}\",\"{{ cooldown }} -> {{ cooldownNL }}\",\"{{ rcoefficient*100.000000 }}% -> {{ rcoefficientnl*100.000000 }}%\"]},\"maxrank\":3,\"cooldown\":[100,90,80],\"cooldownBurn\":\"100/90/80\",\"cost\":[100,100,100],\"costBurn\":\"100\",\"datavalues\":{},\"effect\":[null,[0,0,0],[0,0,0],[0,0,0],[0,0,0],[0,0,0],[0,0,0],[0,0,0],[0,0,0],[0,0,0],[0,0,0]],\"effectBurn\":[null,\"0\",\"0\",\"0\",\"0\",\"0\",\"0\",\"0\",\"0\",\"0\",\"0\"],\"vars\":[],\"costType\":\" {{ abilityresourcename }}\",\"maxammo\":\"-1\",\"range\":[20000,20000,20000],\"rangeBurn\":\"20000\",\"image\":{\"full\":\"DravenRCast.png\",\"sprite\":\"spell2.png\",\"group\":\"spell\",\"x\":336,\"y\":144,\"w\":48,\"h\":48},\"resource\":\"{{ cost }} {{ abilityresourcename }}\"}],\"passive\":{\"name\":\"League of Draven\",\"description\":\"Draven gains his fans' Adoration when he catches a Spinning Axe or kills a minion, monster, or tower. Killing enemy champions grants Draven bonus gold based on how much Adoration he has.\",\"image\":{\"full\":\"Draven_passive.png\",\"sprite\":\"passive0.png\",\"group\":\"passive\",\"x\":192,\"y\":96,\"w\":48,\"h\":48}},\"recommended\":[]}",
+    "champion_blurb": "In Noxus, warriors known as Reckoners face one another in arenas where blood is spilled and strength tested—but none has ever been as celebrated as Draven. A former soldier, he found that the crowds uniquely appreciated his flair for the dramatic, and...",
+    "lore": "In Noxus, warriors known as Reckoners face one another in arenas where blood is spilled and strength tested—but none has ever been as celebrated as Draven. A former soldier, he found that the crowds uniquely appreciated his flair for the dramatic, and his unparalleled skill with his spinning axes. Addicted to the spectacle of his own brash perfection, Draven has sworn to defeat whomever he must to ensure that his name is chanted throughout the empire forever more.",
+    "champion_icon": "https://ddragon.leagueoflegends.com/cdn/13.14.1/img/champion/Draven.png",
+    "champion_name": "Draven",
+    "champion_splash": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Draven_0.jpg",
+    "champion_title": "the Glorious Executioner",
+    "recommended_lanes": [],
+    "recommended_roles": [
+        "Marksman"
+    ],
+    "links": [
+        {
+            "href": "https://na.op.gg/champion/draven/statistics/",
+            "title": "OP.GG"
+        },
+        {
+            "href": "https://u.gg/lol/champions/draven/build",
+            "title": "U.GG"
+        },
+        {
+            "href": "https://www.probuilds.net/champions/details/draven",
+            "title": "probuilds.net"
+        }
+    ],
+    "champion": {
+        "modular_blocks": []
+    },
+    "skins": [
+        {
+            "name": "default",
+            "imageUrl": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Draven_0.jpg"
+        },
+        {
+            "name": "Soul Reaver Draven",
+            "imageUrl": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Draven_1.jpg"
+        },
+        {
+            "name": "Gladiator Draven",
+            "imageUrl": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Draven_2.jpg"
+        },
+        {
+            "name": "Primetime Draven",
+            "imageUrl": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Draven_3.jpg"
+        },
+        {
+            "name": "Pool Party Draven",
+            "imageUrl": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Draven_4.jpg"
+        },
+        {
+            "name": "Beast Hunter Draven",
+            "imageUrl": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Draven_5.jpg"
+        },
+        {
+            "name": "Draven Draven",
+            "imageUrl": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Draven_6.jpg"
+        },
+        {
+            "name": "Santa Draven",
+            "imageUrl": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Draven_12.jpg"
+        },
+        {
+            "name": "Mecha Kingdoms Draven",
+            "imageUrl": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Draven_13.jpg"
+        },
+        {
+            "name": "Ruined Draven",
+            "imageUrl": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Draven_20.jpg"
+        },
+        {
+            "name": "Debonair Draven",
+            "imageUrl": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Draven_29.jpg"
+        },
+        {
+            "name": "Fright Night Draven",
+            "imageUrl": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Draven_39.jpg"
+        }
+    ],
+    "champion_passive": {
+        "champion_passive_description": "Draven gains his fans' Adoration when he catches a Spinning Axe or kills a minion, monster, or tower. Killing enemy champions grants Draven bonus gold based on how much Adoration he has.",
+        "champion_passive_icon": "https://ddragon.leagueoflegends.com/cdn/13.14.1/img/passive/Draven_passive.png",
+        "champion_passive_name": "League of Draven",
+        "champion_passive_video_mp4": "https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0119/ability_0119_P1.mp4",
+        "champion_passive_video_poster": "https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0119/ability_0119_P1.jpg",
+        "champion_passive_video_webm": "https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0119/ability_0119_P1.webm"
+    },
+    "champion_q": {
+        "champion_q_description": "Draven's next attack will deal bonus physical damage. This axe will ricochet off the target high up into the air. If Draven catches it, he automatically readies another Spinning Axe. Draven can have two Spinning Axes at once.",
+        "champion_q_icon": "https://ddragon.leagueoflegends.com/cdn/13.14.1/img/spell/DravenSpinning.png",
+        "champion_q_name": "Spinning Axe",
+        "champion_q_video_mp4": "https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0119/ability_0119_Q1.mp4",
+        "champion_q_video_poster": "https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0119/ability_0119_Q1.jpg",
+        "champion_q_video_webm": "https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0119/ability_0119_Q1.webm"
+    },
+    "champion_w": {
+        "champion_w_description": "Draven gains increased Move Speed and Attack Speed. The Move Speed bonus decreases rapidly over its duration. Catching a Spinning Axe will refresh the cooldown of Blood Rush.",
+        "champion_w_icon": "https://ddragon.leagueoflegends.com/cdn/13.14.1/img/spell/DravenFury.png",
+        "champion_w_name": "Blood Rush",
+        "champion_w_video_mp4": "https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0119/ability_0119_W1.mp4",
+        "champion_w_video_poster": "https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0119/ability_0119_W1.jpg",
+        "champion_w_video_webm": "https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0119/ability_0119_W1.webm"
+    },
+    "champion_e": {
+        "champion_e_description": "Draven throws his axes, dealing physical damage to targets hit and knocking them aside. Targets hit are slowed.",
+        "champion_e_icon": "https://ddragon.leagueoflegends.com/cdn/13.14.1/img/spell/DravenDoubleShot.png",
+        "champion_e_name": "Stand Aside",
+        "champion_e_video_mp4": "https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0119/ability_0119_E1.mp4",
+        "champion_e_video_poster": "https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0119/ability_0119_E1.jpg",
+        "champion_e_video_webm": "https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0119/ability_0119_E1.webm"
+    },
+    "champion_r": {
+        "champion_r_description": "Draven hurls two massive axes to deal physical damage to each unit struck. Whirling Death slowly reverses direction and returns to Draven after striking an enemy champion. Draven may also activate this ability while the axes are in flight to cause it to return early. Deals less damage for each unit hit and resets when the axes reverse direction. Executes enemies who have less health than Draven's number of Adoration stacks.",
+        "champion_r_icon": "https://ddragon.leagueoflegends.com/cdn/13.14.1/img/spell/DravenRCast.png",
+        "champion_r_name": "Whirling Death",
+        "champion_r_video_mp4": "https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0119/ability_0119_R1.mp4",
+        "champion_r_video_poster": "https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0119/ability_0119_R1.jpg",
+        "champion_r_video_webm": "https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0119/ability_0119_R1.webm"
+    },
+    "related_champions": []
+  },
+  {
+    "publish_details": {
+        "locale": "en-us"
+    },
+    "uid": "blta8b5a51e31f89309",
+    "url": "/champions/ekko/",
+    "data_dragon_id": "Ekko",
+    "data_dragon_json": "{\"id\":\"Ekko\",\"key\":\"245\",\"name\":\"Ekko\",\"title\":\"the Boy Who Shattered Time\",\"image\":{\"full\":\"Ekko.png\",\"sprite\":\"champion0.png\",\"group\":\"champion\",\"x\":288,\"y\":96,\"w\":48,\"h\":48},\"skins\":[{\"id\":\"245000\",\"num\":0,\"name\":\"default\",\"chromas\":false},{\"id\":\"245001\",\"num\":1,\"name\":\"Sandstorm Ekko\",\"chromas\":true},{\"id\":\"245002\",\"num\":2,\"name\":\"Academy Ekko\",\"chromas\":false},{\"id\":\"245003\",\"num\":3,\"name\":\"PROJECT: Ekko\",\"chromas\":false},{\"id\":\"245011\",\"num\":11,\"name\":\"SKT T1 Ekko\",\"chromas\":false},{\"id\":\"245012\",\"num\":12,\"name\":\"Trick or Treat Ekko\",\"chromas\":true},{\"id\":\"245019\",\"num\":19,\"name\":\"True Damage Ekko\",\"chromas\":true},{\"id\":\"245028\",\"num\":28,\"name\":\"Pulsefire Ekko\",\"chromas\":true},{\"id\":\"245036\",\"num\":36,\"name\":\"Firelight Ekko\",\"chromas\":true},{\"id\":\"245045\",\"num\":45,\"name\":\"Star Guardian Ekko\",\"chromas\":true},{\"id\":\"245046\",\"num\":46,\"name\":\"Prestige Star Guardian Ekko\",\"chromas\":false}],\"lore\":\"A prodigy from the rough streets of Zaun, Ekko manipulates time to twist any situation to his advantage. Using his own invention, the Zero Drive, he explores the branching possibilities of reality to craft the perfect moment. Though he revels in this freedom, when there's a threat to his friends he'll do anything to defend them. To outsiders, Ekko seems to achieve the impossible the first time, every time.\",\"blurb\":\"A prodigy from the rough streets of Zaun, Ekko manipulates time to twist any situation to his advantage. Using his own invention, the Zero Drive, he explores the branching possibilities of reality to craft the perfect moment. Though he revels in this...\",\"allytips\":[\"Chronobreak is a potent escape tool, but it can also be quite powerful when used offensively. Don't underestimate its damage potential.\",\"If you can proc Z-Drive Resonance on an enemy champion, it's worth taking risks to do so. The bonus Move Speed makes it easy to escape.\",\"Phase Dive's dash is a great tool for setting up Ekko's other abilities. Use it to get double hits with Timewinder or get into position to detonate Parallel Convergence.\"],\"enemytips\":[\"Ekko is significantly weaker when his ultimate is down. Watch for the trail he leaves behind to determine if Chronobreak is available.\",\"Ekko's stun zone takes 3 seconds to arm. Watch for the image he creates on cast and try to guess where the zone was placed.\",\"The second hit of Timewinder does more damage than the first; try to avoid it.\"],\"tags\":[\"Assassin\",\"Fighter\"],\"partype\":\"Mana\",\"info\":{\"attack\":5,\"defense\":3,\"magic\":7,\"difficulty\":8},\"stats\":{\"hp\":655,\"hpperlevel\":99,\"mp\":280,\"mpperlevel\":70,\"movespeed\":340,\"armor\":32,\"armorperlevel\":4.2,\"spellblock\":32,\"spellblockperlevel\":2.05,\"attackrange\":125,\"hpregen\":9,\"hpregenperlevel\":0.9,\"mpregen\":7,\"mpregenperlevel\":0.8,\"crit\":0,\"critperlevel\":0,\"attackdamage\":58,\"attackdamageperlevel\":3,\"attackspeedperlevel\":3.3,\"attackspeed\":0.688},\"spells\":[{\"id\":\"EkkoQ\",\"name\":\"Timewinder\",\"description\":\"Ekko throws a temporal grenade that expands into a time-distortion field upon hitting an enemy champion, slowing and damaging anyone caught inside. After a delay, the grenade rewinds back to Ekko, dealing damage on its return.\",\"tooltip\":\"Ekko throws a device dealing <magicDamage>{{ initialdamage }} magic damage</magicDamage>. On hitting a champion or reaching the end of its range, it expands into a field that <status>Slows</status> enemies inside by {{ e2 }}%. After it expands, Ekko recalls it, dealing <magicDamage>{{ recalldamage }} magic damage</magicDamage>.{{ spellmodifierdescriptionappend }}\",\"leveltip\":{\"label\":[\"Cooldown\",\"@AbilityResourceName@ Cost\",\"Outgoing Damage\",\"Slow\",\"Return Damage\"],\"effect\":[\"{{ cooldown }} -> {{ cooldownNL }}\",\"{{ cost }} -> {{ costNL }}\",\"{{ e1 }} -> {{ e1NL }}\",\"{{ effect2amount*-100.000000 }}% -> {{ effect2amountnl*-100.000000 }}%\",\"{{ e3 }} -> {{ e3NL }}\"]},\"maxrank\":5,\"cooldown\":[9,8.5,8,7.5,7],\"cooldownBurn\":\"9/8.5/8/7.5/7\",\"cost\":[50,60,70,80,90],\"costBurn\":\"50/60/70/80/90\",\"datavalues\":{},\"effect\":[null,[60,75,90,105,120],[32,39,46,53,60],[40,65,90,115,140],[100,100,100,100,100],[0,0,0,0,0],[165,165,165,165,165],[1.75,1.75,1.75,1.75,1.75],[0,0,0,0,0],[0,0,0,0,0],[0,0,0,0,0]],\"effectBurn\":[null,\"60/75/90/105/120\",\"32/39/46/53/60\",\"40/65/90/115/140\",\"100\",\"0\",\"165\",\"1.75\",\"0\",\"0\",\"0\"],\"vars\":[],\"costType\":\" {{ abilityresourcename }}\",\"maxammo\":\"-1\",\"range\":[1075,1075,1075,1075,1075],\"rangeBurn\":\"1075\",\"image\":{\"full\":\"EkkoQ.png\",\"sprite\":\"spell3.png\",\"group\":\"spell\",\"x\":96,\"y\":0,\"w\":48,\"h\":48},\"resource\":\"{{ cost }} {{ abilityresourcename }}\"},{\"id\":\"EkkoW\",\"name\":\"Parallel Convergence\",\"description\":\"Ekko's basic attacks deal bonus magic damage to low health enemies. He can cast Parallel Convergence to split the timeline, creating an anomaly after a few seconds that slows enemies caught inside. If Ekko enters the anomaly, he gains shielding and stuns enemies by suspending them in time.\",\"tooltip\":\"<spellPassive>Passive:</spellPassive> Ekko's Attacks against enemies below 30% Health deal <magicDamage>{{ missinghealthpercent }} missing Health magic damage</magicDamage>.<br /><br /><spellActive>Active:</spellActive> Ekko launches a chronosphere lasting 1.5 seconds after a delay that <status>Slows</status> enemies inside by {{ e0 }}%. If Ekko enters the sphere, he detonates it, <status>Stunning</status> for {{ e2 }} seconds and gaining <shield>{{ totalshield }} Shield</shield>.{{ spellmodifierdescriptionappend }}\",\"leveltip\":{\"label\":[\"Shield Amount\",\"Cooldown\",\"@AbilityResourceName@ Cost\"],\"effect\":[\"{{ e4 }} -> {{ e4NL }}\",\"{{ cooldown }} -> {{ cooldownNL }}\",\"{{ cost }} -> {{ costNL }}\"]},\"maxrank\":5,\"cooldown\":[22,20,18,16,14],\"cooldownBurn\":\"22/20/18/16/14\",\"cost\":[30,35,40,45,50],\"costBurn\":\"30/35/40/45/50\",\"datavalues\":{},\"effect\":[null,[375,375,375,375,375],[2.25,2.25,2.25,2.25,2.25],[3,3,3,3,3],[70,90,110,130,150],[150,150,150,150,150],[15,15,15,15,15],[1.5,1.5,1.5,1.5,1.5],[3,3,3,3,3],[2,2,2,2,2],[40,40,40,40,40]],\"effectBurn\":[null,\"375\",\"2.25\",\"3\",\"70/90/110/130/150\",\"150\",\"15\",\"1.5\",\"3\",\"2\",\"40\"],\"vars\":[],\"costType\":\" {{ abilityresourcename }}\",\"maxammo\":\"-1\",\"range\":[1600,1600,1600,1600,1600],\"rangeBurn\":\"1600\",\"image\":{\"full\":\"EkkoW.png\",\"sprite\":\"spell3.png\",\"group\":\"spell\",\"x\":144,\"y\":0,\"w\":48,\"h\":48},\"resource\":\"{{ cost }} {{ abilityresourcename }}\"},{\"id\":\"EkkoE\",\"name\":\"Phase Dive\",\"description\":\"Ekko rolls evasively while charging up his Z-Drive. His next attack deals bonus damage and warps reality, teleporting him to his target.\",\"tooltip\":\"Ekko dashes and empowers his next Attack to have bonus range, teleport him to his target, and deal an additional <magicDamage>{{ totaldamage }} magic damage</magicDamage>.{{ spellmodifierdescriptionappend }}\",\"leveltip\":{\"label\":[\"Damage\",\"Cooldown\",\"@AbilityResourceName@ Cost\"],\"effect\":[\"{{ e1 }} -> {{ e1NL }}\",\"{{ cooldown }} -> {{ cooldownNL }}\",\"{{ cost }} -> {{ costNL }}\"]},\"maxrank\":5,\"cooldown\":[9,8.5,8,7.5,7],\"cooldownBurn\":\"9/8.5/8/7.5/7\",\"cost\":[40,45,50,55,60],\"costBurn\":\"40/45/50/55/60\",\"datavalues\":{},\"effect\":[null,[50,75,100,125,150],[350,350,350,350,350],[3,3,3,3,3],[300,300,300,300,300],[0,0,0,0,0],[0,0,0,0,0],[0,0,0,0,0],[0,0,0,0,0],[0,0,0,0,0],[0,0,0,0,0]],\"effectBurn\":[null,\"50/75/100/125/150\",\"350\",\"3\",\"300\",\"0\",\"0\",\"0\",\"0\",\"0\",\"0\"],\"vars\":[],\"costType\":\" {{ abilityresourcename }}\",\"maxammo\":\"-1\",\"range\":[325,325,325,325,325],\"rangeBurn\":\"325\",\"image\":{\"full\":\"EkkoE.png\",\"sprite\":\"spell3.png\",\"group\":\"spell\",\"x\":192,\"y\":0,\"w\":48,\"h\":48},\"resource\":\"{{ cost }} {{ abilityresourcename }}\"},{\"id\":\"EkkoR\",\"name\":\"Chronobreak\",\"description\":\"Ekko shatters his timeline, becoming untargetable and rewinding to a more favorable point in time. He returns to whenever he was a few seconds ago, and heals for a percentage of the damage received in that duration. Enemies near his arrival zone take massive damage.\",\"tooltip\":\"Ekko turns back time, entering Stasis while teleporting to where he was 4 seconds ago and dealing <magicDamage>{{ totaldamage }} magic damage</magicDamage> to nearby enemies. In addition, Ekko restores <healing>{{ totalbaseheal }} Health</healing>, increased by {{ percenthealampperpercentmissinghealth }}% for each 1% Health he lost in last 4 seconds.{{ spellmodifierdescriptionappend }}\",\"leveltip\":{\"label\":[\"Damage\",\"Healing\",\"Cooldown\"],\"effect\":[\"{{ damage }} -> {{ damageNL }}\",\"{{ flatheal }} -> {{ flathealNL }}\",\"{{ cooldown }} -> {{ cooldownNL }}\"]},\"maxrank\":3,\"cooldown\":[110,80,50],\"cooldownBurn\":\"110/80/50\",\"cost\":[100,100,100],\"costBurn\":\"100\",\"datavalues\":{},\"effect\":[null,[0,0,0],[0,0,0],[0,0,0],[0,0,0],[0,0,0],[0,0,0],[0,0,0],[0,0,0],[0,0,0],[0,0,0]],\"effectBurn\":[null,\"0\",\"0\",\"0\",\"0\",\"0\",\"0\",\"0\",\"0\",\"0\",\"0\"],\"vars\":[],\"costType\":\" {{ abilityresourcename }}\",\"maxammo\":\"-1\",\"range\":[850,850,850],\"rangeBurn\":\"850\",\"image\":{\"full\":\"EkkoR.png\",\"sprite\":\"spell3.png\",\"group\":\"spell\",\"x\":240,\"y\":0,\"w\":48,\"h\":48},\"resource\":\"{{ cost }} {{ abilityresourcename }}\"}],\"passive\":{\"name\":\"Z-Drive Resonance\",\"description\":\"Every third attack or damaging spell on the same target deals bonus magic damage, and grants Ekko a burst of speed if the target is a champion.<br><br>\",\"image\":{\"full\":\"Ekko_P.png\",\"sprite\":\"passive0.png\",\"group\":\"passive\",\"x\":288,\"y\":96,\"w\":48,\"h\":48}},\"recommended\":[]}",
+    "champion_blurb": "A prodigy from the rough streets of Zaun, Ekko manipulates time to twist any situation to his advantage. Using his own invention, the Zero Drive, he explores the branching possibilities of reality to craft the perfect moment. Though he revels in this...",
+    "lore": "A prodigy from the rough streets of Zaun, Ekko manipulates time to twist any situation to his advantage. Using his own invention, the Zero Drive, he explores the branching possibilities of reality to craft the perfect moment. Though he revels in this freedom, when there's a threat to his friends he'll do anything to defend them. To outsiders, Ekko seems to achieve the impossible the first time, every time.",
+    "champion_icon": "https://ddragon.leagueoflegends.com/cdn/13.14.1/img/champion/Ekko.png",
+    "champion_name": "Ekko",
+    "champion_splash": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Ekko_0.jpg",
+    "champion_title": "the Boy Who Shattered Time",
+    "recommended_lanes": [],
+    "recommended_roles": [
+        "Assassin",
+        "Fighter"
+    ],
+    "links": [
+        {
+            "href": "https://na.op.gg/champion/ekko/statistics/",
+            "title": "OP.GG"
+        },
+        {
+            "href": "https://u.gg/lol/champions/ekko/build",
+            "title": "U.GG"
+        },
+        {
+            "href": "https://www.probuilds.net/champions/details/ekko",
+            "title": "probuilds.net"
+        }
+    ],
+    "champion": {
+        "modular_blocks": []
+    },
+    "skins": [
+        {
+            "name": "default",
+            "imageUrl": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Ekko_0.jpg"
+        },
+        {
+            "name": "Sandstorm Ekko",
+            "imageUrl": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Ekko_1.jpg"
+        },
+        {
+            "name": "Academy Ekko",
+            "imageUrl": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Ekko_2.jpg"
+        },
+        {
+            "name": "PROJECT: Ekko",
+            "imageUrl": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Ekko_3.jpg"
+        },
+        {
+            "name": "SKT T1 Ekko",
+            "imageUrl": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Ekko_11.jpg"
+        },
+        {
+            "name": "Trick or Treat Ekko",
+            "imageUrl": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Ekko_12.jpg"
+        },
+        {
+            "name": "True Damage Ekko",
+            "imageUrl": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Ekko_19.jpg"
+        },
+        {
+            "name": "Pulsefire Ekko",
+            "imageUrl": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Ekko_28.jpg"
+        },
+        {
+            "name": "Firelight Ekko",
+            "imageUrl": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Ekko_36.jpg"
+        },
+        {
+            "name": "Star Guardian Ekko",
+            "imageUrl": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Ekko_45.jpg"
+        },
+        {
+            "name": "Prestige Star Guardian Ekko",
+            "imageUrl": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Ekko_46.jpg"
+        }
+    ],
+    "champion_passive": {
+        "champion_passive_description": "Every third attack or damaging spell on the same target deals bonus magic damage, and grants Ekko a burst of speed if the target is a champion.\n\n",
+        "champion_passive_icon": "https://ddragon.leagueoflegends.com/cdn/13.14.1/img/passive/Ekko_P.png",
+        "champion_passive_name": "Z-Drive Resonance",
+        "champion_passive_video_mp4": "https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0245/ability_0245_P1.mp4",
+        "champion_passive_video_poster": "https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0245/ability_0245_P1.jpg",
+        "champion_passive_video_webm": "https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0245/ability_0245_P1.webm"
+    },
+    "champion_q": {
+        "champion_q_description": "Ekko throws a temporal grenade that expands into a time-distortion field upon hitting an enemy champion, slowing and damaging anyone caught inside. After a delay, the grenade rewinds back to Ekko, dealing damage on its return.",
+        "champion_q_icon": "https://ddragon.leagueoflegends.com/cdn/13.14.1/img/spell/EkkoQ.png",
+        "champion_q_name": "Timewinder",
+        "champion_q_video_mp4": "https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0245/ability_0245_Q1.mp4",
+        "champion_q_video_poster": "https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0245/ability_0245_Q1.jpg",
+        "champion_q_video_webm": "https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0245/ability_0245_Q1.webm"
+    },
+    "champion_w": {
+        "champion_w_description": "Ekko's basic attacks deal bonus magic damage to low health enemies. He can cast Parallel Convergence to split the timeline, creating an anomaly after a few seconds that slows enemies caught inside. If Ekko enters the anomaly, he gains shielding and stuns enemies by suspending them in time.",
+        "champion_w_icon": "https://ddragon.leagueoflegends.com/cdn/13.14.1/img/spell/EkkoW.png",
+        "champion_w_name": "Parallel Convergence",
+        "champion_w_video_mp4": "https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0245/ability_0245_W1.mp4",
+        "champion_w_video_poster": "https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0245/ability_0245_W1.jpg",
+        "champion_w_video_webm": "https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0245/ability_0245_W1.webm"
+    },
+    "champion_e": {
+        "champion_e_description": "Ekko rolls evasively while charging up his Z-Drive. His next attack deals bonus damage and warps reality, teleporting him to his target.",
+        "champion_e_icon": "https://ddragon.leagueoflegends.com/cdn/13.14.1/img/spell/EkkoE.png",
+        "champion_e_name": "Phase Dive",
+        "champion_e_video_mp4": "https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0245/ability_0245_E1.mp4",
+        "champion_e_video_poster": "https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0245/ability_0245_E1.jpg",
+        "champion_e_video_webm": "https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0245/ability_0245_E1.webm"
+    },
+    "champion_r": {
+        "champion_r_description": "Ekko shatters his timeline, becoming untargetable and rewinding to a more favorable point in time. He returns to whenever he was a few seconds ago, and heals for a percentage of the damage received in that duration. Enemies near his arrival zone take massive damage.",
+        "champion_r_icon": "https://ddragon.leagueoflegends.com/cdn/13.14.1/img/spell/EkkoR.png",
+        "champion_r_name": "Chronobreak",
+        "champion_r_video_mp4": "https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0245/ability_0245_R1.mp4",
+        "champion_r_video_poster": "https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0245/ability_0245_R1.jpg",
+        "champion_r_video_webm": "https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0245/ability_0245_R1.webm"
+    },
+    "related_champions": []
+  },
+  {
+    "publish_details": {
+        "locale": "en-us"
+    },
+    "uid": "blt29b284b0b6e95d55",
+    "url": "/champions/elise/",
+    "data_dragon_id": "Elise",
+    "data_dragon_json": "{\"id\":\"Elise\",\"key\":\"60\",\"name\":\"Elise\",\"title\":\"the Spider Queen\",\"image\":{\"full\":\"Elise.png\",\"sprite\":\"champion0.png\",\"group\":\"champion\",\"x\":336,\"y\":96,\"w\":48,\"h\":48},\"skins\":[{\"id\":\"60000\",\"num\":0,\"name\":\"default\",\"chromas\":false},{\"id\":\"60001\",\"num\":1,\"name\":\"Death Blossom Elise\",\"chromas\":false},{\"id\":\"60002\",\"num\":2,\"name\":\"Victorious Elise\",\"chromas\":false},{\"id\":\"60003\",\"num\":3,\"name\":\"Blood Moon Elise\",\"chromas\":false},{\"id\":\"60004\",\"num\":4,\"name\":\"SKT T1 Elise\",\"chromas\":false},{\"id\":\"60005\",\"num\":5,\"name\":\"Super Galaxy Elise\",\"chromas\":false},{\"id\":\"60006\",\"num\":6,\"name\":\"Bewitching Elise\",\"chromas\":true},{\"id\":\"60015\",\"num\":15,\"name\":\"Withered Rose Elise\",\"chromas\":true}],\"lore\":\"Elise is a deadly predator who dwells in a shuttered, lightless palace, deep within the oldest city of Noxus. Once mortal, she was the mistress of a powerful house, but the bite of a vile demigod transformed her into something beautiful, yet utterly inhuman—a spider-like creature, drawing unsuspecting prey into her web. To maintain her eternal youth, Elise now prefers to feed upon the naive and the faithless, and there are few who can resist her seductions.\",\"blurb\":\"Elise is a deadly predator who dwells in a shuttered, lightless palace, deep within the oldest city of Noxus. Once mortal, she was the mistress of a powerful house, but the bite of a vile demigod transformed her into something beautiful, yet utterly...\",\"allytips\":[\"Spider Form is most effective at finishing off enemies with low health; Human Form's Neurotoxin does more damage to healthy foes. \",\"When in Spider Form, Spiderlings will attack the target that Elise uses Venomous Bite on. \",\"Elise's Spider Form and Spider Form abilities do not cost mana and can be prioritized when you are trying to conserve mana.\"],\"enemytips\":[\"Elise's Spider Form is more dangerous when you are at low health, and her Human Form more potent when you are at high health.\",\"Rappel will only move Elise straight up and down unless she can descend upon an enemy unit.\",\"Rappel has a long cooldown. Elise is vulnerable after she has used it.\"],\"tags\":[\"Mage\",\"Fighter\"],\"partype\":\"Mana\",\"info\":{\"attack\":6,\"defense\":5,\"magic\":7,\"difficulty\":9},\"stats\":{\"hp\":650,\"hpperlevel\":109,\"mp\":324,\"mpperlevel\":50,\"movespeed\":330,\"armor\":30,\"armorperlevel\":5.2,\"spellblock\":30,\"spellblockperlevel\":1.3,\"attackrange\":550,\"hpregen\":5.5,\"hpregenperlevel\":0.6,\"mpregen\":6,\"mpregenperlevel\":0.8,\"crit\":0,\"critperlevel\":0,\"attackdamage\":55,\"attackdamageperlevel\":3,\"attackspeedperlevel\":1.75,\"attackspeed\":0.625},\"spells\":[{\"id\":\"EliseHumanQ\",\"name\":\"Neurotoxin / Venomous Bite\",\"description\":\"Human Form: Deals damage based upon how high the target's Health is.<br><br>Spider Form: Lunges at an enemy and deals damage based upon how low their Health is.\",\"tooltip\":\"<keywordMajor>Human Form</keywordMajor>: Elise injects neurotoxin, dealing <magicDamage>{{ e1 }} plus {{ humanpercenthealth }} current Health magic damage</magicDamage>.{{ spellmodifierdescriptionappend }}\",\"leveltip\":{\"label\":[\"Neurotoxin Damage\",\"Venomous Bite Damage\",\"Monster Damage Cap\",\"Mana Cost (Neurotoxin)\"],\"effect\":[\"{{ e1 }} -> {{ e1NL }}\",\"{{ e5 }} -> {{ e5NL }}\",\"{{ e2 }} -> {{ e2NL }}\",\"{{ cost }} -> {{ costNL }}\"]},\"maxrank\":5,\"cooldown\":[6,6,6,6,6],\"cooldownBurn\":\"6\",\"cost\":[80,85,90,95,100],\"costBurn\":\"80/85/90/95/100\",\"datavalues\":{},\"effect\":[null,[40,75,110,145,180],[75,100,125,150,175],[15,20,25,30,35],[36,42,48,54,60],[60,90,120,150,180],[4,4,4,4,4],[0,0,0,0,0],[0,0,0,0,0],[0,0,0,0,0],[0,0,0,0,0]],\"effectBurn\":[null,\"40/75/110/145/180\",\"75/100/125/150/175\",\"15/20/25/30/35\",\"36/42/48/54/60\",\"60/90/120/150/180\",\"4\",\"0\",\"0\",\"0\",\"0\"],\"vars\":[],\"costType\":\" {{ abilityresourcename }}\",\"maxammo\":\"-1\",\"range\":[615,615,615,615,615],\"rangeBurn\":\"615\",\"image\":{\"full\":\"EliseHumanQ.png\",\"sprite\":\"spell3.png\",\"group\":\"spell\",\"x\":288,\"y\":0,\"w\":48,\"h\":48},\"resource\":\"{{ cost }} {{ abilityresourcename }}\"},{\"id\":\"EliseHumanW\",\"name\":\"Volatile Spiderling / Skittering Frenzy\",\"description\":\"Human Form: Releases a venom-gorged Spiderling that explodes when it nears a target.<br><br>Spider Form: Elise and her Spiderlings gain Attack Speed.\",\"tooltip\":\"<keywordMajor>Human Form</keywordMajor>: Elise summons an explosive spider that moves to a location and explodes when it nears an enemy or after 3 seconds. The spider deals <magicDamage>{{ spell.elisehumanw:totalspiderdamage }} magic damage</magicDamage>.{{ spellmodifierdescriptionappend }}\",\"leveltip\":{\"label\":[\"Damage\",\"@AbilityResourceName@ Cost\"],\"effect\":[\"{{ e3 }} -> {{ e3NL }}\",\"{{ cost }} -> {{ costNL }}\"]},\"maxrank\":5,\"cooldown\":[12,12,12,12,12],\"cooldownBurn\":\"12\",\"cost\":[60,70,80,90,100],\"costBurn\":\"60/70/80/90/100\",\"datavalues\":{},\"effect\":[null,[4,4,4,4,4],[60,80,100,120,140],[60,105,150,195,240],[3,3,3,3,3],[65,75,85,95,105],[275,275,275,275,275],[0,0,0,0,0],[0,0,0,0,0],[0,0,0,0,0],[0,0,0,0,0]],\"effectBurn\":[null,\"4\",\"60/80/100/120/140\",\"60/105/150/195/240\",\"3\",\"65/75/85/95/105\",\"275\",\"0\",\"0\",\"0\",\"0\"],\"vars\":[],\"costType\":\" {{ abilityresourcename }}\",\"maxammo\":\"-1\",\"range\":[950,950,950,950,950],\"rangeBurn\":\"950\",\"image\":{\"full\":\"EliseHumanW.png\",\"sprite\":\"spell3.png\",\"group\":\"spell\",\"x\":336,\"y\":0,\"w\":48,\"h\":48},\"resource\":\"{{ cost }} {{ abilityresourcename }}\"},{\"id\":\"EliseHumanE\",\"name\":\"Cocoon / Rappel\",\"description\":\"Human Form: Stuns the first enemy unit hit and reveals them if they are not stealthed.<br><br>Spider Form: Elise and her Spiderlings ascend into the air and then descend upon target enemy. After descending on an enemy target, Elise's bonus damage and healing from Spider Queen is increased.\",\"tooltip\":\"<keywordMajor>Human Form</keywordMajor>: Elise fires a cocoon, <status>Stunning</status> and revealing the first enemy hit for {{ e5 }} seconds.{{ spellmodifierdescriptionappend }}\",\"leveltip\":{\"label\":[\"Stun Duration\",\"Cooldown (Cocoon)\",\"Cooldown (Rappel)\",\"Damage and Healing Increase\"],\"effect\":[\"{{ e5 }} -> {{ e5NL }}\",\"{{ cooldown }} -> {{ cooldownNL }}\",\"{{ e3 }} -> {{ e3NL }}\",\"{{ effect6amount*100.000000 }}% -> {{ effect6amountnl*100.000000 }}%\"]},\"maxrank\":5,\"cooldown\":[12,11.5,11,10.5,10],\"cooldownBurn\":\"12/11.5/11/10.5/10\",\"cost\":[50,50,50,50,50],\"costBurn\":\"50\",\"datavalues\":{},\"effect\":[null,[12,11.5,11,10.5,10],[15,20,25,30,35],[22,21,20,19,18],[2,2,2,2,2],[1.6,1.7,1.8,1.9,2],[40,55,70,85,100],[250,250,250,250,250],[0,0,0,0,0],[0,0,0,0,0],[0,0,0,0,0]],\"effectBurn\":[null,\"12/11.5/11/10.5/10\",\"15/20/25/30/35\",\"22/21/20/19/18\",\"2\",\"1.6/1.7/1.8/1.9/2\",\"40/55/70/85/100\",\"250\",\"0\",\"0\",\"0\"],\"vars\":[],\"costType\":\" {{ abilityresourcename }}\",\"maxammo\":\"-1\",\"range\":[1075,1075,1075,1075,1075],\"rangeBurn\":\"1075\",\"image\":{\"full\":\"EliseHumanE.png\",\"sprite\":\"spell3.png\",\"group\":\"spell\",\"x\":384,\"y\":0,\"w\":48,\"h\":48},\"resource\":\"{{ cost }} {{ abilityresourcename }}\"},{\"id\":\"EliseR\",\"name\":\"Spider Form\",\"description\":\"Transforms into a menacing spider, reducing her attack range in exchange for Move Speed, new abilities, and a Spiderling swarm that will attack her foes.\",\"tooltip\":\"<keywordMajor>Human Form</keywordMajor>: Elise transforms into a menacing spider, becoming melee ranged, and gaining <speed>{{ e3 }} Move Speed</speed> and access to <keywordMajor>Spider Form</keywordMajor> Abilities. She also summons all dormant <keywordMajor>Spiderlings</keywordMajor>.{{ spellmodifierdescriptionappend }}\",\"leveltip\":{\"label\":[\"Spider Form Bite Damage\",\"Spiderling Bonus Damage\",\"Maximum Number of Spiderlings\",\"Spiderling Armor\",\"Spiderling Magic Resist\"],\"effect\":[\"{{ e2 }} -> {{ e2NL }}\",\"{{ e1 }} -> {{ e1NL }}\",\"{{ e5 }} -> {{ e5NL }}\",\"{{ e6 }} -> {{ e6NL }}\",\"{{ e7 }} -> {{ e7NL }}\"]},\"maxrank\":4,\"cooldown\":[4,4,4,4],\"cooldownBurn\":\"4\",\"cost\":[0,0,0,0],\"costBurn\":\"0\",\"datavalues\":{},\"effect\":[null,[8,14,20,26],[10,20,30,40],[25,25,25,25],[25,25,25,25],[2,3,4,5],[30,50,70,90],[50,70,90,110],[4,6,8,10],[0.08,0.08,0.08,0.08],[0,0,0,0]],\"effectBurn\":[null,\"8/14/20/26\",\"10/20/30/40\",\"25\",\"25\",\"2/3/4/5\",\"30/50/70/90\",\"50/70/90/110\",\"4/6/8/10\",\"0.08\",\"0\"],\"vars\":[],\"costType\":\"No Cost\",\"maxammo\":\"-1\",\"range\":[20,20,20,20],\"rangeBurn\":\"20\",\"image\":{\"full\":\"EliseR.png\",\"sprite\":\"spell3.png\",\"group\":\"spell\",\"x\":432,\"y\":0,\"w\":48,\"h\":48},\"resource\":\"No Cost\"}],\"passive\":{\"name\":\"Spider Queen\",\"description\":\"Human Form: When Elise's abilities hit an enemy, she gains a dormant Spiderling.<br><br>Spider Form: Basic attacks deal bonus magic damage and restore health to Elise.\",\"image\":{\"full\":\"ElisePassive.png\",\"sprite\":\"passive0.png\",\"group\":\"passive\",\"x\":336,\"y\":96,\"w\":48,\"h\":48}},\"recommended\":[]}",
+    "champion_blurb": "Elise is a deadly predator who dwells in a shuttered, lightless palace, deep within the oldest city of Noxus. Once mortal, she was the mistress of a powerful house, but the bite of a vile demigod transformed her into something beautiful, yet utterly...",
+    "lore": "Elise is a deadly predator who dwells in a shuttered, lightless palace, deep within the oldest city of Noxus. Once mortal, she was the mistress of a powerful house, but the bite of a vile demigod transformed her into something beautiful, yet utterly inhuman—a spider-like creature, drawing unsuspecting prey into her web. To maintain her eternal youth, Elise now prefers to feed upon the naive and the faithless, and there are few who can resist her seductions.",
+    "champion_icon": "https://ddragon.leagueoflegends.com/cdn/13.14.1/img/champion/Elise.png",
+    "champion_name": "Elise",
+    "champion_splash": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Elise_0.jpg",
+    "champion_title": "the Spider Queen",
+    "recommended_lanes": [],
+    "recommended_roles": [
+        "Mage",
+        "Fighter"
+    ],
+    "links": [
+        {
+            "href": "https://na.op.gg/champion/elise/statistics/",
+            "title": "OP.GG"
+        },
+        {
+            "href": "https://u.gg/lol/champions/elise/build",
+            "title": "U.GG"
+        },
+        {
+            "href": "https://www.probuilds.net/champions/details/elise",
+            "title": "probuilds.net"
+        }
+    ],
+    "champion": {
+        "modular_blocks": []
+    },
+    "skins": [
+        {
+            "name": "default",
+            "imageUrl": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Elise_0.jpg"
+        },
+        {
+            "name": "Death Blossom Elise",
+            "imageUrl": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Elise_1.jpg"
+        },
+        {
+            "name": "Victorious Elise",
+            "imageUrl": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Elise_2.jpg"
+        },
+        {
+            "name": "Blood Moon Elise",
+            "imageUrl": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Elise_3.jpg"
+        },
+        {
+            "name": "SKT T1 Elise",
+            "imageUrl": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Elise_4.jpg"
+        },
+        {
+            "name": "Super Galaxy Elise",
+            "imageUrl": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Elise_5.jpg"
+        },
+        {
+            "name": "Bewitching Elise",
+            "imageUrl": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Elise_6.jpg"
+        },
+        {
+            "name": "Withered Rose Elise",
+            "imageUrl": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Elise_15.jpg"
+        }
+    ],
+    "champion_passive": {
+        "champion_passive_description": "Human Form: When Elise's abilities hit an enemy, she gains a dormant Spiderling.\n\nSpider Form: Basic attacks deal bonus magic damage and restore health to Elise.",
+        "champion_passive_icon": "https://ddragon.leagueoflegends.com/cdn/13.14.1/img/passive/ElisePassive.png",
+        "champion_passive_name": "Spider Queen",
+        "champion_passive_video_mp4": "https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0060/ability_0060_P1.mp4",
+        "champion_passive_video_poster": "https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0060/ability_0060_P1.jpg",
+        "champion_passive_video_webm": "https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0060/ability_0060_P1.webm"
+    },
+    "champion_q": {
+        "champion_q_description": "Human Form: Deals damage based upon how high the target's Health is.\n\nSpider Form: Lunges at an enemy and deals damage based upon how low their Health is.",
+        "champion_q_icon": "https://ddragon.leagueoflegends.com/cdn/13.14.1/img/spell/EliseHumanQ.png",
+        "champion_q_name": "Neurotoxin / Venomous Bite",
+        "champion_q_video_mp4": "https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0060/ability_0060_Q1.mp4",
+        "champion_q_video_poster": "https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0060/ability_0060_Q1.jpg",
+        "champion_q_video_webm": "https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0060/ability_0060_Q1.webm"
+    },
+    "champion_w": {
+        "champion_w_description": "Human Form: Releases a venom-gorged Spiderling that explodes when it nears a target.\n\nSpider Form: Elise and her Spiderlings gain Attack Speed.",
+        "champion_w_icon": "https://ddragon.leagueoflegends.com/cdn/13.14.1/img/spell/EliseHumanW.png",
+        "champion_w_name": "Volatile Spiderling / Skittering Frenzy",
+        "champion_w_video_mp4": "https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0060/ability_0060_W1.mp4",
+        "champion_w_video_poster": "https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0060/ability_0060_W1.jpg",
+        "champion_w_video_webm": "https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0060/ability_0060_W1.webm"
+    },
+    "champion_e": {
+        "champion_e_description": "Human Form: Stuns the first enemy unit hit and reveals them if they are not stealthed.\n\nSpider Form: Elise and her Spiderlings ascend into the air and then descend upon target enemy. After descending on an enemy target, Elise's bonus damage and healing from Spider Queen is increased.",
+        "champion_e_icon": "https://ddragon.leagueoflegends.com/cdn/13.14.1/img/spell/EliseHumanE.png",
+        "champion_e_name": "Cocoon / Rappel",
+        "champion_e_video_mp4": "https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0060/ability_0060_E1.mp4",
+        "champion_e_video_poster": "https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0060/ability_0060_E1.jpg",
+        "champion_e_video_webm": "https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0060/ability_0060_E1.webm"
+    },
+    "champion_r": {
+        "champion_r_description": "Transforms into a menacing spider, reducing her attack range in exchange for Move Speed, new abilities, and a Spiderling swarm that will attack her foes.",
+        "champion_r_icon": "https://ddragon.leagueoflegends.com/cdn/13.14.1/img/spell/EliseR.png",
+        "champion_r_name": "Spider Form",
+        "champion_r_video_mp4": "https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0060/ability_0060_R1.mp4",
+        "champion_r_video_poster": "https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0060/ability_0060_R1.jpg",
+        "champion_r_video_webm": "https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0060/ability_0060_R1.webm"
+    },
+    "related_champions": []
+  },
+  {
+    "publish_details": {
+        "locale": "en-us"
+    },
+    "uid": "bltfdc8a0a29298a7d8",
+    "url": "/champions/evelynn/",
+    "data_dragon_id": "Evelynn",
+    "data_dragon_json": "{\"id\":\"Evelynn\",\"key\":\"28\",\"name\":\"Evelynn\",\"title\":\"Agony's Embrace\",\"image\":{\"full\":\"Evelynn.png\",\"sprite\":\"champion0.png\",\"group\":\"champion\",\"x\":384,\"y\":96,\"w\":48,\"h\":48},\"skins\":[{\"id\":\"28000\",\"num\":0,\"name\":\"default\",\"chromas\":false},{\"id\":\"28001\",\"num\":1,\"name\":\"Shadow Evelynn\",\"chromas\":false},{\"id\":\"28002\",\"num\":2,\"name\":\"Masquerade Evelynn\",\"chromas\":false},{\"id\":\"28003\",\"num\":3,\"name\":\"Tango Evelynn\",\"chromas\":false},{\"id\":\"28004\",\"num\":4,\"name\":\"Safecracker Evelynn\",\"chromas\":false},{\"id\":\"28005\",\"num\":5,\"name\":\"Blood Moon Evelynn\",\"chromas\":false},{\"id\":\"28006\",\"num\":6,\"name\":\"K/DA Evelynn\",\"chromas\":false},{\"id\":\"28007\",\"num\":7,\"name\":\"Prestige K/DA Evelynn\",\"chromas\":false},{\"id\":\"28008\",\"num\":8,\"name\":\"Sugar Rush Evelynn\",\"chromas\":true},{\"id\":\"28015\",\"num\":15,\"name\":\"K/DA ALL OUT Evelynn\",\"chromas\":true},{\"id\":\"28024\",\"num\":24,\"name\":\"Coven Evelynn\",\"chromas\":true},{\"id\":\"28031\",\"num\":31,\"name\":\"Prestige K/DA Evelynn (2022)\",\"chromas\":false},{\"id\":\"28032\",\"num\":32,\"name\":\"Spirit Blossom Evelynn\",\"chromas\":true}],\"lore\":\"Within the dark seams of Runeterra, the demon Evelynn searches for her next victim. She lures in prey with the voluptuous façade of a human female, but once a person succumbs to her charms, Evelynn's true form is unleashed. She then subjects her victim to unspeakable torment, gratifying herself with their pain. To the demon, these liaisons are innocent flings. To the rest of Runeterra, they are ghoulish tales of lust gone awry and horrific reminders of the cost of wanton desire.\",\"blurb\":\"Within the dark seams of Runeterra, the demon Evelynn searches for her next victim. She lures in prey with the voluptuous façade of a human female, but once a person succumbs to her charms, Evelynn's true form is unleashed. She then subjects her victim...\",\"allytips\":[\"Allure's arm time might seem long, but the Charm and magic resist shred put Evelynn at an exteme advantage so are worth the wait.\",\"While stealthed, pay attention to when you are (near) being detected by enemy champions. This is identified by the glowing yellow and red eyes over nearby enemy champions.\",\"If at low health, you can take advantage of Demon Shade's healing and Camouflage to return to the fight and surprise opponents.\"],\"enemytips\":[\"Purchasing Vision Wards can help you detect Evelynn's location in order to prepare for her ambushes.\",\"A large share of Evelynn's threat is in her charm, 'Allure.' Protect allies marked with 'Allure' or, if you are marked, make sure allies are between you and where Evelynn may attack from.\",\"If you suspect Evelynn is about to ambush one of your teammates, let them know by pinging the minimap and typing in chat.\"],\"tags\":[\"Assassin\",\"Mage\"],\"partype\":\"Mana\",\"info\":{\"attack\":4,\"defense\":2,\"magic\":7,\"difficulty\":10},\"stats\":{\"hp\":642,\"hpperlevel\":98,\"mp\":315,\"mpperlevel\":42,\"movespeed\":335,\"armor\":37,\"armorperlevel\":4.7,\"spellblock\":32,\"spellblockperlevel\":2.05,\"attackrange\":125,\"hpregen\":8.5,\"hpregenperlevel\":0.75,\"mpregen\":8.11,\"mpregenperlevel\":0.6,\"crit\":0,\"critperlevel\":0,\"attackdamage\":61,\"attackdamageperlevel\":3,\"attackspeedperlevel\":2.1,\"attackspeed\":0.667},\"spells\":[{\"id\":\"EvelynnQ\",\"name\":\"Hate Spike\",\"description\":\"Evelynn strikes out with her Lasher, dealing damage to the first unit hit. Then, Evelynn can shoot a line of spikes at nearby foes up to 3 times.\",\"tooltip\":\"Evelynn strikes with her Lasher, dealing <magicDamage>{{ missiledamagetooltip }} magic damage</magicDamage> to the first enemy hit and causing Evelynn's next 3 Attacks or Abilities on that unit to deal an additional <magicDamage>{{ totalbonusdamagetooltip }} magic damage</magicDamage>. Evelynn can <recast>Recast</recast> this Ability up to 3 times.<br /><br /><recast>Recast:</recast> Evelynn fires spikes through the nearest enemy, dealing <magicDamage>{{ missiledamagetooltip }} magic damage</magicDamage> to all enemies hit.{{ spellmodifierdescriptionappend }}\",\"leveltip\":{\"label\":[\"Lasher and Spike Damage\",\"Bonus Damage\",\"@AbilityResourceName@ Cost\"],\"effect\":[\"{{ e5 }} -> {{ e5NL }}\",\"{{ e4 }} -> {{ e4NL }}\",\"{{ cost }} -> {{ costNL }}\"]},\"maxrank\":5,\"cooldown\":[4,4,4,4,4],\"cooldownBurn\":\"4\",\"cost\":[40,45,50,55,60],\"costBurn\":\"40/45/50/55/60\",\"datavalues\":{},\"effect\":[null,[0,0,0,0,0],[30,30,30,30,30],[60,60,60,60,60],[15,25,35,45,55],[25,30,35,40,45],[6,6,6,6,6],[30,30,30,30,30],[50,50,50,50,50],[4,4,4,4,4],[-0.25,-0.25,-0.25,-0.25,-0.25]],\"effectBurn\":[null,\"0\",\"30\",\"60\",\"15/25/35/45/55\",\"25/30/35/40/45\",\"6\",\"30\",\"50\",\"4\",\"-0.25\"],\"vars\":[],\"costType\":\" {{ abilityresourcename }}\",\"maxammo\":\"-1\",\"range\":[800,800,800,800,800],\"rangeBurn\":\"800\",\"image\":{\"full\":\"EvelynnQ.png\",\"sprite\":\"spell3.png\",\"group\":\"spell\",\"x\":0,\"y\":48,\"w\":48,\"h\":48},\"resource\":\"{{ cost }} {{ abilityresourcename }}\"},{\"id\":\"EvelynnW\",\"name\":\"Allure\",\"description\":\"Evelynn curses her target, causing her next attack or spell after a delay to charm her target and reduce their magic resist.\",\"tooltip\":\"Evelynn marks a champion or monster for 5 seconds. If Evelynn hits the target with an Attack or Ability, she will expunge the mark, refund its cost, and <status>Slow</status> the target by {{ slowamount*100 }}% for {{ slowduration }} seconds.<br /><br />If the mark lasts at least 2.5 seconds, expunging it has extra effects:<li>Against champions: <status>Charms</status> them for {{ charmduration }} second(s) and removes <scaleMR>{{ mrshred*100 }}% Magic Resist</scaleMR> for {{ shredduration }} seconds.<li>Against monsters: <status>Charms</status> them for {{ monstercharm }} seconds and deals <magicDamage>{{ monsterdamagetotaltooltip }} magic damage</magicDamage>.{{ spellmodifierdescriptionappend }}\",\"leveltip\":{\"label\":[\"Charm Duration\",\"Monster Charm Duration\",\"Magic Resist Shred\",\"Monster Damage\",\"Cooldown\",\"Range\"],\"effect\":[\"{{ e2 }} -> {{ e2NL }}\",\"{{ monstercharm }} -> {{ monstercharmNL }}\",\"{{ effect9amount*100.000000 }}% -> {{ effect9amountnl*100.000000 }}%\",\"{{ e7 }} -> {{ e7NL }}\",\"{{ cooldown }} -> {{ cooldownNL }}\",\"{{ castrange }} -> {{ castrangeNL }}\"]},\"maxrank\":5,\"cooldown\":[15,14,13,12,11],\"cooldownBurn\":\"15/14/13/12/11\",\"cost\":[60,70,80,90,100],\"costBurn\":\"60/70/80/90/100\",\"datavalues\":{},\"effect\":[null,[2,2,2,2,2],[1.25,1.5,1.75,2,2.25],[-0.65,-0.65,-0.65,-0.65,-0.65],[15,14,13,12,11],[5,5,5,5,5],[1.5,1.5,1.5,1.5,1.5],[250,300,350,400,450],[0.75,0.75,0.75,0.75,0.75],[0.35,0.375,0.4,0.425,0.45],[4,4,4,4,4]],\"effectBurn\":[null,\"2\",\"1.25/1.5/1.75/2/2.25\",\"-0.65\",\"15/14/13/12/11\",\"5\",\"1.5\",\"250/300/350/400/450\",\"0.75\",\"0.35/0.375/0.4/0.425/0.45\",\"4\"],\"vars\":[],\"costType\":\" {{ abilityresourcename }}\",\"maxammo\":\"-1\",\"range\":[1200,1300,1400,1500,1600],\"rangeBurn\":\"1200/1300/1400/1500/1600\",\"image\":{\"full\":\"EvelynnW.png\",\"sprite\":\"spell3.png\",\"group\":\"spell\",\"x\":48,\"y\":48,\"w\":48,\"h\":48},\"resource\":\"{{ cost }} {{ abilityresourcename }}\"},{\"id\":\"EvelynnE\",\"name\":\"Whiplash\",\"description\":\"Evelynn whips her target with her Lasher, dealing damage. She then gains Move Speed for a short duration.\",\"tooltip\":\"Evelynn whips an enemy, dealing <magicDamage>{{ basedamage }} plus {{ percenthealthbasetooltip }} max Health magic damage</magicDamage>. Evelynn gains <speed>{{ speedamount*100 }}% Move Speed</speed> for {{ speedduration }} seconds.<br /><br />Entering <keywordMajor>Demon Shade</keywordMajor> refreshes this Ability's cooldown and empowers it. When this Ability is empowered, Evelynn dashes to the target and deals <magicDamage>{{ empowereddamage }} plus {{ percenthealthempoweredtooltip }} max Health magic damage</magicDamage> to her target and everyone she passes through instead.{{ spellmodifierdescriptionappend }}\",\"leveltip\":{\"label\":[\"Damage\",\"Empowered Damage\",\"@AbilityResourceName@ Cost\"],\"effect\":[\"{{ e1 }} -> {{ e1NL }}\",\"{{ e2 }} -> {{ e2NL }}\",\"{{ cost }} -> {{ costNL }}\"]},\"maxrank\":5,\"cooldown\":[8,8,8,8,8],\"cooldownBurn\":\"8\",\"cost\":[40,45,50,55,60],\"costBurn\":\"40/45/50/55/60\",\"datavalues\":{},\"effect\":[null,[55,70,85,100,115],[75,100,125,150,175],[0.3,0.3,0.3,0.3,0.3],[2,2,2,2,2],[3,3,3,3,3],[4,4,4,4,4],[450,450,450,450,450],[0.8,0.85,0.9,0.95,1],[2,2,2,2,2],[1.3,1.35,1.4,1.45,1.5]],\"effectBurn\":[null,\"55/70/85/100/115\",\"75/100/125/150/175\",\"0.3\",\"2\",\"3\",\"4\",\"450\",\"0.8/0.85/0.9/0.95/1\",\"2\",\"1.3/1.35/1.4/1.45/1.5\"],\"vars\":[],\"costType\":\" {{ abilityresourcename }}\",\"maxammo\":\"-1\",\"range\":[210,210,210,210,210],\"rangeBurn\":\"210\",\"image\":{\"full\":\"EvelynnE.png\",\"sprite\":\"spell3.png\",\"group\":\"spell\",\"x\":96,\"y\":48,\"w\":48,\"h\":48},\"resource\":\"{{ cost }} {{ abilityresourcename }}\"},{\"id\":\"EvelynnR\",\"name\":\"Last Caress\",\"description\":\"Evelynn briefly goes untargetable and decimates the area in front of her before warping backwards a long distance.\",\"tooltip\":\"Evelynn unleashes her demonic energy, dealing heavy damage, becoming Untargetable and teleporting backwards. She deals <magicDamage>{{ damage }} magic damage</magicDamage>, increased to <magicDamage>{{ critdamage }}</magicDamage> against enemies below <healing>30% Health</healing>. Upon cast, set Demon Shade to a 1.25 second cooldown.{{ spellmodifierdescriptionappend }}\",\"leveltip\":{\"label\":[\"Damage\",\"Empowered Damage\",\"Cooldown\"],\"effect\":[\"{{ e1 }} -> {{ e1NL }}\",\"{{ effect1amount*2.400000 }} -> {{ effect1amountnl*2.400000 }}\",\"{{ cooldown }} -> {{ cooldownNL }}\"]},\"maxrank\":3,\"cooldown\":[120,100,80],\"cooldownBurn\":\"120/100/80\",\"cost\":[100,100,100],\"costBurn\":\"100\",\"datavalues\":{},\"effect\":[null,[125,250,375],[1.4,1.4,1.4],[2.5,2.5,2.5],[150,225,300],[3,3,3],[5,4,3],[0.3,0.3,0.3],[700,700,700],[30,45,60],[0,0,0]],\"effectBurn\":[null,\"125/250/375\",\"1.4\",\"2.5\",\"150/225/300\",\"3\",\"5/4/3\",\"0.3\",\"700\",\"30/45/60\",\"0\"],\"vars\":[],\"costType\":\" {{ abilityresourcename }}\",\"maxammo\":\"-1\",\"range\":[25000,25000,25000],\"rangeBurn\":\"25000\",\"image\":{\"full\":\"EvelynnR.png\",\"sprite\":\"spell3.png\",\"group\":\"spell\",\"x\":144,\"y\":48,\"w\":48,\"h\":48},\"resource\":\"{{ cost }} {{ abilityresourcename }}\"}],\"passive\":{\"name\":\"Demon Shade\",\"description\":\"When out of combat, Evelynn enters Demon Shade. Demon Shade heals Evelynn when she is low on health and grants Camouflage after level 6.\",\"image\":{\"full\":\"Evelynn_Passive.png\",\"sprite\":\"passive0.png\",\"group\":\"passive\",\"x\":384,\"y\":96,\"w\":48,\"h\":48}},\"recommended\":[]}",
+    "champion_blurb": "Within the dark seams of Runeterra, the demon Evelynn searches for her next victim. She lures in prey with the voluptuous façade of a human female, but once a person succumbs to her charms, Evelynn's true form is unleashed. She then subjects her victim...",
+    "lore": "Within the dark seams of Runeterra, the demon Evelynn searches for her next victim. She lures in prey with the voluptuous façade of a human female, but once a person succumbs to her charms, Evelynn's true form is unleashed. She then subjects her victim to unspeakable torment, gratifying herself with their pain. To the demon, these liaisons are innocent flings. To the rest of Runeterra, they are ghoulish tales of lust gone awry and horrific reminders of the cost of wanton desire.",
+    "champion_icon": "https://ddragon.leagueoflegends.com/cdn/13.14.1/img/champion/Evelynn.png",
+    "champion_name": "Evelynn",
+    "champion_splash": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Evelynn_0.jpg",
+    "champion_title": "Agony's Embrace",
+    "recommended_lanes": [],
+    "recommended_roles": [
+        "Assassin",
+        "Mage"
+    ],
+    "links": [
+        {
+            "href": "https://na.op.gg/champion/evelynn/statistics/",
+            "title": "OP.GG"
+        },
+        {
+            "href": "https://u.gg/lol/champions/evelynn/build",
+            "title": "U.GG"
+        },
+        {
+            "href": "https://www.probuilds.net/champions/details/evelynn",
+            "title": "probuilds.net"
+        }
+    ],
+    "champion": {
+        "modular_blocks": []
+    },
+    "skins": [
+        {
+            "name": "default",
+            "imageUrl": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Evelynn_0.jpg"
+        },
+        {
+            "name": "Shadow Evelynn",
+            "imageUrl": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Evelynn_1.jpg"
+        },
+        {
+            "name": "Masquerade Evelynn",
+            "imageUrl": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Evelynn_2.jpg"
+        },
+        {
+            "name": "Tango Evelynn",
+            "imageUrl": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Evelynn_3.jpg"
+        },
+        {
+            "name": "Safecracker Evelynn",
+            "imageUrl": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Evelynn_4.jpg"
+        },
+        {
+            "name": "Blood Moon Evelynn",
+            "imageUrl": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Evelynn_5.jpg"
+        },
+        {
+            "name": "K/DA Evelynn",
+            "imageUrl": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Evelynn_6.jpg"
+        },
+        {
+            "name": "Prestige K/DA Evelynn",
+            "imageUrl": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Evelynn_7.jpg"
+        },
+        {
+            "name": "Sugar Rush Evelynn",
+            "imageUrl": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Evelynn_8.jpg"
+        },
+        {
+            "name": "K/DA ALL OUT Evelynn",
+            "imageUrl": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Evelynn_15.jpg"
+        },
+        {
+            "name": "Coven Evelynn",
+            "imageUrl": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Evelynn_24.jpg"
+        },
+        {
+            "name": "Prestige K/DA Evelynn (2022)",
+            "imageUrl": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Evelynn_31.jpg"
+        },
+        {
+            "name": "Spirit Blossom Evelynn",
+            "imageUrl": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Evelynn_32.jpg"
+        }
+    ],
+    "champion_passive": {
+        "champion_passive_description": "When out of combat, Evelynn enters Demon Shade. Demon Shade heals Evelynn when she is low on health and grants Camouflage after level 6.",
+        "champion_passive_icon": "https://ddragon.leagueoflegends.com/cdn/13.14.1/img/passive/Evelynn_Passive.png",
+        "champion_passive_name": "Demon Shade",
+        "champion_passive_video_mp4": "https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0028/ability_0028_P1.mp4",
+        "champion_passive_video_poster": "https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0028/ability_0028_P1.jpg",
+        "champion_passive_video_webm": "https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0028/ability_0028_P1.webm"
+    },
+    "champion_q": {
+        "champion_q_description": "Evelynn strikes out with her Lasher, dealing damage to the first unit hit. Then, Evelynn can shoot a line of spikes at nearby foes up to 3 times.",
+        "champion_q_icon": "https://ddragon.leagueoflegends.com/cdn/13.14.1/img/spell/EvelynnQ.png",
+        "champion_q_name": "Hate Spike",
+        "champion_q_video_mp4": "https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0028/ability_0028_Q1.mp4",
+        "champion_q_video_poster": "https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0028/ability_0028_Q1.jpg",
+        "champion_q_video_webm": "https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0028/ability_0028_Q1.webm"
+    },
+    "champion_w": {
+        "champion_w_description": "Evelynn curses her target, causing her next attack or spell after a delay to charm her target and reduce their magic resist.",
+        "champion_w_icon": "https://ddragon.leagueoflegends.com/cdn/13.14.1/img/spell/EvelynnW.png",
+        "champion_w_name": "Allure",
+        "champion_w_video_mp4": "https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0028/ability_0028_W1.mp4",
+        "champion_w_video_poster": "https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0028/ability_0028_W1.jpg",
+        "champion_w_video_webm": "https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0028/ability_0028_W1.webm"
+    },
+    "champion_e": {
+        "champion_e_description": "Evelynn whips her target with her Lasher, dealing damage. She then gains Move Speed for a short duration.",
+        "champion_e_icon": "https://ddragon.leagueoflegends.com/cdn/13.14.1/img/spell/EvelynnE.png",
+        "champion_e_name": "Whiplash",
+        "champion_e_video_mp4": "https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0028/ability_0028_E1.mp4",
+        "champion_e_video_poster": "https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0028/ability_0028_E1.jpg",
+        "champion_e_video_webm": "https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0028/ability_0028_E1.webm"
+    },
+    "champion_r": {
+        "champion_r_description": "Evelynn briefly goes untargetable and decimates the area in front of her before warping backwards a long distance.",
+        "champion_r_icon": "https://ddragon.leagueoflegends.com/cdn/13.14.1/img/spell/EvelynnR.png",
+        "champion_r_name": "Last Caress",
+        "champion_r_video_mp4": "https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0028/ability_0028_R1.mp4",
+        "champion_r_video_poster": "https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0028/ability_0028_R1.jpg",
+        "champion_r_video_webm": "https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0028/ability_0028_R1.webm"
+    },
+    "related_champions": []
+  },
+  {
+    "publish_details": {
+        "locale": "en-us"
+    },
+    "uid": "blt7039d8c8a3936405",
+    "url": "/champions/ezreal/",
+    "data_dragon_id": "Ezreal",
+    "data_dragon_json": "{\"id\":\"Ezreal\",\"key\":\"81\",\"name\":\"Ezreal\",\"title\":\"the Prodigal Explorer\",\"image\":{\"full\":\"Ezreal.png\",\"sprite\":\"champion0.png\",\"group\":\"champion\",\"x\":432,\"y\":96,\"w\":48,\"h\":48},\"skins\":[{\"id\":\"81000\",\"num\":0,\"name\":\"default\",\"chromas\":false},{\"id\":\"81001\",\"num\":1,\"name\":\"Nottingham Ezreal\",\"chromas\":false},{\"id\":\"81002\",\"num\":2,\"name\":\"Striker Ezreal\",\"chromas\":false},{\"id\":\"81003\",\"num\":3,\"name\":\"Frosted Ezreal\",\"chromas\":false},{\"id\":\"81004\",\"num\":4,\"name\":\"Explorer Ezreal\",\"chromas\":false},{\"id\":\"81005\",\"num\":5,\"name\":\"Pulsefire Ezreal\",\"chromas\":false},{\"id\":\"81006\",\"num\":6,\"name\":\"TPA Ezreal\",\"chromas\":false},{\"id\":\"81007\",\"num\":7,\"name\":\"Debonair Ezreal\",\"chromas\":true},{\"id\":\"81008\",\"num\":8,\"name\":\"Ace of Spades Ezreal\",\"chromas\":false},{\"id\":\"81009\",\"num\":9,\"name\":\"Arcade Ezreal\",\"chromas\":false},{\"id\":\"81018\",\"num\":18,\"name\":\"Star Guardian Ezreal\",\"chromas\":false},{\"id\":\"81019\",\"num\":19,\"name\":\"SSG Ezreal\",\"chromas\":false},{\"id\":\"81020\",\"num\":20,\"name\":\"Pajama Guardian Ezreal\",\"chromas\":false},{\"id\":\"81021\",\"num\":21,\"name\":\"Battle Academia Ezreal\",\"chromas\":true},{\"id\":\"81022\",\"num\":22,\"name\":\"PsyOps Ezreal\",\"chromas\":false},{\"id\":\"81023\",\"num\":23,\"name\":\"Prestige PsyOps Ezreal\",\"chromas\":false},{\"id\":\"81025\",\"num\":25,\"name\":\"Porcelain Protector Ezreal\",\"chromas\":false},{\"id\":\"81033\",\"num\":33,\"name\":\"Faerie Court Ezreal\",\"chromas\":false}],\"lore\":\"A dashing adventurer, unknowingly gifted in the magical arts, Ezreal raids long-lost catacombs, tangles with ancient curses, and overcomes seemingly impossible odds with ease. His courage and bravado knowing no bounds, he prefers to improvise his way out of any situation, relying partially on his wits, but mostly on his mystical Shuriman gauntlet, which he uses to unleash devastating arcane blasts. One thing is for sure—whenever Ezreal is around, trouble isn't too far behind. Or ahead. Probably everywhere.\",\"blurb\":\"A dashing adventurer, unknowingly gifted in the magical arts, Ezreal raids long-lost catacombs, tangles with ancient curses, and overcomes seemingly impossible odds with ease. His courage and bravado knowing no bounds, he prefers to improvise his way...\",\"allytips\":[\"Use Arcane Shift to help line up your other skill shots.\",\"You can play Ezreal either as a Attack Damage carry or Ability Power carry depending on how you build him.\",\"You can line up Trueshot Barrage to hit multiple minion waves or even Monsters.\"],\"enemytips\":[\"Ezreal is a very fragile champion so take the fight to him.\",\"Ezreal is completely skill shot based, so make sure to keep minions in between you.\",\"Mystic Shot applies on-hit effects including the Crest of Cinders.\"],\"tags\":[\"Marksman\",\"Mage\"],\"partype\":\"Mana\",\"info\":{\"attack\":7,\"defense\":2,\"magic\":6,\"difficulty\":7},\"stats\":{\"hp\":600,\"hpperlevel\":102,\"mp\":375,\"mpperlevel\":70,\"movespeed\":325,\"armor\":24,\"armorperlevel\":4.7,\"spellblock\":30,\"spellblockperlevel\":1.3,\"attackrange\":550,\"hpregen\":4,\"hpregenperlevel\":0.65,\"mpregen\":8.5,\"mpregenperlevel\":1,\"crit\":0,\"critperlevel\":0,\"attackdamage\":62,\"attackdamageperlevel\":2.5,\"attackspeedperlevel\":2.5,\"attackspeed\":0.625},\"spells\":[{\"id\":\"EzrealQ\",\"name\":\"Mystic Shot\",\"description\":\"Ezreal fires a damaging bolt of energy which reduces all of his cooldowns slightly if it strikes an enemy unit.\",\"tooltip\":\"Ezreal fires a bolt of energy, dealing <physicalDamage>{{ damage }} physical damage</physicalDamage> to the first enemy hit and reducing his Ability Cooldowns by {{ cdrefund }} seconds.{{ spellmodifierdescriptionappend }}\",\"leveltip\":{\"label\":[\"Cooldown\",\"@AbilityResourceName@ Cost\",\"Damage\"],\"effect\":[\"{{ cooldown }} -> {{ cooldownNL }}\",\"{{ cost }} -> {{ costNL }}\",\"{{ basedamage }} -> {{ basedamageNL }}\"]},\"maxrank\":5,\"cooldown\":[5.5,5.25,5,4.75,4.5],\"cooldownBurn\":\"5.5/5.25/5/4.75/4.5\",\"cost\":[28,31,34,37,40],\"costBurn\":\"28/31/34/37/40\",\"datavalues\":{},\"effect\":[null,[0,0,0,0,0],[0,0,0,0,0],[0,0,0,0,0],[0,0,0,0,0],[0,0,0,0,0],[0,0,0,0,0],[0,0,0,0,0],[0,0,0,0,0],[0,0,0,0,0],[0,0,0,0,0]],\"effectBurn\":[null,\"0\",\"0\",\"0\",\"0\",\"0\",\"0\",\"0\",\"0\",\"0\",\"0\"],\"vars\":[],\"costType\":\" {{ abilityresourcename }}\",\"maxammo\":\"-1\",\"range\":[1150,1150,1150,1150,1150],\"rangeBurn\":\"1150\",\"image\":{\"full\":\"EzrealQ.png\",\"sprite\":\"spell3.png\",\"group\":\"spell\",\"x\":192,\"y\":48,\"w\":48,\"h\":48},\"resource\":\"{{ cost }} {{ abilityresourcename }}\"},{\"id\":\"EzrealW\",\"name\":\"Essence Flux\",\"description\":\"Ezreal fires an orb that sticks to the first champion or objective hit. If Ezreal hits an enemy with the orb, it detonates and deals damage.\",\"tooltip\":\"Ezreal fires a magical orb that sticks to the first champion, structure, or epic jungle monster hit for {{ detonationtimeout }} seconds. If Ezreal hits that target with an Attack or Ability, it detonates, dealing <magicDamage>{{ damage }} magic damage</magicDamage>. Detonating with an Ability refunds the Mana cost of that Ability plus <scaleMana>{{ manareturn }} Mana</scaleMana>.{{ spellmodifierdescriptionappend }}\",\"leveltip\":{\"label\":[\"Damage\",\"Total AP Ratio\"],\"effect\":[\"{{ basedamage }} -> {{ basedamageNL }}\",\"{{ apratio*100.000000 }}% -> {{ aprationl*100.000000 }}%\"]},\"maxrank\":5,\"cooldown\":[12,12,12,12,12],\"cooldownBurn\":\"12\",\"cost\":[50,50,50,50,50],\"costBurn\":\"50\",\"datavalues\":{},\"effect\":[null,[0,0,0,0,0],[0,0,0,0,0],[0,0,0,0,0],[0,0,0,0,0],[0,0,0,0,0],[0,0,0,0,0],[0,0,0,0,0],[0,0,0,0,0],[0,0,0,0,0],[0,0,0,0,0]],\"effectBurn\":[null,\"0\",\"0\",\"0\",\"0\",\"0\",\"0\",\"0\",\"0\",\"0\",\"0\"],\"vars\":[],\"costType\":\" {{ abilityresourcename }}\",\"maxammo\":\"-1\",\"range\":[1150,1150,1150,1150,1150],\"rangeBurn\":\"1150\",\"image\":{\"full\":\"EzrealW.png\",\"sprite\":\"spell3.png\",\"group\":\"spell\",\"x\":240,\"y\":48,\"w\":48,\"h\":48},\"resource\":\"{{ cost }} {{ abilityresourcename }}\"},{\"id\":\"EzrealE\",\"name\":\"Arcane Shift\",\"description\":\"Ezreal teleports to a target nearby location and fires a homing bolt which strikes the nearest enemy unit. Prioritizes enemies stuck with Essence Flux.\",\"tooltip\":\"Ezreal teleports then fires a bolt at the nearest enemy, dealing <magicDamage>{{ damage }} magic damage</magicDamage>. The bolt prioritizes enemies affected by <spellName>Essence Flux</spellName>.{{ spellmodifierdescriptionappend }}\",\"leveltip\":{\"label\":[\"Cooldown\",\"Damage\"],\"effect\":[\"{{ cooldown }} -> {{ cooldownNL }}\",\"{{ e1 }} -> {{ e1NL }}\"]},\"maxrank\":5,\"cooldown\":[26,23,20,17,14],\"cooldownBurn\":\"26/23/20/17/14\",\"cost\":[90,90,90,90,90],\"costBurn\":\"90\",\"datavalues\":{},\"effect\":[null,[80,130,180,230,280],[0,0,0,0,0],[0,0,0,0,0],[0,0,0,0,0],[0,0,0,0,0],[0,0,0,0,0],[0,0,0,0,0],[0,0,0,0,0],[0,0,0,0,0],[0,0,0,0,0]],\"effectBurn\":[null,\"80/130/180/230/280\",\"0\",\"0\",\"0\",\"0\",\"0\",\"0\",\"0\",\"0\",\"0\"],\"vars\":[],\"costType\":\" {{ abilityresourcename }}\",\"maxammo\":\"-1\",\"range\":[475,475,475,475,475],\"rangeBurn\":\"475\",\"image\":{\"full\":\"EzrealE.png\",\"sprite\":\"spell3.png\",\"group\":\"spell\",\"x\":288,\"y\":48,\"w\":48,\"h\":48},\"resource\":\"{{ cost }} {{ abilityresourcename }}\"},{\"id\":\"EzrealR\",\"name\":\"Trueshot Barrage\",\"description\":\"Ezreal winds up before firing a powerful barrage of energy that deals massive damage to each unit it passes through (damage is reduced for minions and non-epic monsters).\",\"tooltip\":\"Ezreal fires a massive energy arc that deals <magicDamage>{{ damage }} magic damage</magicDamage>. The arc deals {{ damagereductionwaveclear.0*100 }}% damage to minions and non-epic jungle monsters.{{ spellmodifierdescriptionappend }}\",\"leveltip\":{\"label\":[\"Damage\",\"Cooldown\"],\"effect\":[\"{{ basedamage }} -> {{ basedamageNL }}\",\"{{ cooldown }} -> {{ cooldownNL }}\"]},\"maxrank\":3,\"cooldown\":[120,105,90],\"cooldownBurn\":\"120/105/90\",\"cost\":[100,100,100],\"costBurn\":\"100\",\"datavalues\":{},\"effect\":[null,[0,0,0],[0,0,0],[0,0,0],[0,0,0],[0,0,0],[0,0,0],[0,0,0],[0,0,0],[0,0,0],[0,0,0]],\"effectBurn\":[null,\"0\",\"0\",\"0\",\"0\",\"0\",\"0\",\"0\",\"0\",\"0\",\"0\"],\"vars\":[],\"costType\":\" {{ abilityresourcename }}\",\"maxammo\":\"-1\",\"range\":[25000,25000,25000],\"rangeBurn\":\"25000\",\"image\":{\"full\":\"EzrealR.png\",\"sprite\":\"spell3.png\",\"group\":\"spell\",\"x\":336,\"y\":48,\"w\":48,\"h\":48},\"resource\":\"{{ cost }} {{ abilityresourcename }}\"}],\"passive\":{\"name\":\"Rising Spell Force\",\"description\":\"Ezreal gains increasing Attack Speed each time he successfully hits a spell, stacking up to 5 times.\",\"image\":{\"full\":\"Ezreal_RisingSpellForce.png\",\"sprite\":\"passive0.png\",\"group\":\"passive\",\"x\":432,\"y\":96,\"w\":48,\"h\":48}},\"recommended\":[]}",
+    "champion_blurb": "A dashing adventurer, unknowingly gifted in the magical arts, Ezreal raids long-lost catacombs, tangles with ancient curses, and overcomes seemingly impossible odds with ease. His courage and bravado knowing no bounds, he prefers to improvise his way...",
+    "lore": "A dashing adventurer, unknowingly gifted in the magical arts, Ezreal raids long-lost catacombs, tangles with ancient curses, and overcomes seemingly impossible odds with ease. His courage and bravado knowing no bounds, he prefers to improvise his way out of any situation, relying partially on his wits, but mostly on his mystical Shuriman gauntlet, which he uses to unleash devastating arcane blasts. One thing is for sure—whenever Ezreal is around, trouble isn't too far behind. Or ahead. Probably everywhere.",
+    "champion_icon": "https://ddragon.leagueoflegends.com/cdn/13.14.1/img/champion/Ezreal.png",
+    "champion_name": "Ezreal",
+    "champion_splash": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Ezreal_0.jpg",
+    "champion_title": "the Prodigal Explorer",
+    "recommended_lanes": [],
+    "recommended_roles": [
+        "Marksman",
+        "Mage"
+    ],
+    "links": [
+        {
+            "href": "https://na.op.gg/champion/ezreal/statistics/",
+            "title": "OP.GG"
+        },
+        {
+            "href": "https://u.gg/lol/champions/ezreal/build",
+            "title": "U.GG"
+        },
+        {
+            "href": "https://www.probuilds.net/champions/details/ezreal",
+            "title": "probuilds.net"
+        }
+    ],
+    "champion": {
+        "modular_blocks": []
+    },
+    "skins": [
+        {
+            "name": "default",
+            "imageUrl": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Ezreal_0.jpg"
+        },
+        {
+            "name": "Nottingham Ezreal",
+            "imageUrl": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Ezreal_1.jpg"
+        },
+        {
+            "name": "Striker Ezreal",
+            "imageUrl": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Ezreal_2.jpg"
+        },
+        {
+            "name": "Frosted Ezreal",
+            "imageUrl": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Ezreal_3.jpg"
+        },
+        {
+            "name": "Explorer Ezreal",
+            "imageUrl": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Ezreal_4.jpg"
+        },
+        {
+            "name": "Pulsefire Ezreal",
+            "imageUrl": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Ezreal_5.jpg"
+        },
+        {
+            "name": "TPA Ezreal",
+            "imageUrl": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Ezreal_6.jpg"
+        },
+        {
+            "name": "Debonair Ezreal",
+            "imageUrl": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Ezreal_7.jpg"
+        },
+        {
+            "name": "Ace of Spades Ezreal",
+            "imageUrl": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Ezreal_8.jpg"
+        },
+        {
+            "name": "Arcade Ezreal",
+            "imageUrl": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Ezreal_9.jpg"
+        },
+        {
+            "name": "Star Guardian Ezreal",
+            "imageUrl": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Ezreal_18.jpg"
+        },
+        {
+            "name": "SSG Ezreal",
+            "imageUrl": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Ezreal_19.jpg"
+        },
+        {
+            "name": "Pajama Guardian Ezreal",
+            "imageUrl": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Ezreal_20.jpg"
+        },
+        {
+            "name": "Battle Academia Ezreal",
+            "imageUrl": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Ezreal_21.jpg"
+        },
+        {
+            "name": "PsyOps Ezreal",
+            "imageUrl": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Ezreal_22.jpg"
+        },
+        {
+            "name": "Prestige PsyOps Ezreal",
+            "imageUrl": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Ezreal_23.jpg"
+        },
+        {
+            "name": "Porcelain Protector Ezreal",
+            "imageUrl": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Ezreal_25.jpg"
+        },
+        {
+            "name": "Faerie Court Ezreal",
+            "imageUrl": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Ezreal_33.jpg"
+        }
+    ],
+    "champion_passive": {
+        "champion_passive_description": "Ezreal gains increasing Attack Speed each time he successfully hits a spell, stacking up to 5 times.",
+        "champion_passive_icon": "https://ddragon.leagueoflegends.com/cdn/13.14.1/img/passive/Ezreal_RisingSpellForce.png",
+        "champion_passive_name": "Rising Spell Force",
+        "champion_passive_video_mp4": "",
+        "champion_passive_video_poster": "",
+        "champion_passive_video_webm": ""
+    },
+    "champion_q": {
+        "champion_q_description": "Ezreal fires a damaging bolt of energy which reduces all of his cooldowns slightly if it strikes an enemy unit.",
+        "champion_q_icon": "https://ddragon.leagueoflegends.com/cdn/13.14.1/img/spell/EzrealQ.png",
+        "champion_q_name": "Mystic Shot",
+        "champion_q_video_mp4": "https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0081/ability_0081_Q1.mp4",
+        "champion_q_video_poster": "https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0081/ability_0081_Q1.jpg",
+        "champion_q_video_webm": "https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0081/ability_0081_Q1.webm"
+    },
+    "champion_w": {
+        "champion_w_description": "Ezreal fires an orb that sticks to the first champion or objective hit. If Ezreal hits an enemy with the orb, it detonates and deals damage.",
+        "champion_w_icon": "https://ddragon.leagueoflegends.com/cdn/13.14.1/img/spell/EzrealW.png",
+        "champion_w_name": "Essence Flux",
+        "champion_w_video_mp4": "https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0081/ability_0081_W1.mp4",
+        "champion_w_video_poster": "https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0081/ability_0081_W1.jpg",
+        "champion_w_video_webm": "https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0081/ability_0081_W1.webm"
+    },
+    "champion_e": {
+        "champion_e_description": "Ezreal teleports to a target nearby location and fires a homing bolt which strikes the nearest enemy unit. Prioritizes enemies stuck with Essence Flux.",
+        "champion_e_icon": "https://ddragon.leagueoflegends.com/cdn/13.14.1/img/spell/EzrealE.png",
+        "champion_e_name": "Arcane Shift",
+        "champion_e_video_mp4": "https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0081/ability_0081_E1.mp4",
+        "champion_e_video_poster": "https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0081/ability_0081_E1.jpg",
+        "champion_e_video_webm": "https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0081/ability_0081_E1.webm"
+    },
+    "champion_r": {
+        "champion_r_description": "Ezreal winds up before firing a powerful barrage of energy that deals massive damage to each unit it passes through (damage is reduced for minions and non-epic monsters).",
+        "champion_r_icon": "https://ddragon.leagueoflegends.com/cdn/13.14.1/img/spell/EzrealR.png",
+        "champion_r_name": "Trueshot Barrage",
+        "champion_r_video_mp4": "https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0081/ability_0081_R1.mp4",
+        "champion_r_video_poster": "https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0081/ability_0081_R1.jpg",
+        "champion_r_video_webm": "https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0081/ability_0081_R1.webm"
+    },
+    "related_champions": []
   }
 ]
