@@ -661,5 +661,663 @@
         "champion_r_video_webm": "https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0012/ability_0012_R1.webm"
     },
     "related_champions": []
-  }
+  },
+  {
+    "publish_details": {
+        "locale": "en-us"
+    },
+    "uid": "blt6c55bf5df3dcb42c",
+    "url": "/champions/amumu/",
+    "data_dragon_id": "Amumu",
+    "data_dragon_json": "{\"id\":\"Amumu\",\"key\":\"32\",\"name\":\"Amumu\",\"title\":\"the Sad Mummy\",\"image\":{\"full\":\"Amumu.png\",\"sprite\":\"champion0.png\",\"group\":\"champion\",\"x\":240,\"y\":0,\"w\":48,\"h\":48},\"skins\":[{\"id\":\"32000\",\"num\":0,\"name\":\"default\",\"chromas\":false},{\"id\":\"32001\",\"num\":1,\"name\":\"Pharaoh Amumu\",\"chromas\":false},{\"id\":\"32002\",\"num\":2,\"name\":\"Vancouver Amumu\",\"chromas\":false},{\"id\":\"32003\",\"num\":3,\"name\":\"Emumu\",\"chromas\":false},{\"id\":\"32004\",\"num\":4,\"name\":\"Re-Gifted Amumu\",\"chromas\":false},{\"id\":\"32005\",\"num\":5,\"name\":\"Almost-Prom King Amumu\",\"chromas\":false},{\"id\":\"32006\",\"num\":6,\"name\":\"Little Knight Amumu\",\"chromas\":false},{\"id\":\"32007\",\"num\":7,\"name\":\"Sad Robot Amumu\",\"chromas\":false},{\"id\":\"32008\",\"num\":8,\"name\":\"Surprise Party Amumu\",\"chromas\":true},{\"id\":\"32017\",\"num\":17,\"name\":\"Infernal Amumu\",\"chromas\":true},{\"id\":\"32023\",\"num\":23,\"name\":\"Hextech Amumu\",\"chromas\":false},{\"id\":\"32024\",\"num\":24,\"name\":\"Pumpkin Prince Amumu\",\"chromas\":true},{\"id\":\"32034\",\"num\":34,\"name\":\"Porcelain Amumu\",\"chromas\":true},{\"id\":\"32044\",\"num\":44,\"name\":\"Heartache Amumu\",\"chromas\":true}],\"lore\":\"Legend claims that Amumu is a lonely and melancholy soul from ancient Shurima, roaming the world in search of a friend. Doomed by an ancient curse to remain alone forever, his touch is death, his affection ruin. Those who claim to have seen him describe a living cadaver, small in stature and wrapped in creeping bandages. Amumu has inspired myths, songs, and folklore told and retold for generations—such that it is impossible to separate truth from fiction.\",\"blurb\":\"Legend claims that Amumu is a lonely and melancholy soul from ancient Shurima, roaming the world in search of a friend. Doomed by an ancient curse to remain alone forever, his touch is death, his affection ruin. Those who claim to have seen him describe...\",\"allytips\":[\"Amumu is highly dependent on teammates, so try laning with your friends for maximum effectiveness.\",\"Cooldown Reduction on Amumu is very strong, but it's often difficult to itemize for it. Grab the Golem buff whenever possible to gain Cooldown Reduction without sacrificing stats.\",\"Despair is very effective against other tanks, so make sure you're in range of opponents with the highest Health.\"],\"enemytips\":[\"Avoid bunching up with other allies when Amumu has his ultimate available.\",\"Erratic movement, or hiding behind creep waves can make it difficult for Amumu to instigate a fight with Bandage Toss.\",\"Amumu's Despair makes purchasing primarily Health items a risky proposition.\"],\"tags\":[\"Tank\",\"Mage\"],\"partype\":\"Mana\",\"info\":{\"attack\":2,\"defense\":6,\"magic\":8,\"difficulty\":3},\"stats\":{\"hp\":685,\"hpperlevel\":94,\"mp\":285,\"mpperlevel\":40,\"movespeed\":335,\"armor\":30,\"armorperlevel\":4,\"spellblock\":32,\"spellblockperlevel\":2.05,\"attackrange\":125,\"hpregen\":9,\"hpregenperlevel\":0.85,\"mpregen\":7.4,\"mpregenperlevel\":0.55,\"crit\":0,\"critperlevel\":0,\"attackdamage\":53,\"attackdamageperlevel\":3.8,\"attackspeedperlevel\":2.18,\"attackspeed\":0.736},\"spells\":[{\"id\":\"BandageToss\",\"name\":\"Bandage Toss\",\"description\":\"Amumu tosses a sticky bandage at a target, stunning and damaging the target while he pulls himself to them.\",\"tooltip\":\"Amumu launches a bandage, pulling himself to the first enemy hit, <status>Stunning</status> them for {{ e2 }} second, and dealing <magicDamage>{{ totaldamage }} magic damage</magicDamage>.<br /><br />This Ability has 2 charges.{{ spellmodifierdescriptionappend }}\",\"leveltip\":{\"label\":[\"Damage\",\"Recharge Time\",\"@AbilityResourceName@ Cost\"],\"effect\":[\"{{ e1 }} -> {{ e1NL }}\",\"{{ ammorechargetime }} -> {{ ammorechargetimeNL }}\",\"{{ cost }} -> {{ costNL }}\"]},\"maxrank\":5,\"cooldown\":[3,3,3,3,3],\"cooldownBurn\":\"3\",\"cost\":[45,50,55,60,65],\"costBurn\":\"45/50/55/60/65\",\"datavalues\":{},\"effect\":[null,[70,95,120,145,170],[1,1,1,1,1],[1800,1800,1800,1800,1800],[0,0,0,0,0],[0,0,0,0,0],[0,0,0,0,0],[0,0,0,0,0],[0,0,0,0,0],[0,0,0,0,0],[0,0,0,0,0]],\"effectBurn\":[null,\"70/95/120/145/170\",\"1\",\"1800\",\"0\",\"0\",\"0\",\"0\",\"0\",\"0\",\"0\"],\"vars\":[],\"costType\":\" {{ abilityresourcename }}\",\"maxammo\":\"2\",\"range\":[1100,1100,1100,1100,1100],\"rangeBurn\":\"1100\",\"image\":{\"full\":\"BandageToss.png\",\"sprite\":\"spell0.png\",\"group\":\"spell\",\"x\":384,\"y\":144,\"w\":48,\"h\":48},\"resource\":\"{{ cost }} {{ abilityresourcename }}\"},{\"id\":\"AuraofDespair\",\"name\":\"Despair\",\"description\":\"Overcome by anguish, nearby enemies lose a percentage of their maximum Health each second and have their <font color='#9b0f5f'>Curses</font> refreshed.\",\"tooltip\":\"<toggle>Toggle:</toggle> Amumu begins crying, dealing <magicDamage>{{ basedamage }} plus {{ totalhealthdamage }}% max Health magic damage</magicDamage> to nearby enemies every second and refreshing <keywordMajor>Curse</keywordMajor>.{{ spellmodifierdescriptionappend }}\",\"leveltip\":{\"label\":[\"% Health as Damage\"],\"effect\":[\"{{ healthdamage }}% -> {{ healthdamageNL }}%\"]},\"maxrank\":5,\"cooldown\":[1,1,1,1,1],\"cooldownBurn\":\"1\",\"cost\":[8,8,8,8,8],\"costBurn\":\"8\",\"datavalues\":{},\"effect\":[null,[0,0,0,0,0],[0,0,0,0,0],[0,0,0,0,0],[0,0,0,0,0],[0,0,0,0,0],[0,0,0,0,0],[0,0,0,0,0],[0,0,0,0,0],[0,0,0,0,0],[0,0,0,0,0]],\"effectBurn\":[null,\"0\",\"0\",\"0\",\"0\",\"0\",\"0\",\"0\",\"0\",\"0\",\"0\"],\"vars\":[],\"costType\":\" {{ abilityresourcename }} per Second\",\"maxammo\":\"-1\",\"range\":[300,300,300,300,300],\"rangeBurn\":\"300\",\"image\":{\"full\":\"AuraofDespair.png\",\"sprite\":\"spell0.png\",\"group\":\"spell\",\"x\":432,\"y\":144,\"w\":48,\"h\":48},\"resource\":\"{{ cost }} {{ abilityresourcename }} per Second\"},{\"id\":\"Tantrum\",\"name\":\"Tantrum\",\"description\":\"Permanently reduces the physical damage Amumu would take. Amumu can unleash his rage, dealing damage to surrounding enemies. Each time Amumu is hit, the cooldown on Tantrum is reduced.\",\"tooltip\":\"<spellPassive>Passive:</spellPassive> Amumu takes {{ damagereduction }} reduced physical damage. Additionally, when Amumu is hit by an Attack, this Ability's Cooldown is reduced by {{ e3 }} seconds.<br /><br /><spellActive>Active:</spellActive> Amumu throws a tantrum, dealing <magicDamage>{{ tantrumdamage }} magic damage</magicDamage> to nearby enemies.{{ spellmodifierdescriptionappend }}\",\"leveltip\":{\"label\":[\"Damage Reduced\",\"Cooldown\",\"Damage\"],\"effect\":[\"{{ e1 }} -> {{ e1NL }}\",\"{{ cooldown }} -> {{ cooldownNL }}\",\"{{ e2 }} -> {{ e2NL }}\"]},\"maxrank\":5,\"cooldown\":[9,8,7,6,5],\"cooldownBurn\":\"9/8/7/6/5\",\"cost\":[35,35,35,35,35],\"costBurn\":\"35\",\"datavalues\":{},\"effect\":[null,[5,7,9,11,13],[65,100,135,170,205],[0.75,0.75,0.75,0.75,0.75],[0,0,0,0,0],[0,0,0,0,0],[0,0,0,0,0],[0.03,0.03,0.03,0.03,0.03],[0,0,0,0,0],[0,0,0,0,0],[0,0,0,0,0]],\"effectBurn\":[null,\"5/7/9/11/13\",\"65/100/135/170/205\",\"0.75\",\"0\",\"0\",\"0\",\"0.03\",\"0\",\"0\",\"0\"],\"vars\":[],\"costType\":\" {{ abilityresourcename }}\",\"maxammo\":\"-1\",\"range\":[350,350,350,350,350],\"rangeBurn\":\"350\",\"image\":{\"full\":\"Tantrum.png\",\"sprite\":\"spell1.png\",\"group\":\"spell\",\"x\":0,\"y\":0,\"w\":48,\"h\":48},\"resource\":\"{{ cost }} {{ abilityresourcename }}\"},{\"id\":\"CurseoftheSadMummy\",\"name\":\"Curse of the Sad Mummy\",\"description\":\"Amumu entangles surrounding enemy units in bandages, applying his <keywordMajor>Curse</keywordMajor>, damaging and stunning them.\",\"tooltip\":\"Amumu flares out his bandages, <status>Stunning</status> for {{ rduration }} seconds, dealing <magicDamage>{{ rcalculateddamage }} magic damage</magicDamage> and applying <keywordMajor>Curse</keywordMajor>.{{ spellmodifierdescriptionappend }}\",\"leveltip\":{\"label\":[\"@AbilityResourceName@ Cost\",\"Cooldown\",\"Damage\"],\"effect\":[\"{{ cost }} -> {{ costNL }}\",\"{{ cooldown }} -> {{ cooldownNL }}\",\"{{ rdamage }} -> {{ rdamageNL }}\"]},\"maxrank\":3,\"cooldown\":[150,125,100],\"cooldownBurn\":\"150/125/100\",\"cost\":[100,150,200],\"costBurn\":\"100/150/200\",\"datavalues\":{},\"effect\":[null,[0,0,0],[0,0,0],[0,0,0],[0,0,0],[0,0,0],[0,0,0],[0,0,0],[0,0,0],[0,0,0],[0,0,0]],\"effectBurn\":[null,\"0\",\"0\",\"0\",\"0\",\"0\",\"0\",\"0\",\"0\",\"0\",\"0\"],\"vars\":[],\"costType\":\" {{ abilityresourcename }}\",\"maxammo\":\"-1\",\"range\":[550,550,550],\"rangeBurn\":\"550\",\"image\":{\"full\":\"CurseoftheSadMummy.png\",\"sprite\":\"spell1.png\",\"group\":\"spell\",\"x\":48,\"y\":0,\"w\":48,\"h\":48},\"resource\":\"{{ cost }} {{ abilityresourcename }}\"}],\"passive\":{\"name\":\"Cursed Touch\",\"description\":\"Amumu's basic attacks <font color='#9b0f5f'>Curse</font> his enemies, causing them to take bonus true damage from incoming magic damage.\",\"image\":{\"full\":\"Amumu_Passive.png\",\"sprite\":\"passive0.png\",\"group\":\"passive\",\"x\":240,\"y\":0,\"w\":48,\"h\":48}},\"recommended\":[]}",
+    "champion_blurb": "Legend claims that Amumu is a lonely and melancholy soul from ancient Shurima, roaming the world in search of a friend. Doomed by an ancient curse to remain alone forever, his touch is death, his affection ruin. Those who claim to have seen him describe...",
+    "lore": "Legend claims that Amumu is a lonely and melancholy soul from ancient Shurima, roaming the world in search of a friend. Doomed by an ancient curse to remain alone forever, his touch is death, his affection ruin. Those who claim to have seen him describe a living cadaver, small in stature and wrapped in creeping bandages. Amumu has inspired myths, songs, and folklore told and retold for generations—such that it is impossible to separate truth from fiction.",
+    "champion_icon": "https://ddragon.leagueoflegends.com/cdn/13.14.1/img/champion/Amumu.png",
+    "champion_name": "Amumu",
+    "champion_splash": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Amumu_0.jpg",
+    "champion_title": "the Sad Mummy",
+    "recommended_lanes": [],
+    "recommended_roles": [
+        "Tank",
+        "Mage"
+    ],
+    "links": [
+        {
+            "href": "https://na.op.gg/champion/amumu/statistics/",
+            "title": "Op.gg"
+        },
+        {
+            "href": "https://u.gg/lol/champions/amumu/build",
+            "title": "U.gg"
+        },
+        {
+            "href": "https://www.probuilds.net/champions/details/amumu",
+            "title": "probuilds.net"
+        }
+    ],
+    "champion": {
+        "modular_blocks": []
+    },
+    "skins": [
+        {
+            "name": "default",
+            "imageUrl": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Amumu_0.jpg"
+        },
+        {
+            "name": "Pharaoh Amumu",
+            "imageUrl": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Amumu_1.jpg"
+        },
+        {
+            "name": "Vancouver Amumu",
+            "imageUrl": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Amumu_2.jpg"
+        },
+        {
+            "name": "Emumu",
+            "imageUrl": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Amumu_3.jpg"
+        },
+        {
+            "name": "Re-Gifted Amumu",
+            "imageUrl": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Amumu_4.jpg"
+        },
+        {
+            "name": "Almost-Prom King Amumu",
+            "imageUrl": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Amumu_5.jpg"
+        },
+        {
+            "name": "Little Knight Amumu",
+            "imageUrl": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Amumu_6.jpg"
+        },
+        {
+            "name": "Sad Robot Amumu",
+            "imageUrl": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Amumu_7.jpg"
+        },
+        {
+            "name": "Surprise Party Amumu",
+            "imageUrl": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Amumu_8.jpg"
+        },
+        {
+            "name": "Infernal Amumu",
+            "imageUrl": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Amumu_17.jpg"
+        },
+        {
+            "name": "Hextech Amumu",
+            "imageUrl": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Amumu_23.jpg"
+        },
+        {
+            "name": "Pumpkin Prince Amumu",
+            "imageUrl": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Amumu_24.jpg"
+        },
+        {
+            "name": "Porcelain Amumu",
+            "imageUrl": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Amumu_34.jpg"
+        },
+        {
+            "name": "Heartache Amumu",
+            "imageUrl": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Amumu_44.jpg"
+        }
+    ],
+    "champion_passive": {
+        "champion_passive_description": "Amumu's basic attacks Curse his enemies, causing them to take bonus true damage from incoming magic damage.",
+        "champion_passive_icon": "https://ddragon.leagueoflegends.com/cdn/13.14.1/img/passive/Amumu_Passive.png",
+        "champion_passive_name": "Cursed Touch",
+        "champion_passive_video_mp4": "https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0032/ability_0032_P1.mp4",
+        "champion_passive_video_poster": "https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0032/ability_0032_P1.jpg",
+        "champion_passive_video_webm": "https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0032/ability_0032_P1.webm"
+    },
+    "champion_q": {
+        "champion_q_description": "Amumu tosses a sticky bandage at a target, stunning and damaging the target while he pulls himself to them.",
+        "champion_q_icon": "https://ddragon.leagueoflegends.com/cdn/13.14.1/img/spell/BandageToss.png",
+        "champion_q_name": "Bandage Toss",
+        "champion_q_video_mp4": "https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0032/ability_0032_Q1.mp4",
+        "champion_q_video_poster": "https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0032/ability_0032_Q1.jpg",
+        "champion_q_video_webm": "https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0032/ability_0032_Q1.webm"
+    },
+    "champion_w": {
+        "champion_w_description": "Overcome by anguish, nearby enemies lose a percentage of their maximum Health each second and have their Curses refreshed.",
+        "champion_w_icon": "https://ddragon.leagueoflegends.com/cdn/13.14.1/img/spell/AuraofDespair.png",
+        "champion_w_name": "Despair",
+        "champion_w_video_mp4": "https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0032/ability_0032_W1.mp4",
+        "champion_w_video_poster": "https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0032/ability_0032_W1.jpg",
+        "champion_w_video_webm": "https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0032/ability_0032_W1.webm"
+    },
+    "champion_e": {
+        "champion_e_description": "Permanently reduces the physical damage Amumu would take. Amumu can unleash his rage, dealing damage to surrounding enemies. Each time Amumu is hit, the cooldown on Tantrum is reduced.",
+        "champion_e_icon": "https://ddragon.leagueoflegends.com/cdn/13.14.1/img/spell/Tantrum.png",
+        "champion_e_name": "Tantrum",
+        "champion_e_video_mp4": "https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0032/ability_0032_E1.mp4",
+        "champion_e_video_poster": "https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0032/ability_0032_E1.jpg",
+        "champion_e_video_webm": "https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0032/ability_0032_E1.webm"
+    },
+    "champion_r": {
+        "champion_r_description": "Amumu entangles surrounding enemy units in bandages, applying his Curse, damaging and stunning them.",
+        "champion_r_icon": "https://ddragon.leagueoflegends.com/cdn/13.14.1/img/spell/CurseoftheSadMummy.png",
+        "champion_r_name": "Curse of the Sad Mummy",
+        "champion_r_video_mp4": "https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0032/ability_0032_R1.mp4",
+        "champion_r_video_poster": "https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0032/ability_0032_R1.jpg",
+        "champion_r_video_webm": "https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0032/ability_0032_R1.webm"
+    },
+    "related_champions": []
+  },
+  {
+    "publish_details": {
+        "locale": "en-us"
+    },
+    "uid": "blt69702f001da6fa66",
+    "url": "/champions/anivia/",
+    "data_dragon_id": "Anivia",
+    "data_dragon_json": "{\"id\":\"Anivia\",\"key\":\"34\",\"name\":\"Anivia\",\"title\":\"the Cryophoenix\",\"image\":{\"full\":\"Anivia.png\",\"sprite\":\"champion0.png\",\"group\":\"champion\",\"x\":288,\"y\":0,\"w\":48,\"h\":48},\"skins\":[{\"id\":\"34000\",\"num\":0,\"name\":\"default\",\"chromas\":false},{\"id\":\"34001\",\"num\":1,\"name\":\"Team Spirit Anivia\",\"chromas\":false},{\"id\":\"34002\",\"num\":2,\"name\":\"Bird of Prey Anivia\",\"chromas\":false},{\"id\":\"34003\",\"num\":3,\"name\":\"Noxus Hunter Anivia\",\"chromas\":false},{\"id\":\"34004\",\"num\":4,\"name\":\"Hextech Anivia\",\"chromas\":false},{\"id\":\"34005\",\"num\":5,\"name\":\"Blackfrost Anivia\",\"chromas\":false},{\"id\":\"34006\",\"num\":6,\"name\":\"Prehistoric Anivia\",\"chromas\":false},{\"id\":\"34007\",\"num\":7,\"name\":\"Festival Queen Anivia\",\"chromas\":false},{\"id\":\"34008\",\"num\":8,\"name\":\"Papercraft Anivia\",\"chromas\":true},{\"id\":\"34017\",\"num\":17,\"name\":\"Cosmic Flight Anivia\",\"chromas\":true},{\"id\":\"34027\",\"num\":27,\"name\":\"Divine Phoenix Anivia\",\"chromas\":true},{\"id\":\"34037\",\"num\":37,\"name\":\"Bewitching Batnivia\",\"chromas\":true},{\"id\":\"34046\",\"num\":46,\"name\":\"Victorious Anivia\",\"chromas\":true}],\"lore\":\"Anivia is a benevolent winged spirit who endures endless cycles of life, death, and rebirth to protect the Freljord. A demigod born of unforgiving ice and bitter winds, she wields those elemental powers to thwart any who dare disturb her homeland. Anivia guides and protects the tribes of the harsh north, who revere her as a symbol of hope, and a portent of great change. She fights with every ounce of her being, knowing that through her sacrifice, her memory will endure, and she will be reborn into a new tomorrow.\",\"blurb\":\"Anivia is a benevolent winged spirit who endures endless cycles of life, death, and rebirth to protect the Freljord. A demigod born of unforgiving ice and bitter winds, she wields those elemental powers to thwart any who dare disturb her homeland...\",\"allytips\":[\"Timing Flash Frost with Frostbite can lead to devastating combinations.\",\"Anivia is extremely reliant on Mana for Glacial Storm. Try getting items with Mana or going for a Crest of the Ancient Golem buff on Summoner's Rift.\",\"It can be very difficult for enemy champions to kill her egg early in game. Seize the advantage by playing aggressively.\"],\"enemytips\":[\"Try to gank Anivia when she's laning. With multiple people, it is easier to ensure that her egg dies.\",\"If you're playing a ranged champion, stay far enough away from Anivia so you can dodge Flash Frost more easily.\",\"Try to fight Anivia in the lanes. In the jungle she can block pathways with lower ranks of Crystallize.\"],\"tags\":[\"Mage\",\"Support\"],\"partype\":\"Mana\",\"info\":{\"attack\":1,\"defense\":4,\"magic\":10,\"difficulty\":10},\"stats\":{\"hp\":550,\"hpperlevel\":92,\"mp\":495,\"mpperlevel\":45,\"movespeed\":325,\"armor\":21,\"armorperlevel\":4.9,\"spellblock\":30,\"spellblockperlevel\":1.3,\"attackrange\":600,\"hpregen\":5.5,\"hpregenperlevel\":0.55,\"mpregen\":8,\"mpregenperlevel\":0.8,\"crit\":0,\"critperlevel\":0,\"attackdamage\":51,\"attackdamageperlevel\":3.2,\"attackspeedperlevel\":1.68,\"attackspeed\":0.625},\"spells\":[{\"id\":\"FlashFrost\",\"name\":\"Flash Frost\",\"description\":\"Anivia brings her wings together and summons a sphere of ice that flies towards her opponents, chilling and damaging anyone in its path. When the sphere explodes it does moderate damage in a radius, stunning anyone in the area.\",\"tooltip\":\"Anivia fires a massive chunk of ice, dealing <magicDamage>{{ totalpassthroughdamage }} magic damage</magicDamage> and <keywordMajor>Chilling</keywordMajor> enemies for {{ slowduration }} seconds, <status>Slowing</status> them by {{ spell.glacialstorm:slowamount }}%. At the end of its range, the ice detonates, <status>Stunning</status> enemies for {{ stunduration }} seconds and dealing <magicDamage>{{ totalexplosiondamage }} magic damage</magicDamage>.<br /><br />Anivia can <recast>Recast</recast> this ability while the ice flies to detonate it early.{{ spellmodifierdescriptionappend }}\",\"leveltip\":{\"label\":[\"Damage\",\"Detonation Damage\",\"Stun Duration\",\"Cooldown\",\"@AbilityResourceName@ Cost\"],\"effect\":[\"{{ passthroughbasedamage }} -> {{ passthroughbasedamageNL }}\",\"{{ explosionbasedamage }} -> {{ explosionbasedamageNL }}\",\"{{ stunduration }} -> {{ stundurationNL }}\",\"{{ cooldown }} -> {{ cooldownNL }}\",\"{{ cost }} -> {{ costNL }}\"]},\"maxrank\":5,\"cooldown\":[12,11,10,9,8],\"cooldownBurn\":\"12/11/10/9/8\",\"cost\":[80,85,90,95,100],\"costBurn\":\"80/85/90/95/100\",\"datavalues\":{},\"effect\":[null,[0,0,0,0,0],[0,0,0,0,0],[0,0,0,0,0],[0,0,0,0,0],[0,0,0,0,0],[0,0,0,0,0],[0,0,0,0,0],[0,0,0,0,0],[0,0,0,0,0],[0,0,0,0,0]],\"effectBurn\":[null,\"0\",\"0\",\"0\",\"0\",\"0\",\"0\",\"0\",\"0\",\"0\",\"0\"],\"vars\":[],\"costType\":\" {{ abilityresourcename }}\",\"maxammo\":\"-1\",\"range\":[1075,1075,1075,1075,1075],\"rangeBurn\":\"1075\",\"image\":{\"full\":\"FlashFrost.png\",\"sprite\":\"spell1.png\",\"group\":\"spell\",\"x\":96,\"y\":0,\"w\":48,\"h\":48},\"resource\":\"{{ cost }} {{ abilityresourcename }}\"},{\"id\":\"Crystallize\",\"name\":\"Crystallize\",\"description\":\"Anivia condenses the moisture in the air into an impassable wall of ice to block all movement. The wall only lasts a short duration before it melts.\",\"tooltip\":\"Anivia summons a wall of ice {{ e2 }} units wide. The wall lasts for {{ e1 }} seconds before it melts.{{ spellmodifierdescriptionappend }}\",\"leveltip\":{\"label\":[\"Width\"],\"effect\":[\"{{ e2 }} -> {{ e2NL }}\"]},\"maxrank\":5,\"cooldown\":[17,17,17,17,17],\"cooldownBurn\":\"17\",\"cost\":[70,70,70,70,70],\"costBurn\":\"70\",\"datavalues\":{},\"effect\":[null,[5,5,5,5,5],[400,500,600,700,800],[0,0,0,0,0],[0,0,0,0,0],[0,0,0,0,0],[0,0,0,0,0],[0,0,0,0,0],[0,0,0,0,0],[0,0,0,0,0],[0,0,0,0,0]],\"effectBurn\":[null,\"5\",\"400/500/600/700/800\",\"0\",\"0\",\"0\",\"0\",\"0\",\"0\",\"0\",\"0\"],\"vars\":[],\"costType\":\" {{ abilityresourcename }}\",\"maxammo\":\"-1\",\"range\":[1000,1000,1000,1000,1000],\"rangeBurn\":\"1000\",\"image\":{\"full\":\"Crystallize.png\",\"sprite\":\"spell1.png\",\"group\":\"spell\",\"x\":144,\"y\":0,\"w\":48,\"h\":48},\"resource\":\"{{ cost }} {{ abilityresourcename }}\"},{\"id\":\"Frostbite\",\"name\":\"Frostbite\",\"description\":\"With a flap of her wings, Anivia blasts a freezing gust of wind at her target, dealing damage. If the target was recently hit by Flash Frost or damaged by a fully formed Glacial Storm, the damage they take is doubled.\",\"tooltip\":\"Anivia blasts an enemy with a freezing wind, dealing <magicDamage>{{ totaldamage }} magic damage</magicDamage>. Against <keywordMajor>Chilled</keywordMajor> enemies, Anivia deals <magicDamage>{{ empowereddamage }} magic damage</magicDamage> instead.{{ spellmodifierdescriptionappend }}\",\"leveltip\":{\"label\":[\"Damage\"],\"effect\":[\"{{ basedamage }} -> {{ basedamageNL }}\"]},\"maxrank\":5,\"cooldown\":[4,4,4,4,4],\"cooldownBurn\":\"4\",\"cost\":[50,50,50,50,50],\"costBurn\":\"50\",\"datavalues\":{},\"effect\":[null,[0,0,0,0,0],[0,0,0,0,0],[0,0,0,0,0],[0,0,0,0,0],[0,0,0,0,0],[0,0,0,0,0],[0,0,0,0,0],[0,0,0,0,0],[0,0,0,0,0],[0,0,0,0,0]],\"effectBurn\":[null,\"0\",\"0\",\"0\",\"0\",\"0\",\"0\",\"0\",\"0\",\"0\",\"0\"],\"vars\":[],\"costType\":\" {{ abilityresourcename }}\",\"maxammo\":\"-1\",\"range\":[650,650,650,650,650],\"rangeBurn\":\"650\",\"image\":{\"full\":\"Frostbite.png\",\"sprite\":\"spell1.png\",\"group\":\"spell\",\"x\":192,\"y\":0,\"w\":48,\"h\":48},\"resource\":\"{{ cost }} {{ abilityresourcename }}\"},{\"id\":\"GlacialStorm\",\"name\":\"Glacial Storm\",\"description\":\"Anivia summons a driving rain of ice and hail to damage her enemies and slow their advance.\",\"tooltip\":\"<toggle>Toggle:</toggle> Anivia calls forth a driving rain of ice and hail that <status>Slows</status> enemies by {{ slowamount }}% and deals <magicDamage>{{ totaldamagepersecond }} magic damage per second</magicDamage>. The storm increases in size over {{ growthtime }} seconds.<br /><br />When the storm is fully formed, it <keywordMajor>Chills</keywordMajor>, <status>Slows</status> by {{ slowpercentempoweredtt }}%, and does <magicDamage>{{ empowereddamagepersecondtooltiponly }} magic damage per second</magicDamage> instead.{{ spellmodifierdescriptionappend }}\",\"leveltip\":{\"label\":[\"Damage Per Second\",\"Slow\",\"Chilled Slow Amount\",\"Mana Cost Per Second\",\"Cooldown\"],\"effect\":[\"{{ damagepersecond }} -> {{ damagepersecondNL }}\",\"{{ slowamount }}% -> {{ slowamountNL }}%\",\"{{ slowpercentempoweredtt }}% -> {{ slowpercentempoweredttNL }}%\",\"{{ manacostpersecond }} -> {{ manacostpersecondNL }}\",\"{{ cooldown }} -> {{ cooldownNL }}\"]},\"maxrank\":3,\"cooldown\":[4,3,2],\"cooldownBurn\":\"4/3/2\",\"cost\":[60,60,60],\"costBurn\":\"60\",\"datavalues\":{},\"effect\":[null,[0,0,0],[0,0,0],[0,0,0],[0,0,0],[0,0,0],[0,0,0],[0,0,0],[0,0,0],[0,0,0],[0,0,0]],\"effectBurn\":[null,\"0\",\"0\",\"0\",\"0\",\"0\",\"0\",\"0\",\"0\",\"0\",\"0\"],\"vars\":[],\"costType\":\" + {{ manacostpersecond }} Mana per second\",\"maxammo\":\"-1\",\"range\":[750,750,750],\"rangeBurn\":\"750\",\"image\":{\"full\":\"GlacialStorm.png\",\"sprite\":\"spell1.png\",\"group\":\"spell\",\"x\":240,\"y\":0,\"w\":48,\"h\":48},\"resource\":\"{{ cost }} + {{ manacostpersecond }} Mana per second\"}],\"passive\":{\"name\":\"Rebirth\",\"description\":\"Upon taking fatal damage, Anivia reverts to an egg and is reborn with full health.\",\"image\":{\"full\":\"Anivia_P.png\",\"sprite\":\"passive0.png\",\"group\":\"passive\",\"x\":288,\"y\":0,\"w\":48,\"h\":48}},\"recommended\":[]}",
+    "champion_blurb": "Anivia is a benevolent winged spirit who endures endless cycles of life, death, and rebirth to protect the Freljord. A demigod born of unforgiving ice and bitter winds, she wields those elemental powers to thwart any who dare disturb her homeland...",
+    "lore": "Anivia is a benevolent winged spirit who endures endless cycles of life, death, and rebirth to protect the Freljord. A demigod born of unforgiving ice and bitter winds, she wields those elemental powers to thwart any who dare disturb her homeland. Anivia guides and protects the tribes of the harsh north, who revere her as a symbol of hope, and a portent of great change. She fights with every ounce of her being, knowing that through her sacrifice, her memory will endure, and she will be reborn into a new tomorrow.",
+    "champion_icon": "https://ddragon.leagueoflegends.com/cdn/13.14.1/img/champion/Anivia.png",
+    "champion_name": "Anivia",
+    "champion_splash": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Anivia_0.jpg",
+    "champion_title": "the Cryophoenix",
+    "recommended_lanes": [],
+    "recommended_roles": [
+        "Mage",
+        "Support"
+    ],
+    "links": [
+        {
+            "href": "https://na.op.gg/champion/anivia/statistics/",
+            "title": "Op.gg"
+        },
+        {
+            "href": "https://u.gg/lol/champions/anivia/build",
+            "title": "U.gg"
+        },
+        {
+            "href": "https://www.probuilds.net/champions/details/anivia",
+            "title": "probuilds.net"
+        }
+    ],
+    "champion": {
+        "modular_blocks": []
+    },
+    "skins": [
+        {
+            "name": "default",
+            "imageUrl": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Anivia_0.jpg"
+        },
+        {
+            "name": "Team Spirit Anivia",
+            "imageUrl": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Anivia_1.jpg"
+        },
+        {
+            "name": "Bird of Prey Anivia",
+            "imageUrl": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Anivia_2.jpg"
+        },
+        {
+            "name": "Noxus Hunter Anivia",
+            "imageUrl": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Anivia_3.jpg"
+        },
+        {
+            "name": "Hextech Anivia",
+            "imageUrl": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Anivia_4.jpg"
+        },
+        {
+            "name": "Blackfrost Anivia",
+            "imageUrl": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Anivia_5.jpg"
+        },
+        {
+            "name": "Prehistoric Anivia",
+            "imageUrl": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Anivia_6.jpg"
+        },
+        {
+            "name": "Festival Queen Anivia",
+            "imageUrl": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Anivia_7.jpg"
+        },
+        {
+            "name": "Papercraft Anivia",
+            "imageUrl": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Anivia_8.jpg"
+        },
+        {
+            "name": "Cosmic Flight Anivia",
+            "imageUrl": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Anivia_17.jpg"
+        },
+        {
+            "name": "Divine Phoenix Anivia",
+            "imageUrl": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Anivia_27.jpg"
+        },
+        {
+            "name": "Bewitching Batnivia",
+            "imageUrl": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Anivia_37.jpg"
+        },
+        {
+            "name": "Victorious Anivia",
+            "imageUrl": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Anivia_46.jpg"
+        }
+    ],
+    "champion_passive": {
+        "champion_passive_description": "Upon taking fatal damage, Anivia reverts to an egg and is reborn with full health.",
+        "champion_passive_icon": "https://ddragon.leagueoflegends.com/cdn/13.14.1/img/passive/Anivia_P.png",
+        "champion_passive_name": "Rebirth",
+        "champion_passive_video_mp4": "https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0034/ability_0034_P1.mp4",
+        "champion_passive_video_poster": "https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0034/ability_0034_P1.jpg",
+        "champion_passive_video_webm": "https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0034/ability_0034_P1.webm"
+    },
+    "champion_q": {
+        "champion_q_description": "Anivia brings her wings together and summons a sphere of ice that flies towards her opponents, chilling and damaging anyone in its path. When the sphere explodes it does moderate damage in a radius, stunning anyone in the area.",
+        "champion_q_icon": "https://ddragon.leagueoflegends.com/cdn/13.14.1/img/spell/FlashFrost.png",
+        "champion_q_name": "Flash Frost",
+        "champion_q_video_mp4": "https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0034/ability_0034_Q1.mp4",
+        "champion_q_video_poster": "https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0034/ability_0034_Q1.jpg",
+        "champion_q_video_webm": "https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0034/ability_0034_Q1.webm"
+    },
+    "champion_w": {
+        "champion_w_description": "Anivia condenses the moisture in the air into an impassable wall of ice to block all movement. The wall only lasts a short duration before it melts.",
+        "champion_w_icon": "https://ddragon.leagueoflegends.com/cdn/13.14.1/img/spell/Crystallize.png",
+        "champion_w_name": "Crystallize",
+        "champion_w_video_mp4": "https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0034/ability_0034_W1.mp4",
+        "champion_w_video_poster": "https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0034/ability_0034_W1.jpg",
+        "champion_w_video_webm": "https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0034/ability_0034_W1.webm"
+    },
+    "champion_e": {
+        "champion_e_description": "With a flap of her wings, Anivia blasts a freezing gust of wind at her target, dealing damage. If the target was recently hit by Flash Frost or damaged by a fully formed Glacial Storm, the damage they take is doubled.",
+        "champion_e_icon": "https://ddragon.leagueoflegends.com/cdn/13.14.1/img/spell/Frostbite.png",
+        "champion_e_name": "Frostbite",
+        "champion_e_video_mp4": "https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0034/ability_0034_E1.mp4",
+        "champion_e_video_poster": "https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0034/ability_0034_E1.jpg",
+        "champion_e_video_webm": "https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0034/ability_0034_E1.webm"
+    },
+    "champion_r": {
+        "champion_r_description": "Anivia summons a driving rain of ice and hail to damage her enemies and slow their advance.",
+        "champion_r_icon": "https://ddragon.leagueoflegends.com/cdn/13.14.1/img/spell/GlacialStorm.png",
+        "champion_r_name": "Glacial Storm",
+        "champion_r_video_mp4": "https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0034/ability_0034_R1.mp4",
+        "champion_r_video_poster": "https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0034/ability_0034_R1.jpg",
+        "champion_r_video_webm": "https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0034/ability_0034_R1.webm"
+    },
+    "related_champions": []
+  },
+  {
+    "publish_details": {
+        "locale": "en-us"
+    },
+    "uid": "bltdf4ef9a617bc7424",
+    "url": "/champions/annie/",
+    "data_dragon_id": "Annie",
+    "data_dragon_json": "{\"id\":\"Annie\",\"key\":\"1\",\"name\":\"Annie\",\"title\":\"the Dark Child\",\"image\":{\"full\":\"Annie.png\",\"sprite\":\"champion0.png\",\"group\":\"champion\",\"x\":336,\"y\":0,\"w\":48,\"h\":48},\"skins\":[{\"id\":\"1000\",\"num\":0,\"name\":\"default\",\"chromas\":false},{\"id\":\"1001\",\"num\":1,\"name\":\"Goth Annie\",\"chromas\":false},{\"id\":\"1002\",\"num\":2,\"name\":\"Red Riding Annie\",\"chromas\":false},{\"id\":\"1003\",\"num\":3,\"name\":\"Annie in Wonderland\",\"chromas\":false},{\"id\":\"1004\",\"num\":4,\"name\":\"Prom Queen Annie\",\"chromas\":false},{\"id\":\"1005\",\"num\":5,\"name\":\"Frostfire Annie\",\"chromas\":false},{\"id\":\"1006\",\"num\":6,\"name\":\"Reverse Annie\",\"chromas\":false},{\"id\":\"1007\",\"num\":7,\"name\":\"FrankenTibbers Annie\",\"chromas\":false},{\"id\":\"1008\",\"num\":8,\"name\":\"Panda Annie\",\"chromas\":false},{\"id\":\"1009\",\"num\":9,\"name\":\"Sweetheart Annie\",\"chromas\":false},{\"id\":\"1010\",\"num\":10,\"name\":\"Hextech Annie\",\"chromas\":false},{\"id\":\"1011\",\"num\":11,\"name\":\"Super Galaxy Annie\",\"chromas\":false},{\"id\":\"1012\",\"num\":12,\"name\":\"Annie-Versary\",\"chromas\":false},{\"id\":\"1013\",\"num\":13,\"name\":\"Lunar Beast Annie\",\"chromas\":true},{\"id\":\"1022\",\"num\":22,\"name\":\"Cafe Cuties Annie\",\"chromas\":false},{\"id\":\"1031\",\"num\":31,\"name\":\"Fright Night Annie\",\"chromas\":false}],\"lore\":\"Dangerous, yet disarmingly precocious, Annie is a child mage with immense pyromantic power. Even in the shadows of the mountains north of Noxus, she is a magical outlier. Her natural affinity for fire manifested early in life through unpredictable, emotional outbursts, though she eventually learned to control these “playful tricks.” Her favorite includes the summoning of her beloved teddy bear, Tibbers, as a fiery protector. Lost in the perpetual innocence of childhood, Annie wanders the dark forests, always looking for someone to play with.\",\"blurb\":\"Dangerous, yet disarmingly precocious, Annie is a child mage with immense pyromantic power. Even in the shadows of the mountains north of Noxus, she is a magical outlier. Her natural affinity for fire manifested early in life through unpredictable...\",\"allytips\":[\"Storing a stun for use with her ultimate can turn the tide of a team fight.\",\"Striking killing blows on minions with Disintegrate enables Annie to farm extremely well early in the game.\",\"Molten Shield is a good spell to cast to work up to Annie's stun, so sometimes it's beneficial to grab at least 1 rank in it early.\"],\"enemytips\":[\"Annie's summoned bear, Tibbers, burns opposing units around himself. Try to keep your distance from him after he's been summoned.\",\"Summoner Smite can be used to help take down Tibbers.\",\"Keep an eye out for a white, swirling power around Annie. It means she's ready to unleash her stun.\"],\"tags\":[\"Mage\"],\"partype\":\"Mana\",\"info\":{\"attack\":2,\"defense\":3,\"magic\":10,\"difficulty\":6},\"stats\":{\"hp\":560,\"hpperlevel\":102,\"mp\":418,\"mpperlevel\":25,\"movespeed\":335,\"armor\":19,\"armorperlevel\":4.7,\"spellblock\":30,\"spellblockperlevel\":1.3,\"attackrange\":625,\"hpregen\":5.5,\"hpregenperlevel\":0.55,\"mpregen\":8,\"mpregenperlevel\":0.8,\"crit\":0,\"critperlevel\":0,\"attackdamage\":50,\"attackdamageperlevel\":2.65,\"attackspeedperlevel\":1.36,\"attackspeed\":0.579},\"spells\":[{\"id\":\"AnnieQ\",\"name\":\"Disintegrate\",\"description\":\"Annie hurls a Mana infused fireball, dealing damage and refunding the Mana cost if it destroys the target.\",\"tooltip\":\"Annie hurls a fireball, dealing <magicDamage>{{ totaldamage }} magic damage</magicDamage>. If the target dies, Annie refunds the Mana cost and reduces the Cooldown by 50%.{{ spellmodifierdescriptionappend }}\",\"leveltip\":{\"label\":[\"Damage\",\"@AbilityResourceName@ Cost\"],\"effect\":[\"{{ basedamage }} -> {{ basedamageNL }}\",\"{{ cost }} -> {{ costNL }}\"]},\"maxrank\":5,\"cooldown\":[4,4,4,4,4],\"cooldownBurn\":\"4\",\"cost\":[60,65,70,75,80],\"costBurn\":\"60/65/70/75/80\",\"datavalues\":{},\"effect\":[null,[0,0,0,0,0],[0,0,0,0,0],[0,0,0,0,0],[0,0,0,0,0],[0,0,0,0,0],[0,0,0,0,0],[0,0,0,0,0],[0,0,0,0,0],[0,0,0,0,0],[0,0,0,0,0]],\"effectBurn\":[null,\"0\",\"0\",\"0\",\"0\",\"0\",\"0\",\"0\",\"0\",\"0\",\"0\"],\"vars\":[],\"costType\":\" {{ abilityresourcename }}\",\"maxammo\":\"-1\",\"range\":[625,625,625,625,625],\"rangeBurn\":\"625\",\"image\":{\"full\":\"AnnieQ.png\",\"sprite\":\"spell1.png\",\"group\":\"spell\",\"x\":288,\"y\":0,\"w\":48,\"h\":48},\"resource\":\"{{ cost }} {{ abilityresourcename }}\"},{\"id\":\"AnnieW\",\"name\":\"Incinerate\",\"description\":\"Annie casts a blazing cone of fire, dealing damage to all enemies in the area.\",\"tooltip\":\"Annie projects a wave of fire, dealing <magicDamage>{{ totaldamage }} magic damage</magicDamage>.{{ spellmodifierdescriptionappend }}\",\"leveltip\":{\"label\":[\"Damage\",\"@AbilityResourceName@ Cost\"],\"effect\":[\"{{ basedamage }} -> {{ basedamageNL }}\",\"{{ cost }} -> {{ costNL }}\"]},\"maxrank\":5,\"cooldown\":[8,8,8,8,8],\"cooldownBurn\":\"8\",\"cost\":[90,95,100,105,110],\"costBurn\":\"90/95/100/105/110\",\"datavalues\":{},\"effect\":[null,[0,0,0,0,0],[0,0,0,0,0],[0,0,0,0,0],[0,0,0,0,0],[0,0,0,0,0],[0,0,0,0,0],[0,0,0,0,0],[0,0,0,0,0],[0,0,0,0,0],[0,0,0,0,0]],\"effectBurn\":[null,\"0\",\"0\",\"0\",\"0\",\"0\",\"0\",\"0\",\"0\",\"0\",\"0\"],\"vars\":[],\"costType\":\" {{ abilityresourcename }}\",\"maxammo\":\"-1\",\"range\":[600,600,600,600,600],\"rangeBurn\":\"600\",\"image\":{\"full\":\"AnnieW.png\",\"sprite\":\"spell1.png\",\"group\":\"spell\",\"x\":336,\"y\":0,\"w\":48,\"h\":48},\"resource\":\"{{ cost }} {{ abilityresourcename }}\"},{\"id\":\"AnnieE\",\"name\":\"Molten Shield\",\"description\":\"Grants Annie or an ally a shield, a burst of Move Speed, and damages enemies who strike her with attacks or spells.\",\"tooltip\":\"Annie grants an ally champion <shield>{{ shieldblocktotal }} Shield</shield> for {{ shieldduration }} seconds and <speed>{{ movespeedcalc }} Decaying Move Speed</speed> for {{ movementspeedduration }} seconds. While the shield holds, enemies who hit the shielded ally with an Attack or Ability receive <magicDamage>{{ damagereturn }} magic damage</magicDamage> once per shield.<br /><br />Tibbers always gains the effects of <spellName>Molten Shield</spellName> when summoned.{{ spellmodifierdescriptionappend }}\",\"leveltip\":{\"label\":[\"Shield Health\",\"Damage Reflection\",\"Cooldown\",\"@AbilityResourceName@ Cost\"],\"effect\":[\"{{ shieldamount }} -> {{ shieldamountNL }}\",\"{{ damagereflection }} -> {{ damagereflectionNL }}\",\"{{ cooldown }} -> {{ cooldownNL }}\",\"{{ cost }} -> {{ costNL }}\"]},\"maxrank\":5,\"cooldown\":[12,11.5,11,10.5,10],\"cooldownBurn\":\"12/11.5/11/10.5/10\",\"cost\":[60,65,70,75,80],\"costBurn\":\"60/65/70/75/80\",\"datavalues\":{},\"effect\":[null,[0,0,0,0,0],[0,0,0,0,0],[0,0,0,0,0],[0,0,0,0,0],[0,0,0,0,0],[0,0,0,0,0],[0,0,0,0,0],[0,0,0,0,0],[0,0,0,0,0],[0,0,0,0,0]],\"effectBurn\":[null,\"0\",\"0\",\"0\",\"0\",\"0\",\"0\",\"0\",\"0\",\"0\",\"0\"],\"vars\":[],\"costType\":\" {{ abilityresourcename }}\",\"maxammo\":\"-1\",\"range\":[800,800,800,800,800],\"rangeBurn\":\"800\",\"image\":{\"full\":\"AnnieE.png\",\"sprite\":\"spell1.png\",\"group\":\"spell\",\"x\":384,\"y\":0,\"w\":48,\"h\":48},\"resource\":\"{{ cost }} {{ abilityresourcename }}\"},{\"id\":\"AnnieR\",\"name\":\"Summon: Tibbers\",\"description\":\"Annie wills her bear Tibbers to life, dealing damage to units in the area. Tibbers can attack and also burns enemies that stand near him.\",\"tooltip\":\"Annie summons her bear Tibbers, dealing <magicDamage>{{ initialburstdamage }} magic damage</magicDamage>. For the next {{ tibberslifetime }} seconds, Tibbers burns nearby enemies for <magicDamage>{{ tibbersauradamage }} magic damage per second</magicDamage>.<br /><br />Tibbers becomes enraged when summoned, if Annie stuns an enemy champion, and if Annie dies. When enraged, Tibbers gains <attackSpeed>275% Attack Speed</attackSpeed> and <speed>100% Move Speed</speed> decaying over 3 seconds.<br /><br /><recast>Recast:</recast> Manually issue orders to Tibbers.{{ spellmodifierdescriptionappend }}\",\"leveltip\":{\"label\":[\"Initial Damage\",\"Aura Damage\",\"Tibbers Attack Damage\",\"Bonus Health\",\"Bonus Resistances\",\"Cooldown\"],\"effect\":[\"{{ initialdamage }} -> {{ initialdamageNL }}\",\"{{ auradamage }} -> {{ auradamageNL }}\",\"{{ tibbersattackdamage }} -> {{ tibbersattackdamageNL }}\",\"{{ bonushealth }} -> {{ bonushealthNL }}\",\"{{ bonusresistances }} -> {{ bonusresistancesNL }}\",\"{{ cooldown }} -> {{ cooldownNL }}\"]},\"maxrank\":3,\"cooldown\":[130,115,100],\"cooldownBurn\":\"130/115/100\",\"cost\":[100,100,100],\"costBurn\":\"100\",\"datavalues\":{},\"effect\":[null,[0,0,0],[0,0,0],[0,0,0],[0,0,0],[0,0,0],[0,0,0],[0,0,0],[0,0,0],[0,0,0],[0,0,0]],\"effectBurn\":[null,\"0\",\"0\",\"0\",\"0\",\"0\",\"0\",\"0\",\"0\",\"0\",\"0\"],\"vars\":[],\"costType\":\" {{ abilityresourcename }}\",\"maxammo\":\"-1\",\"range\":[600,600,600],\"rangeBurn\":\"600\",\"image\":{\"full\":\"AnnieR.png\",\"sprite\":\"spell1.png\",\"group\":\"spell\",\"x\":432,\"y\":0,\"w\":48,\"h\":48},\"resource\":\"{{ cost }} {{ abilityresourcename }}\"}],\"passive\":{\"name\":\"Pyromania\",\"description\":\"After casting 4 spells, Annie's next offensive spell will stun the target.<br><br>Annie begins the game and respawns with Pyromania available.\",\"image\":{\"full\":\"Annie_Passive.png\",\"sprite\":\"passive0.png\",\"group\":\"passive\",\"x\":336,\"y\":0,\"w\":48,\"h\":48}},\"recommended\":[]}",
+    "champion_blurb": "Dangerous, yet disarmingly precocious, Annie is a child mage with immense pyromantic power. Even in the shadows of the mountains north of Noxus, she is a magical outlier. Her natural affinity for fire manifested early in life through unpredictable...",
+    "lore": "Dangerous, yet disarmingly precocious, Annie is a child mage with immense pyromantic power. Even in the shadows of the mountains north of Noxus, she is a magical outlier. Her natural affinity for fire manifested early in life through unpredictable, emotional outbursts, though she eventually learned to control these “playful tricks.” Her favorite includes the summoning of her beloved teddy bear, Tibbers, as a fiery protector. Lost in the perpetual innocence of childhood, Annie wanders the dark forests, always looking for someone to play with.",
+    "champion_icon": "https://ddragon.leagueoflegends.com/cdn/13.14.1/img/champion/Annie.png",
+    "champion_name": "Annie",
+    "champion_splash": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Annie_0.jpg",
+    "champion_title": "the Dark Child",
+    "recommended_lanes": [],
+    "recommended_roles": [
+        "Mage"
+    ],
+    "links": [
+        {
+            "href": "https://na.op.gg/champion/annie/statistics/",
+            "title": "Op.gg"
+        },
+        {
+            "href": "https://u.gg/lol/champions/annie/build",
+            "title": "U.gg"
+        },
+        {
+            "href": "https://www.probuilds.net/champions/details/annie",
+            "title": "probuilds.net"
+        }
+    ],
+    "champion": {
+        "modular_blocks": []
+    },
+    "skins": [
+        {
+            "name": "default",
+            "imageUrl": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Annie_0.jpg"
+        },
+        {
+            "name": "Goth Annie",
+            "imageUrl": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Annie_1.jpg"
+        },
+        {
+            "name": "Red Riding Annie",
+            "imageUrl": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Annie_2.jpg"
+        },
+        {
+            "name": "Annie in Wonderland",
+            "imageUrl": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Annie_3.jpg"
+        },
+        {
+            "name": "Prom Queen Annie",
+            "imageUrl": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Annie_4.jpg"
+        },
+        {
+            "name": "Frostfire Annie",
+            "imageUrl": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Annie_5.jpg"
+        },
+        {
+            "name": "Reverse Annie",
+            "imageUrl": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Annie_6.jpg"
+        },
+        {
+            "name": "FrankenTibbers Annie",
+            "imageUrl": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Annie_7.jpg"
+        },
+        {
+            "name": "Panda Annie",
+            "imageUrl": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Annie_8.jpg"
+        },
+        {
+            "name": "Sweetheart Annie",
+            "imageUrl": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Annie_9.jpg"
+        },
+        {
+            "name": "Hextech Annie",
+            "imageUrl": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Annie_10.jpg"
+        },
+        {
+            "name": "Super Galaxy Annie",
+            "imageUrl": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Annie_11.jpg"
+        },
+        {
+            "name": "Annie-Versary",
+            "imageUrl": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Annie_12.jpg"
+        },
+        {
+            "name": "Lunar Beast Annie",
+            "imageUrl": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Annie_13.jpg"
+        },
+        {
+            "name": "Cafe Cuties Annie",
+            "imageUrl": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Annie_22.jpg"
+        },
+        {
+            "name": "Fright Night Annie",
+            "imageUrl": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Annie_31.jpg"
+        }
+    ],
+    "champion_passive": {
+        "champion_passive_description": "After casting 4 spells, Annie's next offensive spell will stun the target.\n\nAnnie begins the game and respawns with Pyromania available.",
+        "champion_passive_icon": "https://ddragon.leagueoflegends.com/cdn/13.14.1/img/passive/Annie_Passive.png",
+        "champion_passive_name": "Pyromania",
+        "champion_passive_video_mp4": "https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0001/ability_0001_P1.mp4",
+        "champion_passive_video_poster": "https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0001/ability_0001_P1.jpg",
+        "champion_passive_video_webm": "https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0001/ability_0001_P1.webm"
+    },
+    "champion_q": {
+        "champion_q_description": "Annie hurls a Mana infused fireball, dealing damage and refunding the Mana cost if it destroys the target.",
+        "champion_q_icon": "https://ddragon.leagueoflegends.com/cdn/13.14.1/img/spell/AnnieQ.png",
+        "champion_q_name": "Disintegrate",
+        "champion_q_video_mp4": "https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0001/ability_0001_Q1.mp4",
+        "champion_q_video_poster": "https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0001/ability_0001_Q1.jpg",
+        "champion_q_video_webm": "https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0001/ability_0001_Q1.webm"
+    },
+    "champion_w": {
+        "champion_w_description": "Annie casts a blazing cone of fire, dealing damage to all enemies in the area.",
+        "champion_w_icon": "https://ddragon.leagueoflegends.com/cdn/13.14.1/img/spell/AnnieW.png",
+        "champion_w_name": "Incinerate",
+        "champion_w_video_mp4": "https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0001/ability_0001_W1.mp4",
+        "champion_w_video_poster": "https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0001/ability_0001_W1.jpg",
+        "champion_w_video_webm": "https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0001/ability_0001_W1.webm"
+    },
+    "champion_e": {
+        "champion_e_description": "Grants Annie or an ally a shield, a burst of Move Speed, and damages enemies who strike her with attacks or spells.",
+        "champion_e_icon": "https://ddragon.leagueoflegends.com/cdn/13.14.1/img/spell/AnnieE.png",
+        "champion_e_name": "Molten Shield",
+        "champion_e_video_mp4": "https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0001/ability_0001_E1.mp4",
+        "champion_e_video_poster": "https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0001/ability_0001_E1.jpg",
+        "champion_e_video_webm": "https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0001/ability_0001_E1.webm"
+    },
+    "champion_r": {
+        "champion_r_description": "Annie wills her bear Tibbers to life, dealing damage to units in the area. Tibbers can attack and also burns enemies that stand near him.",
+        "champion_r_icon": "https://ddragon.leagueoflegends.com/cdn/13.14.1/img/spell/AnnieR.png",
+        "champion_r_name": "Summon: Tibbers",
+        "champion_r_video_mp4": "https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0001/ability_0001_R1.mp4",
+        "champion_r_video_poster": "https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0001/ability_0001_R1.jpg",
+        "champion_r_video_webm": "https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0001/ability_0001_R1.webm"
+    },
+    "related_champions": []
+  },
+  {
+    "publish_details": {
+        "locale": "en-us"
+    },
+    "uid": "blt234c097cdcadb697",
+    "url": "/champions/aphelios/",
+    "data_dragon_id": "Aphelios",
+    "data_dragon_json": "{\"id\":\"Aphelios\",\"key\":\"523\",\"name\":\"Aphelios\",\"title\":\"the Weapon of the Faithful\",\"image\":{\"full\":\"Aphelios.png\",\"sprite\":\"champion0.png\",\"group\":\"champion\",\"x\":384,\"y\":0,\"w\":48,\"h\":48},\"skins\":[{\"id\":\"523000\",\"num\":0,\"name\":\"default\",\"chromas\":false},{\"id\":\"523001\",\"num\":1,\"name\":\"Nightbringer Aphelios\",\"chromas\":true},{\"id\":\"523009\",\"num\":9,\"name\":\"Lunar Beast Aphelios\",\"chromas\":true},{\"id\":\"523018\",\"num\":18,\"name\":\"EDG Aphelios\",\"chromas\":false},{\"id\":\"523020\",\"num\":20,\"name\":\"Spirit Blossom Aphelios\",\"chromas\":false}],\"lore\":\"Emerging from moonlight's shadow with weapons drawn, Aphelios kills the enemies of his faith in brooding silence—speaking only through the certainty of his aim, and the firing of each gun. Though fueled by a poison that renders him mute, he is guided by his sister Alune. From her distant temple sanctuary, she pushes an arsenal of moonstone weapons into his hands. For as long as the moon shines overhead, Aphelios will never be alone.\",\"blurb\":\"Emerging from moonlight's shadow with weapons drawn, Aphelios kills the enemies of his faith in brooding silence—speaking only through the certainty of his aim, and the firing of each gun. Though fueled by a poison that renders him mute, he is guided by...\",\"allytips\":[\"Each of Aphelios' weapons have different strengths, so try to find the right situation for your current weapons. \"],\"enemytips\":[\"Each of Aphelios' weapons have different weaknesses, try to exploit the ones that work best for your champion. Watch out for the purple Gravity gun, it can root you.\"],\"tags\":[\"Marksman\"],\"partype\":\"Mana\",\"info\":{\"attack\":6,\"defense\":2,\"magic\":1,\"difficulty\":10},\"stats\":{\"hp\":580,\"hpperlevel\":102,\"mp\":348,\"mpperlevel\":42,\"movespeed\":325,\"armor\":26,\"armorperlevel\":4.2,\"spellblock\":30,\"spellblockperlevel\":1.3,\"attackrange\":550,\"hpregen\":3.25,\"hpregenperlevel\":0.55,\"mpregen\":6.5,\"mpregenperlevel\":0.4,\"crit\":0,\"critperlevel\":0,\"attackdamage\":55,\"attackdamageperlevel\":3,\"attackspeedperlevel\":2.1,\"attackspeed\":0.64},\"spells\":[{\"id\":\"ApheliosQ_ClientTooltipWrapper\",\"name\":\"Weapon Abilites\",\"description\":\"Aphelios has 5 different activated abilities, based on his main-hand weapon:<br><br>Calibrum (Rifle): Long range shot that marks its target for a long-range follow-up attack.<br>Severum (Scythe Pistol): Run fast while attacking nearby enemies with both weapons.<br>Gravitum (Cannon): Root all enemies slowed by this weapon.<br>Infernum (Flamethrower): Blast enemies in a cone and attack them with your off-hand weapon.<br>Crescendum (Chakram): Deploy a sentry that shoots your off-hand weapon.<br>\",\"tooltip\":\"{{ spellmodifierdescriptionappend }}\",\"leveltip\":{\"label\":[],\"effect\":[]},\"maxrank\":6,\"cooldown\":[9,9,9,9,9,9],\"cooldownBurn\":\"9\",\"cost\":[60,60,60,60,60,60],\"costBurn\":\"60\",\"datavalues\":{},\"effect\":[null,[0,0,0,0,0,0],[0,0,0,0,0,0],[0,0,0,0,0,0],[0,0,0,0,0,0],[0,0,0,0,0,0],[0,0,0,0,0,0],[0,0,0,0,0,0],[0,0,0,0,0,0],[0,0,0,0,0,0],[0,0,0,0,0,0]],\"effectBurn\":[null,\"0\",\"0\",\"0\",\"0\",\"0\",\"0\",\"0\",\"0\",\"0\",\"0\"],\"vars\":[],\"costType\":\" {{ abilityresourcename }}\",\"maxammo\":\"-1\",\"range\":[1450,1450,1450,1450,1450,1450],\"rangeBurn\":\"1450\",\"image\":{\"full\":\"ApheliosQ_ClientTooltipWrapper.png\",\"sprite\":\"spell1.png\",\"group\":\"spell\",\"x\":0,\"y\":48,\"w\":48,\"h\":48},\"resource\":\"{{ cost }} {{ abilityresourcename }}\"},{\"id\":\"ApheliosW\",\"name\":\"Phase\",\"description\":\"Aphelios swaps his main-hand gun with his off-hand gun, replacing his basic attack and activated ability.\",\"tooltip\":\"Swap main-hand and off-hand weapons, equipping <b><i><span class=\\\"colora64dff\\\">Gravitum</span></i></b>.{{ spellmodifierdescriptionappend }}\",\"leveltip\":{\"label\":[],\"effect\":[]},\"maxrank\":6,\"cooldown\":[0.8,0.8,0.8,0.8,0.8,0.8],\"cooldownBurn\":\"0.8\",\"cost\":[0,0,0,0,0,0],\"costBurn\":\"0\",\"datavalues\":{},\"effect\":[null,[0,0,0,0,0,0],[0,0,0,0,0,0],[0,0,0,0,0,0],[0,0,0,0,0,0],[0,0,0,0,0,0],[0,0,0,0,0,0],[0,0,0,0,0,0],[0,0,0,0,0,0],[0,0,0,0,0,0],[0,0,0,0,0,0]],\"effectBurn\":[null,\"0\",\"0\",\"0\",\"0\",\"0\",\"0\",\"0\",\"0\",\"0\",\"0\"],\"vars\":[],\"costType\":\"No Cost\",\"maxammo\":\"-1\",\"range\":[250,250,250,250,250,250],\"rangeBurn\":\"250\",\"image\":{\"full\":\"ApheliosW.png\",\"sprite\":\"spell1.png\",\"group\":\"spell\",\"x\":48,\"y\":48,\"w\":48,\"h\":48},\"resource\":\"No Cost\"},{\"id\":\"ApheliosE_ClientTooltipWrapper\",\"name\":\"Weapon Queue System\",\"description\":\"Aphelios has no third ability. This slot shows the next weapon Alune will give him. Weapon order begins fixed but may change over game time -- when a weapon is out of ammo it goes to the end of the order.\",\"tooltip\":\"{{ spellmodifierdescriptionappend }}\",\"leveltip\":{\"label\":[],\"effect\":[]},\"maxrank\":6,\"cooldown\":[0,0,0,0,0,0],\"cooldownBurn\":\"0\",\"cost\":[0,0,0,0,0,0],\"costBurn\":\"0\",\"datavalues\":{},\"effect\":[null,[0,0,0,0,0,0],[0,0,0,0,0,0],[0,0,0,0,0,0],[0,0,0,0,0,0],[0,0,0,0,0,0],[0,0,0,0,0,0],[0,0,0,0,0,0],[0,0,0,0,0,0],[0,0,0,0,0,0],[0,0,0,0,0,0]],\"effectBurn\":[null,\"0\",\"0\",\"0\",\"0\",\"0\",\"0\",\"0\",\"0\",\"0\",\"0\"],\"vars\":[],\"costType\":\" {{ abilityresourcename }}\",\"maxammo\":\"-1\",\"range\":[1000,1000,1000,1000,1000,1000],\"rangeBurn\":\"1000\",\"image\":{\"full\":\"ApheliosE_ClientTooltipWrapper.png\",\"sprite\":\"spell1.png\",\"group\":\"spell\",\"x\":96,\"y\":48,\"w\":48,\"h\":48},\"resource\":\"{{ cost }} {{ abilityresourcename }}\"},{\"id\":\"ApheliosR\",\"name\":\"Moonlight Vigil\",\"description\":\"Fire a concentrated blast of moonlight that explodes on enemy champions. Applies the unique effect of Aphelios' main-hand gun.\",\"tooltip\":\"Aphelios fires a concentrated blast of moonlight that explodes when it hits a champion, dealing <physicalDamage>{{ maxdamage }} physical damage</physicalDamage> to surrounding enemies.<br /><br />Then, Aphelios attacks all champions hit with his main-hand weapon. {{ Spell_ApheliosR_WeaponMod_{{ f1 }} }}{{ spellmodifierdescriptionappend }}\",\"leveltip\":{\"label\":[\"Damage\",\"Calibrum Bonus: Mark Damage\",\"Severum Bonus: Heal\",\"Infernum Bonus: Damage\"],\"effect\":[\"{{ rbasedamage }} -> {{ rbasedamageNL }}\",\"{{ calibrumrmarkbonusdamage }} -> {{ calibrumrmarkbonusdamageNL }}\",\"{{ severumrhealbonus }} -> {{ severumrhealbonusNL }}\",\"{{ infernumrbonusdamagebase }} -> {{ infernumrbonusdamagebaseNL }}\"]},\"maxrank\":3,\"cooldown\":[120,110,100],\"cooldownBurn\":\"120/110/100\",\"cost\":[100,100,100],\"costBurn\":\"100\",\"datavalues\":{},\"effect\":[null,[0,0,0],[0,0,0],[0,0,0],[0,0,0],[0,0,0],[0,0,0],[0,0,0],[0,0,0],[0,0,0],[0,0,0]],\"effectBurn\":[null,\"0\",\"0\",\"0\",\"0\",\"0\",\"0\",\"0\",\"0\",\"0\",\"0\"],\"vars\":[],\"costType\":\" {{ abilityresourcename }}\",\"maxammo\":\"-1\",\"range\":[1300,1300,1300],\"rangeBurn\":\"1300\",\"image\":{\"full\":\"ApheliosR.png\",\"sprite\":\"spell1.png\",\"group\":\"spell\",\"x\":144,\"y\":48,\"w\":48,\"h\":48},\"resource\":\"{{ cost }} {{ abilityresourcename }}\"}],\"passive\":{\"name\":\"The Hitman and the Seer\",\"description\":\"Aphelios wields 5 Lunari Weapons made by his sister Alune. He has access to two at a time: one main-hand and one off-hand. Each weapon has a unique Basic Attack and Ability. Attacks and abilities consume a weapon's ammo. When out of ammo, Aphelios discards the weapon and Alune summons the next of the 5. \",\"image\":{\"full\":\"ApheliosP.png\",\"sprite\":\"passive0.png\",\"group\":\"passive\",\"x\":384,\"y\":0,\"w\":48,\"h\":48}},\"recommended\":[]}",
+    "champion_blurb": "Emerging from moonlight's shadow with weapons drawn, Aphelios kills the enemies of his faith in brooding silence—speaking only through the certainty of his aim, and the firing of each gun. Though fueled by a poison that renders him mute, he is guided by...",
+    "lore": "Emerging from moonlight's shadow with weapons drawn, Aphelios kills the enemies of his faith in brooding silence—speaking only through the certainty of his aim, and the firing of each gun. Though fueled by a poison that renders him mute, he is guided by his sister Alune. From her distant temple sanctuary, she pushes an arsenal of moonstone weapons into his hands. For as long as the moon shines overhead, Aphelios will never be alone.",
+    "champion_icon": "https://ddragon.leagueoflegends.com/cdn/13.14.1/img/champion/Aphelios.png",
+    "champion_name": "Aphelios",
+    "champion_splash": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Aphelios_0.jpg",
+    "champion_title": "the Weapon of the Faithful",
+    "recommended_lanes": [],
+    "recommended_roles": [
+        "Marksman"
+    ],
+    "links": [
+        {
+            "href": "https://na.op.gg/champion/aphelios/statistics/",
+            "title": "OP.GG"
+        },
+        {
+            "href": "https://u.gg/lol/champions/aphelios/build",
+            "title": "U.GG"
+        },
+        {
+            "href": "https://www.probuilds.net/champions/details/aphelios",
+            "title": "probuilds.net"
+        }
+    ],
+    "champion": {
+        "modular_blocks": []
+    },
+    "skins": [
+        {
+            "name": "default",
+            "imageUrl": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Aphelios_0.jpg"
+        },
+        {
+            "name": "Nightbringer Aphelios",
+            "imageUrl": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Aphelios_1.jpg"
+        },
+        {
+            "name": "Lunar Beast Aphelios",
+            "imageUrl": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Aphelios_9.jpg"
+        },
+        {
+            "name": "EDG Aphelios",
+            "imageUrl": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Aphelios_18.jpg"
+        },
+        {
+            "name": "Spirit Blossom Aphelios",
+            "imageUrl": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Aphelios_20.jpg"
+        }
+    ],
+    "champion_passive": {
+        "champion_passive_description": "Aphelios wields 5 Lunari Weapons made by his sister Alune. He has access to two at a time: one main-hand and one off-hand. Each weapon has a unique Basic Attack and Ability. Attacks and abilities consume a weapon's ammo. When out of ammo, Aphelios discards the weapon and Alune summons the next of the 5. ",
+        "champion_passive_icon": "https://ddragon.leagueoflegends.com/cdn/13.14.1/img/passive/ApheliosP.png",
+        "champion_passive_name": "The Hitman and the Seer",
+        "champion_passive_video_mp4": "https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0523/ability_0523_P1.mp4",
+        "champion_passive_video_poster": "https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0523/ability_0523_P1.jpg",
+        "champion_passive_video_webm": "https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0523/ability_0523_P1.webm"
+    },
+    "champion_q": {
+        "champion_q_description": "Aphelios has 5 different activated abilities, based on his main-hand weapon:\n\nCalibrum (Rifle): Long range shot that marks its target for a long-range follow-up attack.\nSeverum (Scythe Pistol): Run fast while attacking nearby enemies with both weapons.\nGravitum (Cannon): Root all enemies slowed by this weapon.\nInfernum (Flamethrower): Blast enemies in a cone and attack them with your off-hand weapon.\nCrescendum (Chakram): Deploy a sentry that shoots your off-hand weapon.\n",
+        "champion_q_icon": "https://ddragon.leagueoflegends.com/cdn/13.14.1/img/spell/ApheliosQ_ClientTooltipWrapper.png",
+        "champion_q_name": "Weapon Abilites",
+        "champion_q_video_mp4": "https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0523/ability_0523_Q1.mp4",
+        "champion_q_video_poster": "https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0523/ability_0523_Q1.jpg",
+        "champion_q_video_webm": "https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0523/ability_0523_Q1.webm"
+    },
+    "champion_w": {
+        "champion_w_description": "Aphelios swaps his main-hand gun with his off-hand gun, replacing his basic attack and activated ability.",
+        "champion_w_icon": "https://ddragon.leagueoflegends.com/cdn/13.14.1/img/spell/ApheliosW.png",
+        "champion_w_name": "Phase",
+        "champion_w_video_mp4": "https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0523/ability_0523_W1.mp4",
+        "champion_w_video_poster": "https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0523/ability_0523_W1.jpg",
+        "champion_w_video_webm": "https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0523/ability_0523_W1.webm"
+    },
+    "champion_e": {
+        "champion_e_description": "Aphelios has no third ability. This slot shows the next weapon Alune will give him. Weapon order begins fixed but may change over game time -- when a weapon is out of ammo it goes to the end of the order.",
+        "champion_e_icon": "https://ddragon.leagueoflegends.com/cdn/13.14.1/img/spell/ApheliosE_ClientTooltipWrapper.png",
+        "champion_e_name": "Weapon Queue System",
+        "champion_e_video_mp4": "",
+        "champion_e_video_poster": "https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0523/ability_0523_E1.jpg",
+        "champion_e_video_webm": "https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0523/ability_0523_E1.webm"
+    },
+    "champion_r": {
+        "champion_r_description": "Fire a concentrated blast of moonlight that explodes on enemy champions. Applies the unique effect of Aphelios' main-hand gun.",
+        "champion_r_icon": "https://ddragon.leagueoflegends.com/cdn/13.14.1/img/spell/ApheliosR.png",
+        "champion_r_name": "Moonlight Vigil",
+        "champion_r_video_mp4": "https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0523/ability_0523_R1.mp4",
+        "champion_r_video_poster": "https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0523/ability_0523_R1.jpg",
+        "champion_r_video_webm": "https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0523/ability_0523_R1.webm"
+    },
+    "related_champions": []
+  },
+  {
+    "publish_details": {
+        "locale": "en-us"
+    },
+    "uid": "blt91a4bd9d3499c588",
+    "url": "/champions/ashe/",
+    "data_dragon_id": "Ashe",
+    "data_dragon_json": "{\"id\":\"Ashe\",\"key\":\"22\",\"name\":\"Ashe\",\"title\":\"the Frost Archer\",\"image\":{\"full\":\"Ashe.png\",\"sprite\":\"champion0.png\",\"group\":\"champion\",\"x\":432,\"y\":0,\"w\":48,\"h\":48},\"skins\":[{\"id\":\"22000\",\"num\":0,\"name\":\"default\",\"chromas\":false},{\"id\":\"22001\",\"num\":1,\"name\":\"Freljord Ashe\",\"chromas\":false},{\"id\":\"22002\",\"num\":2,\"name\":\"Sherwood Forest Ashe\",\"chromas\":false},{\"id\":\"22003\",\"num\":3,\"name\":\"Woad Ashe\",\"chromas\":false},{\"id\":\"22004\",\"num\":4,\"name\":\"Queen Ashe\",\"chromas\":false},{\"id\":\"22005\",\"num\":5,\"name\":\"Amethyst Ashe\",\"chromas\":false},{\"id\":\"22006\",\"num\":6,\"name\":\"Heartseeker Ashe\",\"chromas\":false},{\"id\":\"22007\",\"num\":7,\"name\":\"Marauder Ashe\",\"chromas\":false},{\"id\":\"22008\",\"num\":8,\"name\":\"PROJECT: Ashe\",\"chromas\":true},{\"id\":\"22009\",\"num\":9,\"name\":\"Championship Ashe\",\"chromas\":true},{\"id\":\"22011\",\"num\":11,\"name\":\"Cosmic Queen Ashe\",\"chromas\":true},{\"id\":\"22017\",\"num\":17,\"name\":\"High Noon Ashe\",\"chromas\":true},{\"id\":\"22023\",\"num\":23,\"name\":\"Fae Dragon Ashe\",\"chromas\":true},{\"id\":\"22032\",\"num\":32,\"name\":\"Coven Ashe\",\"chromas\":true},{\"id\":\"22043\",\"num\":43,\"name\":\"Ocean Song Ashe\",\"chromas\":true},{\"id\":\"22052\",\"num\":52,\"name\":\"Lunar Empress Ashe\",\"chromas\":true},{\"id\":\"22063\",\"num\":63,\"name\":\"DRX Ashe\",\"chromas\":true}],\"lore\":\"Iceborn warmother of the Avarosan tribe, Ashe commands the most populous horde in the north. Stoic, intelligent, and idealistic, yet uncomfortable with her role as leader, she taps into the ancestral magics of her lineage to wield a bow of True Ice. With her people's belief that she is the mythological hero Avarosa reincarnated, Ashe hopes to unify the Freljord once more by retaking their ancient, tribal lands.\",\"blurb\":\"Iceborn warmother of the Avarosan tribe, Ashe commands the most populous horde in the north. Stoic, intelligent, and idealistic, yet uncomfortable with her role as leader, she taps into the ancestral magics of her lineage to wield a bow of True Ice...\",\"allytips\":[\"Try to fire Enchanted Crystal Arrow in the same direction enemies are moving, so it is more likely to hit.\",\"Volley arrows are blocked by the first enemy they hit, so keep your distance to avoid having them all absorbed by enemy frontliners.\",\"Hawkshot reveals units in brush. If a team fight is occuring in the jungle it can give you a significant advantage.\"],\"enemytips\":[\"Ashe has very few defensive options, and she's a good target to gank.\",\"Be wary of moving around the map alone if Ashe has not recently cast her Enchanted Crystal Arrow.\"],\"tags\":[\"Marksman\",\"Support\"],\"partype\":\"Mana\",\"info\":{\"attack\":7,\"defense\":3,\"magic\":2,\"difficulty\":4},\"stats\":{\"hp\":640,\"hpperlevel\":101,\"mp\":280,\"mpperlevel\":35,\"movespeed\":325,\"armor\":26,\"armorperlevel\":4.6,\"spellblock\":30,\"spellblockperlevel\":1.3,\"attackrange\":600,\"hpregen\":3.5,\"hpregenperlevel\":0.55,\"mpregen\":7,\"mpregenperlevel\":0.65,\"crit\":0,\"critperlevel\":0,\"attackdamage\":59,\"attackdamageperlevel\":2.95,\"attackspeedperlevel\":3.33,\"attackspeed\":0.658},\"spells\":[{\"id\":\"AsheQ\",\"name\":\"Ranger's Focus\",\"description\":\"Ashe builds up Focus by attacking. At maximum Focus, Ashe can cast Ranger's Focus to consume all stacks of Focus, temporarily increasing her Attack Speed and transforming her basic attack into a powerful flurry attack for the duration.\",\"tooltip\":\"<spellPassive>Passive: </spellPassive>Ashe's Attacks grant a stack for {{ e1 }} seconds. At {{ e2 }} stacks, she may activate this ability.<br /><br /><spellPassive>Active:</spellPassive> Ashe gains <attackSpeed>{{ e4 }}% Attack Speed</attackSpeed> and her Attacks deal <physicalDamage>{{ empowereddamage }} damage</physicalDamage> instead for {{ e3 }} seconds.{{ spellmodifierdescriptionappend }}\",\"leveltip\":{\"label\":[\"Attack Speed\",\"Flurry Attack Damage ratio\"],\"effect\":[\"{{ e4 }}% -> {{ e4NL }}%\",\"{{ e6 }} -> {{ e6NL }}\"]},\"maxrank\":5,\"cooldown\":[0,0,0,0,0],\"cooldownBurn\":\"0\",\"cost\":[30,30,30,30,30],\"costBurn\":\"30\",\"datavalues\":{},\"effect\":[null,[4,4,4,4,4],[4,4,4,4,4],[6,6,6,6,6],[25,32.5,40,47.5,55],[0.21,0.22,0.23,0.24,0.25],[1.05,1.1,1.15,1.2,1.25],[1,1,1,1,1],[1,1,1,1,1],[1,1,1,1,1],[0,0,0,0,0]],\"effectBurn\":[null,\"4\",\"4\",\"6\",\"25/32.5/40/47.5/55\",\"0.21/0.22/0.23/0.24/0.25\",\"1.05/1.1/1.15/1.2/1.25\",\"1\",\"1\",\"1\",\"0\"],\"vars\":[],\"costType\":\" {{ abilityresourcename }}\",\"maxammo\":\"-1\",\"range\":[400,400,400,400,400],\"rangeBurn\":\"400\",\"image\":{\"full\":\"AsheQ.png\",\"sprite\":\"spell1.png\",\"group\":\"spell\",\"x\":192,\"y\":48,\"w\":48,\"h\":48},\"resource\":\"{{ cost }} {{ abilityresourcename }}\"},{\"id\":\"Volley\",\"name\":\"Volley\",\"description\":\"Ashe fires arrows in a cone for increased damage. Also applies Frost Shot.\",\"tooltip\":\"Ashe fires a volley of {{ numberofarrowstooltip }} arrows, each dealing <physicalDamage>{{ totaldamage }} physical damage</physicalDamage>. Enemies can be hit by multiple arrows, but only take damage from the first.{{ spellmodifierdescriptionappend }}\",\"leveltip\":{\"label\":[\"Arrows Fired\",\"Damage\",\"Cooldown\",\"@AbilityResourceName@ Cost\"],\"effect\":[\"{{ numberofarrowstooltip }} -> {{ numberofarrowstooltipNL }}\",\"{{ basedamage }} -> {{ basedamageNL }}\",\"{{ cooldown }} -> {{ cooldownNL }}\",\"{{ cost }} -> {{ costNL }}\"]},\"maxrank\":5,\"cooldown\":[18,14.5,11,7.5,4],\"cooldownBurn\":\"18/14.5/11/7.5/4\",\"cost\":[75,70,65,60,55],\"costBurn\":\"75/70/65/60/55\",\"datavalues\":{},\"effect\":[null,[5,7,9,11,13],[20,35,50,65,80],[0,0,0,0,0],[0,0,0,0,0],[0,0,0,0,0],[0,0,0,0,0],[0,0,0,0,0],[0,0,0,0,0],[0,0,0,0,0],[0,0,0,0,0]],\"effectBurn\":[null,\"5/7/9/11/13\",\"20/35/50/65/80\",\"0\",\"0\",\"0\",\"0\",\"0\",\"0\",\"0\",\"0\"],\"vars\":[],\"costType\":\" {{ abilityresourcename }}\",\"maxammo\":\"-1\",\"range\":[1200,1200,1200,1200,1200],\"rangeBurn\":\"1200\",\"image\":{\"full\":\"Volley.png\",\"sprite\":\"spell1.png\",\"group\":\"spell\",\"x\":240,\"y\":48,\"w\":48,\"h\":48},\"resource\":\"{{ cost }} {{ abilityresourcename }}\"},{\"id\":\"AsheSpiritOfTheHawk\",\"name\":\"Hawkshot\",\"description\":\"Ashe sends her Hawk Spirit on a scouting mission anywhere on the map.\",\"tooltip\":\"Ashe sends forth a hawk to grant vision for 5 seconds anywhere on the map. It also reveals the area around it as it flies.<br /><br />This ability has 2 charges ({{ chargecooldown }} second recharge).{{ spellmodifierdescriptionappend }}\",\"leveltip\":{\"label\":[\"Recharge Time\"],\"effect\":[\"{{ ammorechargetime }} -> {{ ammorechargetimeNL }}\"]},\"maxrank\":5,\"cooldown\":[5,5,5,5,5],\"cooldownBurn\":\"5\",\"cost\":[0,0,0,0,0],\"costBurn\":\"0\",\"datavalues\":{},\"effect\":[null,[3,3,3,3,3],[50,90,130,170,210],[25000,25000,25000,25000,25000],[5,5,5,5,5],[0,0,0,0,0],[0,0,0,0,0],[0,0,0,0,0],[0,0,0,0,0],[0,0,0,0,0],[0,0,0,0,0]],\"effectBurn\":[null,\"3\",\"50/90/130/170/210\",\"25000\",\"5\",\"0\",\"0\",\"0\",\"0\",\"0\",\"0\"],\"vars\":[],\"costType\":\"No Cost\",\"maxammo\":\"2\",\"range\":[25000,25000,25000,25000,25000],\"rangeBurn\":\"25000\",\"image\":{\"full\":\"AsheSpiritOfTheHawk.png\",\"sprite\":\"spell1.png\",\"group\":\"spell\",\"x\":288,\"y\":48,\"w\":48,\"h\":48},\"resource\":\"No Cost\"},{\"id\":\"EnchantedCrystalArrow\",\"name\":\"Enchanted Crystal Arrow\",\"description\":\"Ashe fires a missile of ice in a straight line. If the arrow collides with an enemy Champion, it deals damage and stuns the Champion, stunning for longer the farther arrow has traveled. In addition, surrounding enemy units take damage and are slowed.\",\"tooltip\":\"Ashe launches a crystal arrow of ice that <status>Stuns</status> the first champion hit and deals <magicDamage>{{ rmaindamage }} magic damage</magicDamage>. The <status>Stun</status> duration increases with distance travelled, up to {{ maxstunduration }} seconds. Surrounding enemies are slowed by <spellName>Frost Shot</spellName> and take half damage.{{ spellmodifierdescriptionappend }}\",\"leveltip\":{\"label\":[\"Damage\",\"Cooldown\"],\"effect\":[\"{{ rbasedamage }} -> {{ rbasedamageNL }}\",\"{{ cooldown }} -> {{ cooldownNL }}\"]},\"maxrank\":3,\"cooldown\":[100,80,60],\"cooldownBurn\":\"100/80/60\",\"cost\":[100,100,100],\"costBurn\":\"100\",\"datavalues\":{},\"effect\":[null,[0,0,0],[0,0,0],[0,0,0],[0,0,0],[0,0,0],[0,0,0],[0,0,0],[0,0,0],[0,0,0],[0,0,0]],\"effectBurn\":[null,\"0\",\"0\",\"0\",\"0\",\"0\",\"0\",\"0\",\"0\",\"0\",\"0\"],\"vars\":[],\"costType\":\" {{ abilityresourcename }}\",\"maxammo\":\"-1\",\"range\":[25000,25000,25000],\"rangeBurn\":\"25000\",\"image\":{\"full\":\"EnchantedCrystalArrow.png\",\"sprite\":\"spell1.png\",\"group\":\"spell\",\"x\":336,\"y\":48,\"w\":48,\"h\":48},\"resource\":\"{{ cost }} {{ abilityresourcename }}\"}],\"passive\":{\"name\":\"Frost Shot\",\"description\":\"Ashe's attacks slow their target, causing her to deal increased damage to these targets.<br><br>Ashe's critical strikes deal no bonus damage but apply an empowered slow to the target.\",\"image\":{\"full\":\"Ashe_P.png\",\"sprite\":\"passive0.png\",\"group\":\"passive\",\"x\":432,\"y\":0,\"w\":48,\"h\":48}},\"recommended\":[]}",
+    "champion_blurb": "Iceborn warmother of the Avarosan tribe, Ashe commands the most populous horde in the north. Stoic, intelligent, and idealistic, yet uncomfortable with her role as leader, she taps into the ancestral magics of her lineage to wield a bow of True Ice...",
+    "lore": "Iceborn warmother of the Avarosan tribe, Ashe commands the most populous horde in the north. Stoic, intelligent, and idealistic, yet uncomfortable with her role as leader, she taps into the ancestral magics of her lineage to wield a bow of True Ice. With her people's belief that she is the mythological hero Avarosa reincarnated, Ashe hopes to unify the Freljord once more by retaking their ancient, tribal lands.",
+    "champion_icon": "https://ddragon.leagueoflegends.com/cdn/13.14.1/img/champion/Ashe.png",
+    "champion_name": "Ashe",
+    "champion_splash": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Ashe_0.jpg",
+    "champion_title": "the Frost Archer",
+    "recommended_lanes": [],
+    "recommended_roles": [
+        "Marksman",
+        "Support"
+    ],
+    "links": [
+        {
+            "href": "https://na.op.gg/champion/ashe/statistics/",
+            "title": "OP.GG"
+        },
+        {
+            "href": "https://u.gg/lol/champions/ashe/build",
+            "title": "U.GG"
+        },
+        {
+            "href": "https://www.probuilds.net/champions/details/ashe",
+            "title": "probuilds.net"
+        }
+    ],
+    "champion": {
+        "modular_blocks": []
+    },
+    "skins": [
+        {
+            "name": "default",
+            "imageUrl": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Ashe_0.jpg"
+        },
+        {
+            "name": "Freljord Ashe",
+            "imageUrl": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Ashe_1.jpg"
+        },
+        {
+            "name": "Sherwood Forest Ashe",
+            "imageUrl": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Ashe_2.jpg"
+        },
+        {
+            "name": "Woad Ashe",
+            "imageUrl": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Ashe_3.jpg"
+        },
+        {
+            "name": "Queen Ashe",
+            "imageUrl": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Ashe_4.jpg"
+        },
+        {
+            "name": "Amethyst Ashe",
+            "imageUrl": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Ashe_5.jpg"
+        },
+        {
+            "name": "Heartseeker Ashe",
+            "imageUrl": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Ashe_6.jpg"
+        },
+        {
+            "name": "Marauder Ashe",
+            "imageUrl": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Ashe_7.jpg"
+        },
+        {
+            "name": "PROJECT: Ashe",
+            "imageUrl": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Ashe_8.jpg"
+        },
+        {
+            "name": "Championship Ashe",
+            "imageUrl": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Ashe_9.jpg"
+        },
+        {
+            "name": "Cosmic Queen Ashe",
+            "imageUrl": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Ashe_11.jpg"
+        },
+        {
+            "name": "High Noon Ashe",
+            "imageUrl": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Ashe_17.jpg"
+        },
+        {
+            "name": "Fae Dragon Ashe",
+            "imageUrl": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Ashe_23.jpg"
+        },
+        {
+            "name": "Coven Ashe",
+            "imageUrl": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Ashe_32.jpg"
+        },
+        {
+            "name": "Ocean Song Ashe",
+            "imageUrl": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Ashe_43.jpg"
+        },
+        {
+            "name": "Lunar Empress Ashe",
+            "imageUrl": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Ashe_52.jpg"
+        },
+        {
+            "name": "DRX Ashe",
+            "imageUrl": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Ashe_63.jpg"
+        }
+    ],
+    "champion_passive": {
+        "champion_passive_description": "Ashe's attacks slow their target, causing her to deal increased damage to these targets.\n\nAshe's critical strikes deal no bonus damage but apply an empowered slow to the target.",
+        "champion_passive_icon": "https://ddragon.leagueoflegends.com/cdn/13.14.1/img/passive/Ashe_P.png",
+        "champion_passive_name": "Frost Shot",
+        "champion_passive_video_mp4": "https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0022/ability_0022_P1.mp4",
+        "champion_passive_video_poster": "https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0022/ability_0022_P1.jpg",
+        "champion_passive_video_webm": "https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0022/ability_0022_P1.webm"
+    },
+    "champion_q": {
+        "champion_q_description": "Ashe builds up Focus by attacking. At maximum Focus, Ashe can cast Ranger's Focus to consume all stacks of Focus, temporarily increasing her Attack Speed and transforming her basic attack into a powerful flurry attack for the duration.",
+        "champion_q_icon": "https://ddragon.leagueoflegends.com/cdn/13.14.1/img/spell/AsheQ.png",
+        "champion_q_name": "Ranger's Focus",
+        "champion_q_video_mp4": "https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0022/ability_0022_Q1.mp4",
+        "champion_q_video_poster": "https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0022/ability_0022_Q1.jpg",
+        "champion_q_video_webm": "https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0022/ability_0022_Q1.webm"
+    },
+    "champion_w": {
+        "champion_w_description": "Ashe fires arrows in a cone for increased damage. Also applies Frost Shot.",
+        "champion_w_icon": "https://ddragon.leagueoflegends.com/cdn/13.14.1/img/spell/Volley.png",
+        "champion_w_name": "Volley",
+        "champion_w_video_mp4": "https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0022/ability_0022_W1.mp4",
+        "champion_w_video_poster": "https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0022/ability_0022_W1.jpg",
+        "champion_w_video_webm": "https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0022/ability_0022_W1.webm"
+    },
+    "champion_e": {
+        "champion_e_description": "Ashe sends her Hawk Spirit on a scouting mission anywhere on the map.",
+        "champion_e_icon": "https://ddragon.leagueoflegends.com/cdn/13.14.1/img/spell/AsheSpiritOfTheHawk.png",
+        "champion_e_name": "Hawkshot",
+        "champion_e_video_mp4": "https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0022/ability_0022_E1.mp4",
+        "champion_e_video_poster": "https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0022/ability_0022_E1.jpg",
+        "champion_e_video_webm": "https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0022/ability_0022_E1.webm"
+    },
+    "champion_r": {
+        "champion_r_description": "Ashe fires a missile of ice in a straight line. If the arrow collides with an enemy Champion, it deals damage and stuns the Champion, stunning for longer the farther arrow has traveled. In addition, surrounding enemy units take damage and are slowed.",
+        "champion_r_icon": "https://ddragon.leagueoflegends.com/cdn/13.14.1/img/spell/EnchantedCrystalArrow.png",
+        "champion_r_name": "Enchanted Crystal Arrow",
+        "champion_r_video_mp4": "https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0022/ability_0022_R1.mp4",
+        "champion_r_video_poster": "https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0022/ability_0022_R1.jpg",
+        "champion_r_video_webm": "https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0022/ability_0022_R1.webm"
+    },
+    "related_champions": []
+  },
 ]
