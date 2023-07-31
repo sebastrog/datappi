@@ -1722,4 +1722,424 @@
     },
     "related_champions": []
   },
+  {
+    "publish_details": {
+        "locale": "en-us"
+    },
+    "uid": "blt968877b6a7b3420f",
+    "url": "/champions/blitzcrank/",
+    "data_dragon_id": "Blitzcrank",
+    "data_dragon_json": "{\"id\":\"Blitzcrank\",\"key\":\"53\",\"name\":\"Blitzcrank\",\"title\":\"the Great Steam Golem\",\"image\":{\"full\":\"Blitzcrank.png\",\"sprite\":\"champion0.png\",\"group\":\"champion\",\"x\":192,\"y\":48,\"w\":48,\"h\":48},\"skins\":[{\"id\":\"53000\",\"num\":0,\"name\":\"default\",\"chromas\":true},{\"id\":\"53001\",\"num\":1,\"name\":\"Rusty Blitzcrank\",\"chromas\":false},{\"id\":\"53002\",\"num\":2,\"name\":\"Goalkeeper Blitzcrank\",\"chromas\":false},{\"id\":\"53003\",\"num\":3,\"name\":\"Boom Boom Blitzcrank\",\"chromas\":false},{\"id\":\"53004\",\"num\":4,\"name\":\"Piltover Customs Blitzcrank\",\"chromas\":false},{\"id\":\"53005\",\"num\":5,\"name\":\"Definitely Not Blitzcrank\",\"chromas\":false},{\"id\":\"53006\",\"num\":6,\"name\":\"iBlitzcrank\",\"chromas\":false},{\"id\":\"53007\",\"num\":7,\"name\":\"Riot Blitzcrank\",\"chromas\":false},{\"id\":\"53011\",\"num\":11,\"name\":\"Battle Boss Blitzcrank\",\"chromas\":true},{\"id\":\"53020\",\"num\":20,\"name\":\"Lancer Rogue Blitzcrank\",\"chromas\":false},{\"id\":\"53021\",\"num\":21,\"name\":\"Lancer Paragon Blitzcrank\",\"chromas\":false},{\"id\":\"53022\",\"num\":22,\"name\":\"Witch's Brew Blitzcrank\",\"chromas\":true},{\"id\":\"53029\",\"num\":29,\"name\":\"Space Groove Blitz & Crank\",\"chromas\":true},{\"id\":\"53036\",\"num\":36,\"name\":\"Victorious Blitzcrank\",\"chromas\":true},{\"id\":\"53047\",\"num\":47,\"name\":\"Zenith Games Blitzcrank\",\"chromas\":true}],\"lore\":\"Blitzcrank is an enormous, near-indestructible automaton from Zaun, originally built to dispose of hazardous waste. However, he found this primary purpose too restricting, and modified his own form to better serve the fragile people of the Sump. Blitzcrank selflessly uses his strength and durability to protect others, extending a helpful metal fist or burst of energy to subdue any troublemakers.\",\"blurb\":\"Blitzcrank is an enormous, near-indestructible automaton from Zaun, originally built to dispose of hazardous waste. However, he found this primary purpose too restricting, and modified his own form to better serve the fragile people of the Sump...\",\"allytips\":[\"The 1-2-3 combo of Rocket Grab, Power Fist, and Static Field can devastate an individual opponent.\",\"Using Blitzcrank's grab to pull an enemy into your tower range followed by a Power Fist will allow the tower to get several hits on them.\"],\"enemytips\":[\"Blitzcrank's passive Mana Barrier grants him a shield when he is low on health.\",\"Staying behind creeps can prevent you from being Rocket Grabbed. Blitzcrank's Rocket Grab only pulls the first enemy target it encounters.\"],\"tags\":[\"Tank\",\"Fighter\"],\"partype\":\"Mana\",\"info\":{\"attack\":4,\"defense\":8,\"magic\":5,\"difficulty\":4},\"stats\":{\"hp\":633,\"hpperlevel\":109,\"mp\":267,\"mpperlevel\":40,\"movespeed\":325,\"armor\":40,\"armorperlevel\":4.7,\"spellblock\":28,\"spellblockperlevel\":2.05,\"attackrange\":125,\"hpregen\":7.5,\"hpregenperlevel\":0.75,\"mpregen\":8.5,\"mpregenperlevel\":0.8,\"crit\":0,\"critperlevel\":0,\"attackdamage\":62,\"attackdamageperlevel\":3.5,\"attackspeedperlevel\":1.13,\"attackspeed\":0.65},\"spells\":[{\"id\":\"RocketGrab\",\"name\":\"Rocket Grab\",\"description\":\"Blitzcrank fires their right hand to grab an opponent on its path, dealing damage and dragging it back to them.\",\"tooltip\":\"Blitzcrank fires their right hand, <status>Pulling</status> the first enemy hit towards them and dealing <magicDamage>{{ totaldamage }} magic damage</magicDamage>.{{ spellmodifierdescriptionappend }}\",\"leveltip\":{\"label\":[\"Damage\",\"Cooldown\"],\"effect\":[\"{{ basedamage }} -> {{ basedamageNL }}\",\"{{ cooldown }} -> {{ cooldownNL }}\"]},\"maxrank\":5,\"cooldown\":[20,19,18,17,16],\"cooldownBurn\":\"20/19/18/17/16\",\"cost\":[100,100,100,100,100],\"costBurn\":\"100\",\"datavalues\":{},\"effect\":[null,[90,140,190,240,290],[0,0,0,0,0],[0,0,0,0,0],[0,0,0,0,0],[0,0,0,0,0],[0,0,0,0,0],[0,0,0,0,0],[0,0,0,0,0],[0,0,0,0,0],[0,0,0,0,0]],\"effectBurn\":[null,\"90/140/190/240/290\",\"0\",\"0\",\"0\",\"0\",\"0\",\"0\",\"0\",\"0\",\"0\"],\"vars\":[],\"costType\":\" {{ abilityresourcename }}\",\"maxammo\":\"-1\",\"range\":[1079,1079,1079,1079,1079],\"rangeBurn\":\"1079\",\"image\":{\"full\":\"RocketGrab.png\",\"sprite\":\"spell1.png\",\"group\":\"spell\",\"x\":192,\"y\":144,\"w\":48,\"h\":48},\"resource\":\"{{ cost }} {{ abilityresourcename }}\"},{\"id\":\"Overdrive\",\"name\":\"Overdrive\",\"description\":\"Blitzcrank super charges themself to get dramatically increased Move and Attack Speed. They are temporarily slowed after the effect ends.\",\"tooltip\":\"Blitzcrank supercharges themself, gaining <speed>{{ movespeedmod*100 }}% decaying Move Speed</speed> and <attackSpeed>{{ attackspeedmod*100 }}% Attack Speed</attackSpeed> for {{ duration }} seconds. During this time, their attacks deal an additional <magicDamage>{{ percenthealthdamage*100 }}% Target Max Health magic damage</magicDamage> %i:OnHit% <OnHit>On-Hit</OnHit>.<br /><br />Afterwards, Blitzcrank is <status>Slowed</status> by {{ movespeedmodreduction*100 }}% for {{ slowduration }} seconds.{{ spellmodifierdescriptionappend }}\",\"leveltip\":{\"label\":[\"Move Speed\",\"Attack Speed\"],\"effect\":[\"{{ movespeedmod*100.000000 }}% -> {{ movespeedmodnl*100.000000 }}%\",\"{{ attackspeedmod*100.000000 }}% -> {{ attackspeedmodnl*100.000000 }}%\"]},\"maxrank\":5,\"cooldown\":[15,15,15,15,15],\"cooldownBurn\":\"15\",\"cost\":[85,85,85,85,85],\"costBurn\":\"85\",\"datavalues\":{},\"effect\":[null,[0,0,0,0,0],[0,0,0,0,0],[0,0,0,0,0],[0,0,0,0,0],[0,0,0,0,0],[0,0,0,0,0],[0,0,0,0,0],[0,0,0,0,0],[0,0,0,0,0],[0,0,0,0,0]],\"effectBurn\":[null,\"0\",\"0\",\"0\",\"0\",\"0\",\"0\",\"0\",\"0\",\"0\",\"0\"],\"vars\":[],\"costType\":\" {{ abilityresourcename }}\",\"maxammo\":\"-1\",\"range\":[1,1,1,1,1],\"rangeBurn\":\"1\",\"image\":{\"full\":\"Overdrive.png\",\"sprite\":\"spell1.png\",\"group\":\"spell\",\"x\":240,\"y\":144,\"w\":48,\"h\":48},\"resource\":\"{{ cost }} {{ abilityresourcename }}\"},{\"id\":\"PowerFist\",\"name\":\"Power Fist\",\"description\":\"Blitzcrank charges up their fist to make the next attack deal double damage and pop their target up in the air.\",\"tooltip\":\"Blitzcrank charges up their fist, causing their next Attack to <status>Knock Up</status> for {{ ccduration }} second(s) and deal <physicalDamage>{{ totaldamage }} physical damage</physicalDamage>.<br /><br />Monsters and Minions take an additional <physicalDamage>{{ totaldamagenonchampextra }} physical damage</physicalDamage> bonus damage.{{ spellmodifierdescriptionappend }}\",\"leveltip\":{\"label\":[\"Cooldown\"],\"effect\":[\"{{ cooldown }} -> {{ cooldownNL }}\"]},\"maxrank\":5,\"cooldown\":[9,8,7,6,5],\"cooldownBurn\":\"9/8/7/6/5\",\"cost\":[40,40,40,40,40],\"costBurn\":\"40\",\"datavalues\":{},\"effect\":[null,[0,0,0,0,0],[0,0,0,0,0],[0,0,0,0,0],[0,0,0,0,0],[0,0,0,0,0],[0,0,0,0,0],[0,0,0,0,0],[0,0,0,0,0],[0,0,0,0,0],[0,0,0,0,0]],\"effectBurn\":[null,\"0\",\"0\",\"0\",\"0\",\"0\",\"0\",\"0\",\"0\",\"0\",\"0\"],\"vars\":[],\"costType\":\" {{ abilityresourcename }}\",\"maxammo\":\"-1\",\"range\":[300,300,300,300,300],\"rangeBurn\":\"300\",\"image\":{\"full\":\"PowerFist.png\",\"sprite\":\"spell1.png\",\"group\":\"spell\",\"x\":288,\"y\":144,\"w\":48,\"h\":48},\"resource\":\"{{ cost }} {{ abilityresourcename }}\"},{\"id\":\"StaticField\",\"name\":\"Static Field\",\"description\":\"Enemies attacked by Blitzcrank are marked and take lightning damage after 1 second. Additionally, Blitzcrank can activate this ability to remove nearby enemies' shields, damage them, and silence them briefly.\",\"tooltip\":\"<spellPassive>Passive: </spellPassive>While this ability is available, lightning charges Blitzcrank's fists, marking those  Attacked. After 1 second, they are shocked for <magicDamage>{{ passivedamage }} magic damage</magicDamage>.<br /><br /><spellActive>Active: </spellActive>Blitzcrank overcharges, dealing <magicDamage>{{ activedamage }} magic damage</magicDamage> and <status>Silencing</status> nearby enemies for {{ silenceduration }} seconds. Their shields are also destroyed.{{ spellmodifierdescriptionappend }}\",\"leveltip\":{\"label\":[\"Passive Base Damage\",\"Passive AP Ratio\",\"Active Base Damage\",\"Active Cooldown\"],\"effect\":[\"{{ passivebasedamage }} -> {{ passivebasedamageNL }}\",\"{{ passiveapratio*100.000000 }}% -> {{ passiveaprationl*100.000000 }}%\",\"{{ activebasedamage }} -> {{ activebasedamageNL }}\",\"{{ cooldown }} -> {{ cooldownNL }}\"]},\"maxrank\":3,\"cooldown\":[60,40,20],\"cooldownBurn\":\"60/40/20\",\"cost\":[100,100,100],\"costBurn\":\"100\",\"datavalues\":{},\"effect\":[null,[0,0,0],[0,0,0],[0,0,0],[0,0,0],[0,0,0],[0,0,0],[0,0,0],[0,0,0],[0,0,0],[0,0,0]],\"effectBurn\":[null,\"0\",\"0\",\"0\",\"0\",\"0\",\"0\",\"0\",\"0\",\"0\",\"0\"],\"vars\":[],\"costType\":\" {{ abilityresourcename }}\",\"maxammo\":\"-1\",\"range\":[600,600,600],\"rangeBurn\":\"600\",\"image\":{\"full\":\"StaticField.png\",\"sprite\":\"spell1.png\",\"group\":\"spell\",\"x\":336,\"y\":144,\"w\":48,\"h\":48},\"resource\":\"{{ cost }} {{ abilityresourcename }}\"}],\"passive\":{\"name\":\"Mana Barrier\",\"description\":\"Blitzcrank gains a shield based on their mana when dropping to low health.\",\"image\":{\"full\":\"Blitzcrank_ManaBarrier.png\",\"sprite\":\"passive0.png\",\"group\":\"passive\",\"x\":192,\"y\":48,\"w\":48,\"h\":48}},\"recommended\":[]}",
+    "champion_blurb": "Blitzcrank is an enormous, near-indestructible automaton from Zaun, originally built to dispose of hazardous waste. However, he found this primary purpose too restricting, and modified his own form to better serve the fragile people of the Sump...",
+    "lore": "Blitzcrank is an enormous, near-indestructible automaton from Zaun, originally built to dispose of hazardous waste. However, he found this primary purpose too restricting, and modified his own form to better serve the fragile people of the Sump. Blitzcrank selflessly uses his strength and durability to protect others, extending a helpful metal fist or burst of energy to subdue any troublemakers.",
+    "champion_icon": "https://ddragon.leagueoflegends.com/cdn/13.14.1/img/champion/Blitzcrank.png",
+    "champion_name": "Blitzcrank",
+    "champion_splash": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Blitzcrank_0.jpg",
+    "champion_title": "the Great Steam Golem",
+    "recommended_lanes": [],
+    "recommended_roles": [
+        "Tank",
+        "Fighter"
+    ],
+    "links": [
+        {
+            "href": "https://na.op.gg/champion/blitzcrank/statistics/",
+            "title": "OP.GG"
+        },
+        {
+            "href": "https://u.gg/lol/champions/blitzcrank/build",
+            "title": "U.GG"
+        },
+        {
+            "href": "https://www.probuilds.net/champions/details/blitzcrank",
+            "title": "probuilds.net"
+        }
+    ],
+    "champion": {
+        "modular_blocks": []
+    },
+    "skins": [
+        {
+            "name": "default",
+            "imageUrl": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Blitzcrank_0.jpg"
+        },
+        {
+            "name": "Rusty Blitzcrank",
+            "imageUrl": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Blitzcrank_1.jpg"
+        },
+        {
+            "name": "Goalkeeper Blitzcrank",
+            "imageUrl": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Blitzcrank_2.jpg"
+        },
+        {
+            "name": "Boom Boom Blitzcrank",
+            "imageUrl": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Blitzcrank_3.jpg"
+        },
+        {
+            "name": "Piltover Customs Blitzcrank",
+            "imageUrl": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Blitzcrank_4.jpg"
+        },
+        {
+            "name": "Definitely Not Blitzcrank",
+            "imageUrl": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Blitzcrank_5.jpg"
+        },
+        {
+            "name": "iBlitzcrank",
+            "imageUrl": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Blitzcrank_6.jpg"
+        },
+        {
+            "name": "Riot Blitzcrank",
+            "imageUrl": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Blitzcrank_7.jpg"
+        },
+        {
+            "name": "Battle Boss Blitzcrank",
+            "imageUrl": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Blitzcrank_11.jpg"
+        },
+        {
+            "name": "Lancer Rogue Blitzcrank",
+            "imageUrl": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Blitzcrank_20.jpg"
+        },
+        {
+            "name": "Lancer Paragon Blitzcrank",
+            "imageUrl": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Blitzcrank_21.jpg"
+        },
+        {
+            "name": "Witch's Brew Blitzcrank",
+            "imageUrl": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Blitzcrank_22.jpg"
+        },
+        {
+            "name": "Space Groove Blitz & Crank",
+            "imageUrl": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Blitzcrank_29.jpg"
+        },
+        {
+            "name": "Victorious Blitzcrank",
+            "imageUrl": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Blitzcrank_36.jpg"
+        },
+        {
+            "name": "Zenith Games Blitzcrank",
+            "imageUrl": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Blitzcrank_47.jpg"
+        }
+    ],
+    "champion_passive": {
+        "champion_passive_description": "Blitzcrank gains a shield based on their mana when dropping to low health.",
+        "champion_passive_icon": "https://ddragon.leagueoflegends.com/cdn/13.14.1/img/passive/Blitzcrank_ManaBarrier.png",
+        "champion_passive_name": "Mana Barrier",
+        "champion_passive_video_mp4": "https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0053/ability_0053_P1.mp4",
+        "champion_passive_video_poster": "https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0053/ability_0053_P1.jpg",
+        "champion_passive_video_webm": "https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0053/ability_0053_P1.webm"
+    },
+    "champion_q": {
+        "champion_q_description": "Blitzcrank fires their right hand to grab an opponent on its path, dealing damage and dragging it back to them.",
+        "champion_q_icon": "https://ddragon.leagueoflegends.com/cdn/13.14.1/img/spell/RocketGrab.png",
+        "champion_q_name": "Rocket Grab",
+        "champion_q_video_mp4": "https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0053/ability_0053_Q1.mp4",
+        "champion_q_video_poster": "https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0053/ability_0053_Q1.jpg",
+        "champion_q_video_webm": "https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0053/ability_0053_Q1.webm"
+    },
+    "champion_w": {
+        "champion_w_description": "Blitzcrank super charges themself to get dramatically increased Move and Attack Speed. They are temporarily slowed after the effect ends.",
+        "champion_w_icon": "https://ddragon.leagueoflegends.com/cdn/13.14.1/img/spell/Overdrive.png",
+        "champion_w_name": "Overdrive",
+        "champion_w_video_mp4": "https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0053/ability_0053_W1.mp4",
+        "champion_w_video_poster": "https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0053/ability_0053_W1.jpg",
+        "champion_w_video_webm": "https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0053/ability_0053_W1.webm"
+    },
+    "champion_e": {
+        "champion_e_description": "Blitzcrank charges up their fist to make the next attack deal double damage and pop their target up in the air.",
+        "champion_e_icon": "https://ddragon.leagueoflegends.com/cdn/13.14.1/img/spell/PowerFist.png",
+        "champion_e_name": "Power Fist",
+        "champion_e_video_mp4": "https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0053/ability_0053_E1.mp4",
+        "champion_e_video_poster": "https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0053/ability_0053_E1.jpg",
+        "champion_e_video_webm": "https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0053/ability_0053_E1.webm"
+    },
+    "champion_r": {
+        "champion_r_description": "Enemies attacked by Blitzcrank are marked and take lightning damage after 1 second. Additionally, Blitzcrank can activate this ability to remove nearby enemies' shields, damage them, and silence them briefly.",
+        "champion_r_icon": "https://ddragon.leagueoflegends.com/cdn/13.14.1/img/spell/StaticField.png",
+        "champion_r_name": "Static Field",
+        "champion_r_video_mp4": "https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0053/ability_0053_R1.mp4",
+        "champion_r_video_poster": "https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0053/ability_0053_R1.jpg",
+        "champion_r_video_webm": "https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0053/ability_0053_R1.webm"
+    },
+    "related_champions": []
+  },
+  {
+    "publish_details": {
+        "locale": "en-us"
+    },
+    "uid": "blt2c6256dd53fe8f1e",
+    "url": "/champions/brand/",
+    "data_dragon_id": "Brand",
+    "data_dragon_json": "{\"id\":\"Brand\",\"key\":\"63\",\"name\":\"Brand\",\"title\":\"the Burning Vengeance\",\"image\":{\"full\":\"Brand.png\",\"sprite\":\"champion0.png\",\"group\":\"champion\",\"x\":240,\"y\":48,\"w\":48,\"h\":48},\"skins\":[{\"id\":\"63000\",\"num\":0,\"name\":\"default\",\"chromas\":false},{\"id\":\"63001\",\"num\":1,\"name\":\"Apocalyptic Brand\",\"chromas\":false},{\"id\":\"63002\",\"num\":2,\"name\":\"Vandal Brand\",\"chromas\":false},{\"id\":\"63003\",\"num\":3,\"name\":\"Cryocore Brand\",\"chromas\":false},{\"id\":\"63004\",\"num\":4,\"name\":\"Zombie Brand\",\"chromas\":false},{\"id\":\"63005\",\"num\":5,\"name\":\"Spirit Fire Brand\",\"chromas\":false},{\"id\":\"63006\",\"num\":6,\"name\":\"Battle Boss Brand\",\"chromas\":false},{\"id\":\"63007\",\"num\":7,\"name\":\"Arclight Brand\",\"chromas\":true},{\"id\":\"63008\",\"num\":8,\"name\":\"Eternal Dragon Brand\",\"chromas\":true},{\"id\":\"63021\",\"num\":21,\"name\":\"Debonair Brand\",\"chromas\":true},{\"id\":\"63022\",\"num\":22,\"name\":\"Prestige Debonair Brand\",\"chromas\":false}],\"lore\":\"Once a tribesman of the icy Freljord named Kegan Rodhe, the creature known as Brand is a lesson in the temptation of greater power. Seeking one of the legendary World Runes, Kegan betrayed his companions and seized it for himself—and, in an instant, the man was no more. His soul burned away, his body a vessel of living flame, Brand now roams Valoran in search of other Runes, swearing revenge for wrongs he could never possibly have suffered in a dozen mortal lifetimes.\",\"blurb\":\"Once a tribesman of the icy Freljord named Kegan Rodhe, the creature known as Brand is a lesson in the temptation of greater power. Seeking one of the legendary World Runes, Kegan betrayed his companions and seized it for himself—and, in an instant, the...\",\"allytips\":[\"You can deter enemies from standing near their minions by setting them ablaze, due to Conflagration.\",\"You can use Brand's abilities in a variety of combinations to maximize his damage in different situations.\",\"Pyroclasm bounces randomly between enemies, so try to cast it on a small group of enemies if you want to hit the same target multiple times.\"],\"enemytips\":[\"Brand must land an ability before his combo is able to get started. Dodging his Sear or Pillar of Flame will disrupt his rhythm.\",\"Try to move away from allies when you see Pyroclasm being cast. The initial missile speed is slow, which should give your team time to react.\",\"Brand's passive allows him to excel against teams that cluster together. Be sure to split up against him.\"],\"tags\":[\"Mage\"],\"partype\":\"Mana\",\"info\":{\"attack\":2,\"defense\":2,\"magic\":9,\"difficulty\":4},\"stats\":{\"hp\":590,\"hpperlevel\":102,\"mp\":469,\"mpperlevel\":21,\"movespeed\":340,\"armor\":22,\"armorperlevel\":4.7,\"spellblock\":30,\"spellblockperlevel\":1.3,\"attackrange\":550,\"hpregen\":5.5,\"hpregenperlevel\":0.55,\"mpregen\":10.65,\"mpregenperlevel\":0.6,\"crit\":0,\"critperlevel\":0,\"attackdamage\":57,\"attackdamageperlevel\":3,\"attackspeedperlevel\":1.36,\"attackspeed\":0.625},\"spells\":[{\"id\":\"BrandQ\",\"name\":\"Sear\",\"description\":\"Brand launches a ball of fire forward that deals magic damage. If the target is ablaze, Sear will stun the target for 1.5 seconds.\",\"tooltip\":\"Brand launches a fireball that deals <magicDamage>{{ totaldamage }} magic damage</magicDamage> to the first enemy hit.<br /><br />If the target is <keywordMajor>Ablaze</keywordMajor>, they will be <status>Stunned</status> for 1.5 seconds.{{ spellmodifierdescriptionappend }}\",\"leveltip\":{\"label\":[\"Damage\",\"Cooldown\"],\"effect\":[\"{{ e1 }} -> {{ e1NL }}\",\"{{ cooldown }} -> {{ cooldownNL }}\"]},\"maxrank\":5,\"cooldown\":[8,7.5,7,6.5,6],\"cooldownBurn\":\"8/7.5/7/6.5/6\",\"cost\":[50,50,50,50,50],\"costBurn\":\"50\",\"datavalues\":{},\"effect\":[null,[80,110,140,170,200],[0,0,0,0,0],[0,0,0,0,0],[0,0,0,0,0],[0,0,0,0,0],[0,0,0,0,0],[0,0,0,0,0],[0,0,0,0,0],[0,0,0,0,0],[0,0,0,0,0]],\"effectBurn\":[null,\"80/110/140/170/200\",\"0\",\"0\",\"0\",\"0\",\"0\",\"0\",\"0\",\"0\",\"0\"],\"vars\":[],\"costType\":\" {{ abilityresourcename }}\",\"maxammo\":\"-1\",\"range\":[1050,1050,1050,1050,1050],\"rangeBurn\":\"1050\",\"image\":{\"full\":\"BrandQ.png\",\"sprite\":\"spell1.png\",\"group\":\"spell\",\"x\":384,\"y\":144,\"w\":48,\"h\":48},\"resource\":\"{{ cost }} {{ abilityresourcename }}\"},{\"id\":\"BrandW\",\"name\":\"Pillar of Flame\",\"description\":\"After a short delay, Brand creates a Pillar of Flame at a target area, dealing magic damage to enemy units within the area. Units that are ablaze take an additional 25% damage.\",\"tooltip\":\"Brand creates a pillar of pure fire, dealing <magicDamage>{{ totaldamage }} magic damage</magicDamage>.<br /><br />Units that are <keywordMajor>Ablaze</keywordMajor> take <magicDamage>{{ empowereddamage }} damage</magicDamage> instead.{{ spellmodifierdescriptionappend }}\",\"leveltip\":{\"label\":[\"Damage\",\"Cooldown\",\"@AbilityResourceName@ Cost\"],\"effect\":[\"{{ e1 }} -> {{ e1NL }}\",\"{{ cooldown }} -> {{ cooldownNL }}\",\"{{ cost }} -> {{ costNL }}\"]},\"maxrank\":5,\"cooldown\":[10,9.5,9,8.5,8],\"cooldownBurn\":\"10/9.5/9/8.5/8\",\"cost\":[60,70,80,90,100],\"costBurn\":\"60/70/80/90/100\",\"datavalues\":{},\"effect\":[null,[75,120,165,210,255],[20,40,60,80,100],[0.25,0.25,0.25,0.25,0.25],[0,0,0,0,0],[0,0,0,0,0],[0,0,0,0,0],[0,0,0,0,0],[0,0,0,0,0],[0,0,0,0,0],[0,0,0,0,0]],\"effectBurn\":[null,\"75/120/165/210/255\",\"20/40/60/80/100\",\"0.25\",\"0\",\"0\",\"0\",\"0\",\"0\",\"0\",\"0\"],\"vars\":[],\"costType\":\" {{ abilityresourcename }}\",\"maxammo\":\"-1\",\"range\":[900,900,900,900,900],\"rangeBurn\":\"900\",\"image\":{\"full\":\"BrandW.png\",\"sprite\":\"spell1.png\",\"group\":\"spell\",\"x\":432,\"y\":144,\"w\":48,\"h\":48},\"resource\":\"{{ cost }} {{ abilityresourcename }}\"},{\"id\":\"BrandE\",\"name\":\"Conflagration\",\"description\":\"Brand conjures a powerful blast at his target that spreads to nearby enemies, dealing magic damage. If the target is ablaze, Conflagration's spread is doubled.\",\"tooltip\":\"Brand conjures a powerful blast at his target, dealing <magicDamage>{{ explosiondamage }} magic damage</magicDamage> to surrounding units.<br /><br />If the target is <keywordMajor>Ablaze</keywordMajor>, the spread range is doubled.{{ spellmodifierdescriptionappend }}\",\"leveltip\":{\"label\":[\"Damage\",\"Cooldown\",\"@AbilityResourceName@ Cost\"],\"effect\":[\"{{ e1 }} -> {{ e1NL }}\",\"{{ cooldown }} -> {{ cooldownNL }}\",\"{{ cost }} -> {{ costNL }}\"]},\"maxrank\":5,\"cooldown\":[12,11,10,9,8],\"cooldownBurn\":\"12/11/10/9/8\",\"cost\":[70,75,80,85,90],\"costBurn\":\"70/75/80/85/90\",\"datavalues\":{},\"effect\":[null,[70,95,120,145,170],[375,375,375,375,375],[0,0,0,0,0],[0,0,0,0,0],[0,0,0,0,0],[0,0,0,0,0],[0,0,0,0,0],[0,0,0,0,0],[0,0,0,0,0],[0,0,0,0,0]],\"effectBurn\":[null,\"70/95/120/145/170\",\"375\",\"0\",\"0\",\"0\",\"0\",\"0\",\"0\",\"0\",\"0\"],\"vars\":[],\"costType\":\" {{ abilityresourcename }}\",\"maxammo\":\"-1\",\"range\":[625,625,625,625,625],\"rangeBurn\":\"625\",\"image\":{\"full\":\"BrandE.png\",\"sprite\":\"spell2.png\",\"group\":\"spell\",\"x\":0,\"y\":0,\"w\":48,\"h\":48},\"resource\":\"{{ cost }} {{ abilityresourcename }}\"},{\"id\":\"BrandR\",\"name\":\"Pyroclasm\",\"description\":\"Brand unleashes a devastating torrent of fire that bounces up to 5 times off of Brand and nearby enemies, dealing magic damage to enemies each time bounce. Bounces prioritize stacking Blaze to max on Champions. If a target is ablaze, Pyroclasm will briefly slow them.\",\"tooltip\":\"Brand unleashes a devastating torrent of fire that can bounce to Brand or another enemy up to 5 times, dealing <magicDamage>{{ totaldamage }} magic damage</magicDamage> to enemies each bounce. Bounces prioritize stacking <keywordMajor>Blaze</keywordMajor> to max on champions.<br /><br />If the target is <keywordMajor>Ablaze</keywordMajor>, they are briefly <status>Slowed</status> by {{ slowamount }}%.{{ spellmodifierdescriptionappend }}\",\"leveltip\":{\"label\":[\"Damage per Bounce\",\"Slow\",\"Cooldown\"],\"effect\":[\"{{ basedamage }} -> {{ basedamageNL }}\",\"{{ slowamount }}% -> {{ slowamountNL }}%\",\"{{ cooldown }} -> {{ cooldownNL }}\"]},\"maxrank\":3,\"cooldown\":[105,90,75],\"cooldownBurn\":\"105/90/75\",\"cost\":[100,100,100],\"costBurn\":\"100\",\"datavalues\":{},\"effect\":[null,[0,0,0],[0,0,0],[0,0,0],[0,0,0],[0,0,0],[0,0,0],[0,0,0],[0,0,0],[0,0,0],[0,0,0]],\"effectBurn\":[null,\"0\",\"0\",\"0\",\"0\",\"0\",\"0\",\"0\",\"0\",\"0\",\"0\"],\"vars\":[],\"costType\":\" {{ abilityresourcename }}\",\"maxammo\":\"-1\",\"range\":[750,750,750],\"rangeBurn\":\"750\",\"image\":{\"full\":\"BrandR.png\",\"sprite\":\"spell2.png\",\"group\":\"spell\",\"x\":48,\"y\":0,\"w\":48,\"h\":48},\"resource\":\"{{ cost }} {{ abilityresourcename }}\"}],\"passive\":{\"name\":\"Blaze\",\"description\":\"Brand's spells light his targets ablaze, dealing damage over 4 seconds, stacking up to 3 times. If Brand kills an enemy while it is ablaze he regains mana. When Blaze reaches max stacks on a Champion or large monster, it becomes unstable. It detonates in 2 seconds, applying spell effects and dealing massive damage in an area around the victim.\",\"image\":{\"full\":\"BrandP.png\",\"sprite\":\"passive0.png\",\"group\":\"passive\",\"x\":240,\"y\":48,\"w\":48,\"h\":48}},\"recommended\":[]}",
+    "champion_blurb": "Once a tribesman of the icy Freljord named Kegan Rodhe, the creature known as Brand is a lesson in the temptation of greater power. Seeking one of the legendary World Runes, Kegan betrayed his companions and seized it for himself—and, in an instant, the...",
+    "lore": "Once a tribesman of the icy Freljord named Kegan Rodhe, the creature known as Brand is a lesson in the temptation of greater power. Seeking one of the legendary World Runes, Kegan betrayed his companions and seized it for himself—and, in an instant, the man was no more. His soul burned away, his body a vessel of living flame, Brand now roams Valoran in search of other Runes, swearing revenge for wrongs he could never possibly have suffered in a dozen mortal lifetimes.",
+    "champion_icon": "https://ddragon.leagueoflegends.com/cdn/13.14.1/img/champion/Brand.png",
+    "champion_name": "Brand",
+    "champion_splash": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Brand_0.jpg",
+    "champion_title": "the Burning Vengeance",
+    "recommended_lanes": [],
+    "recommended_roles": [
+        "Mage"
+    ],
+    "links": [
+        {
+            "href": "https://na.op.gg/champion/brand/statistics/",
+            "title": "OP.GG"
+        },
+        {
+            "href": "https://u.gg/lol/champions/brand/build",
+            "title": "U.GG"
+        },
+        {
+            "href": "https://www.probuilds.net/champions/details/brand",
+            "title": "probuilds.net"
+        }
+    ],
+    "champion": {
+        "modular_blocks": []
+    },
+    "skins": [
+        {
+            "name": "default",
+            "imageUrl": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Brand_0.jpg"
+        },
+        {
+            "name": "Apocalyptic Brand",
+            "imageUrl": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Brand_1.jpg"
+        },
+        {
+            "name": "Vandal Brand",
+            "imageUrl": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Brand_2.jpg"
+        },
+        {
+            "name": "Cryocore Brand",
+            "imageUrl": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Brand_3.jpg"
+        },
+        {
+            "name": "Zombie Brand",
+            "imageUrl": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Brand_4.jpg"
+        },
+        {
+            "name": "Spirit Fire Brand",
+            "imageUrl": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Brand_5.jpg"
+        },
+        {
+            "name": "Battle Boss Brand",
+            "imageUrl": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Brand_6.jpg"
+        },
+        {
+            "name": "Arclight Brand",
+            "imageUrl": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Brand_7.jpg"
+        },
+        {
+            "name": "Eternal Dragon Brand",
+            "imageUrl": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Brand_8.jpg"
+        },
+        {
+            "name": "Debonair Brand",
+            "imageUrl": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Brand_21.jpg"
+        },
+        {
+            "name": "Prestige Debonair Brand",
+            "imageUrl": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Brand_22.jpg"
+        }
+    ],
+    "champion_passive": {
+        "champion_passive_description": "Brand's spells light his targets ablaze, dealing damage over 4 seconds, stacking up to 3 times. If Brand kills an enemy while it is ablaze he regains mana. When Blaze reaches max stacks on a Champion or large monster, it becomes unstable. It detonates in 2 seconds, applying spell effects and dealing massive damage in an area around the victim.",
+        "champion_passive_icon": "https://ddragon.leagueoflegends.com/cdn/13.14.1/img/passive/BrandP.png",
+        "champion_passive_name": "Blaze",
+        "champion_passive_video_mp4": "https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0063/ability_0063_P1.mp4",
+        "champion_passive_video_poster": "https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0063/ability_0063_P1.jpg",
+        "champion_passive_video_webm": "https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0063/ability_0063_P1.webm"
+    },
+    "champion_q": {
+        "champion_q_description": "Brand launches a ball of fire forward that deals magic damage. If the target is ablaze, Sear will stun the target for 1.5 seconds.",
+        "champion_q_icon": "https://ddragon.leagueoflegends.com/cdn/13.14.1/img/spell/BrandQ.png",
+        "champion_q_name": "Sear",
+        "champion_q_video_mp4": "https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0063/ability_0063_Q1.mp4",
+        "champion_q_video_poster": "https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0063/ability_0063_Q1.jpg",
+        "champion_q_video_webm": "https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0063/ability_0063_Q1.webm"
+    },
+    "champion_w": {
+        "champion_w_description": "After a short delay, Brand creates a Pillar of Flame at a target area, dealing magic damage to enemy units within the area. Units that are ablaze take an additional 25% damage.",
+        "champion_w_icon": "https://ddragon.leagueoflegends.com/cdn/13.14.1/img/spell/BrandW.png",
+        "champion_w_name": "Pillar of Flame",
+        "champion_w_video_mp4": "https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0063/ability_0063_W1.mp4",
+        "champion_w_video_poster": "https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0063/ability_0063_W1.jpg",
+        "champion_w_video_webm": "https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0063/ability_0063_W1.webm"
+    },
+    "champion_e": {
+        "champion_e_description": "Brand conjures a powerful blast at his target that spreads to nearby enemies, dealing magic damage. If the target is ablaze, Conflagration's spread is doubled.",
+        "champion_e_icon": "https://ddragon.leagueoflegends.com/cdn/13.14.1/img/spell/BrandE.png",
+        "champion_e_name": "Conflagration",
+        "champion_e_video_mp4": "https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0063/ability_0063_E1.mp4",
+        "champion_e_video_poster": "https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0063/ability_0063_E1.jpg",
+        "champion_e_video_webm": "https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0063/ability_0063_E1.webm"
+    },
+    "champion_r": {
+        "champion_r_description": "Brand unleashes a devastating torrent of fire that bounces up to 5 times off of Brand and nearby enemies, dealing magic damage to enemies each time bounce. Bounces prioritize stacking Blaze to max on Champions. If a target is ablaze, Pyroclasm will briefly slow them.",
+        "champion_r_icon": "https://ddragon.leagueoflegends.com/cdn/13.14.1/img/spell/BrandR.png",
+        "champion_r_name": "Pyroclasm",
+        "champion_r_video_mp4": "https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0063/ability_0063_R1.mp4",
+        "champion_r_video_poster": "https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0063/ability_0063_R1.jpg",
+        "champion_r_video_webm": "https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0063/ability_0063_R1.webm"
+    },
+    "related_champions": []
+  },
+  {
+    "publish_details": {
+        "locale": "en-us"
+    },
+    "uid": "blt482b5f5243ea623f",
+    "url": "/champions/braum/",
+    "data_dragon_id": "Braum",
+    "data_dragon_json": "{\"id\":\"Braum\",\"key\":\"201\",\"name\":\"Braum\",\"title\":\"the Heart of the Freljord\",\"image\":{\"full\":\"Braum.png\",\"sprite\":\"champion0.png\",\"group\":\"champion\",\"x\":288,\"y\":48,\"w\":48,\"h\":48},\"skins\":[{\"id\":\"201000\",\"num\":0,\"name\":\"default\",\"chromas\":false},{\"id\":\"201001\",\"num\":1,\"name\":\"Dragonslayer Braum\",\"chromas\":true},{\"id\":\"201002\",\"num\":2,\"name\":\"El Tigre Braum\",\"chromas\":false},{\"id\":\"201003\",\"num\":3,\"name\":\"Braum Lionheart\",\"chromas\":false},{\"id\":\"201010\",\"num\":10,\"name\":\"Santa Braum\",\"chromas\":false},{\"id\":\"201011\",\"num\":11,\"name\":\"Crime City Braum\",\"chromas\":true},{\"id\":\"201024\",\"num\":24,\"name\":\"Sugar Rush Braum\",\"chromas\":true},{\"id\":\"201033\",\"num\":33,\"name\":\"Pool Party Braum\",\"chromas\":true}],\"lore\":\"Blessed with massive biceps and an even bigger heart, Braum is a beloved hero of the Freljord. Every mead hall north of Frostheld toasts his legendary strength, said to have felled a forest of oaks in a single night, and punched an entire mountain into rubble. Bearing an enchanted vault door as his shield, Braum roams the frozen north sporting a mustachioed smile as big as his muscles—a true friend to all those in need.\",\"blurb\":\"Blessed with massive biceps and an even bigger heart, Braum is a beloved hero of the Freljord. Every mead hall north of Frostheld toasts his legendary strength, said to have felled a forest of oaks in a single night, and punched an entire mountain into...\",\"allytips\":[\"Work with your allies to stack Concussive Blows, encourage them to basic attack marked targets.\",\"Leap in front of squishy friends and shield them from projectiles with Unbreakable.\",\"Glacial Fissure leaves a powerful slow zone, position it well to split teamfights and slow the enemy approach.\"],\"enemytips\":[\"Braum must land Winter's Bite or a basic attack to start Concussive Blows. If you get marked, exit combat range before getting hit 3 more times to avoid the stun.\",\"Braum's ultimate has a long cast time, use that extra time to dodge. Walking over the frozen ground left behind will slow you, position so that you don't need to cross it.\",\"Unbreakable gives Braum extremely strong directional defense, either wait until it is down or outposition the ability.\"],\"tags\":[\"Support\",\"Tank\"],\"partype\":\"Mana\",\"info\":{\"attack\":3,\"defense\":9,\"magic\":4,\"difficulty\":3},\"stats\":{\"hp\":610,\"hpperlevel\":112,\"mp\":311,\"mpperlevel\":45,\"movespeed\":335,\"armor\":47,\"armorperlevel\":5.2,\"spellblock\":32,\"spellblockperlevel\":2.05,\"attackrange\":125,\"hpregen\":8.5,\"hpregenperlevel\":1,\"mpregen\":6,\"mpregenperlevel\":0.8,\"crit\":0,\"critperlevel\":0,\"attackdamage\":55,\"attackdamageperlevel\":3.2,\"attackspeedperlevel\":3.5,\"attackspeed\":0.644},\"spells\":[{\"id\":\"BraumQ\",\"name\":\"Winter's Bite\",\"description\":\"Braum propels freezing ice from his shield, slowing and dealing magic damage.<br><br>Applies a stack of <font color='#FFF673'>Concussive Blows</font>.\",\"tooltip\":\"Braum propels freezing ice from his shield, dealing <magicDamage>{{ totaldamage }} magic damage</magicDamage> to the first enemy hit and <status>Slowing</status> them by {{ e2 }}% decaying over {{ e5 }} seconds.<br /><br />Applies a stack of <keywordMajor>Concussive Blows</keywordMajor>. {{ spellmodifierdescriptionappend }}\",\"leveltip\":{\"label\":[\"Damage\",\"Cooldown\",\"@AbilityResourceName@ Cost\"],\"effect\":[\"{{ e1 }} -> {{ e1NL }}\",\"{{ cooldown }} -> {{ cooldownNL }}\",\"{{ cost }} -> {{ costNL }}\"]},\"maxrank\":5,\"cooldown\":[8,7.5,7,6.5,6],\"cooldownBurn\":\"8/7.5/7/6.5/6\",\"cost\":[45,50,55,60,65],\"costBurn\":\"45/50/55/60/65\",\"datavalues\":{},\"effect\":[null,[75,125,175,225,275],[70,70,70,70,70],[30,30,30,30,30],[0.02,0.02,0.02,0.02,0.02],[2,2,2,2,2],[1050,1050,1050,1050,1050],[4,4,4,4,4],[0,0,0,0,0],[0,0,0,0,0],[0,0,0,0,0]],\"effectBurn\":[null,\"75/125/175/225/275\",\"70\",\"30\",\"0.02\",\"2\",\"1050\",\"4\",\"0\",\"0\",\"0\"],\"vars\":[],\"costType\":\" {{ abilityresourcename }}\",\"maxammo\":\"-1\",\"range\":[1000,1000,1000,1000,1000],\"rangeBurn\":\"1000\",\"image\":{\"full\":\"BraumQ.png\",\"sprite\":\"spell2.png\",\"group\":\"spell\",\"x\":96,\"y\":0,\"w\":48,\"h\":48},\"resource\":\"{{ cost }} {{ abilityresourcename }}\"},{\"id\":\"BraumW\",\"name\":\"Stand Behind Me\",\"description\":\"Braum leaps to a target allied champion or minion. On arrival, Braum and the ally gain Armor and Magic Resist for a few seconds.\",\"tooltip\":\"Braum leaps to an allied champion or minion. On arrival, Braum grants the target <scaleArmor>{{ grantedallyarmor }} Armor</scaleArmor> and <scaleMR>{{ grantedallymr }} Magic Resist</scaleMR> for {{ e1 }} seconds. Braum grants himself <scaleArmor>{{ grantedbraumarmor }}</scaleArmor> Armor and  <scaleMR>{{ grantedbraummr }}</scaleMR> Magic Resist for the same duration.{{ spellmodifierdescriptionappend }}\",\"leveltip\":{\"label\":[\"Base Resists\",\"Cooldown\"],\"effect\":[\"{{ baseresists }} -> {{ baseresistsNL }}\",\"{{ cooldown }} -> {{ cooldownNL }}\"]},\"maxrank\":5,\"cooldown\":[12,11,10,9,8],\"cooldownBurn\":\"12/11/10/9/8\",\"cost\":[40,40,40,40,40],\"costBurn\":\"40\",\"datavalues\":{},\"effect\":[null,[3,3,3,3,3],[750,750,750,750,750],[0,0,0,0,0],[0,0,0,0,0],[0,0,0,0,0],[40,40,40,40,40],[0,0,0,0,0],[0,0,0,0,0],[0,0,0,0,0],[0,0,0,0,0]],\"effectBurn\":[null,\"3\",\"750\",\"0\",\"0\",\"0\",\"40\",\"0\",\"0\",\"0\",\"0\"],\"vars\":[],\"costType\":\" {{ abilityresourcename }}\",\"maxammo\":\"-1\",\"range\":[650,650,650,650,650],\"rangeBurn\":\"650\",\"image\":{\"full\":\"BraumW.png\",\"sprite\":\"spell2.png\",\"group\":\"spell\",\"x\":144,\"y\":0,\"w\":48,\"h\":48},\"resource\":\"{{ cost }} {{ abilityresourcename }}\"},{\"id\":\"BraumE\",\"name\":\"Unbreakable\",\"description\":\"Braum raises his shield in a direction for several seconds, intercepting all projectiles causing them to hit him and be destroyed. He negates the damage of the first attack completely and reduces the damage of all subsequent attacks from this direction.\",\"tooltip\":\"Braum raises his shield for {{ e2 }} seconds, intercepting enemy missiles from the chosen direction, causing them to hit Braum and then be destroyed. The first missile Braum blocks deals no damage, and subsequent projectiles deal {{ e3 }}% reduced damage.<br /><br />Braum gains <speed>{{ e4 }}% Move Speed</speed> while his shield is raised.{{ spellmodifierdescriptionappend }}\",\"leveltip\":{\"label\":[\"Duration\",\"Damage Reduction\",\"Cooldown\",\"@AbilityResourceName@ Cost\"],\"effect\":[\"{{ e2 }} -> {{ e2NL }}\",\"{{ e3 }}% -> {{ e3NL }}%\",\"{{ cooldown }} -> {{ cooldownNL }}\",\"{{ cost }} -> {{ costNL }}\"]},\"maxrank\":5,\"cooldown\":[16,14,12,10,8],\"cooldownBurn\":\"16/14/12/10/8\",\"cost\":[30,35,40,45,50],\"costBurn\":\"30/35/40/45/50\",\"datavalues\":{},\"effect\":[null,[0,0,0,0,0],[3,3.25,3.5,3.75,4],[35,40,45,50,55],[10,10,10,10,10],[0,0,0,0,0],[0,0,0,0,0],[0,0,0,0,0],[0,0,0,0,0],[0,0,0,0,0],[0,0,0,0,0]],\"effectBurn\":[null,\"0\",\"3/3.25/3.5/3.75/4\",\"35/40/45/50/55\",\"10\",\"0\",\"0\",\"0\",\"0\",\"0\",\"0\"],\"vars\":[],\"costType\":\" {{ abilityresourcename }}\",\"maxammo\":\"-1\",\"range\":[25000,25000,25000,25000,25000],\"rangeBurn\":\"25000\",\"image\":{\"full\":\"BraumE.png\",\"sprite\":\"spell2.png\",\"group\":\"spell\",\"x\":192,\"y\":0,\"w\":48,\"h\":48},\"resource\":\"{{ cost }} {{ abilityresourcename }}\"},{\"id\":\"BraumRWrapper\",\"name\":\"Glacial Fissure\",\"description\":\"Braum slams the ground, knocking up enemies nearby and in a line in front of him. A fissure is left along the line that slows enemies.\",\"tooltip\":\"Braum slams the ground sending forth a fissure that <status>Knocks Up</status> enemies in its path and nearby Braum, and deals <magicDamage>{{ totaldamage }} magic damage</magicDamage>. The first target hit is <status>Knocked Up</status> for between {{ minknockup }} and {{ maxknockup }} seconds, increasing with distance from Braum. All others hit are <status>Knocked Up</status> for {{ minknockup }} seconds.<br /><br />The fissure also creates a zone for {{ slowzoneduration }} seconds, that <status>Slows</status> by {{ movespeedmod }}%.<br />{{ spellmodifierdescriptionappend }}\",\"leveltip\":{\"label\":[\"Damage\",\"Knockup Duration\",\"Slow\",\"Cooldown\"],\"effect\":[\"{{ basedamage }} -> {{ basedamageNL }}\",\"{{ firstknockupduration }} -> {{ firstknockupdurationNL }}\",\"{{ movespeedmod }}% -> {{ movespeedmodNL }}%\",\"{{ cooldown }} -> {{ cooldownNL }}\"]},\"maxrank\":3,\"cooldown\":[120,100,80],\"cooldownBurn\":\"120/100/80\",\"cost\":[100,100,100],\"costBurn\":\"100\",\"datavalues\":{},\"effect\":[null,[0,0,0],[0,0,0],[0,0,0],[0,0,0],[0,0,0],[0,0,0],[0,0,0],[0,0,0],[0,0,0],[0,0,0]],\"effectBurn\":[null,\"0\",\"0\",\"0\",\"0\",\"0\",\"0\",\"0\",\"0\",\"0\",\"0\"],\"vars\":[],\"costType\":\" {{ abilityresourcename }}\",\"maxammo\":\"-1\",\"range\":[1250,1250,1250],\"rangeBurn\":\"1250\",\"image\":{\"full\":\"BraumRWrapper.png\",\"sprite\":\"spell2.png\",\"group\":\"spell\",\"x\":240,\"y\":0,\"w\":48,\"h\":48},\"resource\":\"{{ cost }} {{ abilityresourcename }}\"}],\"passive\":{\"name\":\"Concussive Blows\",\"description\":\"Braum's basic attacks apply Concussive Blows. Once the first stack is applied, <font color='#FFF673'>ally</font> basic attacks also stack Concussive Blows. <br><br>Upon reaching 4 stacks, the target is stunned and takes magic damage. For the next few seconds they cannot receive new stacks, but take bonus magic damage from Braum's attacks.\",\"image\":{\"full\":\"Braum_Passive.png\",\"sprite\":\"passive0.png\",\"group\":\"passive\",\"x\":288,\"y\":48,\"w\":48,\"h\":48}},\"recommended\":[]}",
+    "champion_blurb": "Blessed with massive biceps and an even bigger heart, Braum is a beloved hero of the Freljord. Every mead hall north of Frostheld toasts his legendary strength, said to have felled a forest of oaks in a single night, and punched an entire mountain into...",
+    "lore": "Blessed with massive biceps and an even bigger heart, Braum is a beloved hero of the Freljord. Every mead hall north of Frostheld toasts his legendary strength, said to have felled a forest of oaks in a single night, and punched an entire mountain into rubble. Bearing an enchanted vault door as his shield, Braum roams the frozen north sporting a mustachioed smile as big as his muscles—a true friend to all those in need.",
+    "champion_icon": "https://ddragon.leagueoflegends.com/cdn/13.14.1/img/champion/Braum.png",
+    "champion_name": "Braum",
+    "champion_splash": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Braum_0.jpg",
+    "champion_title": "the Heart of the Freljord",
+    "recommended_lanes": [],
+    "recommended_roles": [
+        "Support",
+        "Tank"
+    ],
+    "links": [
+        {
+            "href": "https://na.op.gg/champion/braum/statistics/",
+            "title": "OP.GG"
+        },
+        {
+            "href": "https://u.gg/lol/champions/braum/build",
+            "title": "U.GG"
+        },
+        {
+            "href": "https://www.probuilds.net/champions/details/braum",
+            "title": "probuilds.net"
+        }
+    ],
+    "champion": {
+        "modular_blocks": [
+            {
+                "promo_module": {
+                    "promo_module_selection": [
+                        {
+                            "uid": "blt0486ab0a2c86e8d7",
+                            "promo_title": "Rise Against Ruin",
+                            "subtitle": "",
+                            "description": "Ruined King: A League of Legends Story, a single-player turn-based RPG, coming 2021.",
+                            "hide_title": false,
+                            "include_description": true,
+                            "promo_reference": [
+                                {
+                                    "__typename": "Contentstack_articles",
+                                    "uid": "blte4650ae179ab2f76",
+                                    "title": "Ruined King Website Redirect for Braum",
+                                    "date": "2020-10-31T17:00:00.000Z",
+                                    "description": "Ruined King: A League of Legends Story, a single-player turn-based RPG, arrives early 2021.",
+                                    "article_type": "External Link",
+                                    "url": {
+                                        "url": "/news/riot-games/ruined-king-website-redirect-for-braum/"
+                                    },
+                                    "external_link": "https://ruinedking.com/en_US/?utm_medium=promo_module&utm_source=lolweb&utm_campaign=forge_rk&utm_content=braum_promo01",
+                                    "youtube_link": "",
+                                    "banner": {
+                                        "url": "https://images.contentstack.io/v3/assets/blt731acb42bb3d1659/blt396547c1c10cc8cd/5f99e7ebcb9eba781f085914/RuinedKing_Braum_PromoModule01.jpg",
+                                        "uid": "blt396547c1c10cc8cd"
+                                    },
+                                    "category": [
+                                        {
+                                            "title": "Riot Games"
+                                        }
+                                    ],
+                                    "author": [],
+                                    "article_tags": []
+                                }
+                            ],
+                            "promo_full_width_banner": {
+                                "url": "https://images.contentstack.io/v3/assets/blt731acb42bb3d1659/blt396547c1c10cc8cd/5f99e7ebcb9eba781f085914/RuinedKing_Braum_PromoModule01.jpg",
+                                "uid": "blt396547c1c10cc8cd"
+                            }
+                        }
+                    ]
+                }
+            }
+        ]
+    },
+    "skins": [
+        {
+            "name": "default",
+            "imageUrl": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Braum_0.jpg"
+        },
+        {
+            "name": "Dragonslayer Braum",
+            "imageUrl": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Braum_1.jpg"
+        },
+        {
+            "name": "El Tigre Braum",
+            "imageUrl": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Braum_2.jpg"
+        },
+        {
+            "name": "Braum Lionheart",
+            "imageUrl": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Braum_3.jpg"
+        },
+        {
+            "name": "Santa Braum",
+            "imageUrl": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Braum_10.jpg"
+        },
+        {
+            "name": "Crime City Braum",
+            "imageUrl": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Braum_11.jpg"
+        },
+        {
+            "name": "Sugar Rush Braum",
+            "imageUrl": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Braum_24.jpg"
+        },
+        {
+            "name": "Pool Party Braum",
+            "imageUrl": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Braum_33.jpg"
+        }
+    ],
+    "champion_passive": {
+        "champion_passive_description": "Braum's basic attacks apply Concussive Blows. Once the first stack is applied, ally basic attacks also stack Concussive Blows. \n\nUpon reaching 4 stacks, the target is stunned and takes magic damage. For the next few seconds they cannot receive new stacks, but take bonus magic damage from Braum's attacks.",
+        "champion_passive_icon": "https://ddragon.leagueoflegends.com/cdn/13.14.1/img/passive/Braum_Passive.png",
+        "champion_passive_name": "Concussive Blows",
+        "champion_passive_video_mp4": "https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0201/ability_0201_P1.mp4",
+        "champion_passive_video_poster": "https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0201/ability_0201_P1.jpg",
+        "champion_passive_video_webm": "https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0201/ability_0201_P1.webm"
+    },
+    "champion_q": {
+        "champion_q_description": "Braum propels freezing ice from his shield, slowing and dealing magic damage.\n\nApplies a stack of Concussive Blows.",
+        "champion_q_icon": "https://ddragon.leagueoflegends.com/cdn/13.14.1/img/spell/BraumQ.png",
+        "champion_q_name": "Winter's Bite",
+        "champion_q_video_mp4": "https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0201/ability_0201_Q1.mp4",
+        "champion_q_video_poster": "https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0201/ability_0201_Q1.jpg",
+        "champion_q_video_webm": "https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0201/ability_0201_Q1.webm"
+    },
+    "champion_w": {
+        "champion_w_description": "Braum leaps to a target allied champion or minion. On arrival, Braum and the ally gain Armor and Magic Resist for a few seconds.",
+        "champion_w_icon": "https://ddragon.leagueoflegends.com/cdn/13.14.1/img/spell/BraumW.png",
+        "champion_w_name": "Stand Behind Me",
+        "champion_w_video_mp4": "https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0201/ability_0201_W1.mp4",
+        "champion_w_video_poster": "https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0201/ability_0201_W1.jpg",
+        "champion_w_video_webm": "https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0201/ability_0201_W1.webm"
+    },
+    "champion_e": {
+        "champion_e_description": "Braum raises his shield in a direction for several seconds, intercepting all projectiles causing them to hit him and be destroyed. He negates the damage of the first attack completely and reduces the damage of all subsequent attacks from this direction.",
+        "champion_e_icon": "https://ddragon.leagueoflegends.com/cdn/13.14.1/img/spell/BraumE.png",
+        "champion_e_name": "Unbreakable",
+        "champion_e_video_mp4": "https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0201/ability_0201_E1.mp4",
+        "champion_e_video_poster": "https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0201/ability_0201_E1.jpg",
+        "champion_e_video_webm": "https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0201/ability_0201_E1.webm"
+    },
+    "champion_r": {
+        "champion_r_description": "Braum slams the ground, knocking up enemies nearby and in a line in front of him. A fissure is left along the line that slows enemies.",
+        "champion_r_icon": "https://ddragon.leagueoflegends.com/cdn/13.14.1/img/spell/BraumRWrapper.png",
+        "champion_r_name": "Glacial Fissure",
+        "champion_r_video_mp4": "https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0201/ability_0201_R1.mp4",
+        "champion_r_video_poster": "https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0201/ability_0201_R1.jpg",
+        "champion_r_video_webm": "https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0201/ability_0201_R1.webm"
+    },
+    "related_champions": []
+  }
 ]
