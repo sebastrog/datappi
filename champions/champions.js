@@ -2141,5 +2141,998 @@
         "champion_r_video_webm": "https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0201/ability_0201_R1.webm"
     },
     "related_champions": []
+  },
+  {
+    "publish_details": {
+        "locale": "en-us"
+    },
+    "uid": "blta47f3869e876b7ae",
+    "url": "/champions/caitlyn/",
+    "data_dragon_id": "Caitlyn",
+    "data_dragon_json": "{\"id\":\"Caitlyn\",\"key\":\"51\",\"name\":\"Caitlyn\",\"title\":\"the Sheriff of Piltover\",\"image\":{\"full\":\"Caitlyn.png\",\"sprite\":\"champion0.png\",\"group\":\"champion\",\"x\":336,\"y\":48,\"w\":48,\"h\":48},\"skins\":[{\"id\":\"51000\",\"num\":0,\"name\":\"default\",\"chromas\":true},{\"id\":\"51001\",\"num\":1,\"name\":\"Resistance Caitlyn\",\"chromas\":false},{\"id\":\"51002\",\"num\":2,\"name\":\"Sheriff Caitlyn\",\"chromas\":false},{\"id\":\"51003\",\"num\":3,\"name\":\"Safari Caitlyn\",\"chromas\":false},{\"id\":\"51004\",\"num\":4,\"name\":\"Arctic Warfare Caitlyn\",\"chromas\":false},{\"id\":\"51005\",\"num\":5,\"name\":\"Officer Caitlyn\",\"chromas\":false},{\"id\":\"51006\",\"num\":6,\"name\":\"Headhunter Caitlyn\",\"chromas\":false},{\"id\":\"51010\",\"num\":10,\"name\":\"Lunar Wraith Caitlyn\",\"chromas\":true},{\"id\":\"51011\",\"num\":11,\"name\":\"Pulsefire Caitlyn\",\"chromas\":true},{\"id\":\"51013\",\"num\":13,\"name\":\"Pool Party Caitlyn\",\"chromas\":true},{\"id\":\"51019\",\"num\":19,\"name\":\"Arcade Caitlyn\",\"chromas\":false},{\"id\":\"51020\",\"num\":20,\"name\":\"Prestige Arcade Caitlyn\",\"chromas\":false},{\"id\":\"51022\",\"num\":22,\"name\":\"Battle Academia Caitlyn\",\"chromas\":true},{\"id\":\"51028\",\"num\":28,\"name\":\"Arcane Caitlyn\",\"chromas\":false},{\"id\":\"51029\",\"num\":29,\"name\":\"Prestige Arcade Caitlyn (2022)\",\"chromas\":false},{\"id\":\"51030\",\"num\":30,\"name\":\"Snow Moon Caitlyn\",\"chromas\":true},{\"id\":\"51039\",\"num\":39,\"name\":\"Heartthrob Caitlyn\",\"chromas\":true},{\"id\":\"51048\",\"num\":48,\"name\":\"DRX Caitlyn\",\"chromas\":true}],\"lore\":\"Renowned as its finest peacekeeper, Caitlyn is also Piltover's best shot at ridding the city of its elusive criminal elements. She is often paired with Vi, acting as a cool counterpoint to her partner's more impetuous nature. Even though she carries a one-of-a-kind hextech rifle, Caitlyn's most powerful weapon is her superior intellect, allowing her to lay elaborate traps for any lawbreakers foolish enough to operate in the City of Progress.\",\"blurb\":\"Renowned as its finest peacekeeper, Caitlyn is also Piltover's best shot at ridding the city of its elusive criminal elements. She is often paired with Vi, acting as a cool counterpoint to her partner's more impetuous nature. Even though she carries a...\",\"allytips\":[\"Make use of her Yordle Snap Traps by placing them pre-emptively to ensure that you'll have one off of cooldown during combat.\",\"Avoid using Ace in the Hole in large team melees as it might be blocked by the wrong target.\",\"Fire 90 Caliber Net away from the opponent to close the gap or hop over walls.\"],\"enemytips\":[\"Keep behind allied minions if Caitlyn is harassing you with Piltover Peacemaker (it deals less damage with each subsequent target).\",\"You can intercept Ace in the Hole's missile from hitting an ally if you stand in its path.\"],\"tags\":[\"Marksman\"],\"partype\":\"Mana\",\"info\":{\"attack\":8,\"defense\":2,\"magic\":2,\"difficulty\":6},\"stats\":{\"hp\":580,\"hpperlevel\":107,\"mp\":315,\"mpperlevel\":40,\"movespeed\":325,\"armor\":27,\"armorperlevel\":4.7,\"spellblock\":30,\"spellblockperlevel\":1.3,\"attackrange\":650,\"hpregen\":3.5,\"hpregenperlevel\":0.55,\"mpregen\":7.4,\"mpregenperlevel\":0.7,\"crit\":0,\"critperlevel\":0,\"attackdamage\":60,\"attackdamageperlevel\":3.8,\"attackspeedperlevel\":4,\"attackspeed\":0.681},\"spells\":[{\"id\":\"CaitlynQ\",\"name\":\"Piltover Peacemaker\",\"description\":\"Caitlyn revs up her rifle for 1 second to unleash a penetrating shot that deals physical damage (deals less damage to subsequent targets).\",\"tooltip\":\"Caitlyn revs her rifle to fire a piercing shot dealing <physicalDamage>{{ initialdamage }} physical damage</physicalDamage>. After the bolt strikes the first target, it opens into a wider shot that deals <physicalDamage>{{ secondarydamage }} physical damage</physicalDamage>.<br /><br />Enemies revealed by <spellName>Yordle Snap Trap</spellName> always take full damage.{{ spellmodifierdescriptionappend }}\",\"leveltip\":{\"label\":[\"Damage\",\"Total AD Ratio\",\"Cooldown\",\"@AbilityResourceName@ Cost\"],\"effect\":[\"{{ basedamage }} -> {{ basedamageNL }}\",\"{{ tadratio*100.000000 }}% -> {{ tadrationl*100.000000 }}%\",\"{{ cooldown }} -> {{ cooldownNL }}\",\"{{ cost }} -> {{ costNL }}\"]},\"maxrank\":5,\"cooldown\":[10,9,8,7,6],\"cooldownBurn\":\"10/9/8/7/6\",\"cost\":[55,60,65,70,75],\"costBurn\":\"55/60/65/70/75\",\"datavalues\":{},\"effect\":[null,[0,0,0,0,0],[0,0,0,0,0],[50,50,50,50,50],[1,1,1,1,1],[1.3,1.45,1.6,1.75,1.9],[0,0,0,0,0],[0,0,0,0,0],[0,0,0,0,0],[0,0,0,0,0],[0,0,0,0,0]],\"effectBurn\":[null,\"0\",\"0\",\"50\",\"1\",\"1.3/1.45/1.6/1.75/1.9\",\"0\",\"0\",\"0\",\"0\",\"0\"],\"vars\":[],\"costType\":\" {{ abilityresourcename }}\",\"maxammo\":\"-1\",\"range\":[1250,1250,1250,1250,1250],\"rangeBurn\":\"1250\",\"image\":{\"full\":\"CaitlynQ.png\",\"sprite\":\"spell2.png\",\"group\":\"spell\",\"x\":288,\"y\":0,\"w\":48,\"h\":48},\"resource\":\"{{ cost }} {{ abilityresourcename }}\"},{\"id\":\"CaitlynW\",\"name\":\"Yordle Snap Trap\",\"description\":\"Caitlyn sets a trap that, when sprung, reveals and immobilizes the enemy champion for 1.5 seconds, granting Caitlyn an empowered Headshot.\",\"tooltip\":\"Caitlyn sets a trap that <status>Roots</status> the first champion that steps on it for {{ e6 }} seconds and granting <keywordStealth>True Sight</keywordStealth> of them for 3 seconds. Traps last for {{ e3 }} seconds, and {{ e5 }} traps may be active at once. This Ability has {{ e5 }} charges ({{ ammorechargetime }} second refresh).{{ spellmodifierdescriptionappend }}\",\"leveltip\":{\"label\":[\"Bonus Headshot Damage on Trapped Targets\",\"Bonus Attack Damage Ratio\",\"Recharge Time\",\"Maximum Traps\",\"Trap Duration\"],\"effect\":[\"{{ e2 }} -> {{ e2NL }}\",\"{{ e7 }}% -> {{ e7NL }}%\",\"{{ ammorechargetime }} -> {{ ammorechargetimeNL }}\",\"{{ e4 }} -> {{ e4NL }}\",\"{{ e3 }} -> {{ e3NL }}\"]},\"maxrank\":5,\"cooldown\":[0.5,0.5,0.5,0.5,0.5],\"cooldownBurn\":\"0.5\",\"cost\":[20,20,20,20,20],\"costBurn\":\"20\",\"datavalues\":{},\"effect\":[null,[2,2,2,2,2],[40,85,130,175,220],[30,35,40,45,50],[3,3,4,4,5],[3,3,4,4,5],[1.5,1.5,1.5,1.5,1.5],[40,50,60,70,80],[0,0,0,0,0],[0,0,0,0,0],[0,0,0,0,0]],\"effectBurn\":[null,\"2\",\"40/85/130/175/220\",\"30/35/40/45/50\",\"3/3/4/4/5\",\"3/3/4/4/5\",\"1.5\",\"40/50/60/70/80\",\"0\",\"0\",\"0\"],\"vars\":[],\"costType\":\" {{ abilityresourcename }}\",\"maxammo\":\"2\",\"range\":[800,800,800,800,800],\"rangeBurn\":\"800\",\"image\":{\"full\":\"CaitlynW.png\",\"sprite\":\"spell2.png\",\"group\":\"spell\",\"x\":336,\"y\":0,\"w\":48,\"h\":48},\"resource\":\"{{ cost }} {{ abilityresourcename }}\"},{\"id\":\"CaitlynE\",\"name\":\"90 Caliber Net\",\"description\":\"Caitlyn fires a heavy net to slow her target. The recoil knocks Caitlyn back.\",\"tooltip\":\"Caitlyn fires a net, pushing her backwards. The net <status>Slows</status> the first target hit by {{ e3 }}% for {{ e2 }} second and deals <magicDamage>{{ netdamage }} magic damage</magicDamage>.{{ spellmodifierdescriptionappend }}\",\"leveltip\":{\"label\":[\"Damage\",\"Cooldown\"],\"effect\":[\"{{ e1 }} -> {{ e1NL }}\",\"{{ cooldown }} -> {{ cooldownNL }}\"]},\"maxrank\":5,\"cooldown\":[16,14,12,10,8],\"cooldownBurn\":\"16/14/12/10/8\",\"cost\":[75,75,75,75,75],\"costBurn\":\"75\",\"datavalues\":{},\"effect\":[null,[80,130,180,230,280],[1,1,1,1,1],[50,50,50,50,50],[0,0,0,0,0],[0,0,0,0,0],[0,0,0,0,0],[0,0,0,0,0],[0,0,0,0,0],[0,0,0,0,0],[0,0,0,0,0]],\"effectBurn\":[null,\"80/130/180/230/280\",\"1\",\"50\",\"0\",\"0\",\"0\",\"0\",\"0\",\"0\",\"0\"],\"vars\":[],\"costType\":\" {{ abilityresourcename }}\",\"maxammo\":\"-1\",\"range\":[750,750,750,750,750],\"rangeBurn\":\"750\",\"image\":{\"full\":\"CaitlynE.png\",\"sprite\":\"spell2.png\",\"group\":\"spell\",\"x\":384,\"y\":0,\"w\":48,\"h\":48},\"resource\":\"{{ cost }} {{ abilityresourcename }}\"},{\"id\":\"CaitlynR\",\"name\":\"Ace in the Hole\",\"description\":\"Caitlyn takes time to line up the perfect shot, dealing massive damage to a single target at a huge range. Enemy champions can intercept the bullet for their ally.\",\"tooltip\":\"Caitlyn takes a moment to channel and line up the perfect shot, then she fires, dealing <physicalDamage>{{ rtotaldamage }} physical damage</physicalDamage>, but other enemy champions can intercept it. This Ability grants <keywordStealth>True Sight</keywordStealth> of the target during the channel.<br /><br /><rules>Deals up to an additional {{ critchanceamp*100 }}% based on Caitlyn's Critical Strike chance.</rules>{{ spellmodifierdescriptionappend }}\",\"leveltip\":{\"label\":[\"Damage\",\"Cooldown\"],\"effect\":[\"{{ rbasedamage }} -> {{ rbasedamageNL }}\",\"{{ cooldown }} -> {{ cooldownNL }}\"]},\"maxrank\":3,\"cooldown\":[90,75,60],\"cooldownBurn\":\"90/75/60\",\"cost\":[100,100,100],\"costBurn\":\"100\",\"datavalues\":{},\"effect\":[null,[0,0,0],[0,0,0],[0,0,0],[0,0,0],[0,0,0],[0,0,0],[0,0,0],[0,0,0],[0,0,0],[0,0,0]],\"effectBurn\":[null,\"0\",\"0\",\"0\",\"0\",\"0\",\"0\",\"0\",\"0\",\"0\",\"0\"],\"vars\":[],\"costType\":\" {{ abilityresourcename }}\",\"maxammo\":\"-1\",\"range\":[3500,3500,3500],\"rangeBurn\":\"3500\",\"image\":{\"full\":\"CaitlynR.png\",\"sprite\":\"spell2.png\",\"group\":\"spell\",\"x\":432,\"y\":0,\"w\":48,\"h\":48},\"resource\":\"{{ cost }} {{ abilityresourcename }}\"}],\"passive\":{\"name\":\"Headshot\",\"description\":\"Every few basic attacks, or against a target she has trapped or netted, Caitlyn will fire a headshot dealing bonus damage that scales with her critical strike chance. On trapped or netted targets, Caitlyn's Headshot attack range is doubled.\",\"image\":{\"full\":\"Caitlyn_Headshot.png\",\"sprite\":\"passive0.png\",\"group\":\"passive\",\"x\":336,\"y\":48,\"w\":48,\"h\":48}},\"recommended\":[]}",
+    "champion_blurb": "Renowned as its finest peacekeeper, Caitlyn is also Piltover's best shot at ridding the city of its elusive criminal elements. She is often paired with Vi, acting as a cool counterpoint to her partner's more impetuous nature. Even though she carries a...",
+    "lore": "Renowned as its finest peacekeeper, Caitlyn is also Piltover's best shot at ridding the city of its elusive criminal elements. She is often paired with Vi, acting as a cool counterpoint to her partner's more impetuous nature. Even though she carries a one-of-a-kind hextech rifle, Caitlyn's most powerful weapon is her superior intellect, allowing her to lay elaborate traps for any lawbreakers foolish enough to operate in the City of Progress.",
+    "champion_icon": "https://ddragon.leagueoflegends.com/cdn/13.14.1/img/champion/Caitlyn.png",
+    "champion_name": "Caitlyn",
+    "champion_splash": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Caitlyn_0.jpg",
+    "champion_title": "the Sheriff of Piltover",
+    "recommended_lanes": [],
+    "recommended_roles": [
+        "Marksman"
+    ],
+    "links": [
+        {
+            "href": "https://na.op.gg/champion/caitlyn/statistics/",
+            "title": "OP.GG"
+        },
+        {
+            "href": "https://u.gg/lol/champions/caitlyn/build",
+            "title": "U.GG"
+        },
+        {
+            "href": "https://www.probuilds.net/champions/details/caitlyn",
+            "title": "probuilds.net"
+        }
+    ],
+    "champion": {
+        "modular_blocks": []
+    },
+    "skins": [
+        {
+            "name": "default",
+            "imageUrl": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Caitlyn_0.jpg"
+        },
+        {
+            "name": "Resistance Caitlyn",
+            "imageUrl": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Caitlyn_1.jpg"
+        },
+        {
+            "name": "Sheriff Caitlyn",
+            "imageUrl": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Caitlyn_2.jpg"
+        },
+        {
+            "name": "Safari Caitlyn",
+            "imageUrl": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Caitlyn_3.jpg"
+        },
+        {
+            "name": "Arctic Warfare Caitlyn",
+            "imageUrl": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Caitlyn_4.jpg"
+        },
+        {
+            "name": "Officer Caitlyn",
+            "imageUrl": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Caitlyn_5.jpg"
+        },
+        {
+            "name": "Headhunter Caitlyn",
+            "imageUrl": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Caitlyn_6.jpg"
+        },
+        {
+            "name": "Lunar Wraith Caitlyn",
+            "imageUrl": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Caitlyn_10.jpg"
+        },
+        {
+            "name": "Pulsefire Caitlyn",
+            "imageUrl": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Caitlyn_11.jpg"
+        },
+        {
+            "name": "Pool Party Caitlyn",
+            "imageUrl": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Caitlyn_13.jpg"
+        },
+        {
+            "name": "Arcade Caitlyn",
+            "imageUrl": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Caitlyn_19.jpg"
+        },
+        {
+            "name": "Prestige Arcade Caitlyn",
+            "imageUrl": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Caitlyn_20.jpg"
+        },
+        {
+            "name": "Battle Academia Caitlyn",
+            "imageUrl": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Caitlyn_22.jpg"
+        },
+        {
+            "name": "Arcane Caitlyn",
+            "imageUrl": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Caitlyn_28.jpg"
+        },
+        {
+            "name": "Prestige Arcade Caitlyn (2022)",
+            "imageUrl": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Caitlyn_29.jpg"
+        },
+        {
+            "name": "Snow Moon Caitlyn",
+            "imageUrl": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Caitlyn_30.jpg"
+        },
+        {
+            "name": "Heartthrob Caitlyn",
+            "imageUrl": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Caitlyn_39.jpg"
+        },
+        {
+            "name": "DRX Caitlyn",
+            "imageUrl": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Caitlyn_48.jpg"
+        }
+    ],
+    "champion_passive": {
+        "champion_passive_description": "Every few basic attacks, or against a target she has trapped or netted, Caitlyn will fire a headshot dealing bonus damage that scales with her critical strike chance. On trapped or netted targets, Caitlyn's Headshot attack range is doubled.",
+        "champion_passive_icon": "https://ddragon.leagueoflegends.com/cdn/13.14.1/img/passive/Caitlyn_Headshot.png",
+        "champion_passive_name": "Headshot",
+        "champion_passive_video_mp4": "",
+        "champion_passive_video_poster": "https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0051/ability_0051_P1.jpg",
+        "champion_passive_video_webm": "https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0051/ability_0051_P1.webm"
+    },
+    "champion_q": {
+        "champion_q_description": "Caitlyn revs up her rifle for 1 second to unleash a penetrating shot that deals physical damage (deals less damage to subsequent targets).",
+        "champion_q_icon": "https://ddragon.leagueoflegends.com/cdn/13.14.1/img/spell/CaitlynQ.png",
+        "champion_q_name": "Piltover Peacemaker",
+        "champion_q_video_mp4": "",
+        "champion_q_video_poster": "https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0051/ability_0051_Q1.jpg",
+        "champion_q_video_webm": "https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0051/ability_0051_Q1.webm"
+    },
+    "champion_w": {
+        "champion_w_description": "Caitlyn sets a trap that, when sprung, reveals and immobilizes the enemy champion for 1.5 seconds, granting Caitlyn an empowered Headshot.",
+        "champion_w_icon": "https://ddragon.leagueoflegends.com/cdn/13.14.1/img/spell/CaitlynW.png",
+        "champion_w_name": "Yordle Snap Trap",
+        "champion_w_video_mp4": "",
+        "champion_w_video_poster": "https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0051/ability_0051_W1.jpg",
+        "champion_w_video_webm": "https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0051/ability_0051_W1.webm"
+    },
+    "champion_e": {
+        "champion_e_description": "Caitlyn fires a heavy net to slow her target. The recoil knocks Caitlyn back.",
+        "champion_e_icon": "https://ddragon.leagueoflegends.com/cdn/13.14.1/img/spell/CaitlynE.png",
+        "champion_e_name": "90 Caliber Net",
+        "champion_e_video_mp4": "",
+        "champion_e_video_poster": "https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0051/ability_0051_E1.jpg",
+        "champion_e_video_webm": "https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0051/ability_0051_E1.webm"
+    },
+    "champion_r": {
+        "champion_r_description": "Caitlyn takes time to line up the perfect shot, dealing massive damage to a single target at a huge range. Enemy champions can intercept the bullet for their ally.",
+        "champion_r_icon": "https://ddragon.leagueoflegends.com/cdn/13.14.1/img/spell/CaitlynR.png",
+        "champion_r_name": "Ace in the Hole",
+        "champion_r_video_mp4": "",
+        "champion_r_video_poster": "https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0051/ability_0051_R1.jpg",
+        "champion_r_video_webm": "https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0051/ability_0051_R1.webm"
+    },
+    "related_champions": []
+  },
+  {
+    "publish_details": {
+        "locale": "en-us"
+    },
+    "uid": "blt65bea5c9a295f1cc",
+    "url": "/champions/camille/",
+    "data_dragon_id": "Camille",
+    "data_dragon_json": "{\"id\":\"Camille\",\"key\":\"164\",\"name\":\"Camille\",\"title\":\"the Steel Shadow\",\"image\":{\"full\":\"Camille.png\",\"sprite\":\"champion0.png\",\"group\":\"champion\",\"x\":384,\"y\":48,\"w\":48,\"h\":48},\"skins\":[{\"id\":\"164000\",\"num\":0,\"name\":\"default\",\"chromas\":false},{\"id\":\"164001\",\"num\":1,\"name\":\"Program Camille\",\"chromas\":false},{\"id\":\"164002\",\"num\":2,\"name\":\"Coven Camille\",\"chromas\":true},{\"id\":\"164010\",\"num\":10,\"name\":\"iG Camille\",\"chromas\":false},{\"id\":\"164011\",\"num\":11,\"name\":\"Arcana Camille\",\"chromas\":true},{\"id\":\"164021\",\"num\":21,\"name\":\"Strike Commander Camille\",\"chromas\":true}],\"lore\":\"Weaponized to operate outside the boundaries of the law, Camille is the Principal Intelligencer of Clan Ferros—an elegant and elite agent who ensures the Piltover machine and its Zaunite underbelly runs smoothly. Adaptable and precise, she views sloppy technique as an embarrassment that must be put to order. With a mind as sharp as the blades she bears, Camille's pursuit of superiority through hextech body augmentation has left many to wonder if she is now more machine than woman.\",\"blurb\":\"Weaponized to operate outside the boundaries of the law, Camille is the Principal Intelligencer of Clan Ferros—an elegant and elite agent who ensures the Piltover machine and its Zaunite underbelly runs smoothly. Adaptable and precise, she views sloppy...\",\"allytips\":[\"Try waiting until the other team is distracted with fighting your team, and use Hookshot to pick off vulnerable targets.\",\"Use the CC from your abilities to land both of your Precision Protocol attacks on enemies.\"],\"enemytips\":[\"Camille's shield only works against one damage type, so hit her when she's vulnerable to your damage.\",\"The Hextech Ultimatum has a very short range to cast, so try to flash away from her before she gets close.\"],\"tags\":[\"Fighter\",\"Tank\"],\"partype\":\"Mana\",\"info\":{\"attack\":8,\"defense\":6,\"magic\":3,\"difficulty\":4},\"stats\":{\"hp\":646,\"hpperlevel\":99,\"mp\":339,\"mpperlevel\":52,\"movespeed\":340,\"armor\":35,\"armorperlevel\":5,\"spellblock\":32,\"spellblockperlevel\":2.05,\"attackrange\":125,\"hpregen\":8.5,\"hpregenperlevel\":0.8,\"mpregen\":8.15,\"mpregenperlevel\":0.75,\"crit\":0,\"critperlevel\":0,\"attackdamage\":68,\"attackdamageperlevel\":3.5,\"attackspeedperlevel\":2.5,\"attackspeed\":0.644},\"spells\":[{\"id\":\"CamilleQ\",\"name\":\"Precision Protocol\",\"description\":\"Camille's next attack deals bonus damage and grants bonus Move Speed. This spell can be recast for a short period of time, doing significantly increased bonus damage if Camille delays a period of time between the two attacks.\",\"tooltip\":\"Camille's next Attack deals an additional <physicalDamage>{{ bonusdamage }} physical damage</physicalDamage> and grants her <speed>{{ msbonus*100 }}% Move Speed</speed> for {{ msduration }} second. This ability can be <recast>Recast</recast> in the next {{ qtotalrecasttime }} seconds.<br /><br />If the <recast>Recast</recast> Attack hits at least {{ qrampuptime }} seconds after the first, the bonus damage is increased to <physicalDamage>{{ empoweredbonusdamage }}</physicalDamage> and {{ damageconversionpercentage }} of the Attack's damage is converted into <trueDamage>true damage</trueDamage>.<br /><br /><rules>This Ability triggers spell effects upon dealing damage.</rules>{{ spellmodifierdescriptionappend }}\",\"leveltip\":{\"label\":[\"Total AD Ratio\",\"Cooldown\",\"Move Speed\"],\"effect\":[\"{{ tadratio*100.000000 }}% -> {{ tadrationl*100.000000 }}%\",\"{{ cooldown }} -> {{ cooldownNL }}\",\"{{ msbonus*100.000000 }}% -> {{ msbonusnl*100.000000 }}%\"]},\"maxrank\":5,\"cooldown\":[9,8.25,7.5,6.75,6],\"cooldownBurn\":\"9/8.25/7.5/6.75/6\",\"cost\":[25,25,25,25,25],\"costBurn\":\"25\",\"datavalues\":{},\"effect\":[null,[0,0,0,0,0],[0,0,0,0,0],[0,0,0,0,0],[0,0,0,0,0],[0,0,0,0,0],[0,0,0,0,0],[0,0,0,0,0],[0,0,0,0,0],[0,0,0,0,0],[0,0,0,0,0]],\"effectBurn\":[null,\"0\",\"0\",\"0\",\"0\",\"0\",\"0\",\"0\",\"0\",\"0\",\"0\"],\"vars\":[],\"costType\":\" {{ abilityresourcename }}\",\"maxammo\":\"-1\",\"range\":[325,325,325,325,325],\"rangeBurn\":\"325\",\"image\":{\"full\":\"CamilleQ.png\",\"sprite\":\"spell2.png\",\"group\":\"spell\",\"x\":0,\"y\":48,\"w\":48,\"h\":48},\"resource\":\"{{ cost }} {{ abilityresourcename }}\"},{\"id\":\"CamilleW\",\"name\":\"Tactical Sweep\",\"description\":\"Camille blasts in a cone after a delay, dealing damage. Enemies in the outer half are slowed and take extra damage, while also healing Camille.\",\"tooltip\":\"Camille winds up and slices, dealing <physicalDamage>{{ basedamagetotal }} physical damage</physicalDamage>.<br /><br />Enemies hit by the outer half are <status>Slowed</status> by {{ slowpercentage }}% decaying over {{ slowduration }} seconds, and they take an additional <physicalDamage>{{ outeredgetooltip }} max Health physical damage</physicalDamage>. Camille restores <healing>{{ outerconehealingratio }}% of the bonus damage dealt to champions as Health</healing>.{{ spellmodifierdescriptionappend }}\",\"leveltip\":{\"label\":[\"@AbilityResourceName@ Cost\",\"Damage\",\"Maximum Health Damage\",\"Cooldown\"],\"effect\":[\"{{ cost }} -> {{ costNL }}\",\"{{ basedamage }} -> {{ basedamageNL }}\",\"{{ outerconemaxhpdamage*100.000000 }}% -> {{ outerconemaxhpdamagenl*100.000000 }}%\",\"{{ cooldown }} -> {{ cooldownNL }}\"]},\"maxrank\":5,\"cooldown\":[17,15.5,14,12.5,11],\"cooldownBurn\":\"17/15.5/14/12.5/11\",\"cost\":[50,55,60,65,70],\"costBurn\":\"50/55/60/65/70\",\"datavalues\":{},\"effect\":[null,[0,0,0,0,0],[0,0,0,0,0],[0,0,0,0,0],[0,0,0,0,0],[0,0,0,0,0],[0,0,0,0,0],[0,0,0,0,0],[0,0,0,0,0],[0,0,0,0,0],[0,0,0,0,0]],\"effectBurn\":[null,\"0\",\"0\",\"0\",\"0\",\"0\",\"0\",\"0\",\"0\",\"0\",\"0\"],\"vars\":[],\"costType\":\" {{ abilityresourcename }}\",\"maxammo\":\"-1\",\"range\":[610,610,610,610,610],\"rangeBurn\":\"610\",\"image\":{\"full\":\"CamilleW.png\",\"sprite\":\"spell2.png\",\"group\":\"spell\",\"x\":48,\"y\":48,\"w\":48,\"h\":48},\"resource\":\"{{ cost }} {{ abilityresourcename }}\"},{\"id\":\"CamilleE\",\"name\":\"Hookshot\",\"description\":\"Camille pulls herself to a wall, leaping off and knocking up enemy champions upon landing.\",\"tooltip\":\"Camille fires a hookshot that attaches to terrain, pulling her to it for 1 second and allowing this Ability to be <recast>Recast</recast>.<br /><br /><recast>Recast:</recast> Camille dashes from the wall, colliding with the first enemy champion hit. Upon landing, she deals <physicalDamage>{{ totaldamage }} physical damage</physicalDamage> to nearby enemies and <status>Stuns</status> enemy champions for {{ knockupduration }} seconds. Dashes towards enemy champions travel twice as far and grant <attackSpeed>{{ asbuff*100 }}% Attack Speed</attackSpeed> for {{ asduration }} seconds on impact.{{ spellmodifierdescriptionappend }}\",\"leveltip\":{\"label\":[\"Cooldown\",\"Damage\",\"Attack Speed\"],\"effect\":[\"{{ cooldown }} -> {{ cooldownNL }}\",\"{{ basedamage }} -> {{ basedamageNL }}\",\"{{ asbuff*100.000000 }}% -> {{ asbuffnl*100.000000 }}%\"]},\"maxrank\":5,\"cooldown\":[16,15,14,13,12],\"cooldownBurn\":\"16/15/14/13/12\",\"cost\":[70,70,70,70,70],\"costBurn\":\"70\",\"datavalues\":{},\"effect\":[null,[0,0,0,0,0],[0,0,0,0,0],[0,0,0,0,0],[0,0,0,0,0],[0,0,0,0,0],[0,0,0,0,0],[0,0,0,0,0],[0,0,0,0,0],[0,0,0,0,0],[0,0,0,0,0]],\"effectBurn\":[null,\"0\",\"0\",\"0\",\"0\",\"0\",\"0\",\"0\",\"0\",\"0\",\"0\"],\"vars\":[],\"costType\":\" {{ abilityresourcename }}\",\"maxammo\":\"-1\",\"range\":[800,800,800,800,800],\"rangeBurn\":\"800\",\"image\":{\"full\":\"CamilleE.png\",\"sprite\":\"spell2.png\",\"group\":\"spell\",\"x\":96,\"y\":48,\"w\":48,\"h\":48},\"resource\":\"{{ cost }} {{ abilityresourcename }}\"},{\"id\":\"CamilleR\",\"name\":\"The Hextech Ultimatum\",\"description\":\"Camille dashes to target champion, anchoring them to the area. She also deals bonus magic damage to the target with her basic attacks.\",\"tooltip\":\"Camille briefly becomes Untargetable and leaps onto an enemy champion, interrupting channels and locking them into an area they cannot escape by any means for {{ rduration }} seconds. Other nearby enemies are <status>Knocked Away</status>. Her Attacks against the trapped enemy deal an additional <magicDamage>{{ ronhitdamage }} plus {{ rpercentcurrenthpdamage }}% current Health magic damage</magicDamage>.{{ spellmodifierdescriptionappend }}\",\"leveltip\":{\"label\":[\"Duration\",\"Cooldown\",\"Bonus Damage\",\"Current Health Damage\"],\"effect\":[\"{{ rduration }} -> {{ rdurationNL }}\",\"{{ cooldown }} -> {{ cooldownNL }}\",\"{{ ronhitdamage }} -> {{ ronhitdamageNL }}\",\"{{ rpercentcurrenthpdamage }}% -> {{ rpercentcurrenthpdamageNL }}%\"]},\"maxrank\":3,\"cooldown\":[140,115,90],\"cooldownBurn\":\"140/115/90\",\"cost\":[100,100,100],\"costBurn\":\"100\",\"datavalues\":{},\"effect\":[null,[0,0,0],[0,0,0],[0,0,0],[0,0,0],[0,0,0],[0,0,0],[0,0,0],[0,0,0],[0,0,0],[0,0,0]],\"effectBurn\":[null,\"0\",\"0\",\"0\",\"0\",\"0\",\"0\",\"0\",\"0\",\"0\",\"0\"],\"vars\":[],\"costType\":\" {{ abilityresourcename }}\",\"maxammo\":\"-1\",\"range\":[475,475,475],\"rangeBurn\":\"475\",\"image\":{\"full\":\"CamilleR.png\",\"sprite\":\"spell2.png\",\"group\":\"spell\",\"x\":144,\"y\":48,\"w\":48,\"h\":48},\"resource\":\"{{ cost }} {{ abilityresourcename }}\"}],\"passive\":{\"name\":\"Adaptive Defenses\",\"description\":\"Basic attacks on champions grant a shield equal to a percentage of Camille's maximum health against their damage type (Physical or Magic) for a brief duration.\",\"image\":{\"full\":\"Camille_Passive.png\",\"sprite\":\"passive0.png\",\"group\":\"passive\",\"x\":384,\"y\":48,\"w\":48,\"h\":48}},\"recommended\":[]}",
+    "champion_blurb": "Weaponized to operate outside the boundaries of the law, Camille is the Principal Intelligencer of Clan Ferros—an elegant and elite agent who ensures the Piltover machine and its Zaunite underbelly runs smoothly. Adaptable and precise, she views sloppy...",
+    "lore": "Weaponized to operate outside the boundaries of the law, Camille is the Principal Intelligencer of Clan Ferros—an elegant and elite agent who ensures the Piltover machine and its Zaunite underbelly runs smoothly. Adaptable and precise, she views sloppy technique as an embarrassment that must be put to order. With a mind as sharp as the blades she bears, Camille's pursuit of superiority through hextech body augmentation has left many to wonder if she is now more machine than woman.",
+    "champion_icon": "https://ddragon.leagueoflegends.com/cdn/13.14.1/img/champion/Camille.png",
+    "champion_name": "Camille",
+    "champion_splash": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Camille_0.jpg",
+    "champion_title": "the Steel Shadow",
+    "recommended_lanes": [],
+    "recommended_roles": [
+        "Fighter",
+        "Tank"
+    ],
+    "links": [
+        {
+            "href": "https://na.op.gg/champion/camille/statistics/",
+            "title": "OP.GG"
+        },
+        {
+            "href": "https://u.gg/lol/champions/camille/build",
+            "title": "U.GG"
+        },
+        {
+            "href": "https://www.probuilds.net/champions/details/camille",
+            "title": "probuilds.net"
+        }
+    ],
+    "champion": {
+        "modular_blocks": []
+    },
+    "skins": [
+        {
+            "name": "default",
+            "imageUrl": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Camille_0.jpg"
+        },
+        {
+            "name": "Program Camille",
+            "imageUrl": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Camille_1.jpg"
+        },
+        {
+            "name": "Coven Camille",
+            "imageUrl": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Camille_2.jpg"
+        },
+        {
+            "name": "iG Camille",
+            "imageUrl": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Camille_10.jpg"
+        },
+        {
+            "name": "Arcana Camille",
+            "imageUrl": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Camille_11.jpg"
+        },
+        {
+            "name": "Strike Commander Camille",
+            "imageUrl": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Camille_21.jpg"
+        }
+    ],
+    "champion_passive": {
+        "champion_passive_description": "Basic attacks on champions grant a shield equal to a percentage of Camille's maximum health against their damage type (Physical or Magic) for a brief duration.",
+        "champion_passive_icon": "https://ddragon.leagueoflegends.com/cdn/13.14.1/img/passive/Camille_Passive.png",
+        "champion_passive_name": "Adaptive Defenses",
+        "champion_passive_video_mp4": "https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0164/ability_0164_P1.mp4",
+        "champion_passive_video_poster": "https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0164/ability_0164_P1.jpg",
+        "champion_passive_video_webm": "https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0164/ability_0164_P1.webm"
+    },
+    "champion_q": {
+        "champion_q_description": "Camille's next attack deals bonus damage and grants bonus Move Speed. This spell can be recast for a short period of time, doing significantly increased bonus damage if Camille delays a period of time between the two attacks.",
+        "champion_q_icon": "https://ddragon.leagueoflegends.com/cdn/13.14.1/img/spell/CamilleQ.png",
+        "champion_q_name": "Precision Protocol",
+        "champion_q_video_mp4": "https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0164/ability_0164_Q1.mp4",
+        "champion_q_video_poster": "https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0164/ability_0164_Q1.jpg",
+        "champion_q_video_webm": "https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0164/ability_0164_Q1.webm"
+    },
+    "champion_w": {
+        "champion_w_description": "Camille blasts in a cone after a delay, dealing damage. Enemies in the outer half are slowed and take extra damage, while also healing Camille.",
+        "champion_w_icon": "https://ddragon.leagueoflegends.com/cdn/13.14.1/img/spell/CamilleW.png",
+        "champion_w_name": "Tactical Sweep",
+        "champion_w_video_mp4": "https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0164/ability_0164_W1.mp4",
+        "champion_w_video_poster": "https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0164/ability_0164_W1.jpg",
+        "champion_w_video_webm": "https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0164/ability_0164_W1.webm"
+    },
+    "champion_e": {
+        "champion_e_description": "Camille pulls herself to a wall, leaping off and knocking up enemy champions upon landing.",
+        "champion_e_icon": "https://ddragon.leagueoflegends.com/cdn/13.14.1/img/spell/CamilleE.png",
+        "champion_e_name": "Hookshot",
+        "champion_e_video_mp4": "https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0164/ability_0164_E1.mp4",
+        "champion_e_video_poster": "https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0164/ability_0164_E1.jpg",
+        "champion_e_video_webm": "https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0164/ability_0164_E1.webm"
+    },
+    "champion_r": {
+        "champion_r_description": "Camille dashes to target champion, anchoring them to the area. She also deals bonus magic damage to the target with her basic attacks.",
+        "champion_r_icon": "https://ddragon.leagueoflegends.com/cdn/13.14.1/img/spell/CamilleR.png",
+        "champion_r_name": "The Hextech Ultimatum",
+        "champion_r_video_mp4": "",
+        "champion_r_video_poster": "https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0164/ability_0164_R1.jpg",
+        "champion_r_video_webm": "https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0164/ability_0164_R1.webm"
+    },
+    "related_champions": []
+  },
+  {
+    "publish_details": {
+        "locale": "en-us"
+    },
+    "uid": "blt3b10937b6abb4185",
+    "url": "/champions/cassiopeia/",
+    "data_dragon_id": "Cassiopeia",
+    "data_dragon_json": "{\"id\":\"Cassiopeia\",\"key\":\"69\",\"name\":\"Cassiopeia\",\"title\":\"the Serpent's Embrace\",\"image\":{\"full\":\"Cassiopeia.png\",\"sprite\":\"champion0.png\",\"group\":\"champion\",\"x\":432,\"y\":48,\"w\":48,\"h\":48},\"skins\":[{\"id\":\"69000\",\"num\":0,\"name\":\"default\",\"chromas\":true},{\"id\":\"69001\",\"num\":1,\"name\":\"Desperada Cassiopeia\",\"chromas\":false},{\"id\":\"69002\",\"num\":2,\"name\":\"Siren Cassiopeia\",\"chromas\":false},{\"id\":\"69003\",\"num\":3,\"name\":\"Mythic Cassiopeia\",\"chromas\":false},{\"id\":\"69004\",\"num\":4,\"name\":\"Jade Fang Cassiopeia\",\"chromas\":false},{\"id\":\"69008\",\"num\":8,\"name\":\"Eternum Cassiopeia\",\"chromas\":false},{\"id\":\"69009\",\"num\":9,\"name\":\"Spirit Blossom Cassiopeia\",\"chromas\":true},{\"id\":\"69018\",\"num\":18,\"name\":\"Coven Cassiopeia\",\"chromas\":true},{\"id\":\"69028\",\"num\":28,\"name\":\"Bewitching Cassiopeia\",\"chromas\":true}],\"lore\":\"Cassiopeia is a deadly creature bent on manipulating others to her sinister will. Youngest and most beautiful daughter of the noble Du Couteau family of Noxus, she ventured deep into the crypts beneath Shurima in search of ancient power. There, she was bitten by a gruesome tomb guardian, whose venom transformed her into a viper-like predator. Cunning and agile, Cassiopeia now slithers under the veil of night, petrifying her enemies with her baleful gaze.\",\"blurb\":\"Cassiopeia is a deadly creature bent on manipulating others to her sinister will. Youngest and most beautiful daughter of the noble Du Couteau family of Noxus, she ventured deep into the crypts beneath Shurima in search of ancient power. There, she was...\",\"allytips\":[\"Use Twin Fang on poisoned stationary targets like monsters and units stunned by her Petrifying Gaze for maximum damage.\",\"Lead your enemy when targeting with Noxious Blast to ensure the hit.\"],\"enemytips\":[\"Be wary of Cassiopeia's damage potential with Twin Fang when she has you poisoned.\",\"Turn away from Cassiopeia when she is casting Petrifying Gaze to get slowed instead of stunned.\"],\"tags\":[\"Mage\"],\"partype\":\"Mana\",\"info\":{\"attack\":2,\"defense\":3,\"magic\":9,\"difficulty\":10},\"stats\":{\"hp\":630,\"hpperlevel\":104,\"mp\":350,\"mpperlevel\":60,\"movespeed\":328,\"armor\":18,\"armorperlevel\":4.7,\"spellblock\":32,\"spellblockperlevel\":1.3,\"attackrange\":550,\"hpregen\":5.5,\"hpregenperlevel\":0.5,\"mpregen\":8,\"mpregenperlevel\":0.8,\"crit\":0,\"critperlevel\":0,\"attackdamage\":53,\"attackdamageperlevel\":3,\"attackspeedperlevel\":1.5,\"attackspeed\":0.647},\"spells\":[{\"id\":\"CassiopeiaQ\",\"name\":\"Noxious Blast\",\"description\":\"Cassiopeia blasts an area with Poison after a brief delay, granting her increased Move Speed if she hits an enemy champion.\",\"tooltip\":\"Cassiopeia blasts noxious gas, <keywordMajor>Poisoning</keywordMajor> enemies and dealing <magicDamage>{{ tooltiptotaldamage }} magic damage</magicDamage> over {{ e2 }} seconds. Hitting a champion grants Cassiopeia <speed>{{ e3 }}% Move Speed</speed> decaying over {{ e4 }} seconds.{{ spellmodifierdescriptionappend }}\",\"leveltip\":{\"label\":[\"Damage\",\"Move Speed\",\"@AbilityResourceName@ Cost\"],\"effect\":[\"{{ e1 }} -> {{ e1NL }}\",\"{{ e3 }}% -> {{ e3NL }}%\",\"{{ cost }} -> {{ costNL }}\"]},\"maxrank\":5,\"cooldown\":[3.5,3.5,3.5,3.5,3.5],\"cooldownBurn\":\"3.5\",\"cost\":[50,60,70,80,90],\"costBurn\":\"50/60/70/80/90\",\"datavalues\":{},\"effect\":[null,[75,110,145,180,215],[3,3,3,3,3],[30,35,40,45,50],[3,3,3,3,3],[7,7,7,7,7],[0,0,0,0,0],[0,0,0,0,0],[0,0,0,0,0],[0,0,0,0,0],[0,0,0,0,0]],\"effectBurn\":[null,\"75/110/145/180/215\",\"3\",\"30/35/40/45/50\",\"3\",\"7\",\"0\",\"0\",\"0\",\"0\",\"0\"],\"vars\":[],\"costType\":\" {{ abilityresourcename }}\",\"maxammo\":\"-1\",\"range\":[850,850,850,850,850],\"rangeBurn\":\"850\",\"image\":{\"full\":\"CassiopeiaQ.png\",\"sprite\":\"spell2.png\",\"group\":\"spell\",\"x\":192,\"y\":48,\"w\":48,\"h\":48},\"resource\":\"{{ cost }} {{ abilityresourcename }}\"},{\"id\":\"CassiopeiaW\",\"name\":\"Miasma\",\"description\":\"Cassiopeia releases several clouds of poison, slowing, grounding, and lightly damaging enemies that pass through them. Grounded enemies cannot use Movement abilities.\",\"tooltip\":\"Cassiopeia spews venom, leaving toxic clouds for {{ e4 }} seconds. Enemies in the clouds take <magicDamage>{{ damagepersecond }} magic damage</magicDamage> per second, are <keywordMajor>Poisoned</keywordMajor>, <status>Grounded</status>, and <status>Slowed</status> by {{ e2 }}%.{{ spellmodifierdescriptionappend }}\",\"leveltip\":{\"label\":[\"Damage\",\"Slow\",\"Cooldown\",\"@AbilityResourceName@ Cost\"],\"effect\":[\"{{ e1 }} -> {{ e1NL }}\",\"{{ e2 }}% -> {{ e2NL }}%\",\"{{ cooldown }} -> {{ cooldownNL }}\",\"{{ cost }} -> {{ costNL }}\"]},\"maxrank\":5,\"cooldown\":[24,22,20,18,16],\"cooldownBurn\":\"24/22/20/18/16\",\"cost\":[70,80,90,100,110],\"costBurn\":\"70/80/90/100/110\",\"datavalues\":{},\"effect\":[null,[20,25,30,35,40],[40,50,60,70,80],[1,1,1,1,1],[5,5,5,5,5],[0,0,0,0,0],[0,0,0,0,0],[0,0,0,0,0],[0,0,0,0,0],[0,0,0,0,0],[0,0,0,0,0]],\"effectBurn\":[null,\"20/25/30/35/40\",\"40/50/60/70/80\",\"1\",\"5\",\"0\",\"0\",\"0\",\"0\",\"0\",\"0\"],\"vars\":[],\"costType\":\" {{ abilityresourcename }}\",\"maxammo\":\"-1\",\"range\":[700,700,700,700,700],\"rangeBurn\":\"700\",\"image\":{\"full\":\"CassiopeiaW.png\",\"sprite\":\"spell2.png\",\"group\":\"spell\",\"x\":240,\"y\":48,\"w\":48,\"h\":48},\"resource\":\"{{ cost }} {{ abilityresourcename }}\"},{\"id\":\"CassiopeiaE\",\"name\":\"Twin Fang\",\"description\":\"Cassiopeia lets loose an attack that deals increased damage to Poisoned targets and heals her for a percentage of the damage dealt. If the target dies from this attack, Cassiopeia regains Mana.\",\"tooltip\":\"Cassiopeia launches deadly fangs, dealing <magicDamage>{{ totaldamage }} magic damage</magicDamage>. If the enemy is <keywordMajor>Poisoned</keywordMajor>, they take an additional <magicDamage>{{ bouspoisoneddamage }} magic damage</magicDamage> and Cassiopeia restores <healing>{{ healcalc }} Health</healing>.<br /><br />If this kills the target, Cassiopeia restores <scaleMana>{{ cost }} Mana</scaleMana>.<br /><br />{{ spellmodifierdescriptionappend }}\",\"leveltip\":{\"label\":[\"Bonus Poison Damage\",\"Healing from Ability Power\",\"@AbilityResourceName@ Cost\"],\"effect\":[\"{{ e1 }} -> {{ e1NL }}\",\"{{ healratio*100.000000 }}% -> {{ healrationl*100.000000 }}%\",\"{{ cost }} -> {{ costNL }}\"]},\"maxrank\":5,\"cooldown\":[0.75,0.75,0.75,0.75,0.75],\"cooldownBurn\":\"0.75\",\"cost\":[50,48,46,44,42],\"costBurn\":\"50/48/46/44/42\",\"datavalues\":{},\"effect\":[null,[20,40,60,80,100],[0,0,0,0,0],[0.1,0.1,0.1,0.1,0.1],[0,0,0,0,0],[0,0,0,0,0],[0,0,0,0,0],[0,0,0,0,0],[0,0,0,0,0],[0,0,0,0,0],[0,0,0,0,0]],\"effectBurn\":[null,\"20/40/60/80/100\",\"0\",\"0.1\",\"0\",\"0\",\"0\",\"0\",\"0\",\"0\",\"0\"],\"vars\":[],\"costType\":\" {{ abilityresourcename }}\",\"maxammo\":\"-1\",\"range\":[700,700,700,700,700],\"rangeBurn\":\"700\",\"image\":{\"full\":\"CassiopeiaE.png\",\"sprite\":\"spell2.png\",\"group\":\"spell\",\"x\":288,\"y\":48,\"w\":48,\"h\":48},\"resource\":\"{{ cost }} {{ abilityresourcename }}\"},{\"id\":\"CassiopeiaR\",\"name\":\"Petrifying Gaze\",\"description\":\"Cassiopeia releases a swirl of magical energy from her eyes, stunning any enemies in front of her that are facing her and slowing any others with their back turned.\",\"tooltip\":\"Cassiopeia unleashes a petrifying gaze, dealing <magicDamage>{{ rdamage }} magic damage</magicDamage> and <status>Stunning</status> enemies facing her for {{ rccduration }} seconds. Enemies facing away are <status>Slowed</status> by {{ rslowpercent }}% decaying over the same duration instead.{{ spellmodifierdescriptionappend }}\",\"leveltip\":{\"label\":[\"Damage\",\"Cooldown\"],\"effect\":[\"{{ rbasedamage }} -> {{ rbasedamageNL }}\",\"{{ cooldown }} -> {{ cooldownNL }}\"]},\"maxrank\":3,\"cooldown\":[120,100,80],\"cooldownBurn\":\"120/100/80\",\"cost\":[100,100,100],\"costBurn\":\"100\",\"datavalues\":{},\"effect\":[null,[0,0,0],[0,0,0],[0,0,0],[0,0,0],[0,0,0],[0,0,0],[0,0,0],[0,0,0],[0,0,0],[0,0,0]],\"effectBurn\":[null,\"0\",\"0\",\"0\",\"0\",\"0\",\"0\",\"0\",\"0\",\"0\",\"0\"],\"vars\":[],\"costType\":\" {{ abilityresourcename }}\",\"maxammo\":\"-1\",\"range\":[825,825,825],\"rangeBurn\":\"825\",\"image\":{\"full\":\"CassiopeiaR.png\",\"sprite\":\"spell2.png\",\"group\":\"spell\",\"x\":336,\"y\":48,\"w\":48,\"h\":48},\"resource\":\"{{ cost }} {{ abilityresourcename }}\"}],\"passive\":{\"name\":\"Serpentine Grace\",\"description\":\"Cassiopeia gains Move Speed per level, but she cannot purchase Boots items.\",\"image\":{\"full\":\"Cassiopeia_Passive.png\",\"sprite\":\"passive0.png\",\"group\":\"passive\",\"x\":432,\"y\":48,\"w\":48,\"h\":48}},\"recommended\":[]}",
+    "champion_blurb": "Cassiopeia is a deadly creature bent on manipulating others to her sinister will. Youngest and most beautiful daughter of the noble Du Couteau family of Noxus, she ventured deep into the crypts beneath Shurima in search of ancient power. There, she was...",
+    "lore": "Cassiopeia is a deadly creature bent on manipulating others to her sinister will. Youngest and most beautiful daughter of the noble Du Couteau family of Noxus, she ventured deep into the crypts beneath Shurima in search of ancient power. There, she was bitten by a gruesome tomb guardian, whose venom transformed her into a viper-like predator. Cunning and agile, Cassiopeia now slithers under the veil of night, petrifying her enemies with her baleful gaze.",
+    "champion_icon": "https://ddragon.leagueoflegends.com/cdn/13.14.1/img/champion/Cassiopeia.png",
+    "champion_name": "Cassiopeia",
+    "champion_splash": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Cassiopeia_0.jpg",
+    "champion_title": "the Serpent's Embrace",
+    "recommended_lanes": [],
+    "recommended_roles": [
+        "Mage"
+    ],
+    "links": [
+        {
+            "href": "https://na.op.gg/champion/cassiopeia/statistics/",
+            "title": "OP.GG"
+        },
+        {
+            "href": "https://u.gg/lol/champions/cassiopeia/build",
+            "title": "U.GG"
+        },
+        {
+            "href": "https://www.probuilds.net/champions/details/cassiopeia",
+            "title": "probuilds.net"
+        }
+    ],
+    "champion": {
+        "modular_blocks": []
+    },
+    "skins": [
+        {
+            "name": "default",
+            "imageUrl": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Cassiopeia_0.jpg"
+        },
+        {
+            "name": "Desperada Cassiopeia",
+            "imageUrl": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Cassiopeia_1.jpg"
+        },
+        {
+            "name": "Siren Cassiopeia",
+            "imageUrl": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Cassiopeia_2.jpg"
+        },
+        {
+            "name": "Mythic Cassiopeia",
+            "imageUrl": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Cassiopeia_3.jpg"
+        },
+        {
+            "name": "Jade Fang Cassiopeia",
+            "imageUrl": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Cassiopeia_4.jpg"
+        },
+        {
+            "name": "Eternum Cassiopeia",
+            "imageUrl": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Cassiopeia_8.jpg"
+        },
+        {
+            "name": "Spirit Blossom Cassiopeia",
+            "imageUrl": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Cassiopeia_9.jpg"
+        },
+        {
+            "name": "Coven Cassiopeia",
+            "imageUrl": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Cassiopeia_18.jpg"
+        },
+        {
+            "name": "Bewitching Cassiopeia",
+            "imageUrl": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Cassiopeia_28.jpg"
+        }
+    ],
+    "champion_passive": {
+        "champion_passive_description": "Cassiopeia gains Move Speed per level, but she cannot purchase Boots items.",
+        "champion_passive_icon": "https://ddragon.leagueoflegends.com/cdn/13.14.1/img/passive/Cassiopeia_Passive.png",
+        "champion_passive_name": "Serpentine Grace",
+        "champion_passive_video_mp4": "https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0069/ability_0069_P1.mp4",
+        "champion_passive_video_poster": "https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0069/ability_0069_P1.jpg",
+        "champion_passive_video_webm": "https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0069/ability_0069_P1.webm"
+    },
+    "champion_q": {
+        "champion_q_description": "Cassiopeia blasts an area with Poison after a brief delay, granting her increased Move Speed if she hits an enemy champion.",
+        "champion_q_icon": "https://ddragon.leagueoflegends.com/cdn/13.14.1/img/spell/CassiopeiaQ.png",
+        "champion_q_name": "Noxious Blast",
+        "champion_q_video_mp4": "https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0069/ability_0069_Q1.mp4",
+        "champion_q_video_poster": "https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0069/ability_0069_Q1.jpg",
+        "champion_q_video_webm": "https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0069/ability_0069_Q1.webm"
+    },
+    "champion_w": {
+        "champion_w_description": "Cassiopeia releases several clouds of poison, slowing, grounding, and lightly damaging enemies that pass through them. Grounded enemies cannot use Movement abilities.",
+        "champion_w_icon": "https://ddragon.leagueoflegends.com/cdn/13.14.1/img/spell/CassiopeiaW.png",
+        "champion_w_name": "Miasma",
+        "champion_w_video_mp4": "https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0069/ability_0069_W1.mp4",
+        "champion_w_video_poster": "https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0069/ability_0069_W1.jpg",
+        "champion_w_video_webm": "https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0069/ability_0069_W1.webm"
+    },
+    "champion_e": {
+        "champion_e_description": "Cassiopeia lets loose an attack that deals increased damage to Poisoned targets and heals her for a percentage of the damage dealt. If the target dies from this attack, Cassiopeia regains Mana.",
+        "champion_e_icon": "https://ddragon.leagueoflegends.com/cdn/13.14.1/img/spell/CassiopeiaE.png",
+        "champion_e_name": "Twin Fang",
+        "champion_e_video_mp4": "https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0069/ability_0069_E1.mp4",
+        "champion_e_video_poster": "https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0069/ability_0069_E1.jpg",
+        "champion_e_video_webm": "https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0069/ability_0069_E1.webm"
+    },
+    "champion_r": {
+        "champion_r_description": "Cassiopeia releases a swirl of magical energy from her eyes, stunning any enemies in front of her that are facing her and slowing any others with their back turned.",
+        "champion_r_icon": "https://ddragon.leagueoflegends.com/cdn/13.14.1/img/spell/CassiopeiaR.png",
+        "champion_r_name": "Petrifying Gaze",
+        "champion_r_video_mp4": "https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0069/ability_0069_R1.mp4",
+        "champion_r_video_poster": "https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0069/ability_0069_R1.jpg",
+        "champion_r_video_webm": "https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0069/ability_0069_R1.webm"
+    },
+    "related_champions": []
+  },
+  {
+    "publish_details": {
+        "locale": "en-us"
+    },
+    "uid": "blt9b83a4d51e734afd",
+    "url": "/champions/cho-gath/",
+    "data_dragon_id": "Chogath",
+    "data_dragon_json": "{\"id\":\"Chogath\",\"key\":\"31\",\"name\":\"Cho'Gath\",\"title\":\"the Terror of the Void\",\"image\":{\"full\":\"Chogath.png\",\"sprite\":\"champion0.png\",\"group\":\"champion\",\"x\":0,\"y\":96,\"w\":48,\"h\":48},\"skins\":[{\"id\":\"31000\",\"num\":0,\"name\":\"default\",\"chromas\":false},{\"id\":\"31001\",\"num\":1,\"name\":\"Nightmare Cho'Gath\",\"chromas\":false},{\"id\":\"31002\",\"num\":2,\"name\":\"Gentleman Cho'Gath\",\"chromas\":false},{\"id\":\"31003\",\"num\":3,\"name\":\"Loch Ness Cho'Gath\",\"chromas\":false},{\"id\":\"31004\",\"num\":4,\"name\":\"Jurassic Cho'Gath\",\"chromas\":false},{\"id\":\"31005\",\"num\":5,\"name\":\"Battlecast Prime Cho'Gath\",\"chromas\":true},{\"id\":\"31006\",\"num\":6,\"name\":\"Prehistoric Cho'Gath\",\"chromas\":false},{\"id\":\"31007\",\"num\":7,\"name\":\"Dark Star Cho'Gath\",\"chromas\":false},{\"id\":\"31014\",\"num\":14,\"name\":\"Shan Hai Scrolls Cho'Gath\",\"chromas\":true},{\"id\":\"31023\",\"num\":23,\"name\":\"Broken Covenant Cho'Gath\",\"chromas\":true}],\"lore\":\"From the moment Cho'Gath first emerged into the harsh light of Runeterra's sun, the beast was driven by the most pure and insatiable hunger. A perfect expression of the Void's desire to consume all life, Cho'Gath's complex biology quickly converts matter into new bodily growth—increasing its muscle mass and density, or hardening its outer carapace like organic diamond. When growing larger does not suit the Void-spawn's needs, it vomits out the excess material as razor-sharp spines, leaving prey skewered and ready to feast upon later.\",\"blurb\":\"From the moment Cho'Gath first emerged into the harsh light of Runeterra's sun, the beast was driven by the most pure and insatiable hunger. A perfect expression of the Void's desire to consume all life, Cho'Gath's complex biology quickly converts...\",\"allytips\":[\"Try to line up your attacks with Vorpal Spikes so that they kill minions and harass enemy champions at the same time.\",\"If you're having difficulty feasting upon champions, try eating minions until you're larger.\",\"Using Rupture on creeps in combination with Carnivore is a good way to gain Health and Mana.\"],\"enemytips\":[\"Purchasing a few HP items decreases the chances of Cho'Gath killing you quickly.\",\"Focus on preventing Cho'Gath from reaching his max size.\",\"Rupture has a smoke cloud indicating the area it will strike. Try to watch out for it to prevent Cho'Gath from being able to combo his abilities.\"],\"tags\":[\"Tank\",\"Mage\"],\"partype\":\"Mana\",\"info\":{\"attack\":3,\"defense\":7,\"magic\":7,\"difficulty\":5},\"stats\":{\"hp\":644,\"hpperlevel\":94,\"mp\":270,\"mpperlevel\":60,\"movespeed\":345,\"armor\":38,\"armorperlevel\":5,\"spellblock\":32,\"spellblockperlevel\":2.05,\"attackrange\":125,\"hpregen\":9,\"hpregenperlevel\":0.85,\"mpregen\":7.2,\"mpregenperlevel\":0.45,\"crit\":0,\"critperlevel\":0,\"attackdamage\":69,\"attackdamageperlevel\":4.2,\"attackspeedperlevel\":1.44,\"attackspeed\":0.625},\"spells\":[{\"id\":\"Rupture\",\"name\":\"Rupture\",\"description\":\"Ruptures the ground at target location, popping enemy units into the air, dealing damage and slowing them.\",\"tooltip\":\"Cho'Gath ruptures the ground, <status>Knocking Up</status> enemies for {{ e5 }} second, dealing <magicDamage>{{ totaldamagetooltip }} magic damage</magicDamage>, and <status>Slowing</status> them by {{ e2 }}% for {{ e3 }} seconds.{{ spellmodifierdescriptionappend }}\",\"leveltip\":{\"label\":[\"Damage\"],\"effect\":[\"{{ e1 }} -> {{ e1NL }}\"]},\"maxrank\":5,\"cooldown\":[6,6,6,6,6],\"cooldownBurn\":\"6\",\"cost\":[50,50,50,50,50],\"costBurn\":\"50\",\"datavalues\":{},\"effect\":[null,[80,140,200,260,320],[60,60,60,60,60],[1.5,1.5,1.5,1.5,1.5],[0.625,0.625,0.625,0.625,0.625],[1,1,1,1,1],[0,0,0,0,0],[0,0,0,0,0],[0,0,0,0,0],[0,0,0,0,0],[0,0,0,0,0]],\"effectBurn\":[null,\"80/140/200/260/320\",\"60\",\"1.5\",\"0.63\",\"1\",\"0\",\"0\",\"0\",\"0\",\"0\"],\"vars\":[],\"costType\":\" {{ abilityresourcename }}\",\"maxammo\":\"-1\",\"range\":[950,950,950,950,950],\"rangeBurn\":\"950\",\"image\":{\"full\":\"Rupture.png\",\"sprite\":\"spell2.png\",\"group\":\"spell\",\"x\":384,\"y\":48,\"w\":48,\"h\":48},\"resource\":\"{{ cost }} {{ abilityresourcename }}\"},{\"id\":\"FeralScream\",\"name\":\"Feral Scream\",\"description\":\"Cho'Gath unleashes a terrible scream at enemies in a cone, dealing magic damage and Silencing enemies for a few seconds.\",\"tooltip\":\"Cho'Gath roars, <status>Silencing</status> enemies for {{ e2 }} seconds and dealing <magicDamage>{{ totaldamagetooltip }} magic damage</magicDamage>.{{ spellmodifierdescriptionappend }}\",\"leveltip\":{\"label\":[\"Damage\",\"Cooldown\",\"Silence Duration\",\"@AbilityResourceName@ Cost\"],\"effect\":[\"{{ e1 }} -> {{ e1NL }}\",\"{{ cooldown }} -> {{ cooldownNL }}\",\"{{ e2 }} -> {{ e2NL }}\",\"{{ cost }} -> {{ costNL }}\"]},\"maxrank\":5,\"cooldown\":[13,12,11,10,9],\"cooldownBurn\":\"13/12/11/10/9\",\"cost\":[70,75,80,85,90],\"costBurn\":\"70/75/80/85/90\",\"datavalues\":{},\"effect\":[null,[80,135,190,245,300],[1.6,1.7,1.8,1.9,2],[0,0,0,0,0],[0,0,0,0,0],[0,0,0,0,0],[0,0,0,0,0],[0,0,0,0,0],[0,0,0,0,0],[0,0,0,0,0],[0,0,0,0,0]],\"effectBurn\":[null,\"80/135/190/245/300\",\"1.6/1.7/1.8/1.9/2\",\"0\",\"0\",\"0\",\"0\",\"0\",\"0\",\"0\",\"0\"],\"vars\":[],\"costType\":\" {{ abilityresourcename }}\",\"maxammo\":\"-1\",\"range\":[300,300,300,300,300],\"rangeBurn\":\"300\",\"image\":{\"full\":\"FeralScream.png\",\"sprite\":\"spell2.png\",\"group\":\"spell\",\"x\":432,\"y\":48,\"w\":48,\"h\":48},\"resource\":\"{{ cost }} {{ abilityresourcename }}\"},{\"id\":\"VorpalSpikes\",\"name\":\"Vorpal Spikes\",\"description\":\"Cho'Gath's attacks release deadly spikes, dealing damage and slowing all enemy units in front of him.\",\"tooltip\":\"Cho'Gath's next 3 Attacks launch spikes that deal <magicDamage>{{ basedamagetotaltooltip }} plus {{ maxhealthpercentcalc }} of the target's max Health magic damage</magicDamage> and <status>Slow</status> by {{ e2 }}%, decaying over {{ e3 }} seconds.{{ spellmodifierdescriptionappend }}\",\"leveltip\":{\"label\":[\"Damage\",\"Cooldown\",\"Slow\"],\"effect\":[\"{{ e1 }} -> {{ e1NL }}\",\"{{ cooldown }} -> {{ cooldownNL }}\",\"{{ e2 }}% -> {{ e2NL }}%\"]},\"maxrank\":5,\"cooldown\":[8,7,6,5,4],\"cooldownBurn\":\"8/7/6/5/4\",\"cost\":[30,30,30,30,30],\"costBurn\":\"30\",\"datavalues\":{},\"effect\":[null,[22,34,46,58,70],[30,35,40,45,50],[1.5,1.5,1.5,1.5,1.5],[6,6,6,6,6],[3,3,3,3,3],[3,3,3,3,3],[0.5,0.5,0.5,0.5,0.5],[60,80,100,120,140],[6,6,6,6,6],[50,50,50,50,50]],\"effectBurn\":[null,\"22/34/46/58/70\",\"30/35/40/45/50\",\"1.5\",\"6\",\"3\",\"3\",\"0.5\",\"60/80/100/120/140\",\"6\",\"50\"],\"vars\":[],\"costType\":\" {{ abilityresourcename }}\",\"maxammo\":\"-1\",\"range\":[40,40,40,40,40],\"rangeBurn\":\"40\",\"image\":{\"full\":\"VorpalSpikes.png\",\"sprite\":\"spell2.png\",\"group\":\"spell\",\"x\":0,\"y\":96,\"w\":48,\"h\":48},\"resource\":\"{{ cost }} {{ abilityresourcename }}\"},{\"id\":\"Feast\",\"name\":\"Feast\",\"description\":\"Devours an enemy unit, dealing a high amount of true damage. If the target is killed, Cho'Gath grows, gaining maximum Health.\",\"tooltip\":\"Cho'Gath ravenously feeds on an enemy, dealing <trueDamage>{{ rdamage }} true damage</trueDamage> to champions or <trueDamage>{{ rmonsterdamage }}</trueDamage> to minions or jungle monsters. If this kills the target, Cho'Gath gains a stack, which causes him to grow in size and gain <healing>{{ rhealthperstack }} max Health</healing>. Only {{ rminionmaxstacks }} stacks can be gained from minions and non-epic jungle monsters. {{ spellmodifierdescriptionappend }}\",\"leveltip\":{\"label\":[\"Champion Damage\",\"Health per Stack\",\"Cooldown\"],\"effect\":[\"{{ rbasedamage }} -> {{ rbasedamageNL }}\",\"{{ rhealthperstack }} -> {{ rhealthperstackNL }}\",\"{{ cooldown }} -> {{ cooldownNL }}\"]},\"maxrank\":3,\"cooldown\":[80,70,60],\"cooldownBurn\":\"80/70/60\",\"cost\":[100,100,100],\"costBurn\":\"100\",\"datavalues\":{},\"effect\":[null,[0,0,0],[0,0,0],[0,0,0],[0,0,0],[0,0,0],[0,0,0],[0,0,0],[0,0,0],[0,0,0],[0,0,0]],\"effectBurn\":[null,\"0\",\"0\",\"0\",\"0\",\"0\",\"0\",\"0\",\"0\",\"0\",\"0\"],\"vars\":[],\"costType\":\" {{ abilityresourcename }}\",\"maxammo\":\"-1\",\"range\":[175,175,175],\"rangeBurn\":\"175\",\"image\":{\"full\":\"Feast.png\",\"sprite\":\"spell2.png\",\"group\":\"spell\",\"x\":48,\"y\":96,\"w\":48,\"h\":48},\"resource\":\"{{ cost }} {{ abilityresourcename }}\"}],\"passive\":{\"name\":\"Carnivore\",\"description\":\"Whenever Cho'Gath kills a unit, he recovers Health and Mana. The values restored increase with Cho'Gath's level.\",\"image\":{\"full\":\"GreenTerror_TailSpike.png\",\"sprite\":\"passive0.png\",\"group\":\"passive\",\"x\":0,\"y\":96,\"w\":48,\"h\":48}},\"recommended\":[]}",
+    "champion_blurb": "From the moment Cho'Gath first emerged into the harsh light of Runeterra's sun, the beast was driven by the most pure and insatiable hunger. A perfect expression of the Void's desire to consume all life, Cho'Gath's complex biology quickly converts...",
+    "lore": "From the moment Cho'Gath first emerged into the harsh light of Runeterra's sun, the beast was driven by the most pure and insatiable hunger. A perfect expression of the Void's desire to consume all life, Cho'Gath's complex biology quickly converts matter into new bodily growth—increasing its muscle mass and density, or hardening its outer carapace like organic diamond. When growing larger does not suit the Void-spawn's needs, it vomits out the excess material as razor-sharp spines, leaving prey skewered and ready to feast upon later.",
+    "champion_icon": "https://ddragon.leagueoflegends.com/cdn/13.14.1/img/champion/Chogath.png",
+    "champion_name": "Cho'Gath",
+    "champion_splash": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Chogath_0.jpg",
+    "champion_title": "the Terror of the Void",
+    "recommended_lanes": [],
+    "recommended_roles": [
+        "Tank",
+        "Mage"
+    ],
+    "links": [
+        {
+            "href": "https://na.op.gg/champion/chogath/statistics/",
+            "title": "OP.GG"
+        },
+        {
+            "href": "https://u.gg/lol/champions/chogath/build",
+            "title": "U.GG"
+        },
+        {
+            "href": "https://www.probuilds.net/champions/details/chogath",
+            "title": "probuilds.net"
+        }
+    ],
+    "champion": {
+        "modular_blocks": []
+    },
+    "skins": [
+        {
+            "name": "default",
+            "imageUrl": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Chogath_0.jpg"
+        },
+        {
+            "name": "Nightmare Cho'Gath",
+            "imageUrl": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Chogath_1.jpg"
+        },
+        {
+            "name": "Gentleman Cho'Gath",
+            "imageUrl": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Chogath_2.jpg"
+        },
+        {
+            "name": "Loch Ness Cho'Gath",
+            "imageUrl": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Chogath_3.jpg"
+        },
+        {
+            "name": "Jurassic Cho'Gath",
+            "imageUrl": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Chogath_4.jpg"
+        },
+        {
+            "name": "Battlecast Prime Cho'Gath",
+            "imageUrl": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Chogath_5.jpg"
+        },
+        {
+            "name": "Prehistoric Cho'Gath",
+            "imageUrl": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Chogath_6.jpg"
+        },
+        {
+            "name": "Dark Star Cho'Gath",
+            "imageUrl": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Chogath_7.jpg"
+        },
+        {
+            "name": "Shan Hai Scrolls Cho'Gath",
+            "imageUrl": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Chogath_14.jpg"
+        },
+        {
+            "name": "Broken Covenant Cho'Gath",
+            "imageUrl": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Chogath_23.jpg"
+        }
+    ],
+    "champion_passive": {
+        "champion_passive_description": "Whenever Cho'Gath kills a unit, he recovers Health and Mana. The values restored increase with Cho'Gath's level.",
+        "champion_passive_icon": "https://ddragon.leagueoflegends.com/cdn/13.14.1/img/passive/GreenTerror_TailSpike.png",
+        "champion_passive_name": "Carnivore",
+        "champion_passive_video_mp4": "https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0031/ability_0031_P1.mp4",
+        "champion_passive_video_poster": "https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0031/ability_0031_P1.jpg",
+        "champion_passive_video_webm": "https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0031/ability_0031_P1.webm"
+    },
+    "champion_q": {
+        "champion_q_description": "Ruptures the ground at target location, popping enemy units into the air, dealing damage and slowing them.",
+        "champion_q_icon": "https://ddragon.leagueoflegends.com/cdn/13.14.1/img/spell/Rupture.png",
+        "champion_q_name": "Rupture",
+        "champion_q_video_mp4": "https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0031/ability_0031_Q1.mp4",
+        "champion_q_video_poster": "https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0031/ability_0031_Q1.jpg",
+        "champion_q_video_webm": "https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0031/ability_0031_Q1.webm"
+    },
+    "champion_w": {
+        "champion_w_description": "Cho'Gath unleashes a terrible scream at enemies in a cone, dealing magic damage and Silencing enemies for a few seconds.",
+        "champion_w_icon": "https://ddragon.leagueoflegends.com/cdn/13.14.1/img/spell/FeralScream.png",
+        "champion_w_name": "Feral Scream",
+        "champion_w_video_mp4": "https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0031/ability_0031_W1.mp4",
+        "champion_w_video_poster": "https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0031/ability_0031_W1.jpg",
+        "champion_w_video_webm": "https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0031/ability_0031_W1.webm"
+    },
+    "champion_e": {
+        "champion_e_description": "Cho'Gath's attacks release deadly spikes, dealing damage and slowing all enemy units in front of him.",
+        "champion_e_icon": "https://ddragon.leagueoflegends.com/cdn/13.14.1/img/spell/VorpalSpikes.png",
+        "champion_e_name": "Vorpal Spikes",
+        "champion_e_video_mp4": "https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0031/ability_0031_E1.mp4",
+        "champion_e_video_poster": "https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0031/ability_0031_E1.jpg",
+        "champion_e_video_webm": "https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0031/ability_0031_E1.webm"
+    },
+    "champion_r": {
+        "champion_r_description": "Devours an enemy unit, dealing a high amount of true damage. If the target is killed, Cho'Gath grows, gaining maximum Health.",
+        "champion_r_icon": "https://ddragon.leagueoflegends.com/cdn/13.14.1/img/spell/Feast.png",
+        "champion_r_name": "Feast",
+        "champion_r_video_mp4": "https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0031/ability_0031_R1.mp4",
+        "champion_r_video_poster": "https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0031/ability_0031_R1.jpg",
+        "champion_r_video_webm": "https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0031/ability_0031_R1.webm"
+    },
+    "related_champions": []
+  },
+  {
+    "publish_details": {
+        "locale": "en-us"
+    },
+    "uid": "blt9aabf47b194072bb",
+    "url": "/champions/corki/",
+    "data_dragon_id": "Corki",
+    "data_dragon_json": "{\"id\":\"Corki\",\"key\":\"42\",\"name\":\"Corki\",\"title\":\"the Daring Bombardier\",\"image\":{\"full\":\"Corki.png\",\"sprite\":\"champion0.png\",\"group\":\"champion\",\"x\":48,\"y\":96,\"w\":48,\"h\":48},\"skins\":[{\"id\":\"42000\",\"num\":0,\"name\":\"default\",\"chromas\":false},{\"id\":\"42001\",\"num\":1,\"name\":\"UFO Corki\",\"chromas\":false},{\"id\":\"42002\",\"num\":2,\"name\":\"Ice Toboggan Corki\",\"chromas\":false},{\"id\":\"42003\",\"num\":3,\"name\":\"Red Baron Corki\",\"chromas\":false},{\"id\":\"42004\",\"num\":4,\"name\":\"Hot Rod Corki\",\"chromas\":false},{\"id\":\"42005\",\"num\":5,\"name\":\"Urfrider Corki\",\"chromas\":false},{\"id\":\"42006\",\"num\":6,\"name\":\"Dragonwing Corki\",\"chromas\":true},{\"id\":\"42007\",\"num\":7,\"name\":\"Fnatic Corki\",\"chromas\":false},{\"id\":\"42008\",\"num\":8,\"name\":\"Arcade Corki\",\"chromas\":true},{\"id\":\"42018\",\"num\":18,\"name\":\"Corgi Corki\",\"chromas\":true},{\"id\":\"42026\",\"num\":26,\"name\":\"Astronaut Corki\",\"chromas\":true}],\"lore\":\"The yordle pilot Corki loves two things above all others: flying, and his glamorous mustache... though not necessarily in that order. After leaving Bandle City, he settled in Piltover and fell in love with the wondrous machines he found there. He dedicated himself to the development of flying contraptions, leading an aerial defense force of seasoned veterans known as the Screaming Yipsnakes. Calm under fire, Corki patrols the skies around his adopted home, and has never encountered a problem that a good missile barrage couldn't solve.\",\"blurb\":\"The yordle pilot Corki loves two things above all others: flying, and his glamorous mustache... though not necessarily in that order. After leaving Bandle City, he settled in Piltover and fell in love with the wondrous machines he found there. He...\",\"allytips\":[\"Phosphorus Bomb can be used to reveal enemy units that might be hiding in a nearby patch of brush.\",\"Valkyrie can be used defensively as well, so try using it for a quick escape.\",\"Corki can continue to attack while using Gatling Gun. Maximizing Gatling Gun is key to mastering Corki.\"],\"enemytips\":[\"Watch out for Corki's Missile Barrage. They deal splash damage, so you can get hit even when hiding behind minions.\",\"Corki is vulnerable after he uses his Valkyrie or Special Delivery, so try switching focus to him if he uses them to enter a fight.\"],\"tags\":[\"Marksman\"],\"partype\":\"Mana\",\"info\":{\"attack\":8,\"defense\":3,\"magic\":6,\"difficulty\":6},\"stats\":{\"hp\":588,\"hpperlevel\":105,\"mp\":350,\"mpperlevel\":54,\"movespeed\":325,\"armor\":28,\"armorperlevel\":4.7,\"spellblock\":30,\"spellblockperlevel\":1.3,\"attackrange\":550,\"hpregen\":5.5,\"hpregenperlevel\":0.55,\"mpregen\":7.4,\"mpregenperlevel\":0.55,\"crit\":0,\"critperlevel\":0,\"attackdamage\":55,\"attackdamageperlevel\":2.8,\"attackspeedperlevel\":2.3,\"attackspeed\":0.638},\"spells\":[{\"id\":\"PhosphorusBomb\",\"name\":\"Phosphorus Bomb\",\"description\":\"Corki fires a flash bomb at a target location, dealing magic damage to enemies in the area. This attack additionally reveals units in the area for a duration.\",\"tooltip\":\"Corki lobs a bomb, dealing <magicDamage>{{ totaldamage }} magic damage</magicDamage>. The area and champions hit are revealed for {{ e2 }} seconds.{{ spellmodifierdescriptionappend }}\",\"leveltip\":{\"label\":[\"Damage\",\"@AbilityResourceName@ Cost\"],\"effect\":[\"{{ e1 }} -> {{ e1NL }}\",\"{{ cost }} -> {{ costNL }}\"]},\"maxrank\":5,\"cooldown\":[8,8,8,8,8],\"cooldownBurn\":\"8\",\"cost\":[60,70,80,90,100],\"costBurn\":\"60/70/80/90/100\",\"datavalues\":{},\"effect\":[null,[75,120,165,210,255],[6,6,6,6,6],[0,0,0,0,0],[0,0,0,0,0],[0,0,0,0,0],[0,0,0,0,0],[0,0,0,0,0],[0,0,0,0,0],[0,0,0,0,0],[0,0,0,0,0]],\"effectBurn\":[null,\"75/120/165/210/255\",\"6\",\"0\",\"0\",\"0\",\"0\",\"0\",\"0\",\"0\",\"0\"],\"vars\":[],\"costType\":\" {{ abilityresourcename }}\",\"maxammo\":\"-1\",\"range\":[825,825,825,825,825],\"rangeBurn\":\"825\",\"image\":{\"full\":\"PhosphorusBomb.png\",\"sprite\":\"spell2.png\",\"group\":\"spell\",\"x\":96,\"y\":96,\"w\":48,\"h\":48},\"resource\":\"{{ cost }} {{ abilityresourcename }}\"},{\"id\":\"CarpetBomb\",\"name\":\"Valkyrie\",\"description\":\"Corki flies a short distance, dropping bombs that create a trail of fire that damages opponents who remain in it.\",\"tooltip\":\"Corki flies over and scorches a path, burning it for {{ trailduration }} seconds. Enemies in the fire take <magicDamage>{{ totaldamagepersecond }} magic damage</magicDamage> per second.<br /><br />If Corki has <keywordMajor>The Package</keywordMajor>, he instead consumes it to fly a much greater distance, refresh this Ability's Cooldown, <status>Knock Aside</status> enemies hit, and burn the path for {{ megatrailduration }} seconds. Enemies hit and in the path are <status>Slowed</status> by {{ spell.carpetbombmega:slowamount*100 }}% and take <magicDamage>{{ spell.carpetbombmega:totaldamagepersecond }} magic damage</magicDamage> per second for {{ spell.carpetbombmega:directburnduration }} seconds.{{ spellmodifierdescriptionappend }}\",\"leveltip\":{\"label\":[\"Damage Per Second\",\"Cooldown\"],\"effect\":[\"{{ basedamagepersecond }} -> {{ basedamagepersecondNL }}\",\"{{ cooldown }} -> {{ cooldownNL }}\"]},\"maxrank\":5,\"cooldown\":[20,19,18,17,16],\"cooldownBurn\":\"20/19/18/17/16\",\"cost\":[100,100,100,100,100],\"costBurn\":\"100\",\"datavalues\":{},\"effect\":[null,[0,0,0,0,0],[0,0,0,0,0],[0,0,0,0,0],[0,0,0,0,0],[0,0,0,0,0],[0,0,0,0,0],[0,0,0,0,0],[0,0,0,0,0],[0,0,0,0,0],[0,0,0,0,0]],\"effectBurn\":[null,\"0\",\"0\",\"0\",\"0\",\"0\",\"0\",\"0\",\"0\",\"0\",\"0\"],\"vars\":[],\"costType\":\" {{ abilityresourcename }}\",\"maxammo\":\"-1\",\"range\":[600,600,600,600,600],\"rangeBurn\":\"600\",\"image\":{\"full\":\"CarpetBomb.png\",\"sprite\":\"spell2.png\",\"group\":\"spell\",\"x\":144,\"y\":96,\"w\":48,\"h\":48},\"resource\":\"{{ cost }} {{ abilityresourcename }}\"},{\"id\":\"GGun\",\"name\":\"Gatling Gun\",\"description\":\"Corki's gatling gun rapidly fires in a cone in front of him, dealing damage and reducing enemy Armor and Magic Resist.\",\"tooltip\":\"Corki fires a gatling gun in front of him, dealing <physicalDamage>{{ physicaldamagepersecond }} physical damage</physicalDamage> and <magicDamage>{{ magicaldamagepersecond }} magic damage</magicDamage> per second and shredding up to <scaleArmor>{{ e4 }} Armor</scaleArmor> and <scaleMR>Magic Resist</scaleMR> over {{ e2 }} seconds.<br /><br />Total Damage Per Second: {{ totaldamagepersecond }}{{ spellmodifierdescriptionappend }}\",\"leveltip\":{\"label\":[\"Damage\",\"Defense Reduction\"],\"effect\":[\"{{ e1 }} -> {{ e1NL }}\",\"{{ effect4amount*-1.000000 }} -> {{ effect4amountnl*-1.000000 }}\"]},\"maxrank\":5,\"cooldown\":[16,16,16,16,16],\"cooldownBurn\":\"16\",\"cost\":[50,50,50,50,50],\"costBurn\":\"50\",\"datavalues\":{},\"effect\":[null,[120,170,220,270,320],[4,4,4,4,4],[4,4,4,4,4],[8,11,14,17,20],[8,8,8,8,8],[2,2,2,2,2],[0.5,0.5,0.5,0.5,0.5],[0.5,0.5,0.5,0.5,0.5],[0,0,0,0,0],[0,0,0,0,0]],\"effectBurn\":[null,\"120/170/220/270/320\",\"4\",\"4\",\"8/11/14/17/20\",\"8\",\"2\",\"0.5\",\"0.5\",\"0\",\"0\"],\"vars\":[],\"costType\":\" {{ abilityresourcename }}\",\"maxammo\":\"-1\",\"range\":[600,600,600,600,600],\"rangeBurn\":\"600\",\"image\":{\"full\":\"GGun.png\",\"sprite\":\"spell2.png\",\"group\":\"spell\",\"x\":192,\"y\":96,\"w\":48,\"h\":48},\"resource\":\"{{ cost }} {{ abilityresourcename }}\"},{\"id\":\"MissileBarrage\",\"name\":\"Missile Barrage\",\"description\":\"Corki fires a missile toward his target location that explodes on impact, dealing damage to enemies in an area. Corki stores missiles over time, up to a maximum. Every 3rd missile fired will be a Big One, dealing extra damage.\",\"tooltip\":\"Corki fires a missile that explodes on the first enemy hit, dealing <magicDamage>{{ rsmallmissiledamage }} magic damage</magicDamage> to surrounding enemies. Every third missile instead deals <magicDamage>{{ rbigmissiledamage }} magic damage</magicDamage>.<br /><br />This Ability has 7 charges.{{ spellmodifierdescriptionappend }}\",\"leveltip\":{\"label\":[\"Damage\",\"Attack Damage Ratio\",\"Missile Recharge Time\"],\"effect\":[\"{{ rbasedamage }} -> {{ rbasedamageNL }}\",\"{{ radratio*100.000000 }}% -> {{ radrationl*100.000000 }}%\",\"{{ ammorechargetime }} -> {{ ammorechargetimeNL }}\"]},\"maxrank\":3,\"cooldown\":[2,2,2],\"cooldownBurn\":\"2\",\"cost\":[20,20,20],\"costBurn\":\"20\",\"datavalues\":{},\"effect\":[null,[0,0,0],[0,0,0],[0,0,0],[0,0,0],[0,0,0],[0,0,0],[0,0,0],[0,0,0],[0,0,0],[0,0,0]],\"effectBurn\":[null,\"0\",\"0\",\"0\",\"0\",\"0\",\"0\",\"0\",\"0\",\"0\",\"0\"],\"vars\":[],\"costType\":\" {{ abilityresourcename }}\",\"maxammo\":\"7\",\"range\":[1225,1225,1225],\"rangeBurn\":\"1225\",\"image\":{\"full\":\"MissileBarrage.png\",\"sprite\":\"spell2.png\",\"group\":\"spell\",\"x\":240,\"y\":96,\"w\":48,\"h\":48},\"resource\":\"{{ cost }} {{ abilityresourcename }}\"}],\"passive\":{\"name\":\"Hextech Munitions\",\"description\":\"A percentage of Corki's basic attack damage is converted into <magicDamage>magic damage</magicDamage>.<br><br>Corki can occasionally retrieve The Package inside his base, granting him Move Speed and an empowered cast of Valkyrie.\",\"image\":{\"full\":\"Corki_RapidReload.png\",\"sprite\":\"passive0.png\",\"group\":\"passive\",\"x\":48,\"y\":96,\"w\":48,\"h\":48}},\"recommended\":[]}",
+    "champion_blurb": "The yordle pilot Corki loves two things above all others: flying, and his glamorous mustache... though not necessarily in that order. After leaving Bandle City, he settled in Piltover and fell in love with the wondrous machines he found there. He...",
+    "lore": "The yordle pilot Corki loves two things above all others: flying, and his glamorous mustache... though not necessarily in that order. After leaving Bandle City, he settled in Piltover and fell in love with the wondrous machines he found there. He dedicated himself to the development of flying contraptions, leading an aerial defense force of seasoned veterans known as the Screaming Yipsnakes. Calm under fire, Corki patrols the skies around his adopted home, and has never encountered a problem that a good missile barrage couldn't solve.",
+    "champion_icon": "https://ddragon.leagueoflegends.com/cdn/13.14.1/img/champion/Corki.png",
+    "champion_name": "Corki",
+    "champion_splash": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Corki_0.jpg",
+    "champion_title": "the Daring Bombardier",
+    "recommended_lanes": [],
+    "recommended_roles": [
+        "Marksman"
+    ],
+    "links": [
+        {
+            "href": "https://na.op.gg/champion/corki/statistics/",
+            "title": "OP.GG"
+        },
+        {
+            "href": "https://u.gg/lol/champions/corki/build",
+            "title": "U.GG"
+        },
+        {
+            "href": "https://www.probuilds.net/champions/details/corki",
+            "title": "probuilds.net"
+        }
+    ],
+    "champion": {
+        "modular_blocks": []
+    },
+    "skins": [
+        {
+            "name": "default",
+            "imageUrl": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Corki_0.jpg"
+        },
+        {
+            "name": "UFO Corki",
+            "imageUrl": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Corki_1.jpg"
+        },
+        {
+            "name": "Ice Toboggan Corki",
+            "imageUrl": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Corki_2.jpg"
+        },
+        {
+            "name": "Red Baron Corki",
+            "imageUrl": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Corki_3.jpg"
+        },
+        {
+            "name": "Hot Rod Corki",
+            "imageUrl": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Corki_4.jpg"
+        },
+        {
+            "name": "Urfrider Corki",
+            "imageUrl": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Corki_5.jpg"
+        },
+        {
+            "name": "Dragonwing Corki",
+            "imageUrl": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Corki_6.jpg"
+        },
+        {
+            "name": "Fnatic Corki",
+            "imageUrl": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Corki_7.jpg"
+        },
+        {
+            "name": "Arcade Corki",
+            "imageUrl": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Corki_8.jpg"
+        },
+        {
+            "name": "Corgi Corki",
+            "imageUrl": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Corki_18.jpg"
+        },
+        {
+            "name": "Astronaut Corki",
+            "imageUrl": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Corki_26.jpg"
+        }
+    ],
+    "champion_passive": {
+        "champion_passive_description": "A percentage of Corki's basic attack damage is converted into magic damage.\n\nCorki can occasionally retrieve The Package inside his base, granting him Move Speed and an empowered cast of Valkyrie.",
+        "champion_passive_icon": "https://ddragon.leagueoflegends.com/cdn/13.14.1/img/passive/Corki_RapidReload.png",
+        "champion_passive_name": "Hextech Munitions",
+        "champion_passive_video_mp4": "https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0042/ability_0042_P1.mp4",
+        "champion_passive_video_poster": "https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0042/ability_0042_P1.jpg",
+        "champion_passive_video_webm": "https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0042/ability_0042_P1.webm"
+    },
+    "champion_q": {
+        "champion_q_description": "Corki fires a flash bomb at a target location, dealing magic damage to enemies in the area. This attack additionally reveals units in the area for a duration.",
+        "champion_q_icon": "https://ddragon.leagueoflegends.com/cdn/13.14.1/img/spell/PhosphorusBomb.png",
+        "champion_q_name": "Phosphorus Bomb",
+        "champion_q_video_mp4": "https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0042/ability_0042_Q1.mp4",
+        "champion_q_video_poster": "https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0042/ability_0042_Q1.jpg",
+        "champion_q_video_webm": "https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0042/ability_0042_Q1.webm"
+    },
+    "champion_w": {
+        "champion_w_description": "Corki flies a short distance, dropping bombs that create a trail of fire that damages opponents who remain in it.",
+        "champion_w_icon": "https://ddragon.leagueoflegends.com/cdn/13.14.1/img/spell/CarpetBomb.png",
+        "champion_w_name": "Valkyrie",
+        "champion_w_video_mp4": "https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0042/ability_0042_W1.mp4",
+        "champion_w_video_poster": "https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0042/ability_0042_W1.jpg",
+        "champion_w_video_webm": "https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0042/ability_0042_W1.webm"
+    },
+    "champion_e": {
+        "champion_e_description": "Corki's gatling gun rapidly fires in a cone in front of him, dealing damage and reducing enemy Armor and Magic Resist.",
+        "champion_e_icon": "https://ddragon.leagueoflegends.com/cdn/13.14.1/img/spell/GGun.png",
+        "champion_e_name": "Gatling Gun",
+        "champion_e_video_mp4": "https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0042/ability_0042_E1.mp4",
+        "champion_e_video_poster": "https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0042/ability_0042_E1.jpg",
+        "champion_e_video_webm": "https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0042/ability_0042_E1.webm"
+    },
+    "champion_r": {
+        "champion_r_description": "Corki fires a missile toward his target location that explodes on impact, dealing damage to enemies in an area. Corki stores missiles over time, up to a maximum. Every 3rd missile fired will be a Big One, dealing extra damage.",
+        "champion_r_icon": "https://ddragon.leagueoflegends.com/cdn/13.14.1/img/spell/MissileBarrage.png",
+        "champion_r_name": "Missile Barrage",
+        "champion_r_video_mp4": "https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0042/ability_0042_R1.mp4",
+        "champion_r_video_poster": "https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0042/ability_0042_R1.jpg",
+        "champion_r_video_webm": "https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0042/ability_0042_R1.webm"
+    },
+    "related_champions": []
+  },
+  {
+    "publish_details": {
+        "locale": "en-us"
+    },
+    "uid": "bltafb356a880c37379",
+    "url": "/champions/darius/",
+    "data_dragon_id": "Darius",
+    "data_dragon_json": "{\"id\":\"Darius\",\"key\":\"122\",\"name\":\"Darius\",\"title\":\"the Hand of Noxus\",\"image\":{\"full\":\"Darius.png\",\"sprite\":\"champion0.png\",\"group\":\"champion\",\"x\":96,\"y\":96,\"w\":48,\"h\":48},\"skins\":[{\"id\":\"122000\",\"num\":0,\"name\":\"default\",\"chromas\":true},{\"id\":\"122001\",\"num\":1,\"name\":\"Lord Darius\",\"chromas\":false},{\"id\":\"122002\",\"num\":2,\"name\":\"Bioforge Darius\",\"chromas\":false},{\"id\":\"122003\",\"num\":3,\"name\":\"Woad King Darius\",\"chromas\":false},{\"id\":\"122004\",\"num\":4,\"name\":\"Dunkmaster Darius\",\"chromas\":true},{\"id\":\"122008\",\"num\":8,\"name\":\"Academy Darius\",\"chromas\":false},{\"id\":\"122014\",\"num\":14,\"name\":\"Dreadnova Darius\",\"chromas\":false},{\"id\":\"122015\",\"num\":15,\"name\":\"God-King Darius\",\"chromas\":false},{\"id\":\"122016\",\"num\":16,\"name\":\"High Noon Darius\",\"chromas\":true},{\"id\":\"122024\",\"num\":24,\"name\":\"Lunar Beast Darius\",\"chromas\":true},{\"id\":\"122033\",\"num\":33,\"name\":\"Crime City Nightmare Darius\",\"chromas\":false},{\"id\":\"122043\",\"num\":43,\"name\":\"Spirit Blossom Darius\",\"chromas\":false}],\"lore\":\"There is no greater symbol of Noxian might than Darius, the nation's most feared and battle-hardened commander. Rising from humble origins to become the Hand of Noxus, he cleaves through the empire's enemies—many of them Noxians themselves. Knowing that he never doubts his cause is just, and never hesitates once his axe is raised, those who stand against the leader of the Trifarian Legion can expect no mercy.\",\"blurb\":\"There is no greater symbol of Noxian might than Darius, the nation's most feared and battle-hardened commander. Rising from humble origins to become the Hand of Noxus, he cleaves through the empire's enemies—many of them Noxians themselves. Knowing that...\",\"allytips\":[\"Decimate is a powerful harassment ability. Strike an enemy from maximum range for the greatest effect.\",\"Noxian Guillotine does more damage the more attacks you can land prior to it. Use Noxian Might to deal maximum damage.\",\"Darius benefits greatly from enhanced survivability. The longer you can prolong a fight, the more powerful he becomes.\"],\"enemytips\":[\"When Darius's axe grab is on cooldown, he is vulnerable to harassment attacks.\",\"Darius's ability to escape from fights is limited. If you have an advantage against him, press your lead.\"],\"tags\":[\"Fighter\",\"Tank\"],\"partype\":\"Mana\",\"info\":{\"attack\":9,\"defense\":5,\"magic\":1,\"difficulty\":2},\"stats\":{\"hp\":652,\"hpperlevel\":114,\"mp\":263,\"mpperlevel\":58,\"movespeed\":340,\"armor\":39,\"armorperlevel\":5.2,\"spellblock\":32,\"spellblockperlevel\":2.05,\"attackrange\":175,\"hpregen\":10,\"hpregenperlevel\":0.95,\"mpregen\":6.6,\"mpregenperlevel\":0.35,\"crit\":0,\"critperlevel\":0,\"attackdamage\":64,\"attackdamageperlevel\":5,\"attackspeedperlevel\":1,\"attackspeed\":0.625},\"spells\":[{\"id\":\"DariusCleave\",\"name\":\"Decimate\",\"description\":\"Darius winds up and swings his axe in a wide circle. Enemies struck by the blade take more damage than those struck by the handle. Darius heals based on enemy champions and large monsters hit by the blade.\",\"tooltip\":\"Darius hefts his axe then swings it around, dealing <physicalDamage>{{ bladedamage }} physical damage</physicalDamage> with the edge and <physicalDamage>{{ handledamage }} damage</physicalDamage> with the handle. Enemies hit with the handle do not take a <keywordMajor>Hemorrhage</keywordMajor> stack.<br /><br />Darius restores <healing>{{ e5 }}% missing Health</healing> per enemy champion and large jungle monster hit with the edge, up to a max of <healing>{{ e7 }}%</healing>.{{ spellmodifierdescriptionappend }}\",\"leveltip\":{\"label\":[\"Damage\",\"Total AD Ratio\",\"Cooldown\",\"@AbilityResourceName@ Cost\"],\"effect\":[\"{{ e2 }} -> {{ e2NL }}\",\"{{ e1 }}% -> {{ e1NL }}%\",\"{{ cooldown }} -> {{ cooldownNL }}\",\"{{ cost }} -> {{ costNL }}\"]},\"maxrank\":5,\"cooldown\":[9,8,7,6,5],\"cooldownBurn\":\"9/8/7/6/5\",\"cost\":[30,35,40,45,50],\"costBurn\":\"30/35/40/45/50\",\"datavalues\":{},\"effect\":[null,[100,110,120,130,140],[50,80,110,140,170],[99,99,99,99,99],[0.1,0.1,0.1,0.1,0.1],[13,13,13,13,13],[35,35,35,35,35],[39,39,39,39,39],[0,0,0,0,0],[0,0,0,0,0],[0,0,0,0,0]],\"effectBurn\":[null,\"100/110/120/130/140\",\"50/80/110/140/170\",\"99\",\"0.1\",\"13\",\"35\",\"39\",\"0\",\"0\",\"0\"],\"vars\":[],\"costType\":\" {{ abilityresourcename }}\",\"maxammo\":\"-1\",\"range\":[1,1,1,1,1],\"rangeBurn\":\"1\",\"image\":{\"full\":\"DariusCleave.png\",\"sprite\":\"spell2.png\",\"group\":\"spell\",\"x\":288,\"y\":96,\"w\":48,\"h\":48},\"resource\":\"{{ cost }} {{ abilityresourcename }}\"},{\"id\":\"DariusNoxianTacticsONH\",\"name\":\"Crippling Strike\",\"description\":\"Darius's next attack strikes an enemy's crucial artery. As they bleed out, their Move Speed is slowed.\",\"tooltip\":\"Darius' next Attack deals <physicalDamage>{{ empoweredattackdamage }} physical damage</physicalDamage> and <status>Slows</status> by {{ e2 }}% for {{ e5 }} second.<br /><br />This Ability refunds its Mana cost and reduces its Cooldown by {{ e3 }}% if it kills the target.<br /><br /><rules>This Ability triggers spell effects upon dealing damage.</rules>{{ spellmodifierdescriptionappend }}\",\"leveltip\":{\"label\":[\"Total AD Ratio\"],\"effect\":[\"{{ effect4amount*100.000000 }} -> {{ effect4amountnl*100.000000 }}\"]},\"maxrank\":5,\"cooldown\":[5,5,5,5,5],\"cooldownBurn\":\"5\",\"cost\":[40,40,40,40,40],\"costBurn\":\"40\",\"datavalues\":{},\"effect\":[null,[0,0,0,0,0],[90,90,90,90,90],[50,50,50,50,50],[1.4,1.45,1.5,1.55,1.6],[1,1,1,1,1],[0,0,0,0,0],[0,0,0,0,0],[0,0,0,0,0],[0,0,0,0,0],[0,0,0,0,0]],\"effectBurn\":[null,\"0\",\"90\",\"50\",\"1.4/1.45/1.5/1.55/1.6\",\"1\",\"0\",\"0\",\"0\",\"0\",\"0\"],\"vars\":[],\"costType\":\" {{ abilityresourcename }}\",\"maxammo\":\"-1\",\"range\":[300,300,300,300,300],\"rangeBurn\":\"300\",\"image\":{\"full\":\"DariusNoxianTacticsONH.png\",\"sprite\":\"spell2.png\",\"group\":\"spell\",\"x\":336,\"y\":96,\"w\":48,\"h\":48},\"resource\":\"{{ cost }} {{ abilityresourcename }}\"},{\"id\":\"DariusAxeGrabCone\",\"name\":\"Apprehend\",\"description\":\"Darius hones his axe, passively causing his physical damage to ignore a percentage of his target's Armor. When activated, Darius sweeps up his enemies with his axe's hook and pulls them to him.\",\"tooltip\":\"<spellPassive>Passive:</spellPassive> Darius gains {{ e1 }}% Armor Penetration.<br /><br /><spellActive>Active:</spellActive> Darius hooks with his axe, <status>Pulling</status>, and <status>Knocking Up</status> and <status>Slowing</status> by {{ e2 }}% for {{ e3 }} second.{{ spellmodifierdescriptionappend }}\",\"leveltip\":{\"label\":[\"Percent Armor Penetration\",\"@AbilityResourceName@ Cost\",\"Cooldown\"],\"effect\":[\"{{ e1 }} -> {{ e1NL }}\",\"{{ cost }} -> {{ costNL }}\",\"{{ cooldown }} -> {{ cooldownNL }}\"]},\"maxrank\":5,\"cooldown\":[24,21.5,19,16.5,14],\"cooldownBurn\":\"24/21.5/19/16.5/14\",\"cost\":[70,60,50,40,30],\"costBurn\":\"70/60/50/40/30\",\"datavalues\":{},\"effect\":[null,[15,20,25,30,35],[40,40,40,40,40],[1,1,1,1,1],[0,0,0,0,0],[0,0,0,0,0],[0,0,0,0,0],[0,0,0,0,0],[0,0,0,0,0],[0,0,0,0,0],[0,0,0,0,0]],\"effectBurn\":[null,\"15/20/25/30/35\",\"40\",\"1\",\"0\",\"0\",\"0\",\"0\",\"0\",\"0\",\"0\"],\"vars\":[],\"costType\":\" {{ abilityresourcename }}\",\"maxammo\":\"-1\",\"range\":[535,535,535,535,535],\"rangeBurn\":\"535\",\"image\":{\"full\":\"DariusAxeGrabCone.png\",\"sprite\":\"spell2.png\",\"group\":\"spell\",\"x\":384,\"y\":96,\"w\":48,\"h\":48},\"resource\":\"{{ cost }} {{ abilityresourcename }}\"},{\"id\":\"DariusExecute\",\"name\":\"Noxian Guillotine\",\"description\":\"Darius leaps to an enemy champion and strikes a lethal blow, dealing true damage. This damage is increased for each stack of Hemorrhage on the target. If Noxian Guillotine is a killing blow, its cooldown is refreshed for a brief duration.\",\"tooltip\":\"Darius leaps to an enemy and strikes a lethal blow, dealing <trueDamage>{{ damage }} true damage</trueDamage>. For each <keywordMajor>Hemorrhage</keywordMajor> on the target, this Ability deals an additional {{ rdamagepercentperhemostack*100 }}% damage, up to a max of <trueDamage>{{ maximumdamage }} damage</trueDamage>.<br /><br />If this kills the target, Darius may <recast>Recast</recast> this Ability once within {{ rrecastduration }} seconds. At rank 3, this Ability has no Mana cost and kills refresh the Cooldown completely.{{ spellmodifierdescriptionappend }}\",\"leveltip\":{\"label\":[\"Damage\",\"Cooldown\"],\"effect\":[\"{{ rbasedamage }} -> {{ rbasedamageNL }}\",\"{{ cooldown }} -> {{ cooldownNL }}\"]},\"maxrank\":3,\"cooldown\":[120,100,80],\"cooldownBurn\":\"120/100/80\",\"cost\":[100,100,0],\"costBurn\":\"100/100/0\",\"datavalues\":{},\"effect\":[null,[0,0,0],[0,0,0],[0,0,0],[0,0,0],[0,0,0],[0,0,0],[0,0,0],[0,0,0],[0,0,0],[0,0,0]],\"effectBurn\":[null,\"0\",\"0\",\"0\",\"0\",\"0\",\"0\",\"0\",\"0\",\"0\",\"0\"],\"vars\":[],\"costType\":\" {{ abilityresourcename }}\",\"maxammo\":\"-1\",\"range\":[460,460,460],\"rangeBurn\":\"460\",\"image\":{\"full\":\"DariusExecute.png\",\"sprite\":\"spell2.png\",\"group\":\"spell\",\"x\":432,\"y\":96,\"w\":48,\"h\":48},\"resource\":\"{{ cost }} {{ abilityresourcename }}\"}],\"passive\":{\"name\":\"Hemorrhage\",\"description\":\"Darius' attacks and damaging abilities cause enemies to bleed for physical damage over 5 seconds, stacking up to 5 times. Darius enrages and gains massive Attack Damage when his target reaches max stacks.\",\"image\":{\"full\":\"Darius_Icon_Hemorrhage.png\",\"sprite\":\"passive0.png\",\"group\":\"passive\",\"x\":96,\"y\":96,\"w\":48,\"h\":48}},\"recommended\":[]}",
+    "champion_blurb": "There is no greater symbol of Noxian might than Darius, the nation's most feared and battle-hardened commander. Rising from humble origins to become the Hand of Noxus, he cleaves through the empire's enemies—many of them Noxians themselves. Knowing that...",
+    "lore": "There is no greater symbol of Noxian might than Darius, the nation's most feared and battle-hardened commander. Rising from humble origins to become the Hand of Noxus, he cleaves through the empire's enemies—many of them Noxians themselves. Knowing that he never doubts his cause is just, and never hesitates once his axe is raised, those who stand against the leader of the Trifarian Legion can expect no mercy.",
+    "champion_icon": "https://ddragon.leagueoflegends.com/cdn/13.14.1/img/champion/Darius.png",
+    "champion_name": "Darius",
+    "champion_splash": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Darius_0.jpg",
+    "champion_title": "the Hand of Noxus",
+    "recommended_lanes": [],
+    "recommended_roles": [
+        "Fighter",
+        "Tank"
+    ],
+    "links": [
+        {
+            "href": "https://na.op.gg/champion/darius/statistics/",
+            "title": "OP.GG"
+        },
+        {
+            "href": "https://u.gg/lol/champions/darius/build",
+            "title": "U.GG"
+        },
+        {
+            "href": "https://www.probuilds.net/champions/details/darius",
+            "title": "probuilds.net"
+        }
+    ],
+    "champion": {
+        "modular_blocks": []
+    },
+    "skins": [
+        {
+            "name": "default",
+            "imageUrl": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Darius_0.jpg"
+        },
+        {
+            "name": "Lord Darius",
+            "imageUrl": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Darius_1.jpg"
+        },
+        {
+            "name": "Bioforge Darius",
+            "imageUrl": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Darius_2.jpg"
+        },
+        {
+            "name": "Woad King Darius",
+            "imageUrl": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Darius_3.jpg"
+        },
+        {
+            "name": "Dunkmaster Darius",
+            "imageUrl": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Darius_4.jpg"
+        },
+        {
+            "name": "Academy Darius",
+            "imageUrl": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Darius_8.jpg"
+        },
+        {
+            "name": "Dreadnova Darius",
+            "imageUrl": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Darius_14.jpg"
+        },
+        {
+            "name": "God-King Darius",
+            "imageUrl": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Darius_15.jpg"
+        },
+        {
+            "name": "High Noon Darius",
+            "imageUrl": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Darius_16.jpg"
+        },
+        {
+            "name": "Lunar Beast Darius",
+            "imageUrl": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Darius_24.jpg"
+        },
+        {
+            "name": "Crime City Nightmare Darius",
+            "imageUrl": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Darius_33.jpg"
+        },
+        {
+            "name": "Spirit Blossom Darius",
+            "imageUrl": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Darius_43.jpg"
+        }
+    ],
+    "champion_passive": {
+        "champion_passive_description": "Darius' attacks and damaging abilities cause enemies to bleed for physical damage over 5 seconds, stacking up to 5 times. Darius enrages and gains massive Attack Damage when his target reaches max stacks.",
+        "champion_passive_icon": "https://ddragon.leagueoflegends.com/cdn/13.14.1/img/passive/Darius_Icon_Hemorrhage.png",
+        "champion_passive_name": "Hemorrhage",
+        "champion_passive_video_mp4": "https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0122/ability_0122_P1.mp4",
+        "champion_passive_video_poster": "https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0122/ability_0122_P1.jpg",
+        "champion_passive_video_webm": "https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0122/ability_0122_P1.webm"
+    },
+    "champion_q": {
+        "champion_q_description": "Darius winds up and swings his axe in a wide circle. Enemies struck by the blade take more damage than those struck by the handle. Darius heals based on enemy champions and large monsters hit by the blade.",
+        "champion_q_icon": "https://ddragon.leagueoflegends.com/cdn/13.14.1/img/spell/DariusCleave.png",
+        "champion_q_name": "Decimate",
+        "champion_q_video_mp4": "https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0122/ability_0122_Q1.mp4",
+        "champion_q_video_poster": "https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0122/ability_0122_Q1.jpg",
+        "champion_q_video_webm": "https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0122/ability_0122_Q1.webm"
+    },
+    "champion_w": {
+        "champion_w_description": "Darius's next attack strikes an enemy's crucial artery. As they bleed out, their Move Speed is slowed.",
+        "champion_w_icon": "https://ddragon.leagueoflegends.com/cdn/13.14.1/img/spell/DariusNoxianTacticsONH.png",
+        "champion_w_name": "Crippling Strike",
+        "champion_w_video_mp4": "https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0122/ability_0122_W1.mp4",
+        "champion_w_video_poster": "https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0122/ability_0122_W1.jpg",
+        "champion_w_video_webm": "https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0122/ability_0122_W1.webm"
+    },
+    "champion_e": {
+        "champion_e_description": "Darius hones his axe, passively causing his physical damage to ignore a percentage of his target's Armor. When activated, Darius sweeps up his enemies with his axe's hook and pulls them to him.",
+        "champion_e_icon": "https://ddragon.leagueoflegends.com/cdn/13.14.1/img/spell/DariusAxeGrabCone.png",
+        "champion_e_name": "Apprehend",
+        "champion_e_video_mp4": "https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0122/ability_0122_E1.mp4",
+        "champion_e_video_poster": "https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0122/ability_0122_E1.jpg",
+        "champion_e_video_webm": "https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0122/ability_0122_E1.webm"
+    },
+    "champion_r": {
+        "champion_r_description": "Darius leaps to an enemy champion and strikes a lethal blow, dealing true damage. This damage is increased for each stack of Hemorrhage on the target. If Noxian Guillotine is a killing blow, its cooldown is refreshed for a brief duration.",
+        "champion_r_icon": "https://ddragon.leagueoflegends.com/cdn/13.14.1/img/spell/DariusExecute.png",
+        "champion_r_name": "Noxian Guillotine",
+        "champion_r_video_mp4": "https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0122/ability_0122_R1.mp4",
+        "champion_r_video_poster": "https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0122/ability_0122_R1.jpg",
+        "champion_r_video_webm": "https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0122/ability_0122_R1.webm"
+    },
+    "related_champions": []
+  },
+  {
+    "publish_details": {
+        "locale": "en-us"
+    },
+    "uid": "bltec3fbc1d45649620",
+    "url": "/champions/diana/",
+    "data_dragon_id": "Diana",
+    "data_dragon_json": "{\"id\":\"Diana\",\"key\":\"131\",\"name\":\"Diana\",\"title\":\"Scorn of the Moon\",\"image\":{\"full\":\"Diana.png\",\"sprite\":\"champion0.png\",\"group\":\"champion\",\"x\":144,\"y\":96,\"w\":48,\"h\":48},\"skins\":[{\"id\":\"131000\",\"num\":0,\"name\":\"default\",\"chromas\":false},{\"id\":\"131001\",\"num\":1,\"name\":\"Dark Valkyrie Diana\",\"chromas\":false},{\"id\":\"131002\",\"num\":2,\"name\":\"Lunar Goddess Diana\",\"chromas\":true},{\"id\":\"131003\",\"num\":3,\"name\":\"Infernal Diana\",\"chromas\":false},{\"id\":\"131011\",\"num\":11,\"name\":\"Blood Moon Diana\",\"chromas\":false},{\"id\":\"131012\",\"num\":12,\"name\":\"Dark Waters Diana\",\"chromas\":true},{\"id\":\"131018\",\"num\":18,\"name\":\"Dragonslayer Diana\",\"chromas\":true},{\"id\":\"131025\",\"num\":25,\"name\":\"Battle Queen Diana\",\"chromas\":false},{\"id\":\"131026\",\"num\":26,\"name\":\"Prestige Battle Queen Diana\",\"chromas\":false},{\"id\":\"131027\",\"num\":27,\"name\":\"Sentinel Diana\",\"chromas\":true},{\"id\":\"131037\",\"num\":37,\"name\":\"Firecracker Diana\",\"chromas\":true},{\"id\":\"131047\",\"num\":47,\"name\":\"Winterblessed Diana\",\"chromas\":true}],\"lore\":\"Bearing her crescent moonblade, Diana fights as a warrior of the Lunari—a faith all but quashed in the lands around Mount Targon. Clad in shimmering armor the color of winter snow at night, she is a living embodiment of the silver moon's power. Imbued with the essence of an Aspect from beyond Targon's towering summit, Diana is no longer wholly human, and struggles to understand her power and purpose in this world.\",\"blurb\":\"Bearing her crescent moonblade, Diana fights as a warrior of the Lunari—a faith all but quashed in the lands around Mount Targon. Clad in shimmering armor the color of winter snow at night, she is a living embodiment of the silver moon's power. Imbued...\",\"allytips\":[\"Landing Crescent Strike is critically important, but don't be afraid to miss. The cooldown is short and the mana cost is low.\",\"Consider when to cast Lunar Rush without Moonlight and when to wait for another Crescent Strike.\",\"Use Moonfall and Lunar Rush to stay on targets and activate Moonsilver Blade for extra damage.\"],\"enemytips\":[\"Dodge Crescent Strike, or move to safety if you are affected by Moonlight.\",\"Pale Cascade orbs only last a few seconds. Avoid Diana and engage her after the shield dissipates.\",\"Diana can play very aggressively if she uses Lunar Rush without Moonlight, but you can punish her by slowing or stunning her when she has no way to get back into position.\"],\"tags\":[\"Fighter\",\"Mage\"],\"partype\":\"Mana\",\"info\":{\"attack\":7,\"defense\":6,\"magic\":8,\"difficulty\":4},\"stats\":{\"hp\":640,\"hpperlevel\":109,\"mp\":375,\"mpperlevel\":25,\"movespeed\":345,\"armor\":31,\"armorperlevel\":4.3,\"spellblock\":32,\"spellblockperlevel\":2.05,\"attackrange\":150,\"hpregen\":6.5,\"hpregenperlevel\":0.85,\"mpregen\":8,\"mpregenperlevel\":0.8,\"crit\":0,\"critperlevel\":0,\"attackdamage\":57,\"attackdamageperlevel\":3,\"attackspeedperlevel\":2.25,\"attackspeed\":0.625},\"spells\":[{\"id\":\"DianaQ\",\"name\":\"Crescent Strike\",\"description\":\"Unleashes a bolt of lunar energy in an arc dealing magic damage.<br><br>Afflicts enemies struck with Moonlight, revealing them if they are not stealthed for 3 seconds.\",\"tooltip\":\"Diana unleashes an arc of lunar energy, dealing <magicDamage>{{ totaldamage }} magic damage</magicDamage> and marking with <keywordMajor>Moonlight</keywordMajor> for {{ moonlightduration }} seconds. <br /><br /><keywordMajor>Moonlight</keywordMajor> reveals enemies that are not <keywordStealth>stealthed</keywordStealth>.{{ spellmodifierdescriptionappend }}\",\"leveltip\":{\"label\":[\"Cooldown\",\"Damage\"],\"effect\":[\"{{ cooldown }} -> {{ cooldownNL }}\",\"{{ basedamage }} -> {{ basedamageNL }}\"]},\"maxrank\":5,\"cooldown\":[8,7.5,7,6.5,6],\"cooldownBurn\":\"8/7.5/7/6.5/6\",\"cost\":[50,50,50,50,50],\"costBurn\":\"50\",\"datavalues\":{},\"effect\":[null,[60,95,130,165,200],[1,1,1,1,1],[1.5,1.5,1.5,1.5,1.5],[3,3,3,3,3],[0,0,0,0,0],[0,0,0,0,0],[0,0,0,0,0],[0,0,0,0,0],[0,0,0,0,0],[0,0,0,0,0]],\"effectBurn\":[null,\"60/95/130/165/200\",\"1\",\"1.5\",\"3\",\"0\",\"0\",\"0\",\"0\",\"0\",\"0\"],\"vars\":[],\"costType\":\" {{ abilityresourcename }}\",\"maxammo\":\"-1\",\"range\":[900,900,900,900,900],\"rangeBurn\":\"900\",\"image\":{\"full\":\"DianaQ.png\",\"sprite\":\"spell2.png\",\"group\":\"spell\",\"x\":0,\"y\":144,\"w\":48,\"h\":48},\"resource\":\"{{ cost }} {{ abilityresourcename }}\"},{\"id\":\"DianaOrbs\",\"name\":\"Pale Cascade\",\"description\":\"Diana creates three orbiting spheres that detonate on contact with enemies to deal damage in an area. She also gains a temporary shield that absorbs damage. If her third sphere detonates, the shield gains additional strength.\",\"tooltip\":\"Diana creates three orbiting spheres for {{ shieldduration }} seconds that explode on contact, each dealing <magicDamage>{{ totaldamage }} magic damage</magicDamage>, up to a max of <magicDamage>{{ totalmaxdamage }} damage</magicDamage>.<br /><br />Diana also gains <shield>{{ shieldvalue }} Shield</shield> for the same duration. When the last sphere detonates, she gains an additional <shield>{{ shieldvalue }} Shield</shield> and refreshes the duration.{{ spellmodifierdescriptionappend }}\",\"leveltip\":{\"label\":[\"Damage\",\"Shield Amount\",\"@AbilityResourceName@ Cost\",\"Cooldown\"],\"effect\":[\"{{ e2 }} -> {{ e2NL }}\",\"{{ shieldbase }} -> {{ shieldbaseNL }}\",\"{{ cost }} -> {{ costNL }}\",\"{{ cooldown }} -> {{ cooldownNL }}\"]},\"maxrank\":5,\"cooldown\":[15,13.5,12,10.5,9],\"cooldownBurn\":\"15/13.5/12/10.5/9\",\"cost\":[40,45,50,55,60],\"costBurn\":\"40/45/50/55/60\",\"datavalues\":{},\"effect\":[null,[5,5,5,5,5],[18,30,42,54,66],[25,40,55,70,85],[1,1,1,1,1],[4,4,4,4,4],[0,0,0,0,0],[0,0,0,0,0],[0,0,0,0,0],[0,0,0,0,0],[0,0,0,0,0]],\"effectBurn\":[null,\"5\",\"18/30/42/54/66\",\"25/40/55/70/85\",\"1\",\"4\",\"0\",\"0\",\"0\",\"0\",\"0\"],\"vars\":[],\"costType\":\" {{ abilityresourcename }}\",\"maxammo\":\"-1\",\"range\":[800,800,800,800,800],\"rangeBurn\":\"800\",\"image\":{\"full\":\"DianaOrbs.png\",\"sprite\":\"spell2.png\",\"group\":\"spell\",\"x\":48,\"y\":144,\"w\":48,\"h\":48},\"resource\":\"{{ cost }} {{ abilityresourcename }}\"},{\"id\":\"DianaTeleport\",\"name\":\"Lunar Rush\",\"description\":\"Becomes the living embodiment of the vengeful moon, dashing to an enemy and dealing magic damage.<br><br>Lunar Rush has no cooldown when used to dash to an enemy afflicted with Moonlight. All other enemies will have the Moonlight debuff removed regardless of whether they were the target of Lunar Rush.\",\"tooltip\":\"Diana becomes as the vengeful moon, dashing to an enemy and dealing <magicDamage>{{ totaldamage }} magic damage</magicDamage>. If the target is afflicted with <keywordMajor>Moonlight</keywordMajor>, this Ability's Cooldown is refreshed.{{ spellmodifierdescriptionappend }}\",\"leveltip\":{\"label\":[\"Cooldown\",\"@AbilityResourceName@ Cost\",\"Damage\"],\"effect\":[\"{{ cooldown }} -> {{ cooldownNL }}\",\"{{ cost }} -> {{ costNL }}\",\"{{ basedamage }} -> {{ basedamageNL }}\"]},\"maxrank\":5,\"cooldown\":[22,20,18,16,14],\"cooldownBurn\":\"22/20/18/16/14\",\"cost\":[40,45,50,55,60],\"costBurn\":\"40/45/50/55/60\",\"datavalues\":{},\"effect\":[null,[4,4,4,0,0],[40,60,80,100,120],[50,75,100,0,0],[0,0,0,0,0],[0,0,0,0,0],[0,0,0,0,0],[0,0,0,0,0],[0,0,0,0,0],[0,0,0,0,0],[0,0,0,0,0]],\"effectBurn\":[null,\"4/4/4/0/0\",\"40/60/80/100/120\",\"50/75/100/0/0\",\"0\",\"0\",\"0\",\"0\",\"0\",\"0\",\"0\"],\"vars\":[],\"costType\":\" {{ abilityresourcename }}\",\"maxammo\":\"-1\",\"range\":[825,825,825,825,825],\"rangeBurn\":\"825\",\"image\":{\"full\":\"DianaTeleport.png\",\"sprite\":\"spell2.png\",\"group\":\"spell\",\"x\":96,\"y\":144,\"w\":48,\"h\":48},\"resource\":\"{{ cost }} {{ abilityresourcename }}\"},{\"id\":\"DianaR\",\"name\":\"Moonfall\",\"description\":\"Diana reveals and draws in all nearby enemies and slows them.<br><br>If Diana pulls in one or more enemy champions, the moonlight crashes down onto her after a short delay, dealing magic damage in an area around her, increased for each target beyond the first pulled.\",\"tooltip\":\"Diana <status>Pulls In</status>, <status>Slows</status> by {{ slowtooltip }}%, and reveals nearby enemies for {{ slowduration }} seconds.<br /><br />If Diana hits at least one enemy champion, she calls to the moon, dealing <magicDamage>{{ rexplosiondamage }} magic damage</magicDamage> plus <magicDamage>{{ rmultihitamplification }}</magicDamage> for each champion pulled beyond the first, up to a max of an additional <magicDamage>{{ maxdamage }} damage</magicDamage>.{{ spellmodifierdescriptionappend }}\",\"leveltip\":{\"label\":[\"Cooldown\",\"Damage\",\"Slow\"],\"effect\":[\"{{ cooldown }} -> {{ cooldownNL }}\",\"{{ damage }} -> {{ damageNL }}\",\"{{ slowtooltip }}% -> {{ slowtooltipNL }}%\"]},\"maxrank\":3,\"cooldown\":[100,90,80],\"cooldownBurn\":\"100/90/80\",\"cost\":[100,100,100],\"costBurn\":\"100\",\"datavalues\":{},\"effect\":[null,[-0.35,-0.4,-0.45],[2,2,2],[0.5,0.5,0.5],[3,3,3],[4,4,4],[0,0,0],[0,0,0],[0,0,0],[0,0,0],[0,0,0]],\"effectBurn\":[null,\"-0.35/-0.4/-0.45\",\"2\",\"0.5\",\"3\",\"4\",\"0\",\"0\",\"0\",\"0\",\"0\"],\"vars\":[],\"costType\":\" {{ abilityresourcename }}\",\"maxammo\":\"-1\",\"range\":[475,475,475],\"rangeBurn\":\"475\",\"image\":{\"full\":\"DianaR.png\",\"sprite\":\"spell2.png\",\"group\":\"spell\",\"x\":144,\"y\":144,\"w\":48,\"h\":48},\"resource\":\"{{ cost }} {{ abilityresourcename }}\"}],\"passive\":{\"name\":\"Moonsilver Blade\",\"description\":\"Every third strike cleaves nearby enemies for an additional magic damage. After casting a spell, Diana gains Attack Speed for her next 3 attacks.\",\"image\":{\"full\":\"Diana_Passive_LunarBlade.png\",\"sprite\":\"passive0.png\",\"group\":\"passive\",\"x\":144,\"y\":96,\"w\":48,\"h\":48}},\"recommended\":[]}",
+    "champion_blurb": "Bearing her crescent moonblade, Diana fights as a warrior of the Lunari—a faith all but quashed in the lands around Mount Targon. Clad in shimmering armor the color of winter snow at night, she is a living embodiment of the silver moon's power. Imbued...",
+    "lore": "Bearing her crescent moonblade, Diana fights as a warrior of the Lunari—a faith all but quashed in the lands around Mount Targon. Clad in shimmering armor the color of winter snow at night, she is a living embodiment of the silver moon's power. Imbued with the essence of an Aspect from beyond Targon's towering summit, Diana is no longer wholly human, and struggles to understand her power and purpose in this world.",
+    "champion_icon": "https://ddragon.leagueoflegends.com/cdn/13.14.1/img/champion/Diana.png",
+    "champion_name": "Diana",
+    "champion_splash": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Diana_0.jpg",
+    "champion_title": "Scorn of the Moon",
+    "recommended_lanes": [],
+    "recommended_roles": [
+        "Fighter",
+        "Mage"
+    ],
+    "links": [
+        {
+            "href": "https://na.op.gg/champion/diana/statistics/",
+            "title": "OP.GG"
+        },
+        {
+            "href": "https://u.gg/lol/champions/diana/build",
+            "title": "U.GG"
+        },
+        {
+            "href": "https://www.probuilds.net/champions/details/diana",
+            "title": "probuilds.net"
+        }
+    ],
+    "champion": {
+        "modular_blocks": []
+    },
+    "skins": [
+        {
+            "name": "default",
+            "imageUrl": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Diana_0.jpg"
+        },
+        {
+            "name": "Dark Valkyrie Diana",
+            "imageUrl": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Diana_1.jpg"
+        },
+        {
+            "name": "Lunar Goddess Diana",
+            "imageUrl": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Diana_2.jpg"
+        },
+        {
+            "name": "Infernal Diana",
+            "imageUrl": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Diana_3.jpg"
+        },
+        {
+            "name": "Blood Moon Diana",
+            "imageUrl": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Diana_11.jpg"
+        },
+        {
+            "name": "Dark Waters Diana",
+            "imageUrl": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Diana_12.jpg"
+        },
+        {
+            "name": "Dragonslayer Diana",
+            "imageUrl": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Diana_18.jpg"
+        },
+        {
+            "name": "Battle Queen Diana",
+            "imageUrl": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Diana_25.jpg"
+        },
+        {
+            "name": "Prestige Battle Queen Diana",
+            "imageUrl": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Diana_26.jpg"
+        },
+        {
+            "name": "Sentinel Diana",
+            "imageUrl": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Diana_27.jpg"
+        },
+        {
+            "name": "Firecracker Diana",
+            "imageUrl": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Diana_37.jpg"
+        },
+        {
+            "name": "Winterblessed Diana",
+            "imageUrl": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/Diana_47.jpg"
+        }
+    ],
+    "champion_passive": {
+        "champion_passive_description": "Every third strike cleaves nearby enemies for an additional magic damage. After casting a spell, Diana gains Attack Speed for her next 3 attacks.",
+        "champion_passive_icon": "https://ddragon.leagueoflegends.com/cdn/13.14.1/img/passive/Diana_Passive_LunarBlade.png",
+        "champion_passive_name": "Moonsilver Blade",
+        "champion_passive_video_mp4": "https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0131/ability_0131_P1.mp4",
+        "champion_passive_video_poster": "https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0131/ability_0131_P1.jpg",
+        "champion_passive_video_webm": "https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0131/ability_0131_P1.webm"
+    },
+    "champion_q": {
+        "champion_q_description": "Unleashes a bolt of lunar energy in an arc dealing magic damage.\n\nAfflicts enemies struck with Moonlight, revealing them if they are not stealthed for 3 seconds.",
+        "champion_q_icon": "https://ddragon.leagueoflegends.com/cdn/13.14.1/img/spell/DianaQ.png",
+        "champion_q_name": "Crescent Strike",
+        "champion_q_video_mp4": "https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0131/ability_0131_Q1.mp4",
+        "champion_q_video_poster": "https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0131/ability_0131_Q1.jpg",
+        "champion_q_video_webm": "https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0131/ability_0131_Q1.webm"
+    },
+    "champion_w": {
+        "champion_w_description": "Diana creates three orbiting spheres that detonate on contact with enemies to deal damage in an area. She also gains a temporary shield that absorbs damage. If her third sphere detonates, the shield gains additional strength.",
+        "champion_w_icon": "https://ddragon.leagueoflegends.com/cdn/13.14.1/img/spell/DianaOrbs.png",
+        "champion_w_name": "Pale Cascade",
+        "champion_w_video_mp4": "https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0131/ability_0131_W1.mp4",
+        "champion_w_video_poster": "https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0131/ability_0131_W1.jpg",
+        "champion_w_video_webm": "https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0131/ability_0131_W1.webm"
+    },
+    "champion_e": {
+        "champion_e_description": "Becomes the living embodiment of the vengeful moon, dashing to an enemy and dealing magic damage.\n\nLunar Rush has no cooldown when used to dash to an enemy afflicted with Moonlight. All other enemies will have the Moonlight debuff removed regardless of whether they were the target of Lunar Rush.",
+        "champion_e_icon": "https://ddragon.leagueoflegends.com/cdn/13.14.1/img/spell/DianaTeleport.png",
+        "champion_e_name": "Lunar Rush",
+        "champion_e_video_mp4": "https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0131/ability_0131_E1.mp4",
+        "champion_e_video_poster": "https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0131/ability_0131_E1.jpg",
+        "champion_e_video_webm": "https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0131/ability_0131_E1.webm"
+    },
+    "champion_r": {
+        "champion_r_description": "Diana reveals and draws in all nearby enemies and slows them.\n\nIf Diana pulls in one or more enemy champions, the moonlight crashes down onto her after a short delay, dealing magic damage in an area around her, increased for each target beyond the first pulled.",
+        "champion_r_icon": "https://ddragon.leagueoflegends.com/cdn/13.14.1/img/spell/DianaR.png",
+        "champion_r_name": "Moonfall",
+        "champion_r_video_mp4": "https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0131/ability_0131_R1.mp4",
+        "champion_r_video_poster": "https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0131/ability_0131_R1.jpg",
+        "champion_r_video_webm": "https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0131/ability_0131_R1.webm"
+    },
+    "related_champions": []
+  },
+  {
+    "publish_details": {
+        "locale": "en-us"
+    },
+    "uid": "blte04bcd16ecb4b5f7",
+    "url": "/champions/dr-mundo/",
+    "data_dragon_id": "DrMundo",
+    "data_dragon_json": "{\"id\":\"DrMundo\",\"key\":\"36\",\"name\":\"Dr. Mundo\",\"title\":\"the Madman of Zaun\",\"image\":{\"full\":\"DrMundo.png\",\"sprite\":\"champion0.png\",\"group\":\"champion\",\"x\":240,\"y\":96,\"w\":48,\"h\":48},\"skins\":[{\"id\":\"36000\",\"num\":0,\"name\":\"default\",\"chromas\":false},{\"id\":\"36001\",\"num\":1,\"name\":\"Toxic Dr. Mundo\",\"chromas\":false},{\"id\":\"36002\",\"num\":2,\"name\":\"Mr. Mundoverse\",\"chromas\":false},{\"id\":\"36003\",\"num\":3,\"name\":\"Corporate Mundo\",\"chromas\":true},{\"id\":\"36004\",\"num\":4,\"name\":\"Mundo Mundo\",\"chromas\":false},{\"id\":\"36005\",\"num\":5,\"name\":\"Executioner Mundo\",\"chromas\":false},{\"id\":\"36006\",\"num\":6,\"name\":\"Rageborn Mundo\",\"chromas\":false},{\"id\":\"36007\",\"num\":7,\"name\":\"TPA Mundo\",\"chromas\":false},{\"id\":\"36008\",\"num\":8,\"name\":\"Pool Party Mundo\",\"chromas\":false},{\"id\":\"36009\",\"num\":9,\"name\":\"El Macho Mundo\",\"chromas\":false},{\"id\":\"36010\",\"num\":10,\"name\":\"Frozen Prince Mundo\",\"chromas\":true}],\"lore\":\"Utterly mad, tragically homicidal, and horrifyingly purple, Dr. Mundo is what keeps many of Zaun's citizens indoors on particularly dark nights. Now a self-proclaimed physician, he was once a patient of Zaun's most infamous asylum. After \\\"curing\\\" the entire staff, Dr. Mundo established his practice in the empty wards that once treated him and began mimicking the highly unethical procedures he had so often experienced himself. With a full cabinet of medicines and zero medical knowledge, he now makes himself more monstrous with each injection and terrifies the hapless \\\"patients\\\" who wander near his office.\",\"blurb\":\"Utterly mad, tragically homicidal, and horrifyingly purple, Dr. Mundo is what keeps many of Zaun's citizens indoors on particularly dark nights. Now a self-proclaimed physician, he was once a patient of Zaun's most infamous asylum. After \\\"curing\\\" the...\",\"allytips\":[\"A well-timed Sadism can bait enemy champions into attacking you even when they lack the damage to finish you.\",\"Spirit Visage will increase the healing done by your ultimate and lower cooldowns on all of your abilities.\",\"Cleavers are a powerful tool for killing neutral monsters. Instead of returning to base, farm neutral monsters until your ultimate can heal you.\"],\"enemytips\":[\"Try to coordinate high-damage abilities with your allies right after Dr. Mundo uses his ultimate, but if you're unable to kill him quickly with burst he will heal through the damage.\",\"Try casting Ignite when Dr. Mundo uses Sadism to negate a large portion of its healing.\"],\"tags\":[\"Fighter\",\"Tank\"],\"partype\":\"None\",\"info\":{\"attack\":5,\"defense\":7,\"magic\":6,\"difficulty\":5},\"stats\":{\"hp\":613,\"hpperlevel\":103,\"mp\":0,\"mpperlevel\":0,\"movespeed\":345,\"armor\":32,\"armorperlevel\":3.7,\"spellblock\":29,\"spellblockperlevel\":2.3,\"attackrange\":125,\"hpregen\":7,\"hpregenperlevel\":0.5,\"mpregen\":0,\"mpregenperlevel\":0,\"crit\":0,\"critperlevel\":0,\"attackdamage\":61,\"attackdamageperlevel\":2.5,\"attackspeedperlevel\":3.3,\"attackspeed\":0.67},\"spells\":[{\"id\":\"DrMundoQ\",\"name\":\"Infected Bonesaw\",\"description\":\"Dr. Mundo throws an infected bonesaw, dealing damage to the first enemy hit based on their current health and slowing them.\",\"tooltip\":\"Dr. Mundo hurls his bonesaw, dealing <magicDamage>{{ currenthealthdamage*100 }}% current Health magic damage</magicDamage> to the first enemy hit and <status>Slowing</status> them by {{ slowamount*100 }}% for {{ slowduration }} seconds.<br /><br />If the bonesaw hits a champion or monster, Dr. Mundo restores <healing>{{ healthrestoreonhitchampionmonster }} Health</healing>. If it hits a non-champion or non-monster, Dr. Mundo instead restores <healing>{{ healthrestoreonhitminion }} Health</healing>.{{ spellmodifierdescriptionappend }}\",\"leveltip\":{\"label\":[\"Current Health Damage\",\"Minimum Damage\",\"Monster Damage Cap\",\"Health Cost\"],\"effect\":[\"{{ currenthealthdamage*100.000000 }}% -> {{ currenthealthdamagenl*100.000000 }}%\",\"{{ minimumdamage }} -> {{ minimumdamageNL }}\",\"{{ maximummonsterdamage }} -> {{ maximummonsterdamageNL }}\",\"{{ healthcost }} -> {{ healthcostNL }}\"]},\"maxrank\":5,\"cooldown\":[4,4,4,4,4],\"cooldownBurn\":\"4\",\"cost\":[0,0,0,0,0],\"costBurn\":\"0\",\"datavalues\":{},\"effect\":[null,[0,0,0,0,0],[0,0,0,0,0],[0,0,0,0,0],[0,0,0,0,0],[0,0,0,0,0],[0,0,0,0,0],[0,0,0,0,0],[0,0,0,0,0],[0,0,0,0,0],[0,0,0,0,0]],\"effectBurn\":[null,\"0\",\"0\",\"0\",\"0\",\"0\",\"0\",\"0\",\"0\",\"0\",\"0\"],\"vars\":[],\"costType\":\" Health\",\"maxammo\":\"-1\",\"range\":[975,975,975,975,975],\"rangeBurn\":\"975\",\"image\":{\"full\":\"DrMundoQ.png\",\"sprite\":\"spell2.png\",\"group\":\"spell\",\"x\":384,\"y\":144,\"w\":48,\"h\":48},\"resource\":\"{{ healthcost }} Health\"},{\"id\":\"DrMundoW\",\"name\":\"Heart Zapper\",\"description\":\"Dr. Mundo electrocutes himself, dealing persistent damage to nearby enemies and storing a portion of damage he takes. At the end of the duration or on Recast, Dr. Mundo deals a burst of damage to nearby enemies. If the burst hit an enemy, he heals a percentage of the stored damage.\",\"tooltip\":\"Dr. Mundo charges up a defibrilator, dealing <magicDamage>{{ damagepertick*4 }} magic damage</magicDamage> each second for up to {{ duration }} seconds to nearby enemies. Additionally he stores {{ grayhealthstorageinitial }} of damage taken for the first {{ grayhealthinitialduration }} seconds and {{ grayhealthstorage*100 }}% for the remaining duration as gray health and can <recast>Recast</recast>.<br /><br /><recast>Recast:</recast> Detonate the defibrilator, dealing <magicDamage>{{ totaldamage }} magic damage</magicDamage> to nearby enemies. If this hits at least one champion, Dr. Mundo restores <healing>{{ grayhealthbigmod*100 }}% of gray health</healing>, otherwise he instead restores <healing>{{ grayhealthsmallmod*100 }}% of gray health</healing>.{{ spellmodifierdescriptionappend }}\",\"leveltip\":{\"label\":[\"Damage per Tick\",\"Recast Damage\",\"Cooldown\"],\"effect\":[\"{{ damagepertick }} -> {{ damagepertickNL }}\",\"{{ recastbasedamage }} -> {{ recastbasedamageNL }}\",\"{{ cooldown }} -> {{ cooldownNL }}\"]},\"maxrank\":5,\"cooldown\":[17,16.5,16,15.5,15],\"cooldownBurn\":\"17/16.5/16/15.5/15\",\"cost\":[0,0,0,0,0],\"costBurn\":\"0\",\"datavalues\":{},\"effect\":[null,[0,0,0,0,0],[0,0,0,0,0],[0,0,0,0,0],[0,0,0,0,0],[0,0,0,0,0],[0,0,0,0,0],[0,0,0,0,0],[0,0,0,0,0],[0,0,0,0,0],[0,0,0,0,0]],\"effectBurn\":[null,\"0\",\"0\",\"0\",\"0\",\"0\",\"0\",\"0\",\"0\",\"0\",\"0\"],\"vars\":[],\"costType\":\"% Current Health\",\"maxammo\":\"-1\",\"range\":[325,325,325,325,325],\"rangeBurn\":\"325\",\"image\":{\"full\":\"DrMundoW.png\",\"sprite\":\"spell2.png\",\"group\":\"spell\",\"x\":432,\"y\":144,\"w\":48,\"h\":48},\"resource\":\"{{ currenthealthcost*100 }}% Current Health\"},{\"id\":\"DrMundoE\",\"name\":\"Blunt Force Trauma\",\"description\":\"Passive - Dr. Mundo gains bonus Attack Damage, increasing based on his max Health.<br><br>Active - Dr. Mundo slams his “medical” bag into an enemy, dealing additional damage based on his missing Health. If the enemy dies they are swatted away, dealing damage to enemies they pass through.\",\"tooltip\":\"<spellPassive>Passive:</spellPassive> Dr Mundo gains <physicalDamage>{{ passivebonusad }} Attack Damage</physicalDamage>.<br /><br /><spellActive>Active:</spellActive> Dr Mundo violently swings his \\\"medical\\\" bag, causing his next Attack to deal an additional <physicalDamage>{{ additionaldamage }} physical damage</physicalDamage>, increased by up to {{ maxdamageamptooltip }} based on his missing Health. If the enemy is killed, Mundo swats them away, dealing <physicalDamage>{{ additionaldamage }} physical damage</physicalDamage> to enemies they pass through.{{ spellmodifierdescriptionappend }}\",\"leveltip\":{\"label\":[\"Cooldown\",\"Base Damage\",\"Health Cost\",\"Health Into Attack Damage\"],\"effect\":[\"{{ cooldown }} -> {{ cooldownNL }}\",\"{{ basedamage }} -> {{ basedamageNL }}\",\"{{ flathealthcost }} -> {{ flathealthcostNL }}\",\"{{ healthtoadratio*100.000000 }}% -> {{ healthtoadrationl*100.000000 }}%\"]},\"maxrank\":5,\"cooldown\":[9,8.25,7.5,6.75,6],\"cooldownBurn\":\"9/8.25/7.5/6.75/6\",\"cost\":[0,0,0,0,0],\"costBurn\":\"0\",\"datavalues\":{},\"effect\":[null,[0,0,0,0,0],[0,0,0,0,0],[0,0,0,0,0],[0,0,0,0,0],[0,0,0,0,0],[0,0,0,0,0],[0,0,0,0,0],[0,0,0,0,0],[0,0,0,0,0],[0,0,0,0,0]],\"effectBurn\":[null,\"0\",\"0\",\"0\",\"0\",\"0\",\"0\",\"0\",\"0\",\"0\",\"0\"],\"vars\":[],\"costType\":\" Health\",\"maxammo\":\"-1\",\"range\":[0,0,0,0,0],\"rangeBurn\":\"0\",\"image\":{\"full\":\"DrMundoE.png\",\"sprite\":\"spell3.png\",\"group\":\"spell\",\"x\":0,\"y\":0,\"w\":48,\"h\":48},\"resource\":\"{{ flathealthcost }} Health\"},{\"id\":\"DrMundoR\",\"name\":\"Maximum Dosage\",\"description\":\"Dr. Mundo pumps himself with chemicals, instantly healing a percent of his missing Health. He then gains Move Speed and regenerates a portion of his maximum Health over a long duration.\",\"tooltip\":\"Dr. Mundo pumps himself with chemicals, gaining <healing>{{ missinghealthheal*100 }}% of his missing Health as max Health</healing>, <speed>{{ speedboostamount*100 }}% Move Speed</speed>, and regenerating <healing>{{ maxhealthhot*100 }}% max Health</healing> over {{ duration }} seconds.<br /><br />At Rank 3, both healing effects are increased by an additional {{ bonuspernearbychampion*100 }}% per nearby enemy champion.{{ spellmodifierdescriptionappend }}\",\"leveltip\":{\"label\":[\"Bonus Health\",\"Move Speed\",\"Max Health %\"],\"effect\":[\"{{ missinghealthheal*100.000000 }}% -> {{ missinghealthhealnl*100.000000 }}%\",\"{{ speedboostamount*100.000000 }}% -> {{ speedboostamountnl*100.000000 }}%\",\"{{ maxhealthhot*100.000000 }}% -> {{ maxhealthhotnl*100.000000 }}%\"]},\"maxrank\":3,\"cooldown\":[120,120,120],\"cooldownBurn\":\"120\",\"cost\":[0,0,0],\"costBurn\":\"0\",\"datavalues\":{},\"effect\":[null,[0,0,0],[0,0,0],[0,0,0],[0,0,0],[0,0,0],[0,0,0],[0,0,0],[0,0,0],[0,0,0],[0,0,0]],\"effectBurn\":[null,\"0\",\"0\",\"0\",\"0\",\"0\",\"0\",\"0\",\"0\",\"0\",\"0\"],\"vars\":[],\"costType\":\"No Cost\",\"maxammo\":\"-1\",\"range\":[20,20,20],\"rangeBurn\":\"20\",\"image\":{\"full\":\"DrMundoR.png\",\"sprite\":\"spell3.png\",\"group\":\"spell\",\"x\":48,\"y\":0,\"w\":48,\"h\":48},\"resource\":\"No Cost\"}],\"passive\":{\"name\":\"Goes Where He Pleases\",\"description\":\"Dr. Mundo resists the first Immobilizing effect that hits him, instead losing Health and dropping a chemical cannister nearby. Dr. Mundo can pick it up by walking over it, restoring Health and reducing this Ability's Cooldown.<br><br>Dr. Mundo also has significantly increased Health regeneration.<br>\",\"image\":{\"full\":\"DrMundo_P.png\",\"sprite\":\"passive0.png\",\"group\":\"passive\",\"x\":240,\"y\":96,\"w\":48,\"h\":48}},\"recommended\":[]}",
+    "champion_blurb": "Utterly mad, tragically homicidal, and horrifyingly purple, Dr. Mundo is what keeps many of Zaun's citizens indoors on particularly dark nights. Now a self-proclaimed physician, he was once a patient of Zaun's most infamous asylum. After \"curing\" the...",
+    "lore": "Utterly mad, tragically homicidal, and horrifyingly purple, Dr. Mundo is what keeps many of Zaun's citizens indoors on particularly dark nights. Now a self-proclaimed physician, he was once a patient of Zaun's most infamous asylum. After \"curing\" the entire staff, Dr. Mundo established his practice in the empty wards that once treated him and began mimicking the highly unethical procedures he had so often experienced himself. With a full cabinet of medicines and zero medical knowledge, he now makes himself more monstrous with each injection and terrifies the hapless \"patients\" who wander near his office.",
+    "champion_icon": "https://ddragon.leagueoflegends.com/cdn/13.14.1/img/champion/DrMundo.png",
+    "champion_name": "Dr. Mundo",
+    "champion_splash": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/DrMundo_0.jpg",
+    "champion_title": "the Madman of Zaun",
+    "recommended_lanes": [],
+    "recommended_roles": [
+        "Fighter",
+        "Tank"
+    ],
+    "links": [
+        {
+            "href": "https://na.op.gg/champion/drmundo/statistics/",
+            "title": "OP.GG"
+        },
+        {
+            "href": "https://u.gg/lol/champions/drmundo/build",
+            "title": "U.GG"
+        },
+        {
+            "href": "https://www.probuilds.net/champions/details/drmundo",
+            "title": "probuilds.net"
+        }
+    ],
+    "champion": {
+        "modular_blocks": []
+    },
+    "skins": [
+        {
+            "name": "default",
+            "imageUrl": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/DrMundo_0.jpg"
+        },
+        {
+            "name": "Toxic Dr. Mundo",
+            "imageUrl": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/DrMundo_1.jpg"
+        },
+        {
+            "name": "Mr. Mundoverse",
+            "imageUrl": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/DrMundo_2.jpg"
+        },
+        {
+            "name": "Corporate Mundo",
+            "imageUrl": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/DrMundo_3.jpg"
+        },
+        {
+            "name": "Mundo Mundo",
+            "imageUrl": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/DrMundo_4.jpg"
+        },
+        {
+            "name": "Executioner Mundo",
+            "imageUrl": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/DrMundo_5.jpg"
+        },
+        {
+            "name": "Rageborn Mundo",
+            "imageUrl": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/DrMundo_6.jpg"
+        },
+        {
+            "name": "TPA Mundo",
+            "imageUrl": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/DrMundo_7.jpg"
+        },
+        {
+            "name": "Pool Party Mundo",
+            "imageUrl": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/DrMundo_8.jpg"
+        },
+        {
+            "name": "El Macho Mundo",
+            "imageUrl": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/DrMundo_9.jpg"
+        },
+        {
+            "name": "Frozen Prince Mundo",
+            "imageUrl": "https://ddragon.leagueoflegends.com/cdn/img/champion/splash/DrMundo_10.jpg"
+        }
+    ],
+    "champion_passive": {
+        "champion_passive_description": "Dr. Mundo resists the first Immobilizing effect that hits him, instead losing Health and dropping a chemical cannister nearby. Dr. Mundo can pick it up by walking over it, restoring Health and reducing this Ability's Cooldown.\n\nDr. Mundo also has significantly increased Health regeneration.\n",
+        "champion_passive_icon": "https://ddragon.leagueoflegends.com/cdn/13.14.1/img/passive/DrMundo_P.png",
+        "champion_passive_name": "Goes Where He Pleases",
+        "champion_passive_video_mp4": "https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0036/ability_0036_P1.mp4",
+        "champion_passive_video_poster": "https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0036/ability_0036_P1.jpg",
+        "champion_passive_video_webm": "https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0036/ability_0036_P1.webm"
+    },
+    "champion_q": {
+        "champion_q_description": "Dr. Mundo throws an infected bonesaw, dealing damage to the first enemy hit based on their current health and slowing them.",
+        "champion_q_icon": "https://ddragon.leagueoflegends.com/cdn/13.14.1/img/spell/DrMundoQ.png",
+        "champion_q_name": "Infected Bonesaw",
+        "champion_q_video_mp4": "https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0036/ability_0036_Q1.mp4",
+        "champion_q_video_poster": "https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0036/ability_0036_Q1.jpg",
+        "champion_q_video_webm": "https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0036/ability_0036_Q1.webm"
+    },
+    "champion_w": {
+        "champion_w_description": "Dr. Mundo electrocutes himself, dealing persistent damage to nearby enemies and storing a portion of damage he takes. At the end of the duration or on Recast, Dr. Mundo deals a burst of damage to nearby enemies. If the burst hit an enemy, he heals a percentage of the stored damage.",
+        "champion_w_icon": "https://ddragon.leagueoflegends.com/cdn/13.14.1/img/spell/DrMundoW.png",
+        "champion_w_name": "Heart Zapper",
+        "champion_w_video_mp4": "https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0036/ability_0036_W1.mp4",
+        "champion_w_video_poster": "https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0036/ability_0036_W1.jpg",
+        "champion_w_video_webm": "https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0036/ability_0036_W1.webm"
+    },
+    "champion_e": {
+        "champion_e_description": "Passive - Dr. Mundo gains bonus Attack Damage, increasing based on his max Health.\n\nActive - Dr. Mundo slams his “medical” bag into an enemy, dealing additional damage based on his missing Health. If the enemy dies they are swatted away, dealing damage to enemies they pass through.",
+        "champion_e_icon": "https://ddragon.leagueoflegends.com/cdn/13.14.1/img/spell/DrMundoE.png",
+        "champion_e_name": "Blunt Force Trauma",
+        "champion_e_video_mp4": "https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0036/ability_0036_E1.mp4",
+        "champion_e_video_poster": "https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0036/ability_0036_E1.jpg",
+        "champion_e_video_webm": "https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0036/ability_0036_E1.webm"
+    },
+    "champion_r": {
+        "champion_r_description": "Dr. Mundo pumps himself with chemicals, instantly healing a percent of his missing Health. He then gains Move Speed and regenerates a portion of his maximum Health over a long duration.",
+        "champion_r_icon": "https://ddragon.leagueoflegends.com/cdn/13.14.1/img/spell/DrMundoR.png",
+        "champion_r_name": "Maximum Dosage",
+        "champion_r_video_mp4": "https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0036/ability_0036_R1.mp4",
+        "champion_r_video_poster": "https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0036/ability_0036_R1.jpg",
+        "champion_r_video_webm": "https://d28xe8vt774jo5.cloudfront.net/champion-abilities/0036/ability_0036_R1.webm"
+    },
+    "related_champions": []
   }
 ]
