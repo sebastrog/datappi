@@ -1,0 +1,64 @@
+{
+  "sports": [
+    {
+      "idSport": "1",
+      "strSport": "Soccer",
+      "strSportThumb": "https://upload.wikimedia.org/wikipedia/commons/4/42/Football_in_Bloomington%2C_Indiana%2C_1995.jpg",
+      "strSportDescription": "Soccer is a team sport played with a spherical ball between two teams of 11 players. It is played by 250 million players in over 200 countries, making it the world's most popular sport."
+    },
+    {
+      "idSport": "2",
+      "strSport": "Basketball",
+      "strSportThumb": "https://imageio.forbes.com/specials-images/imageserve/66213697ebcd480ba529979c/New-York-Knicks-v-Oklahoma-City-Thunder/960x0.jpg?format=jpg&width=960",
+      "strSportDescription": "Basketball is a team sport in which two teams, most commonly of five players each, opposing one another on a rectangular court, compete with the primary objective of shooting a basketball through the defender's hoop."
+    },
+    {
+      "idSport": "3",
+      "strSport": "American Football",
+      "strSportThumb": "https://image.cnbcfm.com/api/v1/image/104696534-GettyImages-839255068-russell-wilson.jpg?v=1532563766&w=1920&h=1080",
+      "strSportDescription": "American football, referred to simply as football in the United States and Canada, is a team sport played by two teams of eleven players on a rectangular field with goalposts at each end."
+    },
+    {
+      "idSport": "4",
+      "strSport": "Baseball",
+      "strSportThumb": "https://cdn.theathletic.com/app/uploads/2024/03/03105142/USATSI_23160826-scaled.jpg",
+      "strSportDescription": "Baseball is a bat-and-ball game played between two opposing teams who take turns batting and fielding. The game proceeds when a player on the fielding team, called the pitcher, throws a ball which a player on the batting team tries to hit with a bat."
+    },
+    {
+      "idSport": "5",
+      "strSport": "Tennis",
+      "strSportThumb": "https://www.atptour.com/-/media/images/news/2024/05/04/19/38/nadal-madrid-2024-backhand.jpg",
+      "strSportDescription": "Tennis is a racket sport that can be played individually against a single opponent or between two teams of two players each. Each player uses a tennis racket that is strung with cord to strike a hollow rubber ball covered with felt over or around a net and into the opponent's court."
+    },
+    {
+      "idSport": "6",
+      "strSport": "Ice Hockey",
+      "strSportThumb": "https://facts.net/wp-content/uploads/2023/09/9-astonishing-facts-about-ice-hockey-1695924279.jpg",
+      "strSportDescription": "Ice hockey is a contact team sport played on ice, usually in a rink, in which two teams of skaters use their sticks to shoot a vulcanized rubber puck into their opponent's net to score goals."
+    },
+    {
+      "idSport": "7",
+      "strSport": "Rugby",
+      "strSportThumb": "https://www.panamsports.org/wp-content/uploads/2023/11/K4TXKJJARAHPT54ZJUTKMSTFOM-scaled-e1698939155151.jpg",
+      "strSportDescription": "Rugby football is a collective name for the team sports of rugby league and rugby union, as well as the earlier forms of football from which both games, rugby sevens and touch rugby evolved."
+    },
+    {
+      "idSport": "8",
+      "strSport": "Golf",
+      "strSportThumb": "https://media.revistagq.com/photos/5e1f679027910300082572c3/4:3/w_3600,h_2700,c_limit/jon%20rahm.jpg",
+      "strSportDescription": "Golf is a club-and-ball sport in which players use various clubs to hit balls into a series of holes on a course in as few strokes as possible."
+    },
+    {
+      "idSport": "9",
+      "strSport": "Cricket",
+      "strSportThumb": "https://blog.remitly.com/wp-content/uploads/2023/09/GettyImages-1334115405-scaled.jpg",
+      "strSportDescription": "Cricket is a bat-and-ball game played between two teams of eleven players on a field at the center of which is a 22-yard pitch with a wicket at each end, each comprising two bails balanced on three stumps."
+    },
+    {
+      "idSport": "10",
+      "strSport": "Boxing",
+      "strSportThumb": "https://www.shape.com/thmb/juZ1SfooOdjIq6zvXgmsoYRp8Rc=/1500x0/filters:no_upscale():max_bytes(150000):strip_icc()/boxing-8fa6221ec7ad4a80ba1e730eb9d1c507.jpg",
+      "strSportDescription": "Boxing is a combat sport in which two people, usually wearing protective gloves and other protective equipment such as hand wraps and mouthguards, throw punches at each other for a predetermined amount of time in a boxing ring."
+    }
+  ]
+}
